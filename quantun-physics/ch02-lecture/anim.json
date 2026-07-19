@@ -1,0 +1,86 @@
+{
+  "S01": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 01 — HOOK",
+    "data": {
+      "title": "CHAPTER 2 — MATTER WAVES: DE BROGLIE, DAVISSON–GERMER, AND THE DOUBLE SLIT",
+      "blocks": [
+        "In 1924, Louis-Victor de Broglie proposed, in a doctoral thesis that his committee nearly rejected, that if light waves",
+        "Chapter 2 — Matter Waves: de Broglie, Da — Einstein, consulted by the committee before the thesis was approved, called the idea brilliant. De Broglie received the"
+      ],
+      "section": "HOOK"
+    }
+  },
+  "S02": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 02 — THE FORMULA AND WHAT IT MEANS",
+    "data": {
+      "title": "THE FORMULA AND WHAT IT MEANS",
+      "blocks": [
+        "Let us begin with what de Broglie actually wrote. For a non-relativistic particle with kinetic energy $K$ and mass $m$,",
+        "The Formula and What It Means — $$\\lambda = \\frac{h}{\\sqrt{2mK}}.$$"
+      ],
+      "section": "THE FORMULA AND WHAT IT MEANS"
+    }
+  },
+  "S03": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 03 — THE DAVISSON–GERMER EXPERIMENT",
+    "data": {
+      "title": "THE DAVISSON–GERMER EXPERIMENT.",
+      "blocks": [
+        "We can reconstruct the 1927 result from first principles. For electrons accelerated through 54 V, Davisson and Germer re",
+        "The Davisson–Germer Experiment — $$p = \\sqrt{2 \\times (9.109 \\times 10^{-31}) \\times (54 \\times 1.602 \\times 10^{-19})} = 3.970 \\times 10^{-24}\\text{ kg"
+      ],
+      "section": "THE DAVISSON–GERMER EXPERIMENT"
+    }
+  },
+  "S04": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 04 — SINGLE ELECTRONS, ONE AT A TIM",
+    "data": {
+      "title": "SINGLE ELECTRONS, ONE AT A TIME.",
+      "blocks": [
+        "Akira Tonomura and colleagues at Hitachi performed a particularly instructive version of the double-slit experiment in 1",
+        "Single Electrons, One at a Time — The accumulated pattern builds in a characteristic way. At ten electrons, the dots appear randomly distributed, with no"
+      ],
+      "section": "SINGLE ELECTRONS, ONE AT A TIM"
+    }
+  },
+  "S05": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 05 — WHY HUMAN-SCALE OBJECTS DO NOT",
+    "data": {
+      "title": "WHY HUMAN-SCALE OBJECTS DO NOT DIFFRACT.",
+      "blocks": [
+        "The de Broglie relation applies to all objects with momentum, not only to quantum particles. The relevant question is wh",
+        "Why Human-Scale Objects Do Not Diffract — A proton accelerated through the same 54 V has 1836 times the electron's mass. At the same kinetic energy its momentum i"
+      ],
+      "section": "WHY HUMAN-SCALE OBJECTS DO NOT"
+    }
+  },
+  "S06": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 06 — WHAT THE WAVE FUNCTION IS NOT ",
+    "data": {
+      "title": "WHAT THE WAVE FUNCTION IS NOT YET.",
+      "blocks": [
+        "The Tonomura experiment illustrates Born's rule. The interference pattern that accumulates, dot by dot, matches the patt",
+        "The connection between the de Broglie wavelength and the wave function is exact, not merely analogical. A state of defin"
+      ],
+      "section": "WHAT THE WAVE FUNCTION IS NOT "
+    }
+  },
+  "S07": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 07 — THESIS",
+    "data": {
+      "title": "THE CORE CLAIM.",
+      "blocks": [
+        "De Broglie established that there is a wave associated with a moving particle, but did not say what the wave represents.",
+        "This interpretation is not derivable from the de Broglie relation. It is a separate postulate, and it is the one that ma"
+      ],
+      "section": "THESIS"
+    }
+  }
+}
