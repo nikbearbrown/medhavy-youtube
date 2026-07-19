@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/claude-liam-vox-variational-stationarity-corrected/media/videos/scenes/1080p24/partial_movie_files/B11_GapBound/429858703_1209084021_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/claude-liam-vox-variational-stationarity-corrected/media/videos/scenes/1080p24/partial_movie_files/B11_GapBound/4129186542_3388043317_2612986982.mp4'

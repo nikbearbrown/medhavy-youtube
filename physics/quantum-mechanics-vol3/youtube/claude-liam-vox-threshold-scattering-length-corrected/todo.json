@@ -1,0 +1,195 @@
+{
+  "video": "claude-liam-vox-threshold-scattering-length-corrected",
+  "metadata": {
+    "slug": "vox-threshold-scattering-length-corrected",
+    "title": "Why a Threshold Bound State Makes the Scattering Length Diverge",
+    "topic": "QUANTUM MECHANICS",
+    "source": "quantum-mechanics-vol3/chapters/07-scattering-i-partial-waves.md",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "audience": "Claude",
+    "register": "Teardown",
+    "palette": "claude",
+    "total_estimated_duration_seconds": 195,
+    "build": {
+      "at": "2026-07-18T21:28:59",
+      "cut": "master",
+      "filled": 15,
+      "of": 15,
+      "slates": [],
+      "skin_warnings": [
+        "B15: palette=claude but the outro is 'un-annotated' \u2014 OUTRO LAW wants ClaudeTitleOutro"
+      ]
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 15,
+  "beats_open": 0,
+  "beats": [
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "media/B01.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B01.mp4",
+      "label": "This is Liam, in for Bear. Tune an attractive interaction until a two-body bound state reaches zero "
+    },
+    {
+      "beat_id": "B02",
+      "status": "filled",
+      "on_disk": "manim/B02.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "How can a smooth change in well depth produce an infinite length? And why does plugging that length into four pi a squared appear to create an infinite target? ",
+      "slot": "media/B02.mp4",
+      "label": "How can a smooth change in well depth produce an infinite length? And why does plugging that length "
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "manim/B03.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Outside a short-range potential, the zero-energy s-wave radial solution is a straight line proportional to r minus a sub s. Extrapolate it backward: the interce",
+      "slot": "media/B03.mp4",
+      "label": "Outside a short-range potential, the zero-energy s-wave radial solution is a straight line proportio"
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "manim/B04.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "A shallow bound state outside the well falls like an exponential with decay constant kappa. As its binding energy approaches zero, kappa approaches zero and its",
+      "slot": "media/B04.mp4",
+      "label": "A shallow bound state outside the well falls like an exponential with decay constant kappa. As its b"
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "manim/B05.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Near threshold, the scattering length tracks that large scale. On the bound side it becomes large and positive; across the threshold it reappears large and nega",
+      "slot": "media/B05.mp4",
+      "label": "Near threshold, the scattering length tracks that large scale. On the bound side it becomes large an"
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "manim/B06.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Far enough from the pole, and at momentum small enough that k times the magnitude of a is much less than one, the distinguishable-particle s-wave cross-section ",
+      "slot": "media/B06.mp4",
+      "label": "Far enough from the pole, and at momentum small enough that k times the magnitude of a is much less "
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "manim/B07.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "But send a toward infinity while keeping k nonzero and that approximation destroys its own condition. You must retain the k dependence of the scattering amplitu",
+      "slot": "media/B07.mp4",
+      "label": "But send a toward infinity while keeping k nonzero and that approximation destroys its own condition"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "manim/B08.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Neglecting effective-range corrections, the s-wave result is four pi a squared divided by one plus k squared a squared. As a diverges, the cross-section saturat",
+      "slot": "media/B08.mp4",
+      "label": "Neglecting effective-range corrections, the s-wave result is four pi a squared divided by one plus k"
+    },
+    {
+      "beat_id": "B09",
+      "status": "filled",
+      "on_disk": "manim/B09.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Now the apparent contradiction is gone. At fixed k, tune to resonance and get a finite unitarity-limited cross-section. Then lower k, and that ceiling grows wit",
+      "slot": "media/B09.mp4",
+      "label": "Now the apparent contradiction is gone. At fixed k, tune to resonance and get a finite unitarity-lim"
+    },
+    {
+      "beat_id": "B10",
+      "status": "filled",
+      "on_disk": "manim/B10.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "A magnetic Feshbach resonance implements the tuning with coupled channels. A molecular state in a closed channel is shifted across the open-channel threshold, p",
+      "slot": "media/B10.mp4",
+      "label": "A magnetic Feshbach resonance implements the tuning with coupled channels. A molecular state in a cl"
+    },
+    {
+      "beat_id": "B11",
+      "status": "filled",
+      "on_disk": "manim/B11.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Experimenters use that pole to tune interactions, but infinity is not simply strongest possible in every sense. At unitarity the scattering is momentum limited,",
+      "slot": "media/B11.mp4",
+      "label": "Experimenters use that pole to tune interactions, but infinity is not simply strongest possible in e"
+    },
+    {
+      "beat_id": "B12",
+      "status": "filled",
+      "on_disk": "manim/B12.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "The simple formulas assume low-energy elastic s-wave scattering by a short-range interaction. Identical particles change symmetry factors, inelastic channels ma",
+      "slot": "media/B12.mp4",
+      "label": "The simple formulas assume low-energy elastic s-wave scattering by a short-range interaction. Identi"
+    },
+    {
+      "beat_id": "B13",
+      "status": "filled",
+      "on_disk": "manim/B13.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Your turn. At fixed momentum k, let the scattering length grow without bound in four pi a squared over one plus k squared a squared. What finite value does the ",
+      "slot": "media/B13.mp4",
+      "label": "Your turn. At fixed momentum k, let the scattering length grow without bound in four pi a squared ov"
+    },
+    {
+      "beat_id": "B14",
+      "status": "filled",
+      "on_disk": "manim/B14.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Divide numerator and denominator by a squared. The one over a squared term vanishes, leaving four pi over k squared: the s-wave unitarity limit.",
+      "slot": "media/B14.mp4",
+      "label": "Divide numerator and denominator by a squared. The one over a squared term vanishes, leaving four pi"
+    },
+    {
+      "beat_id": "B15",
+      "status": "filled",
+      "on_disk": "manim/B15.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Why a Threshold Bound State Makes the Scattering Length Diverge.",
+      "slot": "media/B15.mp4",
+      "label": "Why a Threshold Bound State Makes the Scattering Length Diverge."
+    }
+  ]
+}

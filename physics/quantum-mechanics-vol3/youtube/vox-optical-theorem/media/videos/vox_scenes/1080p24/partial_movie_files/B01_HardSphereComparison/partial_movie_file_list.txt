@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-optical-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B01_HardSphereComparison/648461735_278615103_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-optical-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B01_HardSphereComparison/3493624639_3296001475_752872058.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-optical-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B01_HardSphereComparison/3493624639_2905678804_107157549.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-optical-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B01_HardSphereComparison/3493624639_2283929147_3308797873.mp4'

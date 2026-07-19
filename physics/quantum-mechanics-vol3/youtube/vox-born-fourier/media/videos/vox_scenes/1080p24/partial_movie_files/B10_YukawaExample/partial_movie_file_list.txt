@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-born-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B10_YukawaExample/648461735_1130561268_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-born-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B10_YukawaExample/3493624639_3846612370_3508351265.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-born-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B10_YukawaExample/3493624639_2467876472_1763108531.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-born-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B10_YukawaExample/3493624639_1928486756_2719056303.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-born-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B10_YukawaExample/3493624639_423563532_1407910602.mp4'

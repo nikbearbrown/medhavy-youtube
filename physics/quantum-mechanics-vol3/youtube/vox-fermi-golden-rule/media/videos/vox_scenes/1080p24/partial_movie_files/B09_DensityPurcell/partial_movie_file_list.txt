@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-fermi-golden-rule/media/videos/vox_scenes/1080p24/partial_movie_files/B09_DensityPurcell/648461735_2923576584_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-fermi-golden-rule/media/videos/vox_scenes/1080p24/partial_movie_files/B09_DensityPurcell/3493624639_3878367086_3239021714.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-fermi-golden-rule/media/videos/vox_scenes/1080p24/partial_movie_files/B09_DensityPurcell/3493624639_3526345700_1060795654.mp4'

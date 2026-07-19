@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-group-velocity/media/videos/vox_scenes/1080p24/partial_movie_files/B06_GroupVelocity/648461735_1431133833_1633386038.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-group-velocity/media/videos/vox_scenes/1080p24/partial_movie_files/B06_GroupVelocity/3493624639_3433551218_3579528185.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-group-velocity/media/videos/vox_scenes/1080p24/partial_movie_files/B06_GroupVelocity/3493624639_3467956187_4216650707.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-group-velocity/media/videos/vox_scenes/1080p24/partial_movie_files/B06_GroupVelocity/3493624639_2634298781_3034035953.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-group-velocity/media/videos/vox_scenes/1080p24/partial_movie_files/B06_GroupVelocity/3493624639_1107619603_3020504532.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-group-velocity/media/videos/vox_scenes/1080p24/partial_movie_files/B06_GroupVelocity/3493624639_494115489_1903023751.mp4'

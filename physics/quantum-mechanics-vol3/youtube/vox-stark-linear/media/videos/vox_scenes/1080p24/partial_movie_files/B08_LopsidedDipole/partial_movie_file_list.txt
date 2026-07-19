@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-stark-linear/media/videos/vox_scenes/1080p24/partial_movie_files/B08_LopsidedDipole/648461735_468233809_1438354871.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-stark-linear/media/videos/vox_scenes/1080p24/partial_movie_files/B08_LopsidedDipole/3493624639_1671664738_3390688818.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-stark-linear/media/videos/vox_scenes/1080p24/partial_movie_files/B08_LopsidedDipole/3493624639_676446195_2627674620.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-stark-linear/media/videos/vox_scenes/1080p24/partial_movie_files/B08_LopsidedDipole/3493624639_348285521_3553478154.mp4'

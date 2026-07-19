@@ -1,0 +1,195 @@
+{
+  "video": "claude-liam-vox-variational-stationarity-corrected",
+  "metadata": {
+    "slug": "vox-variational-stationarity-corrected",
+    "title": "Why Variational Energy Errors Are Often Quadratic in State Error",
+    "topic": "QUANTUM MECHANICS",
+    "source": "quantum-mechanics-vol3/chapters/03-the-variational-principle.md",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "audience": "Claude",
+    "register": "Teardown",
+    "palette": "claude",
+    "total_estimated_duration_seconds": 190,
+    "build": {
+      "at": "2026-07-18T21:49:59",
+      "cut": "master",
+      "filled": 15,
+      "of": 15,
+      "slates": [],
+      "skin_warnings": [
+        "B15: palette=claude but the outro is 'un-annotated' \u2014 OUTRO LAW wants ClaudeTitleOutro"
+      ]
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 15,
+  "beats_open": 0,
+  "beats": [
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "media/B01.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B01.mp4",
+      "label": "This is Liam, in for Bear. Move a small distance away from an exact normalized ground state. The wav"
+    },
+    {
+      "beat_id": "B02",
+      "status": "filled",
+      "on_disk": "manim/B02.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "We need a precise error measure. Pointwise percentages depend on nodes, phases, and normalization. Use distance between normalized states, after choosing the ov",
+      "slot": "media/B02.mp4",
+      "label": "We need a precise error measure. Pointwise percentages depend on nodes, phases, and normalization. U"
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "manim/B03.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "The Rayleigh quotient is an energy landscape on normalized states. At the exact nondegenerate ground state it reaches a minimum. The first derivative along ever",
+      "slot": "media/B03.mp4",
+      "label": "The Rayleigh quotient is an energy landscape on normalized states. At the exact nondegenerate ground"
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "manim/B04.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Take the cleanest deformation: psi epsilon equals square root of one minus epsilon squared times the ground state, plus epsilon times one orthogonal excited sta",
+      "slot": "media/B04.mp4",
+      "label": "Take the cleanest deformation: psi epsilon equals square root of one minus epsilon squared times the"
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "manim/B05.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Its expectation energy is one minus epsilon squared times E zero, plus epsilon squared times E one. The cross terms vanish because energy eigenstates are orthog",
+      "slot": "media/B05.mp4",
+      "label": "Its expectation energy is one minus epsilon squared times E zero, plus epsilon squared times E one. "
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "manim/B06.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Subtract E zero. The error is epsilon squared times the gap E one minus E zero. No linear epsilon term survives. A ten-percent amplitude admixture produces a on",
+      "slot": "media/B06.mp4",
+      "label": "Subtract E zero. The error is epsilon squared times the gap E one minus E zero. No linear epsilon te"
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "manim/B07.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Geometrically, energy is a bowl near the minimum. Move sideways by epsilon and the height rises like curvature times epsilon squared. The flat tangent is the vi",
+      "slot": "media/B07.mp4",
+      "label": "Geometrically, energy is a bowl near the minimum. Move sideways by epsilon and the height rises like"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "manim/B08.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "If epsilon is zero point one and the relevant excitation gap is ten electron volts, the energy error is zero point zero one times ten: zero point one electron v",
+      "slot": "media/B08.mp4",
+      "label": "If epsilon is zero point one and the relevant excitation gap is ten electron volts, the energy error"
+    },
+    {
+      "beat_id": "B09",
+      "status": "filled",
+      "on_disk": "manim/B09.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "A wrong overall coefficient is not a shape error. Normalize the trial function and that coefficient cancels from the Rayleigh quotient. Meaningful errors change",
+      "slot": "media/B09.mp4",
+      "label": "A wrong overall coefficient is not a shape error. Normalize the trial function and that coefficient "
+    },
+    {
+      "beat_id": "B10",
+      "status": "filled",
+      "on_disk": "manim/B10.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Quadratic scaling is not a uniform guarantee from Hilbert-space norm alone. A tiny amplitude placed in an extremely high-energy state can give a large energy er",
+      "slot": "media/B10.mp4",
+      "label": "Quadratic scaling is not a uniform guarantee from Hilbert-space norm alone. A tiny amplitude placed "
+    },
+    {
+      "beat_id": "B11",
+      "status": "filled",
+      "on_disk": "manim/B11.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "The reverse inference needs a gap. If E one minus E zero is positive, then excited-state weight is at most the energy error divided by that gap. Without an isol",
+      "slot": "media/B11.mp4",
+      "label": "The reverse inference needs a gap. If E one minus E zero is positive, then excited-state weight is a"
+    },
+    {
+      "beat_id": "B12",
+      "status": "filled",
+      "on_disk": "manim/B12.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "The trial state must be normalized and lie in the Hamiltonian's form domain. Degeneracy changes which state is selected. Observables other than energy may still",
+      "slot": "media/B12.mp4",
+      "label": "The trial state must be normalized and lie in the Hamiltonian's form domain. Degeneracy changes whic"
+    },
+    {
+      "beat_id": "B13",
+      "status": "filled",
+      "on_disk": "manim/B13.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Your turn. A normalized trial state has excited-state amplitude epsilon equals zero point two in a level five electron volts above the ground state. In the two-",
+      "slot": "media/B13.mp4",
+      "label": "Your turn. A normalized trial state has excited-state amplitude epsilon equals zero point two in a l"
+    },
+    {
+      "beat_id": "B14",
+      "status": "filled",
+      "on_disk": "manim/B14.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Epsilon squared is zero point zero four. Multiply by five electron volts: zero point two electron volts. The amplitude error is twenty percent; the excited-stat",
+      "slot": "media/B14.mp4",
+      "label": "Epsilon squared is zero point zero four. Multiply by five electron volts: zero point two electron vo"
+    },
+    {
+      "beat_id": "B15",
+      "status": "filled",
+      "on_disk": "manim/B15.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Why Variational Energy Errors Are Often Quadratic in State Error.",
+      "slot": "media/B15.mp4",
+      "label": "Why Variational Energy Errors Are Often Quadratic in State Error."
+    }
+  ]
+}

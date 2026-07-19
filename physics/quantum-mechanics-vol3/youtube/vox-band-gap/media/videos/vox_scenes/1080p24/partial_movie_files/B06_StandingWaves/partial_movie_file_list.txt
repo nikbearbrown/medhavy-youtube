@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-band-gap/media/videos/vox_scenes/1080p24/partial_movie_files/B06_StandingWaves/648461735_3886766397_938822657.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-band-gap/media/videos/vox_scenes/1080p24/partial_movie_files/B06_StandingWaves/3493624639_3945527501_4002309970.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-band-gap/media/videos/vox_scenes/1080p24/partial_movie_files/B06_StandingWaves/3493624639_870548504_2187906635.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-band-gap/media/videos/vox_scenes/1080p24/partial_movie_files/B06_StandingWaves/3493624639_2366265155_3729321848.mp4'
