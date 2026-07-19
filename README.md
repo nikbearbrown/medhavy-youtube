@@ -18,10 +18,8 @@ There are no intermediate book, course, `youtube`, or source-workspace layers. S
 | `biology/` | 12 | 17 |
 | `cancer-biology/` | 457 | 841 |
 | `physics/` | 98 | 135 |
-| `quantun-physics/` | 615 | 962 |
+| `quantum-physics/` | 615 | 962 |
 | **Total** | **1,184** | **1,957** |
-
-`quantun-physics` is the repository's current directory name and is retained for path compatibility.
 
 ## Scope
 
@@ -29,7 +27,7 @@ There are no intermediate book, course, `youtube`, or source-workspace layers. S
 - `biology/` contains general life-science projects.
 - `cancer-biology/` contains cancer biology, cancer medicine, cancer research, therapeutics, and nanomedicine projects.
 - `physics/` contains non-quantum physics projects.
-- `quantun-physics/` contains quantum mechanics and quantum-focused projects.
+- `quantum-physics/` contains quantum mechanics and quantum-focused projects.
 
 General courses and educational collections that are not specifically part of Medhavy belong in the Humanitarians YouTube repository. Independent music and Claude-specific creative projects belong in Musinique.
 
