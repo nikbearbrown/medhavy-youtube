@@ -4,7 +4,7 @@
   "title": "The Cancer Trial That Couldn't Diagnose Its Own Failure",
   "topic": "CANCER NANOMEDICINE",
   "purpose": "vox-explainer slate cut of Cancer Nanomedicine card 19. Source chapter: cancer-nanomedicine/chapters/12-clinical-strategy-and-the-gap-book.md (response-only endpoint / three failure modes / delivery measurement only).",
-  "voice_id": "1sgY6Voq1aexKOB1IJ2D",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "clock": "narration (ElevenLabs) — durations below are word-count estimates until GATE 0 audio lock",
   "aspect_ratio": "16:9",
   "style_preset": "vox-editorial",
@@ -27,25 +27,40 @@
   "note": "Card exclusions honored: NO companion diagnostic regulatory pathway, NO accelerated approval mechanism, NO three-arm trial design, NO specific assay protocols. One principle only: a response-only endpoint cannot tell you which of three failure modes caused the failure, so it cannot inform the next design decision. THE QUESTION appears on-screen in B03 as a CARD beat with the gap formula verbatim. Illustrative numbers in B11 (THE EXAMPLE) labeled as such in FACTCHECK. Key visual: the split/tree — one NEGATIVE result node at top branching into three labeled failure modes, CRIMSON split lines, TEAL fix arrows.",
   "source": "cancer-nanomedicine/chapters/12-clinical-strategy-and-the-gap-book.md",
   "total_estimated_duration_seconds": 200.33,
-  "audience": "MEDHAVY",
-  "derived_from": "beat_sheet.json",
+  "engine": "kokoro",
   "register": "Wonder",
-  "palette": "medhavy",
-  "outro_source": "AUTHOR.MD :: Medhavy.com",
-  "_variant_todo": [
-   "rewrite every beat narration_text in the Wonder register (voices/wonder/VOICE.md + MEDHAVY.md) — voice only, facts unchanged",
-   "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
-   "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
-   "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  "voice": "af_bella",
+  "voice_kokoro": "af_bella"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Halo, Medhavy",
+      "topic": "The Cancer Trial That Couldn't Diagnose Its Own Failure",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "act": "COLD OPEN",
    "t_start": 0.0,
    "estimated_duration_s": 13.0,
-   "narration_text": "A targeted nanoparticle completes its cancer trial. Response rate: six percent — worse than standard of care. The program closes. And no one can say why it failed. That's the problem.",
+   "narration_text": "A targeted nanoparticle completes its cancer trial. Response rate: six percent — worse than standard of care. The program closes. And no one can say why it failed.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -58,14 +73,30 @@
    },
    "chosen_media": null,
    "new_visual_element": "[TITLE] the trial that couldn't diagnose its own failure",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 11.23,
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "Teaching The Cancer Trial That Couldn't Diagnose Its Own Failure well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
    "act": "COLD OPEN",
    "t_start": 13.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "The particle was elegant — a polymeric nanoparticle with a targeting ligand, designed to find tumor cells and deliver chemotherapy. Preclinical data looked promising. All-comers with the right tumor type enrolled. The trial ran. And failed.",
+   "narration_text": "The particle was elegant — a polymeric nanoparticle with a targeting ligand, designed to find tumor cells and deliver chemotherapy. Preclinical data looked promising. All-comers with the right tumor type enrolled.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -89,7 +120,10 @@
    "image_prompt": "B02, schematic cross-section of a spherical polymeric nanoparticle, targeting ligands shown as small hook shapes on the outer surface, enclosed drug payload illustrated as small dots inside the core, flat editorial biomedical diagram style, aged newsprint background, desaturated muted palette, teal outline, no digital glow, documentary print reproduction",
    "chosen_media": null,
    "new_visual_element": "[STILL·ai] polymeric nanoparticle schematic — targeting ligand surface, payload core",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 13.4,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B03",
@@ -109,14 +143,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] THE QUESTION — on screen verbatim",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 16.2,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B04",
    "act": "THE PROBLEM",
    "t_start": 47.0,
    "estimated_duration_s": 16.0,
-   "narration_text": "Here's what a response endpoint actually measures: did tumors shrink? Yes or no. It's a binary signal — worked, or didn't. Every other question about what happened inside that trial is invisible to it.",
+   "narration_text": "Here is what a response endpoint measures: did tumors shrink? Yes or no. It is a binary signal — worked, or didn't. Every other question about what happened inside that trial is invisible to it.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -137,14 +174,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] binary endpoint: worked vs didn't — two arms from one box",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 13.51,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B05",
    "act": "THE PROBLEM",
    "t_start": 63.0,
    "estimated_duration_s": 15.0,
-   "narration_text": "A negative response looks identical no matter why it happened. That's the problem. The trial reports: it didn't work. It cannot report: which step failed, or why. Those are completely different questions.",
+   "narration_text": "A negative response looks the same no matter why it happened. That is the problem. The trial reports: it didn't work. It cannot report: which step failed, or why.",
    "shot": {
     "type": "DOCUMENT",
     "source": "own",
@@ -159,14 +199,17 @@
    "scene_description": "large serif quote card; gold highlighter sweeps 'cannot be attributed' as spoken",
    "chosen_media": null,
    "new_visual_element": "[DOCUMENT] quote: result cannot be attributed to any failure mode",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 11.65,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B06",
    "act": "THE MECHANISM",
    "t_start": 78.0,
    "estimated_duration_s": 16.0,
-   "narration_text": "Here's what's actually happening. There are exactly three mechanistically separate ways a nanoparticle trial can produce a negative result — and all three are hiding inside that single readout.",
+   "narration_text": "There are exactly three mechanistically separate ways a nanoparticle trial can produce a negative result — and they are hiding inside that single readout.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -185,14 +228,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] the failure tree: one NEGATIVE node splits to three failure modes — CRIMSON branches",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 8.8,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B07",
    "act": "THE MECHANISM",
    "t_start": 94.0,
    "estimated_duration_s": 18.0,
-   "narration_text": "Failure mode one: the particle never reached the tumor. It was cleared by the immune system, sequestered in the liver and spleen, or simply couldn't extravasate into the tumor tissue. If this is the problem, the drug was never there to act — and a more potent payload won't help.",
+   "narration_text": "Failure mode one: the particle never reached the tumor. It was cleared by the immune system, sequestered in the liver and spleen, or simply couldn't extravasate into the tumor tissue. The drug was never there to act.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -212,14 +258,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] delivery failure branch: particle path to liver, not tumor — fix arrow in TEAL",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 13.27,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B08",
    "act": "THE MECHANISM",
    "t_start": 112.0,
    "estimated_duration_s": 17.0,
-   "narration_text": "Failure mode two: the particle arrived, but the payload released in the wrong place — into circulation, before reaching tumor cells, or after clearance. The drug is released; tumor cells don't see it at therapeutic levels. Delivery worked. Release didn't.",
+   "narration_text": "Failure mode two: the particle arrived, but the payload released in the wrong place — into circulation, before reaching tumor cells, or after clearance. Drug is released; tumor cells don't see it at therapeutic levels.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -239,14 +288,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] payload failure branch: particle arrives, premature release — fix arrow in TEAL",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 15.36,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B09",
    "act": "THE MECHANISM",
    "t_start": 129.0,
    "estimated_duration_s": 17.0,
-   "narration_text": "Failure mode three: delivery worked, release worked — but the cancer cells simply didn't respond. Wrong target, resistance, the biology of this patient population was not the biology the particle was designed for. This needs a different fix entirely.",
+   "narration_text": "Failure mode three: delivery worked, release worked — but the cancer cells simply didn't respond. Wrong target, resistance, the biology of this patient population was not the biology the particle was designed for.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -266,14 +318,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] biology failure branch: particle delivered, cell unresponsive — fix arrow in TEAL",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 14.34,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B10",
    "act": "THE IMPLICATION",
    "t_start": 146.0,
    "estimated_duration_s": 16.0,
-   "narration_text": "Three failure modes. Three completely different fixes. And a response-only readout produces an identical negative signal for all three. Without built-in delivery measurement, you can't tell them apart — and you can't design the next trial correctly.",
+   "narration_text": "Three failure modes. Three completely different fixes. And a response-only readout produces an identical negative signal for all three. Without built-in delivery measurement, the team cannot tell them apart.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -293,14 +348,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] full failure tree: CRIMSON branches, TEAL fix arrows — cannot see below response line",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 13.19,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B11",
    "act": "THE IMPLICATION",
    "t_start": 162.0,
    "estimated_duration_s": 15.0,
-   "narration_text": "Building delivery measurement into the trial — an imaging tracer cohort, a labeled version of the particle — converts a binary negative into a diagnosable result. The interesting part: the program doesn't stop guessing. It starts pointing.",
+   "narration_text": "Building delivery measurement into the trial — an imaging tracer cohort, a labeled version of the particle — converts a binary negative into a diagnosable result. The program stops guessing and starts pointing.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -324,14 +382,17 @@
    "image_prompt": "B11, editorial biomedical schematic of a small group of five patient silhouettes arranged in a row, above each silhouette a simplified PET scan cross-section showing tracer distribution in body — a biodistribution tracer cohort illustration, aged newsprint background, flat documentary diagram style, muted warm tones, no digital glow",
    "chosen_media": null,
    "new_visual_element": "[STILL·ai] tracer cohort schematic — patient silhouettes with scan overlays",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 12.98,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B12",
    "act": "THE EXAMPLE",
    "t_start": 177.0,
    "estimated_duration_s": 52.0,
-   "narration_text": "Here's an illustrative example. Two competing programs run identical nanoparticles in ovarian cancer. Program A measures response only: seven percent response, program closed. Program B runs a ten-patient biodistribution cohort before the efficacy trial. Imaging shows more than seventy-five percent of tracer in the liver at four hours, less than three percent in tumor. Program B diagnoses delivery failure. It redesigns its PEG coating. Its next efficacy trial: twenty-one percent response. Same particle. Program B knew why it failed — and that made all the difference.",
+   "narration_text": "Here is an illustrative example. Two competing programs run identical nanoparticles in ovarian cancer. Program A measures response only: seven percent response, program closed. Program B runs a ten-patient biodistribution cohort before the efficacy trial. Imaging shows more than seventy-five percent of tracer in the liver at four hours, less than three percent in tumor. Program B diagnoses delivery failure. It redesigns its PEG coating. Its next efficacy trial: twenty-one percent response. Same particle. Program B knew why it failed.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -351,14 +412,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] two program columns: A = closed at 7%, B = diagnosed + redesigned + 21% — illustrative",
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 36.78,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B13",
    "act": "RECAP",
    "t_start": 229.0,
    "estimated_duration_s": 19.0,
-   "narration_text": "A response-only endpoint cannot distinguish delivery failure, payload failure, or biology failure. It closes programs without diagnosing them. Build the measurement into the trial — and a negative result becomes the first step of the next design, not a dead end.",
+   "narration_text": "A response-only endpoint cannot distinguish delivery failure, payload failure, or biology failure. It closes programs without diagnosing them. Build the measurement into the trial — and a negative result becomes the first step of the next design.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -372,14 +436,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] endcard — diagnosable negative vs unattributable negative",
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 15.882,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B14",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroSeries",
-   "narration_text": "This is part of the Cancer Nanomedicine series on Medhavy AI.",
+   "narration_text": "Part of the Cancer Nanomedicine series.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -391,7 +458,7 @@
      "version": "1",
      "props": {
       "seriesTitle": "Cancer Nanomedicine",
-      "tagline": "An AI-powered intelligent textbook series from Medhavy AI.",
+      "tagline": "",
       "githubSlug": "cancer-nanomedicine"
      },
      "rendered": {
@@ -401,14 +468,17 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B14.mp3"
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 2.22,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B15",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Find the full course at medhavy.com.",
+   "narration_text": "Like and subscribe for more.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -420,8 +490,8 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@MedhavyAI",
-      "ctaText": "Explore the full course at medhavy.com"
+      "handle": "@NikBearBrown",
+      "ctaText": "Like and subscribe for more."
      },
      "rendered": {
       "out": "media/B15.mp4",
@@ -430,7 +500,10 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B15.mp3"
+   "audio_file": "mp3/beat-B15.mp3",
+   "actual_duration_s": 1.49,
+   "engine": "kokoro",
+   "voice": "af_bella"
   }
  ]
 }

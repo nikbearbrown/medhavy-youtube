@@ -37,9 +37,55 @@
    "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
    "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
    "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  ],
+  "engine": "kokoro",
+  "voice_kokoro": "am_onyx",
+  "build": {
+   "at": "2026-07-16T15:51:52",
+   "cut": "master",
+   "filled": 2,
+   "of": 14,
+   "slates": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11",
+    "B12"
+   ],
+   "skin_warnings": []
+  },
+  "voice": "am_onyx"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "This is Liam for Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Vanakkam, Medhavy",
+      "topic": "Why a Glowing PET Scan Doesn't Actually Show Cancer",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "act": "COLD OPEN",
@@ -58,7 +104,31 @@
    },
    "chosen_media": null,
    "new_visual_element": "[TITLE] glowing scan, wrong diagnosis",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 13.38,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:51:52",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B01.mp4)",
+    "suggested": "suggested prompt: [TITLE] glowing scan, wrong diagnosis"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "Teaching Why a Glowing PET Scan Doesn't Actually Show Cancer well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
@@ -89,7 +159,18 @@
    "image_prompt": "B02, a printed FDG-PET scan coronal image pinned like a clipping to aged newsprint, warm amber-colored hotspots of radiotracer uptake visible in the chest and neck region against dark background, desaturated editorial reproduction, flat print, three glowing nodes clearly visible",
    "chosen_media": null,
    "new_visual_element": "[PHOTO] PET scan with bright nodes — push-in",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 15.87,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:51:52",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B02.mp4)",
+    "suggested": "suggested prompt: [PHOTO] PET scan with bright nodes — push-in"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B03",
@@ -109,7 +190,18 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] THE QUESTION on screen — gap formula",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 13.89,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:51:52",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B03.mp4)",
+    "suggested": "suggested prompt: [CARD] THE QUESTION on screen — gap formula"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B04",
@@ -136,7 +228,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] FDG uptake — glucose enters, gets trapped",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 15.53,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:51:52",
+    "needs": "PIPELINE → render animated_graphics.py scene B04_*"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B05",
@@ -163,7 +265,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] two-column: what you think vs what PET reads",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 20.39,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:51:52",
+    "needs": "PIPELINE → render animated_graphics.py scene B05_*"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B06",
@@ -197,7 +309,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] section — three false-positive causes listed as sub",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 17.69,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:51:52",
+    "needs": "PIPELINE → fill_slates/remotion_scenes for B06"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B07",
@@ -219,7 +341,18 @@
    "scene_description": "large serif quote card; gold highlighter sweeps 'dark' as it is spoken",
    "chosen_media": null,
    "new_visual_element": "[QUOTE] a dark scan is not an empty scan",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 18.94,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:51:52",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B07.mp4)",
+    "suggested": "suggested prompt: [QUOTE] a dark scan is not an empty scan"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B08",
@@ -246,7 +379,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] signal chain: imaging suggests, biopsy confirms",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 18.77,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:51:52",
+    "needs": "PIPELINE → render animated_graphics.py scene B08_*"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B09",
@@ -277,7 +420,18 @@
    "image_prompt": "B09, a printed oncology referral note pinned to aged newsprint, handwritten annotations circling three lymph node locations labeled 'high FDG uptake', a small PET scan thumbnail in corner showing bright spots, desaturated editorial reproduction, flat print",
    "chosen_media": null,
    "new_visual_element": "[PHOTO] case summary — three flagged nodes",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 17.51,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:51:52",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B09.mp4)",
+    "suggested": "suggested prompt: [PHOTO] case summary — three flagged nodes"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B10",
@@ -304,7 +458,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] three nodes reveal as reactive — not malignant",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 18.33,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:51:52",
+    "needs": "PIPELINE → render animated_graphics.py scene B10_*"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B11",
@@ -326,7 +490,18 @@
    "scene_description": "large serif quote card; gold highlighter sweeps 'assumption' as it is spoken",
    "chosen_media": null,
    "new_visual_element": "[QUOTE] the scanner was right — the assumption was wrong",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 15.96,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:51:52",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B11.mp4)",
+    "suggested": "suggested prompt: [QUOTE] the scanner was right — the assumption was wrong"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B12",
@@ -347,7 +522,18 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] endcard — question answered, topic named",
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 19.01,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:51:52",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B12.mp4)",
+    "suggested": "suggested prompt: [CARD] endcard — question answered, topic named"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B13",
@@ -376,7 +562,16 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 4.29,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B13.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T15:51:52"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B14",
@@ -405,7 +600,16 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B14.mp3"
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 2.5,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B14.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T15:51:52"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   }
  ]
 }

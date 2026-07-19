@@ -4,7 +4,7 @@
   "title": "The pH-Triggered Lock That Lets RNA Drugs Escape the Cell's Trash",
   "topic": "CANCER NANOMEDICINE",
   "purpose": "vox-explainer slate cut of Cancer Nanomedicine candidate 05. Source chapter: cancer-nanomedicine/chapters/09-nucleic-acid-and-gene-delivery.md (the ionizable lipid / endosomal escape mechanism only).",
-  "voice_id": "1sgY6Voq1aexKOB1IJ2D",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "clock": "narration (ElevenLabs) — durations below are word-count estimates until GATE 0 audio lock",
   "aspect_ratio": "16:9",
   "style_preset": "vox-editorial",
@@ -27,25 +27,48 @@
   "note": "EXCLUSIONS: four LNP components tour, siRNA vs mRNA vs CRISPR cargo comparison, Onpattro/COVID-vaccine history, and viral vectors. One mechanism: the charge switch that opens the trash bag.",
   "source": "cancer-nanomedicine/chapters/09-nucleic-acid-and-gene-delivery.md",
   "total_estimated_duration_seconds": 189.5,
-  "audience": "MEDHAVY",
-  "derived_from": "beat_sheet.json",
+  "build": {
+   "at": "2026-07-16T12:25:50",
+   "cut": "master",
+   "filled": 13,
+   "of": 13,
+   "slates": [],
+   "skin_warnings": []
+  },
+  "engine": "kokoro",
   "register": "Wonder",
-  "palette": "medhavy",
-  "outro_source": "AUTHOR.MD :: Medhavy.com",
-  "_variant_todo": [
-   "rewrite every beat narration_text in the Wonder register (voices/wonder/VOICE.md + MEDHAVY.md) — voice only, facts unchanged",
-   "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
-   "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
-   "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  "voice": "am_onyx",
+  "voice_kokoro": "am_onyx"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "This is Liam for Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Shalom, Medhavy",
+      "topic": "The pH-Triggered Lock That Lets RNA Drugs Escape the Cell's Trash",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "t_start": 0.0,
    "estimated_duration_s": 9.0,
    "act": "COLD OPEN",
-   "narration_text": "The siRNA worked. In the dish, it silenced its target ninety percent. In the mouse, it did almost nothing. The tumors kept growing — and that gap is worth taking seriously.",
+   "narration_text": "The siRNA worked. In the dish, it silenced its target 90 percent. In the mouse, it did almost nothing. The tumors kept growing.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -58,14 +81,36 @@
    },
    "chosen_media": null,
    "new_visual_element": "[TITLE] the siRNA paradox — dish vs mouse",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 8.07,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B01.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "Teaching The pH-Triggered Lock That Lets RNA Drugs Escape the Cell's Trash well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
    "t_start": 9.0,
    "estimated_duration_s": 11.0,
    "act": "COLD OPEN",
-   "narration_text": "The team spent months hunting a better target. They were diagnosing the wrong failure. When they finally tracked where the siRNA actually went — it never reached the cytosol. The cell had swallowed it into a membrane bubble, acidified that bubble, and digested the drug before it could act.",
+   "narration_text": "The team spent months looking for a better target. But they were diagnosing the wrong failure. When they finally tracked where the siRNA actually went — it never reached the cytosol. The cell swallowed it into a membrane bubble, acidified that bubble, and digested the drug before it could act.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -89,14 +134,23 @@
    "image_prompt": "B02, schematic cross-section of a eukaryotic cell interior, small siRNA molecules trapped inside a circular endosome vesicle with a pH 5.5 label, endosome shown as acidic bubble in warm tones, lysosome nearby, cytosol as open space unreached, flat editorial diagram pinned to aged newsprint, desaturated except for the endosome highlight, no text overlay",
    "chosen_media": null,
    "new_visual_element": "[STILL] siRNA trapped in endosome — the wrong-failure reveal",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 18.29,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B02.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B03",
    "t_start": 20.0,
    "estimated_duration_s": 10.0,
    "act": "THE QUESTION",
-   "narration_text": "Here's what we're working through. A lipid nanoparticle delivers siRNA into cells — but the cell immediately packages it in an acidic bubble that digests it. The siRNA that silences in a dish does nothing in a mouse. How does the ionizable lipid solve this?",
+   "narration_text": "A lipid nanoparticle delivers siRNA into cells — but the cell immediately packages it in an acidic bubble that digests it. The siRNA that works in a dish does nothing in a mouse. How does the ionizable lipid solve this?",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -109,7 +163,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] the gap-formula question on screen",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 14.71,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B03.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B04",
@@ -135,14 +198,23 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] endocytosis — LNP wrapped into endosome bubble",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 15.12,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B04.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B05",
    "t_start": 41.0,
    "estimated_duration_s": 12.0,
    "act": "THE PROBLEM",
-   "narration_text": "Proton pumps in the endosomal membrane push hydrogen ions inside, dropping the pH from 7.4 — blood pH — down to around 5.5. That acidification is the cell preparing to digest the contents. And for most cargo, that is exactly what happens next.",
+   "narration_text": "Proton pumps in the endosomal membrane push hydrogen ions inside, dropping the pH from 7.4 — blood pH — down to around 5.5. That acidification is the cell's way of preparing to digest the contents. And for most cargo, digestion is exactly what happens.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -162,14 +234,23 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] pH drop from 7.4 to 5.5 — the acidification step",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 18.05,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B05.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B06",
    "t_start": 53.0,
    "estimated_duration_s": 12.0,
    "act": "THE MECHANISM",
-   "narration_text": "Here's why the ionizable lipid matters. Its head group carries an amine — a nitrogen that can pick up or release a proton. At blood pH 7.4, the amine is neutral. The particle circulates without sticking to proteins or cell surfaces. Drop the pH to 5.5, and that amine grabs a proton and gains a positive charge.",
+   "narration_text": "The ionizable lipid's head group carries an amine — a nitrogen that can pick up or release a proton. At blood pH 7.4, the amine is neutral. The particle circulates without sticking to proteins or cell surfaces. But drop the pH to 5.5, and that amine grabs a proton and gains a positive charge.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -189,14 +270,23 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] the charge flip — neutral at 7.4, cationic at 5.5",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 20.9,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B06.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B07",
    "t_start": 65.0,
    "estimated_duration_s": 12.0,
    "act": "THE MECHANISM",
-   "narration_text": "Now cationic: the positively charged ionizable lipids interact electrostatically with the anionic lipids in the endosomal membrane. Opposite charges attract, destabilize the bilayer — and the membrane tears open. The RNA cargo dumps into the cytosol, where the RNA interference machinery is waiting.",
+   "narration_text": "Now-cationic: the positively charged ionizable lipids interact electrostatically with the anionic lipids in the endosomal membrane. The opposite charges attract, destabilize the bilayer, and the membrane tears open. The RNA cargo dumps into the cytosol — where the RNA interference machinery lives.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -216,14 +306,23 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] membrane crack — RNA escapes to cytosol (TEAL dots)",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 21.08,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B07.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B08",
    "t_start": 77.0,
    "estimated_duration_s": 10.0,
    "act": "THE IMPLICATION",
-   "narration_text": "Only one to two percent of internalized cargo actually escapes. That sounds like failure. But it's enough — because even that thin stream reaches the RNA interference machinery intact. And it's what separates a working LNP from an inert liposome carrying identical cargo.",
+   "narration_text": "Only a single-digit percentage of the internalized cargo actually escapes. One to two percent. That sounds like failure — but it's enough, because even that thin stream reaches the RNA interference machinery intact. And it's what separates a working LNP from an inert liposome with the same cargo.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -243,14 +342,23 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] escape funnel — 1-2% gets out, enough to act",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 18.42,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B08.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B09",
    "t_start": 87.0,
    "estimated_duration_s": 10.0,
    "act": "THE EXAMPLE",
-   "narration_text": "Here's the comparison. Two nanoparticle formulations, identical siRNA. LNP-A uses a conventional neutral lipid: 48 hours later, 8 percent silencing — most RNA digested in lysosomes. LNP-B uses an ionizable lipid: 84 percent silencing. Same cell, same cargo. One charge switch.",
+   "narration_text": "Here's the comparison. Two nanoparticle formulations, identical siRNA. LNP-A uses a conventional neutral lipid: 48 hours later, 8 percent silencing — most RNA digested in lysosomes. LNP-B uses an ionizable lipid: 84 percent silencing. Same cell. Same cargo. One charge switch.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -270,7 +378,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] LNP-A vs LNP-B bar comparison (illustrative)",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 23.12,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B09.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B10",
@@ -291,14 +408,23 @@
    },
    "chosen_media": null,
    "new_visual_element": "[QUOTE] pH-sensitive lock quote card with gold highlight",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 13.19,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B10.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B11",
    "t_start": 107.0,
    "estimated_duration_s": 10.0,
    "act": "RECAP",
-   "narration_text": "The endosome is the rate-limiting step. The ionizable lipid's charge flip — neutral in the blood, cationic inside the endosome — is what opens that step. That charge flip is what turns an inert liposome into a working RNA drug.",
+   "narration_text": "The endosome is the rate-limiting step. The ionizable lipid's charge flip — neutral in the blood, cationic inside the endosome — is what opens that step. That is what turns an inert liposome into a working RNA drug.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -311,14 +437,23 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] endcard — the charge flip is the drug",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 14.861,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B11.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B12",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroSeries",
-   "narration_text": "This is part of the Cancer Nanomedicine series on Medhavy AI.",
+   "narration_text": "Part of the Cancer Nanomedicine series.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -330,7 +465,7 @@
      "version": "1",
      "props": {
       "seriesTitle": "Cancer Nanomedicine",
-      "tagline": "An AI-powered intelligent textbook series from Medhavy AI.",
+      "tagline": "",
       "githubSlug": "cancer-nanomedicine"
      },
      "rendered": {
@@ -340,14 +475,23 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 2.17,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B12.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B13",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Find the full course at medhavy.com.",
+   "narration_text": "Like and subscribe for more.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -359,8 +503,8 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@MedhavyAI",
-      "ctaText": "Explore the full course at medhavy.com"
+      "handle": "@NikBearBrown",
+      "ctaText": "Like and subscribe for more."
      },
      "rendered": {
       "out": "media/B13.mp4",
@@ -369,7 +513,16 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 1.49,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B13.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T12:25:50"
+   },
+   "engine": "kokoro",
+   "voice": "am_onyx"
   }
  ]
 }

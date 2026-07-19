@@ -23,9 +23,61 @@
    "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
    "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
    "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  ],
+  "engine": "kokoro",
+  "voice_kokoro": "af_bella",
+  "build": {
+   "at": "2026-07-16T15:21:36",
+   "cut": "master",
+   "filled": 2,
+   "of": 20,
+   "slates": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11",
+    "B12",
+    "B13",
+    "B14",
+    "B15",
+    "B16",
+    "B17",
+    "B18"
+   ],
+   "skin_warnings": []
+  },
+  "voice": "af_bella"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Hei, Medhavy",
+      "topic": "Why Losing One Repair Gene Creates a Target the Driver Gene Never Could",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "t_start": 0.0,
@@ -44,7 +96,31 @@
    },
    "chosen_media": null,
    "new_visual_element": "[TITLE] CANCER BIOLOGY eyebrow · repair-gene-as-target",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 13.29,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B01.mp4)",
+    "suggested": "suggested prompt: [TITLE] CANCER BIOLOGY eyebrow · repair-gene-as-target"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "Teaching Why Losing One Repair Gene Creates a Target the Driver Gene Never Could well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
@@ -74,7 +150,18 @@
    "image_prompt": "B02, oncologist reviewing a printed genomic sequencing report in a clinical consultation room, close-up on the report with 'BRCA2: biallelic loss' highlighted, a biopsy specimen in a tube nearby, warm clinical lighting, desaturated editorial collage on newsprint ground",
    "chosen_media": null,
    "new_visual_element": "[PHOTO] oncologist reviews sequencing report — BRCA2 loss",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 16.15,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B02.mp4)",
+    "suggested": "suggested prompt: [PHOTO] oncologist reviews sequencing report — BRCA2 loss"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B03",
@@ -100,7 +187,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] PARP blocked, SSBs to DSBs — shared by all cells",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 16.45,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "PIPELINE → render animated_graphics.py scene B03_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B04",
@@ -119,7 +216,18 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] THE QUESTION — same drug, opposite fates",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 12.29,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B04.mp4)",
+    "suggested": "suggested prompt: [CARD] THE QUESTION — same drug, opposite fates"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B05",
@@ -145,7 +253,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] DSB repair fork — HR (teal, clean) vs NHEJ (slate, imprecise)",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 15.66,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "PIPELINE → render animated_graphics.py scene B05_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B06",
@@ -170,7 +288,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] normal cell — BRCA2 present, HR closes DSB",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 16.23,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "PIPELINE → render animated_graphics.py scene B06_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B07",
@@ -196,7 +324,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] tumor cell — BRCA2 absent, HR fails, NHEJ misjoins",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 16.09,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "PIPELINE → render animated_graphics.py scene B07_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B08",
@@ -223,7 +361,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] 2x2 synthetic lethality grid — one dead corner",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 19.37,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "PIPELINE → render animated_graphics.py scene B08_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B09",
@@ -241,7 +389,18 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] section card — mechanism pivot",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 14.25,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B09.mp4)",
+    "suggested": "suggested prompt: [CARD] section card — mechanism pivot"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B10",
@@ -267,7 +426,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] 1000 tumor + 1000 normal — drug equally distributed",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 14.95,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "PIPELINE → render animated_graphics.py scene B10_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B11",
@@ -292,7 +461,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] normal cells — HR active, all 1000 survive",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 14.31,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "PIPELINE → render animated_graphics.py scene B11_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B12",
@@ -317,7 +496,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] tumor cells — NHEJ disaster, cells die out",
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 17.49,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "PIPELINE → render animated_graphics.py scene B12_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B13",
@@ -343,7 +532,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] final count — ~0 tumor vs ~1000 normal",
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 12.82,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "PIPELINE → render animated_graphics.py scene B13_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B14",
@@ -373,7 +572,18 @@
    "image_prompt": "B14, extreme close-up photomicrograph-style image of a single cancer cell undergoing chromosomal disaster, chromosomes in disarray and fragmented, dark background, high contrast, desaturated editorial treatment on aged newsprint ground",
    "chosen_media": null,
    "new_visual_element": "[PHOTO] cancer cell in chromosomal disaster — the consequence",
-   "audio_file": "mp3/beat-B14.mp3"
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 11.37,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B14.mp4)",
+    "suggested": "suggested prompt: [PHOTO] cancer cell in chromosomal disaster — the consequence"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B15",
@@ -400,7 +610,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] BRCA loss as therapeutic target — clinical application",
-   "audio_file": "mp3/beat-B15.mp3"
+   "audio_file": "mp3/beat-B15.mp3",
+   "actual_duration_s": 16.51,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "PIPELINE → render animated_graphics.py scene B15_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B16",
@@ -418,7 +638,18 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] section card — generalization",
-   "audio_file": "mp3/beat-B16.mp3"
+   "audio_file": "mp3/beat-B16.mp3",
+   "actual_duration_s": 13.06,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B16.mp4)",
+    "suggested": "suggested prompt: [CARD] section card — generalization"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B17",
@@ -445,7 +676,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] EXAMPLE — 1000+1000 cells, drug, repair outcomes, final tally",
-   "audio_file": "mp3/beat-B17.mp3"
+   "audio_file": "mp3/beat-B17.mp3",
+   "actual_duration_s": 42.26,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "PIPELINE → render animated_graphics.py scene B17_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B18",
@@ -464,7 +705,18 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] RECAP endcard — question restated, answer given",
-   "audio_file": "mp3/beat-B18.mp3"
+   "audio_file": "mp3/beat-B18.mp3",
+   "actual_duration_s": 20.12,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:21:36",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B18.mp4)",
+    "suggested": "suggested prompt: [CARD] RECAP endcard — question restated, answer given"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B19",
@@ -493,7 +745,16 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B19.mp3"
+   "audio_file": "mp3/beat-B19.mp3",
+   "actual_duration_s": 4.01,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B19.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T15:21:36"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B20",
@@ -522,7 +783,16 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B20.mp3"
+   "audio_file": "mp3/beat-B20.mp3",
+   "actual_duration_s": 2.5,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B20.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T15:21:36"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   }
  ]
 }

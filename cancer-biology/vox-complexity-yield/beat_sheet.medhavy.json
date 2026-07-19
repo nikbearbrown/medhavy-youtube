@@ -4,7 +4,7 @@
   "title": "Why Every Function You Add to a Nanoparticle Is a New Way to Fail",
   "topic": "CANCER NANOMEDICINE",
   "purpose": "vox-explainer slate cut of Cancer Nanomedicine candidate 04. Source chapter: cancer-nanomedicine/chapters/08-multifunctional-theranostic-nanoparticles.md (the multiplicative-reproducibility / one-vs-six mechanism only).",
-  "voice_id": "1sgY6Voq1aexKOB1IJ2D",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "clock": "narration (ElevenLabs) — durations below are word-count estimates until GATE 0 audio lock",
   "aspect_ratio": "16:9",
   "style_preset": "vox-editorial",
@@ -14,19 +14,34 @@
   "note": "EXCLUSIONS: protein corona interaction detail, PDT/PTT/AuroLase gradient, cell-derived particles, full NCI characterization list. Keep 0.9^6 calculation and the one-vs-six contrast.",
   "source": "cancer-nanomedicine/chapters/08-multifunctional-theranostic-nanoparticles.md",
   "total_estimated_duration_seconds": 182.04,
-  "audience": "MEDHAVY",
-  "derived_from": "beat_sheet.json",
+  "engine": "kokoro",
   "register": "Wonder",
-  "palette": "medhavy",
-  "outro_source": "AUTHOR.MD :: Medhavy.com",
-  "_variant_todo": [
-   "rewrite every beat narration_text in the Wonder register (voices/wonder/VOICE.md + MEDHAVY.md) — voice only, facts unchanged",
-   "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
-   "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
-   "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  "voice": "am_onyx",
+  "voice_kokoro": "am_onyx"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "This is Liam for Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Hallo, Medhavy",
+      "topic": "Why Every Function You Add to a Nanoparticle Is a New Way to Fail",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "t_start": 0.0,
@@ -44,13 +59,29 @@
    },
    "chosen_media": null,
    "new_visual_element": "[TITLE] every function is a new way to fail",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 11.47,
+   "engine": "kokoro",
+   "voice": "am_onyx"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "Teaching Why Every Function You Add to a Nanoparticle Is a New Way to Fail well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
    "t_start": 7.0,
    "estimated_duration_s": 9.0,
-   "narration_text": "Here is the particle: six functions, each working beautifully in the lab. Gold core for heating, iron shell for MRI, a fluorescent dye, a drug payload, a pH-responsive release linker, and a targeting antibody. In mice, it works. The question is what happens next.",
+   "narration_text": "Here is the particle: six functions, each working beautifully in the lab. Gold core for heating, iron shell for MRI, a fluorescent dye, a drug payload, a pH-responsive release linker, and a targeting antibody. In mice, it works.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -74,13 +105,16 @@
    "image_prompt": "B02, schematic illustration of a six-function theranostic nanoparticle, central gold core surrounded by six labeled functional layers: iron oxide shell, fluorescent dye, drug payload, pH-responsive linker, targeting antibody, six concentric layers each distinctly colored, editorial flat illustration style, scientific paper figure aesthetic, pinned to aged newsprint background, desaturated scientific diagram",
    "chosen_media": null,
    "new_visual_element": "[STILL] six-function nanoparticle schematic",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 16.95,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B03",
    "t_start": 16.0,
    "estimated_duration_s": 9.0,
-   "narration_text": "Each of those six functions is ninety percent reproducible, batch to batch. Ninety percent — that sounds like high quality. So here's the puzzle: why does more than half of every manufactured batch fail specification?",
+   "narration_text": "Each of those six functions is ninety percent reproducible, batch to batch. Ninety percent. That sounds like high quality. So why does more than half of every manufactured batch fail specification?",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -93,13 +127,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] gap formula question — 90% per function, majority fail",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 12.07,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B04",
    "t_start": 25.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "Here's why: reproducibility doesn't add — it multiplies. When you need all six functions to pass specification in the same batch, the probabilities compound. Each function is a gate. Every gate must open. And that changes everything.",
+   "narration_text": "Because reproducibility does not add — it multiplies. When you need all six functions to pass specification in the same batch, the probabilities compound. Each function is a gate. Every gate must open.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -118,13 +155,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] six sequential gates, each at 90%",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 13.64,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B05",
    "t_start": 35.0,
    "estimated_duration_s": 12.0,
-   "narration_text": "Watch the yield collapse as you stack functions. One function at ninety percent: ninety percent pass. Add a second: eighty-one. A third: seventy-three. Four: sixty-six. Five: fifty-nine. Six functions, all at ninety percent each — fifty-three percent pass. More than half your batches fail.",
+   "narration_text": "One function at ninety percent: ninety percent pass. Add a second: eighty-one percent. A third: seventy-three percent. Four functions: sixty-six. Five: fifty-nine. Six functions, all at ninety percent each — fifty-three percent pass. More than half your batches fail.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -144,13 +184,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] yield collapse bar chart — 90% to 53%",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 19.91,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B06",
    "t_start": 47.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "That calculation — point nine to the sixth power equals fifty-three percent — is not pessimistic. It is what happens at ninety percent per-function quality. Raise it to ninety-five percent per function and you still lose one batch in four. The math doesn't care how careful your team is.",
+   "narration_text": "That calculation — point nine to the sixth power equals fifty-three percent — is not a pessimistic assumption. It is what happens at ninety percent per-function quality. Raise it to ninety-five percent per function and you still lose one batch in four.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -170,13 +213,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] 0.9^6 = 53% math card with gold highlight",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 15.18,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B07",
    "t_start": 57.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "Single-function particles don't face this. Doxil carries one drug payload — one function to characterize: encapsulation efficiency and release rate. A radioligand has one function: labeling yield. These are the designs that actually reached patients. The interesting part is how simple they are.",
+   "narration_text": "Single-function particles do not face this. Doxil carries one drug payload. Its one function to characterize: encapsulation efficiency and release rate. A radioligand has one function: labeling yield. These are the designs that reached patients.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -196,13 +242,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] one-vs-six contrast — TEAL vs CRIMSON",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 17.14,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B08",
    "t_start": 68.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "The instinct is to fix this with better manufacturing — hire process engineers, tighten tolerances. That's a dead end. Process engineering cannot make a six-parameter assembly as consistent as a one-parameter assembly. The math does not care about your engineers.",
+   "narration_text": "The instinct is to fix this with better manufacturing. Hire process engineers, tighten tolerances. This is the dead end. Process engineering cannot make a six-parameter assembly as consistent as a one-parameter assembly. The math does not care about your engineers.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -215,13 +264,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] complexity is a design decision",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 17.32,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B09",
    "t_start": 78.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "Two manufacturing programs. Program A: a single-function liposome, Doxil-style, ninety percent yield per batch. Twelve batches last year, eleven pass. Program B: six-function theranostic particle, same per-function quality — but point nine to the sixth means only seven of those twelve batches pass specification.",
+   "narration_text": "Two manufacturing programs. Program A: a single-function liposome, Doxil-style, ninety percent yield per batch. Twelve batches last year, eleven pass. Program B: six-function theranostic particle. Same per-function quality — but point nine to the sixth means only seven of those twelve batches pass specification.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -241,13 +293,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] Program A vs B batch outcomes grid",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 22.7,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B10",
    "t_start": 88.0,
    "estimated_duration_s": 9.0,
-   "narration_text": "Same per-function quality. Completely different program economics. The six-function particle isn't failing because the team is bad at manufacturing. It's failing because the design choices multiplied the failure modes. That's a structural problem, not a skill problem.",
+   "narration_text": "Same per-function quality. Completely different program economics. The six-function particle is not failing because the team is bad at manufacturing. It is failing because the design choices multiplied the failure modes.",
    "shot": {
     "type": "COMPOSITE",
     "source": "own",
@@ -266,13 +321,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[ANNOTATE] ring on failed batches — design choice",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 12.9,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B11",
    "t_start": 97.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "The particles that reached patients are the simple ones — Doxil, Abraxane, radioligands. One function, well characterized, manufactured reproducibly. The elegant six-function particle stays in the paper. Simplification is not a concession to the limits of manufacturing. It is the actual work.",
+   "narration_text": "The particles that reached patients are the simple ones. Doxil. Abraxane. Radioligands. One function, well characterized, manufactured reproducibly. The elegant six-function Christmas tree particle stays in the paper. Simplification is not a concession. It is the work.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -285,14 +343,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] endcard — simple designs translate",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 19.087,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B12",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroSeries",
-   "narration_text": "This is part of the Cancer Nanomedicine series on Medhavy AI.",
+   "narration_text": "Part of the Cancer Nanomedicine series.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -304,7 +365,7 @@
      "version": "1",
      "props": {
       "seriesTitle": "Cancer Nanomedicine",
-      "tagline": "An AI-powered intelligent textbook series from Medhavy AI.",
+      "tagline": "",
       "githubSlug": "cancer-nanomedicine"
      },
      "rendered": {
@@ -314,14 +375,17 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 2.12,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B13",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Find the full course at medhavy.com.",
+   "narration_text": "Like and subscribe for more.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -333,8 +397,8 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@MedhavyAI",
-      "ctaText": "Explore the full course at medhavy.com"
+      "handle": "@NikBearBrown",
+      "ctaText": "Like and subscribe for more."
      },
      "rendered": {
       "out": "media/B13.mp4",
@@ -343,7 +407,10 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 1.52,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   }
  ]
 }

@@ -20,9 +20,54 @@
    "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
    "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
    "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  ],
+  "engine": "kokoro",
+  "voice_kokoro": "af_bella",
+  "build": {
+   "at": "2026-07-16T15:39:00",
+   "cut": "master",
+   "filled": 2,
+   "of": 13,
+   "slates": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11"
+   ],
+   "skin_warnings": []
+  },
+  "voice": "af_bella"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Yassou, Medhavy",
+      "topic": "Why Two Identical Anti-HER2 Drugs Kill Completely Different Tumors",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "act": "COLD OPEN",
@@ -34,7 +79,31 @@
     "motion": "hold"
    },
    "scene_class": "B01_Title",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 12.35,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:39:00",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B01.mp4)",
+    "suggested": "suggested prompt: A breast cancer patient's tumor tests HER2-low. One drug is approved for it. The other is not. Both drugs carry the exact same HER2-targeting antibody. So what'"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "Teaching Why Two Identical Anti-HER2 Drugs Kill Completely Different Tumors well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
@@ -47,7 +116,18 @@
     "motion": "drawon"
    },
    "scene_class": "B02_TwoDrugs",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 12.95,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:39:00",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B02.mp4)",
+    "suggested": "suggested prompt: T-DM1 and T-DXd. Identical antibodies. One opens a new disease category. One does not. The difference cannot be in the targeting — we need to look somewhere els"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B03",
@@ -60,7 +140,18 @@
     "motion": "hold"
    },
    "scene_class": "B03_Question",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 10.45,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:39:00",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B03.mp4)",
+    "suggested": "suggested prompt: Two drugs. Same antibody. One treats HER2-low tumors. The other cannot. Here's the question we need to answer: if the antibody is identical, why does it matter?"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B04",
@@ -73,7 +164,18 @@
     "motion": "reveal"
    },
    "scene_class": "B04_AntibodyOneStep",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 11.97,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:39:00",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B04.mp4)",
+    "suggested": "suggested prompt: The antibody controls exactly one step: which cell gets bound. In a HER2-low tumor, only a few cells carry the antigen. Most do not. The antibody reaches only t"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B05",
@@ -86,7 +188,18 @@
     "motion": "highlight"
    },
    "scene_class": "B05_NaiveGuess",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 14.83,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:39:00",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B05.mp4)",
+    "suggested": "suggested prompt: The intuitive guess: both drugs underperform equally. Antigen is scarce, so little binds, so little kills. Pick whichever tolerates better. That guess turns out"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B06",
@@ -99,7 +212,18 @@
     "motion": "reveal"
    },
    "scene_class": "B06_TDM1Confined",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 14.98,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:39:00",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B06.mp4)",
+    "suggested": "suggested prompt: T-DM1 uses a non-cleavable linker. After the antibody binds and the drug enters the cell, the freed payload carries a charged fragment. Here's why that matters:"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B07",
@@ -126,7 +250,18 @@
      }
     }
    },
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 13.27,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:39:00",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B07.mp4)",
+    "suggested": "suggested prompt: So T-DM1 kills only the cell it entered. The HER2-negative cells around it — the majority in a HER2-low tumor — survive untouched. The payload is trapped. The t"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B08",
@@ -139,7 +274,18 @@
     "motion": "reveal"
    },
    "scene_class": "B08_TDXdSpreads",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 16.17,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:39:00",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B08.mp4)",
+    "suggested": "suggested prompt: T-DXd uses a cleavable linker, and its freed payload is membrane-permeable. Here's where it gets interesting: released inside one HER2-positive cell, it diffuse"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B09",
@@ -152,7 +298,18 @@
     "motion": "highlight"
    },
    "scene_class": "B09_ImplicationQuote",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 14.95,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:39:00",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B09.mp4)",
+    "suggested": "suggested prompt: The antibody is not the whole mechanism. It finds the cell. What happens next depends entirely on whether the payload can cross a membrane. That single physical"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B10",
@@ -165,7 +322,18 @@
     "motion": "drawon"
    },
    "scene_class": "B10_Example",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 19.52,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:39:00",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B10.mp4)",
+    "suggested": "suggested prompt: In a HER2-low tumor patch: five HER2-positive cells are all the antibody can reach. T-DM1 kills those five. T-DXd from the same five entry points spreads membra"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B11",
@@ -178,7 +346,18 @@
     "motion": "hold"
    },
    "scene_class": "B11_Endcard",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 16.26,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:39:00",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B11.mp4)",
+    "suggested": "suggested prompt: Same antibody. One payload stays put — confined by charge. One payload spreads — carried by membrane permeability. That is why T-DXd, not T-DM1, treats HER2-low"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B12",
@@ -207,7 +386,16 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 4.29,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B12.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T15:39:00"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B13",
@@ -236,7 +424,16 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 2.5,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B13.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T15:39:00"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   }
  ]
 }

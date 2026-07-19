@@ -4,7 +4,7 @@
   "title": "Why Only 0.7% of a Cancer Nanoparticle Reaches the Tumor",
   "topic": "CANCER NANOMEDICINE",
   "purpose": "vox-explainer slate cut of Cancer Nanomedicine candidate 02. Source chapter: cancer-nanomedicine/chapters/01-what-counts-as-cancer-nanomedicine.md (the dose-loss chain / delivery funnel mechanism only).",
-  "voice_id": "1sgY6Voq1aexKOB1IJ2D",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "clock": "narration (ElevenLabs) — durations below are word-count estimates until GATE 0 audio lock",
   "aspect_ratio": "16:9",
   "style_preset": "vox-editorial",
@@ -26,25 +26,40 @@
   "color_semantics": "TEAL = dose reaching tumor; CRIMSON = lost dose / each loss step; GOLD = the 0.7% number",
   "note": "EXCLUSIONS: Cut DLS/TEM, polydispersity, two-liposomes case, EPR mechanism detail, the 0.7% metric debate. Keep funnel and the number only.",
   "total_estimated_duration_seconds": 125.89,
-  "audience": "MEDHAVY",
-  "derived_from": "beat_sheet.json",
+  "engine": "kokoro",
   "register": "Wonder",
-  "palette": "medhavy",
-  "outro_source": "AUTHOR.MD :: Medhavy.com",
-  "_variant_todo": [
-   "rewrite every beat narration_text in the Wonder register (voices/wonder/VOICE.md + MEDHAVY.md) — voice only, facts unchanged",
-   "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
-   "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
-   "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  "voice": "am_onyx",
+  "voice_kokoro": "am_onyx"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "This is Liam for Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Habari, Medhavy",
+      "topic": "Why Only 0.7% of a Cancer Nanoparticle Reaches the Tumor",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "t_start": 0.0,
    "estimated_duration_s": 8.0,
    "act": "COLD OPEN",
-   "narration_text": "A researcher injects tumor-targeted nanoparticles into a mouse. Only 0.7 percent reaches the tumor. The other 99.3 percent goes somewhere else — and that somewhere else is the whole story.",
+   "narration_text": "A researcher injects a dose of tumor-targeted nanoparticles into a mouse. Only 0.7 percent reaches the tumor. The other 99.3 percent goes somewhere else.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -57,14 +72,30 @@
    },
    "chosen_media": null,
    "new_visual_element": "[TITLE] 0.7% reaches the tumor",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 10.16,
+   "engine": "kokoro",
+   "voice": "am_onyx"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "Teaching Why Only 0.7% of a Cancer Nanoparticle Reaches the Tumor well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
    "t_start": 8.0,
    "estimated_duration_s": 9.0,
    "act": "COLD OPEN",
-   "narration_text": "The particle was engineered carefully. It carries a targeting ligand that binds receptors overexpressed on cancer cells. In cell culture, it kills at a fraction of the normal dose. So why does almost none of it arrive?",
+   "narration_text": "The particle was designed carefully. It carries a targeting ligand that binds receptors overexpressed on cancer cells. In cell culture it kills at a fraction of the normal dose.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -88,14 +119,17 @@
    "image_prompt": "B02, glass vial of clear nanoparticle solution and a syringe on a white laboratory bench, one vial and one syringe, horizontal composition, flat overhead light, no shadows, desaturated documentary photograph pinned to aged newsprint like an editorial clipping, no people, no text visible on label",
    "chosen_media": null,
    "new_visual_element": "[STILL-ai] the engineered particle — vial and syringe on bench",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 10.45,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B03",
    "t_start": 17.0,
    "estimated_duration_s": 9.0,
    "act": "THE QUESTION",
-   "narration_text": "Here's what we're figuring out. A tumor-targeted nanoparticle is injected into the bloodstream. The targeting ligand is working. And still, only 0.7 percent reaches the tumor. What is the body doing to the other 99.3?",
+   "narration_text": "So why does so little arrive? A tumor-targeted nanoparticle is injected into the bloodstream. The targeting ligand is working. And still, only 0.7 percent reaches the tumor.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -108,14 +142,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] gap formula question on screen",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 11.31,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B04",
    "t_start": 26.0,
    "estimated_duration_s": 10.0,
    "act": "THE PROBLEM",
-   "narration_text": "Here's why: between the syringe and the tumor cell, the dose is lost at every step. Not one step — five sequential steps. Fail at any of them and the particle delivers nothing. Each step is a separate barrier the particle has to clear.",
+   "narration_text": "Because between the syringe and the tumor cell, the dose is lost at every step. Not one step — five sequential steps. Fail at any of them and the particle delivers nothing.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -135,14 +172,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] five-step chain from injection to tumor cell",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 11.05,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B05",
    "t_start": 36.0,
    "estimated_duration_s": 10.0,
    "act": "THE MECHANISM",
-   "narration_text": "Step one: survive circulation. The liver and spleen are clearing foreign particles from the blood within minutes of injection. Most of the dose never gets a second chance — it's gone before it can reach the tumor.",
+   "narration_text": "Step one: survive circulation. The liver and spleen clear foreign particles from the blood within minutes. Most of the dose never gets a second chance.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -162,14 +202,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] drain 1 — circulation loss, liver/spleen clearance",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 9.64,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B06",
    "t_start": 46.0,
    "estimated_duration_s": 10.0,
    "act": "THE MECHANISM",
-   "narration_text": "Step two: escape the vessel. Particles must exit the bloodstream into tumor tissue through leaky vessel walls. Many degrade or get physically trapped before they can make that crossing.",
+   "narration_text": "Step two: escape the vessel. Particles must exit the bloodstream into tumor tissue through leaky vessel walls. Many degrade or get trapped before they can.",
    "shot": {
     "type": "COMPOSITE",
     "source": "own",
@@ -189,14 +232,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] drain 2 — vessel escape loss",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 10.11,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B07",
    "t_start": 56.0,
    "estimated_duration_s": 11.0,
    "act": "THE MECHANISM",
-   "narration_text": "Steps three, four, and five: penetrate the dense tumor matrix, get taken up by cells, and release the payload inside. Each step cuts the arriving dose again — and we end up at that 0.7 percent.",
+   "narration_text": "Steps three, four, and five: penetrate the dense tumor matrix, get taken up by cells, and release the payload inside. Each step cuts the arriving dose again.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -217,14 +263,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] drain 3-4-5 — funnel resolves to 0.7% trickle",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 10.4,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B08",
    "t_start": 67.0,
    "estimated_duration_s": 10.0,
    "act": "THE IMPLICATION",
-   "narration_text": "Here's the counterintuitive part. Adding a targeting ligand only helps at step four — cell uptake. A particle cleared from circulation in the first hour never reaches step four. The ligand never gets a chance to bind.",
+   "narration_text": "Adding a targeting ligand only helps at step four — cell uptake. A particle that fails step one, cleared from circulation in the first hour, never reaches step four.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -245,14 +294,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] targeting only addresses step 4 — early steps dominate loss",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 10.53,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B09",
    "t_start": 77.0,
    "estimated_duration_s": 9.0,
    "act": "THE IMPLICATION",
-   "narration_text": "The particle was not misbehaving. The targeting ligand was binding correctly. The delivery chain failed upstream — long before the ligand had any role. You can't fix a step-one problem with a step-four solution.",
+   "narration_text": "The particle was not misbehaving. The targeting ligand was binding correctly. The delivery chain failed upstream, long before the ligand had any role.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -265,14 +317,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] quote — targeting cannot fix an early-step failure",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 9.27,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B10",
    "t_start": 86.0,
    "estimated_duration_s": 12.0,
    "act": "THE EXAMPLE",
-   "narration_text": "Take 100 illustrative units — let's walk through where they go. Eighteen are cleared by spleen and liver in hour one. Fourteen more degrade in circulation. Twelve exit the vessel but cannot penetrate the tumor matrix. Fifty-five reach non-tumor tissue. One unit — 0.7 — reaches the tumor and releases payload.",
+   "narration_text": "Take 100 illustrative units. Eighteen are cleared by spleen and liver in hour one. Fourteen more degrade in circulation. Twelve exit the vessel but cannot penetrate the matrix. Fifty-five reach non-tumor tissue. One unit — 0.7 — reaches the tumor and releases payload.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -292,14 +347,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] 100-unit tracking example — two-column compare",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 19.25,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B11",
    "t_start": 98.0,
    "estimated_duration_s": 10.0,
    "act": "RECAP",
-   "narration_text": "A perfect targeting ligand solves one step of five. The funnel leaks everywhere upstream. Until those upstream steps are measured and fixed, 0.7 percent is the answer — not a flaw in the ligand, but a problem earlier in the chain.",
+   "narration_text": "A perfect targeting ligand solves one step of five. The funnel leaks everywhere upstream. Until those steps are measured and fixed, 0.7 percent is the answer.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -312,14 +370,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] endcard — question answered, topic named",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 9.892,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B12",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroSeries",
-   "narration_text": "This is part of the Cancer Nanomedicine series on Medhavy AI.",
+   "narration_text": "Part of the Cancer Nanomedicine series.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -331,7 +392,7 @@
      "version": "1",
      "props": {
       "seriesTitle": "Cancer Nanomedicine",
-      "tagline": "An AI-powered intelligent textbook series from Medhavy AI.",
+      "tagline": "",
       "githubSlug": "cancer-nanomedicine"
      },
      "rendered": {
@@ -341,14 +402,17 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 2.27,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B13",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Find the full course at medhavy.com.",
+   "narration_text": "Like and subscribe for more.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -360,8 +424,8 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@MedhavyAI",
-      "ctaText": "Explore the full course at medhavy.com"
+      "handle": "@NikBearBrown",
+      "ctaText": "Like and subscribe for more."
      },
      "rendered": {
       "out": "media/B13.mp4",
@@ -370,7 +434,10 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 1.52,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   }
  ]
 }

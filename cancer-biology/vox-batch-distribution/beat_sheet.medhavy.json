@@ -5,7 +5,7 @@
   "subtitle": "Why Nanoparticle Batches Can't Be Proved Identical Like Pills",
   "topic": "CANCER NANOMEDICINE",
   "purpose": "vox-explainer slate cut of Cancer Nanomedicine card 17. Source chapter: cancer-nanomedicine/chapters/11-characterization-manufacturing-and-regulatory-translation.md. Manim move: compare. One concept only: mean does not equal distribution, and the spread defines the product.",
-  "voice_id": "1sgY6Voq1aexKOB1IJ2D",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "clock": "narration (ElevenLabs) — durations below are word-count estimates until GATE 0 audio lock",
   "aspect_ratio": "16:9",
   "style_preset": "vox-editorial",
@@ -27,25 +27,40 @@
   "color_semantics": "TEAL #1F6F5C = narrow distribution / controlled / monodisperse / low PDI; CRIMSON #BF3339 = wide distribution / heterogeneous / high PDI / the product problem; never swap mid-film",
   "note": "Card exclusions honored: NO TEM artifact discussion, NO GMP facilities tour, NO olaratumab regulatory path, NO full characterization cascade, NO encapsulation efficiency parameters. One concept only: mean does not equal distribution, and the spread defines the product.",
   "total_estimated_duration_seconds": 194.8,
-  "audience": "MEDHAVY",
-  "derived_from": "beat_sheet.json",
+  "engine": "kokoro",
   "register": "Wonder",
-  "palette": "medhavy",
-  "outro_source": "AUTHOR.MD :: Medhavy.com",
-  "_variant_todo": [
-   "rewrite every beat narration_text in the Wonder register (voices/wonder/VOICE.md + MEDHAVY.md) — voice only, facts unchanged",
-   "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
-   "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
-   "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  "voice": "am_onyx",
+  "voice_kokoro": "am_onyx"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "This is Liam for Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Ciao, Medhavy",
+      "topic": "Same Average Size, Different Product",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "act": "COLD OPEN",
    "t_start": 0.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "Two injectable nanoparticles. Same cancer drug. Same lab. Both labeled one hundred nanometers. A regulator looks at the data and says they are not the same product. How is that possible?",
+   "narration_text": "Two injectable nanoparticles. Same cancer drug. Same lab. Both labeled one hundred nanometers. A regulator looks at the data and says they are not the same product.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -57,14 +72,30 @@
     "sub": "Why Batches Can't Be Proved Identical Like Pills"
    },
    "new_visual_element": "[TITLE] same label, different product",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 9.8,
+   "engine": "kokoro",
+   "voice": "am_onyx"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "Teaching Same Average Size, Different Product well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
    "act": "COLD OPEN",
    "t_start": 11.0,
    "estimated_duration_s": 13.0,
-   "narration_text": "A clinical-grade liposomal batch clears from a patient's bloodstream in forty-five minutes. The reference batch circulated for six hours. Both are labeled one hundred nanometers. The interesting part is that the average diameter is identical — something else entirely is driving the difference.",
+   "narration_text": "A clinical-grade liposomal batch clears from a patient's bloodstream in forty-five minutes. The reference batch circulated for six hours. Both are labeled one hundred nanometers. Something other than the average diameter is driving the difference.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -87,14 +118,17 @@
    "scene_description": "a close-up editorial illustration of two nearly-identical amber vials side by side, both labeled '100 nm', on aged newsprint ground, flat print treatment, desaturated, one vial subtly shadowed",
    "image_prompt": "B02, two amber glass pharmaceutical vials side by side on an aged newsprint surface, both labeled '100 nm', editorial flat print illustration style, desaturated, charcoal shadows, cream paper ground, scientific documentary aesthetic",
    "new_visual_element": "[PHOTO] two vials — same label, different behavior",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 14.24,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B03",
    "act": "THE QUESTION",
    "t_start": 24.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "Two batches of the same cancer nanoparticle measure the same average particle size. Regulators say they are not the same product. Here's the puzzle we need to work through: why isn't the average enough?",
+   "narration_text": "Two batches of the same cancer nanoparticle measure the same average particle size. Regulators say they are not the same product. Why isn't the average enough?",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -106,14 +140,17 @@
     "sub": "Why isn't the average enough?"
    },
    "new_visual_element": "[CARD] THE QUESTION on screen",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 9.22,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B04",
    "act": "THE PROBLEM",
    "t_start": 38.0,
    "estimated_duration_s": 12.0,
-   "narration_text": "For a small molecule, identity is binary. One defined chemical structure — the molecule either is that structure or it isn't. Batch B matches batch A or it doesn't. One measurement decides. That's the world we're used to thinking in.",
+   "narration_text": "For a small molecule, identity is binary. One defined chemical structure — the molecule is either that structure or it is not. Batch B matches batch A or it does not. One measurement decides.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -131,14 +168,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] one molecule = one point, binary identity",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 13.45,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B05",
    "act": "THE PROBLEM",
    "t_start": 50.0,
    "estimated_duration_s": 13.0,
-   "narration_text": "A nanoparticle is not a single structure. It's a population — a cloud of objects that differ in size, spread around a mean. The average diameter is one number pulled from that cloud. Here's why that matters: the cloud itself is the product, not the number.",
+   "narration_text": "A nanoparticle is not a single structure. It is a population — a cloud of objects that differ in size, spread around a mean. The average diameter is one number pulled from that cloud. The cloud itself is the product.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -156,14 +196,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] population cloud — mean is just one tick in the spread",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 13.98,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B06",
    "act": "THE MECHANISM",
    "t_start": 63.0,
    "estimated_duration_s": 15.0,
-   "narration_text": "Look at two batches. Both have a mean diameter of ninety-eight nanometers. But look at what the distributions actually look like. Batch A: a tight narrow spike. Batch B: a wide bell, stretched far in both directions. Same center point. Completely different populations.",
+   "narration_text": "Here are two batches. Both have a mean diameter of ninety-eight nanometers. But look at the distributions. Batch A: a tight narrow spike. Batch B: a wide bell, stretched far in both directions. Same center point. Completely different populations.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -183,14 +226,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] side-by-side histograms — teal narrow vs crimson wide, same gold mean tick",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 17.14,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B07",
    "act": "THE MECHANISM",
    "t_start": 78.0,
    "estimated_duration_s": 13.0,
-   "narration_text": "The number that captures this spread is called the polydispersity index, or PDI. A PDI near zero means the distribution is narrow and controlled — monodisperse. A PDI above roughly zero-point-two flags the kind of heterogeneity that becomes a regulatory problem.",
+   "narration_text": "The number that captures this spread is called the polydispersity index, or PDI. A PDI near zero means the distribution is narrow and controlled — monodisperse. A PDI above roughly zero-point-two flags problematic heterogeneity.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -209,14 +255,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] PDI number line — teal 0.07 vs crimson 0.31",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 15.73,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B08",
    "act": "THE MECHANISM",
    "t_start": 91.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "Here's what's actually happening inside a high-PDI batch: it's not one product. It's three products blended together. Small particles that clear from the bloodstream in minutes. Medium particles that behave as designed. Large particles that are immediately swallowed by the liver and spleen.",
+   "narration_text": "A high-PDI batch is not one product. It is three products blended together: small particles that clear from the bloodstream in minutes, medium particles that behave as designed, and large particles that are immediately swallowed by the liver and spleen.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -234,14 +283,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] three annotated regions in the wide distribution",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 15.41,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B09",
    "act": "THE IMPLICATION",
    "t_start": 105.0,
    "estimated_duration_s": 13.0,
-   "narration_text": "Those three populations have different pharmacokinetics — different clearance rates, different distribution patterns, different arrival at the tumor. When you report one average number, you average away all three behaviors. The average diameter matches. The drug delivery does not.",
+   "narration_text": "Those three populations have different pharmacokinetics — different rates of clearance, distribution, and arrival at the tumor. When you report one average number, you average away all three behaviors. The average diameter matches. The drug delivery does not.",
    "shot": {
     "type": "DOCUMENT",
     "source": "own",
@@ -254,14 +306,17 @@
     "highlighter": "#F5D061"
    },
    "new_visual_element": "[QUOTE] identical mean does not equal same product",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 14.65,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B10",
    "act": "THE IMPLICATION",
    "t_start": 118.0,
    "estimated_duration_s": 13.0,
-   "narration_text": "Matching the mean matches only the center point of a distribution. Matching the distribution matches the whole population — the circulation time, the clearance rate, the fraction that actually reaches the tumor. The distribution is the whole product. That's why one number isn't enough.",
+   "narration_text": "Matching the mean matches only the center point of a distribution. Matching the distribution matches the whole population — the circulation time, the clearance rate, the fraction that reaches the tumor. The distribution is the whole product.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -280,7 +335,10 @@
     }
    },
    "new_visual_element": "[GRAPHIC] match-mean vs match-distribution comparison",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 13.74,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B11",
@@ -307,14 +365,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] Batch A vs Batch B — illustrative example with delivery gap",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 33.04,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B12",
    "act": "RECAP",
    "t_start": 147.0,
    "estimated_duration_s": 12.0,
-   "narration_text": "Why isn't the average enough? Because a nanoparticle is a distribution, not a molecule. The mean is the center of a spread — and a high polydispersity index means that spread is wide, containing three distinct pharmacokinetic populations all averaged away by one number. Matching the distribution is what actually proves the product.",
+   "narration_text": "Why isn't the average enough? Because a nanoparticle is a distribution, not a molecule. The mean is the center of a spread — and a high polydispersity index means that spread is wide, containing three different pharmacokinetic populations, all averaged away by one number. Matching the distribution is what proves the product.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -326,14 +387,17 @@
     "sub": "CANCER NANOMEDICINE"
    },
    "new_visual_element": "[CARD] endcard — question answered, topic named",
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 20.619,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B13",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroSeries",
-   "narration_text": "This is part of the Cancer Nanomedicine series on Medhavy AI.",
+   "narration_text": "Part of the Cancer Nanomedicine series.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -345,7 +409,7 @@
      "version": "1",
      "props": {
       "seriesTitle": "Cancer Nanomedicine",
-      "tagline": "An AI-powered intelligent textbook series from Medhavy AI.",
+      "tagline": "",
       "githubSlug": "cancer-nanomedicine"
      },
      "rendered": {
@@ -355,14 +419,17 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 2.22,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B14",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Find the full course at medhavy.com.",
+   "narration_text": "Like and subscribe for more.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -374,8 +441,8 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@MedhavyAI",
-      "ctaText": "Explore the full course at medhavy.com"
+      "handle": "@NikBearBrown",
+      "ctaText": "Like and subscribe for more."
      },
      "rendered": {
       "out": "media/B14.mp4",
@@ -384,7 +451,10 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B14.mp3"
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 1.52,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   }
  ]
 }

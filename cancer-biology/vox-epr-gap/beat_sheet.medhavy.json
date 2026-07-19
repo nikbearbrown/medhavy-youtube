@@ -4,7 +4,7 @@
   "title": "Why the Tumor That Shrank in Mice Won't Shrink in Patients",
   "topic": "CANCER NANOMEDICINE",
   "purpose": "vox-explainer slate cut of Cancer Nanomedicine card 18. Source chapter: cancer-nanomedicine/chapters/12-clinical-strategy-and-the-gap-book.md. Mechanism: subcutaneous mouse xenograft is an EPR-maximum system; human solid tumors run EPR at variable-and-often-low.",
-  "voice_id": "1sgY6Voq1aexKOB1IJ2D",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "clock": "narration (ElevenLabs) — durations below are word-count estimates until GATE 0 audio lock",
   "aspect_ratio": "16:9",
   "style_preset": "vox-editorial",
@@ -19,25 +19,40 @@
   "color_semantics": "TEAL #1F6F5C = mouse xenograft / open EPR / good accumulation; CRIMSON #BF3339 = human desmoplastic tumor / blocked EPR / low accumulation. Never swapped mid-film.",
   "note": "Card exclusions honored: NO BIND-014 trial specifics, NO IFP derivation, NO stromal enzyme or mechanical disruption strategies, NO active vs passive targeting debate. One mechanism only: the mouse model runs EPR at max; patients run EPR at variable-and-often-low.",
   "total_estimated_duration_seconds": 199.29,
-  "audience": "MEDHAVY",
-  "derived_from": "beat_sheet.json",
+  "engine": "kokoro",
   "register": "Wonder",
-  "palette": "medhavy",
-  "outro_source": "AUTHOR.MD :: Medhavy.com",
-  "_variant_todo": [
-   "rewrite every beat narration_text in the Wonder register (voices/wonder/VOICE.md + MEDHAVY.md) — voice only, facts unchanged",
-   "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
-   "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
-   "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  "voice": "af_bella",
+  "voice_kokoro": "af_bella"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Hallo, Medhavy",
+      "topic": "Why the Tumor That Shrank in Mice Won't Shrink in Patients",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "act": "COLD OPEN",
    "t_start": 0.0,
    "estimated_duration_s": 10.5,
-   "narration_text": "Here's a puzzle worth sitting with. A targeted nanoparticle fills mouse tumors with drug. Give the same particle to patients with the same cancer — and it piles up in the liver instead.",
+   "narration_text": "A targeted nanoparticle fills mouse tumors with drug. In patients with the same cancer, the particles pile up in the liver instead.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -49,14 +64,30 @@
     "eyebrow": "CANCER NANOMEDICINE"
    },
    "new_visual_element": "[TITLE] eyebrow + split title, crimson underline on second line",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 7.94,
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "Teaching Why the Tumor That Shrank in Mice Won't Shrink in Patients well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
    "act": "COLD OPEN",
    "t_start": 10.5,
    "estimated_duration_s": 12.0,
-   "narration_text": "The preclinical data is striking. A docetaxel nanoparticle accumulates inside a subcutaneous mouse tumor. The mice respond. You would look at that data and think: this is working.",
+   "narration_text": "In the lab, the result is striking. A docetaxel nanoparticle accumulates in a subcutaneous mouse tumor. The mice respond. The preclinical data looks like a breakthrough.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -79,14 +110,17 @@
    "scene_description": "A researcher in a white coat holds up a mouse cage under fluorescent lab light; a glowing tumor visible on the flank of an immunocompromised mouse; cool clinical atmosphere, editorial desaturated treatment",
    "image_prompt": "B02, research scientist in white lab coat holding a small mouse cage under bright overhead fluorescent lab lighting, close view showing a small subcutaneous tumor on the mouse's flank glowing with faint fluorescent signal, dark background, cold sterile laboratory, editorial desaturated newsprint treatment, flat print reproduction",
    "new_visual_element": "[STILL·ai] mouse in lab, glowing tumor — the preclinical promise",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 10.4,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B03",
    "act": "COLD OPEN",
    "t_start": 22.5,
    "estimated_duration_s": 11.0,
-   "narration_text": "Then the same particle enters a phase two trial. Accumulation across the patient population is far lower and far more variable. Many lesions see almost none. Here's what's actually strange — the chemistry never changed.",
+   "narration_text": "Then the same particle enters a phase two clinical trial. Accumulation across the patient population is far lower and far more variable. Many lesions see almost none. The chemistry never changed.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -105,14 +139,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] tall teal bar vs short/variable crimson bars — accumulation contrast",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 13.22,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B04",
    "act": "THE QUESTION",
    "t_start": 33.5,
    "estimated_duration_s": 13.0,
-   "narration_text": "A cancer nanoparticle reliably delivered drug to tumors in mice. In patients with the same tumor type, it ended up mostly in the liver. The molecule was identical. We need to figure out why — because the answer changes how you think about the whole field.",
+   "narration_text": "A cancer nanoparticle reliably delivered drug to tumors in mice. In patients with the same tumor type, it mostly ended up in the liver. The molecule was identical. Why?",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -123,14 +160,17 @@
     "copy": "A cancer nanoparticle reliably delivered drug to tumors in mice. In patients with the same tumor type, it mostly ended up in the liver. The molecule was identical. Why?"
    },
    "new_visual_element": "[CARD] THE QUESTION on screen — gap formula",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 10.48,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B05",
    "act": "THE PROBLEM",
    "t_start": 46.5,
    "estimated_duration_s": 12.0,
-   "narration_text": "Here is why EPR works when it works. Tumor vasculature is leaky — fenestrations wide enough for nanoparticles to pass through. And lymphatics inside tumors are defective, so particles that enter don't drain away. Together, these let particles accumulate without any active targeting mechanism required.",
+   "narration_text": "Tumor vasculature is leaky — fenestrations wide enough to let nanoparticles through. Lymphatics are defective, so particles that enter don't drain away. Together, these let particles accumulate in tumors without any active targeting.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -148,14 +188,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] vessel fenestrations + particle accumulation schematic",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 14.94,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B06",
    "act": "THE PROBLEM",
    "t_start": 58.5,
    "estimated_duration_s": 12.0,
-   "narration_text": "This is the enhanced permeability and retention effect — EPR. It is real. It does work in the laboratory. The interesting part is why: subcutaneous mouse xenografts grow from cancer cell lines under the skin, where vessels are thin-walled, maximally leaky, and the tumor has no dense stroma pressing back.",
+   "narration_text": "This is the enhanced permeability and retention effect — EPR. It is real. It works in the laboratory. Subcutaneous mouse xenografts are grown from cancer cell lines in immunocompromised mice, under the skin, where vessels are thin-walled, maximally leaky, and the tumor has no dense stroma.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -178,14 +221,17 @@
    "scene_description": "Cross-sectional diagram-style illustration of a subcutaneous mouse xenograft tumor — thin, fenestrated blood vessels visible, loose extracellular matrix, small nanoparticles (dots) streaming through vessel walls into tumor tissue; schematic, editorial, desaturated",
    "image_prompt": "B06, schematic cross-section diagram of a subcutaneous mouse xenograft tumor, showing thin-walled blood vessels with wide gaps (fenestrations), loose extracellular matrix, small circular nanoparticles streaming through vessel walls into tumor parenchyma, clean scientific illustration style, editorial desaturated newsprint treatment, flat print reproduction, no text labels",
    "new_visual_element": "[STILL·ai] mouse xenograft cross-section — leaky vessels, loose matrix",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 20.19,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B07",
    "act": "THE MECHANISM",
    "t_start": 70.5,
    "estimated_duration_s": 11.0,
-   "narration_text": "Human solid tumors are genuinely different. Pancreatic and prostate cancers grow a dense fibrous scaffold — desmoplastic stroma. It compresses the microvessels from outside. The fenestrations close. EPR stops working. That's not a metaphor; it's a mechanical fact.",
+   "narration_text": "Human solid tumors are different. Pancreatic and prostate cancers grow a dense fibrous scaffold called desmoplastic stroma. It compresses the microvessels. It closes the fenestrations. EPR stops working.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -203,14 +249,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] fibrous strands compress vessel cross-section — EPR blocked",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 13.61,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B08",
    "act": "THE MECHANISM",
    "t_start": 81.5,
    "estimated_duration_s": 12.0,
-   "narration_text": "Here's where it gets strange. Human tumors also maintain high interstitial fluid pressure — a sustained outward flow from inside the tumor. Particles approaching the lesion are physically pushed away before they can accumulate. The tumor is actively defending itself against delivery.",
+   "narration_text": "And human tumors have high interstitial fluid pressure — a sustained outward flow from inside the tumor that physically pushes particles away from the lesion before they can accumulate.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -228,14 +277,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] outward pressure arrows deflecting incoming nanoparticles",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 10.21,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B09",
    "act": "THE MECHANISM",
    "t_start": 93.5,
    "estimated_duration_s": 13.0,
-   "narration_text": "The mouse model tested nanoparticle delivery under ideal EPR conditions. What patients actually present is EPR at its real-world average — highly variable between lesions, variable between patients, and often far lower than the preclinical model ever suggested it would be.",
+   "narration_text": "The mouse model tested nanoparticle delivery under ideal EPR conditions. Patients present EPR at its real-world average — which is highly variable between lesions, between patients, and often far lower than the preclinical model suggested.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -246,14 +298,17 @@
     "copy": "The mouse model runs EPR at maximum. Patients run EPR at variable — and often low."
    },
    "new_visual_element": "[CARD] section card — the core contrast stated",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 15.23,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B10",
    "act": "THE IMPLICATION",
    "t_start": 106.5,
    "estimated_duration_s": 12.0,
-   "narration_text": "The interesting part is what failed here. Not EPR itself. The experimental logic. A nanoparticle optimized inside a maximum-EPR system was never actually tested under the conditions it would face in patients. You validated the particle in the wrong world.",
+   "narration_text": "This is not a failure of the EPR concept. It is a failure of the experimental logic. A nanoparticle optimized in the maximum-EPR system is not being tested under the conditions it will face in patients.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -272,14 +327,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] EPR spectrum: mouse at maximum, patient scatter across variable range",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 12.62,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B11",
    "act": "THE IMPLICATION",
    "t_start": 118.5,
    "estimated_duration_s": 11.0,
-   "narration_text": "Particles that miss their tumor target don't just disappear — they accumulate in the liver and spleen by default, cleared by the immune cells that patrol those organs. The patient's healthy tissue receives the dose that was meant for the tumor.",
+   "narration_text": "Particles that miss their tumor target accumulate in the liver and spleen by default — cleared by the immune cells that patrol those organs. The patient's healthy tissue gets the dose the tumor was supposed to receive.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -298,14 +356,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] body silhouette — particles flood liver, trickle to tumor",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 11.73,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B12",
    "act": "THE EXAMPLE",
    "t_start": 129.5,
    "estimated_duration_s": 15.0,
-   "narration_text": "Let's make the gap concrete. Two tumor cross-sections, side by side. The xenograft: vessel fenestrations 200 nanometers wide — particles stream in, accumulating at 8 percent of injected dose per gram of tissue. These are illustrative numbers, but they capture the right order of magnitude.",
+   "narration_text": "To see the gap concretely: two tumor cross-sections, side by side. The xenograft shows vessel fenestrations 200 nanometers wide — nanoparticles stream in, accumulating at 8 percent of injected dose per gram of tissue. Illustrative numbers.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -323,14 +384,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] left panel: xenograft — wide fenestrations, particles streaming in, 8% ID/g",
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 16.9,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B13",
    "act": "THE EXAMPLE",
    "t_start": 144.5,
    "estimated_duration_s": 16.0,
-   "narration_text": "Now the human desmoplastic tumor. Stromal fibers compress the vessels to near-closure. The same particle accumulates at 0.3 percent of injected dose per gram. Same chemistry. Eight times less delivery, across the same diagnosis. Researchers call this interpatient EPR variability — and it's genuinely not what the mouse data prepared anyone to expect.",
+   "narration_text": "The human desmoplastic tumor cross-section shows stromal fibers compressing vessels to near-closure. The same particle accumulates at 0.3 percent of injected dose per gram. Same chemistry. Eight times less delivery, across the same diagnosis. The researchers label it interpatient EPR variability.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -348,14 +412,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] right panel: human tumor — compressed vessels, particles blocked, 0.3% ID/g",
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 20.06,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B14",
    "act": "RECAP",
    "t_start": 160.5,
    "estimated_duration_s": 12.0,
-   "narration_text": "The nanoparticle didn't fail. The model did. The subcutaneous xenograft is EPR at maximum — thin walls, no stroma, no outward pressure. The patient's tumor is EPR at its real average — compressed, fibrous, pushing back. Same molecule. Completely different world.",
+   "narration_text": "The nanoparticle didn't fail. The model did. The subcutaneous xenograft is EPR at maximum — thin walls, no stroma, no pressure. The patient's tumor is EPR at its real average — compressed, fibrous, pushing back. Same molecule. Different world.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -368,14 +435,17 @@
     "sub": "Same nanoparticle. Different biological world."
    },
    "new_visual_element": "[CARD] endcard — question answered, topic named",
-   "audio_file": "mp3/beat-B14.mp3"
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 17.926,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B15",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroSeries",
-   "narration_text": "This is part of the Cancer Nanomedicine series on Medhavy AI.",
+   "narration_text": "Part of the Cancer Nanomedicine series.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -387,7 +457,7 @@
      "version": "1",
      "props": {
       "seriesTitle": "Cancer Nanomedicine",
-      "tagline": "An AI-powered intelligent textbook series from Medhavy AI.",
+      "tagline": "",
       "githubSlug": "cancer-nanomedicine"
      },
      "rendered": {
@@ -397,14 +467,17 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B15.mp3"
+   "audio_file": "mp3/beat-B15.mp3",
+   "actual_duration_s": 2.27,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B16",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Find the full course at medhavy.com.",
+   "narration_text": "Like and subscribe for more.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -416,8 +489,8 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@MedhavyAI",
-      "ctaText": "Explore the full course at medhavy.com"
+      "handle": "@NikBearBrown",
+      "ctaText": "Like and subscribe for more."
      },
      "rendered": {
       "out": "media/B16.mp4",
@@ -426,7 +499,10 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B16.mp3"
+   "audio_file": "mp3/beat-B16.mp3",
+   "actual_duration_s": 1.52,
+   "engine": "kokoro",
+   "voice": "af_bella"
   }
  ]
 }

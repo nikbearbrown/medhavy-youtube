@@ -1,0 +1,419 @@
+{
+ "metadata": {
+  "slug": "vox-threshold-scattering-length-corrected",
+  "title": "Why a Threshold Bound State Makes the Scattering Length Diverge",
+  "topic": "QUANTUM MECHANICS",
+  "source": "quantum-mechanics-vol3/chapters/07-scattering-i-partial-waves.md",
+  "engine": "kokoro",
+  "voice_kokoro": "af_bella",
+  "audience": "Claude",
+  "register": "Wonder",
+  "palette": "claude",
+  "total_estimated_duration_seconds": 195,
+  "build": {
+   "at": "2026-07-18T21:28:59",
+   "cut": "master",
+   "filled": 15,
+   "of": 15,
+   "slates": [],
+   "skin_warnings": [
+    "B15: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro"
+   ]
+  },
+  "voice": "af_bella"
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Kumusta, Medhavy",
+      "topic": "Why a Threshold Bound State Makes the Scattering Length Diverge",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B01",
+   "act": "COLD OPEN",
+   "estimated_duration_s": 14,
+   "narration_text": "This is Liam, in for Bear. Tune an attractive interaction until a two-body bound state reaches zero binding energy. The zero-energy scattering length shoots through infinity and changes sign. But at any fixed nonzero collision energy, the cross-section stays finite.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "command": "Why does a threshold bound state make scattering length diverge without violating unitarity?",
+      "topic": "QUANTUM MECHANICS — THRESHOLD SCATTERING",
+      "segment": "The Scattering-Length Pole",
+      "greeting": "Merhaba, Liam",
+      "runningText": "separating the zero-energy limit from finite momentum…",
+      "output": [
+       "A threshold state creates a pole in the scattering length.",
+       "Finite momentum caps the cross-section at unitarity."
+      ],
+      "folderLabel": "@NikBearBrown",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 15.32,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B01.mp4",
+    "filled_by": "media",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "Teaching Why a Threshold Bound State Makes the Scattering Length Diverge well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "command": "Why does a threshold bound state make scattering length diverge without violating unitarity?",
+      "topic": "QUANTUM MECHANICS — THRESHOLD SCATTERING",
+      "segment": "The Scattering-Length Pole",
+      "greeting": "Merhaba, Liam",
+      "runningText": "separating the zero-energy limit from finite momentum…",
+      "output": [
+       "A threshold state creates a pole in the scattering length.",
+       "Finite momentum caps the cross-section at unitarity."
+      ],
+      "folderLabel": "@NikBearBrown",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B01.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B02",
+   "act": "QUESTION",
+   "estimated_duration_s": 13,
+   "narration_text": "How can a smooth change in well depth produce an infinite length? And why does plugging that length into four pi a squared appear to create an infinite target? The two questions require two different limits.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "separate"
+   },
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 11.24,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B02.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B03",
+   "act": "ZERO ENERGY",
+   "estimated_duration_s": 13,
+   "narration_text": "Outside a short-range potential, the zero-energy s-wave radial solution is a straight line proportional to r minus a sub s. Extrapolate it backward: the intercept defines the scattering length.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "extend"
+   },
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 11.84,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B03.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B04",
+   "act": "BOUND STATE",
+   "estimated_duration_s": 13,
+   "narration_text": "A shallow bound state outside the well falls like an exponential with decay constant kappa. As its binding energy approaches zero, kappa approaches zero and its spatial scale, one over kappa, becomes enormous.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "stretch"
+   },
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 12.59,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B04.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B05",
+   "act": "POLE",
+   "estimated_duration_s": 13,
+   "narration_text": "Near threshold, the scattering length tracks that large scale. On the bound side it becomes large and positive; across the threshold it reappears large and negative, associated with a virtual state. The pole marks the state crossing zero energy.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "transform"
+   },
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 13.78,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B05.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B06",
+   "act": "LOW ENERGY",
+   "estimated_duration_s": 12,
+   "narration_text": "Far enough from the pole, and at momentum small enough that k times the magnitude of a is much less than one, the distinguishable-particle s-wave cross-section approaches four pi a squared.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "derive"
+   },
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 11.05,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B06.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B07",
+   "act": "BREAKDOWN",
+   "estimated_duration_s": 13,
+   "narration_text": "But send a toward infinity while keeping k nonzero and that approximation destroys its own condition. You must retain the k dependence of the scattering amplitude instead of using four pi a squared.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "break"
+   },
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 12.2,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B07.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B08",
+   "act": "UNITARITY",
+   "estimated_duration_s": 13,
+   "narration_text": "Neglecting effective-range corrections, the s-wave result is four pi a squared divided by one plus k squared a squared. As a diverges, the cross-section saturates at four pi over k squared: the unitarity limit.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "cap"
+   },
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 13.12,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B08.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B09",
+   "act": "LIMITS",
+   "estimated_duration_s": 13,
+   "narration_text": "Now the apparent contradiction is gone. At fixed k, tune to resonance and get a finite unitarity-limited cross-section. Then lower k, and that ceiling grows without bound. The limits a to infinity and k to zero do not tell the same story when taken carelessly.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "order"
+   },
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 15.17,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B09.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B10",
+   "act": "FESHBACH",
+   "estimated_duration_s": 14,
+   "narration_text": "A magnetic Feshbach resonance implements the tuning with coupled channels. A molecular state in a closed channel is shifted across the open-channel threshold, producing a pole in a of B, often written a background times one minus Delta over B minus B zero.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "cross"
+   },
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 14.98,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B10.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B11",
+   "act": "MANY BODY",
+   "estimated_duration_s": 13,
+   "narration_text": "Experimenters use that pole to tune interactions, but infinity is not simply strongest possible in every sense. At unitarity the scattering is momentum limited, losses can grow, and many-body behavior depends on statistics, density, temperature, and range corrections.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "audit"
+   },
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 16.15,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B11.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B12",
+   "act": "BOUNDARY",
+   "estimated_duration_s": 12,
+   "narration_text": "The simple formulas assume low-energy elastic s-wave scattering by a short-range interaction. Identical particles change symmetry factors, inelastic channels make the scattering length complex, and effective range matters away from threshold.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "scope"
+   },
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 14.31,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B12.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B13",
+   "act": "YOUR TURN",
+   "estimated_duration_s": 13,
+   "narration_text": "Your turn. At fixed momentum k, let the scattering length grow without bound in four pi a squared over one plus k squared a squared. What finite value does the cross-section approach?",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "predict"
+   },
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 10.58,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B13.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B14",
+   "act": "ANSWER",
+   "estimated_duration_s": 11,
+   "narration_text": "Divide numerator and denominator by a squared. The one over a squared term vanishes, leaving four pi over k squared: the s-wave unitarity limit.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "reveal"
+   },
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 9.11,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B14.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B15",
+   "act": "OUTRO",
+   "estimated_duration_s": 5,
+   "narration_text": "Why a Threshold Bound State Makes the Scattering Length Diverge.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "fade"
+   },
+   "audio_file": "mp3/beat-B15.mp3",
+   "actual_duration_s": 4.14,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B15.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:28:59"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  }
+ ]
+}

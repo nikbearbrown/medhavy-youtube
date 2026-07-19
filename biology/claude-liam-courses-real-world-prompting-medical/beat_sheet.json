@@ -18,12 +18,13 @@
     "source": "Anthropic Courses — Real-World Prompting: Medical Applications",
     "topic": "PROMPT ENGINEERING · ANTHROPIC",
     "build": {
-      "at": "2026-07-17T00:31:41",
-      "cut": "review",
-      "filled": 7,
-      "of": 7,
+      "at": "2026-07-19T14:52:22",
+      "cut": "master",
+      "filled": 8,
+      "of": 8,
       "slates": [],
       "skin_warnings": [
+        "YTV01: palette=claude but the cold open is 'ClaudeVerdictArtifact' — COLD OPEN LAW wants ClaudeComposerAsk",
         "B06: palette=claude but the outro is 'LogoOutro' — OUTRO LAW wants ClaudeTitleOutro"
       ]
     }
@@ -60,7 +61,13 @@
           }
         }
       },
-      "estimated_duration_s": 22
+      "estimated_duration_s": 22,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/YTV01.mp4",
+        "filled_by": "media",
+        "at": "2026-07-19T14:52:22"
+      }
     },
     {
       "beat_id": "B00",
@@ -103,7 +110,7 @@
         "status": "VIDEO",
         "src": "media/B00.mp4",
         "filled_by": "media",
-        "at": "2026-07-17T00:31:41"
+        "at": "2026-07-19T14:52:22"
       }
     },
     {
@@ -128,7 +135,7 @@
         "status": "MANIM",
         "src": "manim/B01.mp4",
         "filled_by": "manim:B01_RoleCalibration",
-        "at": "2026-07-17T00:31:41"
+        "at": "2026-07-19T14:52:22"
       }
     },
     {
@@ -153,7 +160,7 @@
         "status": "MANIM",
         "src": "manim/B02.mp4",
         "filled_by": "manim:B02_UncertaintyEscalation",
-        "at": "2026-07-17T00:31:41"
+        "at": "2026-07-19T14:52:22"
       }
     },
     {
@@ -178,7 +185,7 @@
         "status": "MANIM",
         "src": "manim/B03.mp4",
         "filled_by": "manim:B03_FourGuardrails",
-        "at": "2026-07-17T00:31:41"
+        "at": "2026-07-19T14:52:22"
       }
     },
     {
@@ -222,7 +229,7 @@
         "status": "VIDEO",
         "src": "media/B04.mp4",
         "filled_by": "media",
-        "at": "2026-07-17T00:31:41"
+        "at": "2026-07-19T14:52:22"
       }
     },
     {
@@ -256,7 +263,7 @@
         "status": "VIDEO",
         "src": "media/B05.mp4",
         "filled_by": "media",
-        "at": "2026-07-17T00:31:41"
+        "at": "2026-07-19T14:52:22"
       }
     },
     {
@@ -302,7 +309,7 @@
         "status": "VIDEO",
         "src": "media/B06.mp4",
         "filled_by": "media",
-        "at": "2026-07-17T00:31:41"
+        "at": "2026-07-19T14:52:22"
       }
     }
   ]

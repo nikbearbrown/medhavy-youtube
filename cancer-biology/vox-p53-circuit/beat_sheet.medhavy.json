@@ -3,7 +3,7 @@
   "slug": "vox-p53-circuit",
   "title": "Why Cancer Cannot Read Its Own Death Instructions",
   "purpose": "vox-explainer slate cut of Cancer Biology candidate 05. Source chapter: cancer-biology/chapters/13-apoptosis-in-cancer-the-death-programs.md (p53 as transcriptional hinge only — no extrinsic pathway, no alternative death programs).",
-  "voice_id": "1sgY6Voq1aexKOB1IJ2D",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "topic": "CANCER BIOLOGY",
   "clock": "narration (ElevenLabs) — durations below are word-count estimates until GATE 0 audio lock",
   "aspect_ratio": "16:9",
@@ -26,19 +26,34 @@
   "color_semantics": "teal #1F6F5C = p53 wild-type / damage sensed / death executed / good path; crimson #BF3339 = p53 mutant / hub removed / damage ignored / bad path; gold = editor's-pen highlight (fill only, once per graphic); never swap mid-film",
   "note": "Card exclusions honored: NO p53 arrest vs senescence vs apoptosis choice mechanism, NO extrinsic pathway (FAS/TRAIL/DR5), NO necroptosis/ferroptosis/pyroptosis, NO venetoclax or BH3 mimetics, NO p53 tetramer or dominant-negative detail. Two-cell side-by-side (left = p53 WT, right = p53 mutant) is the through-line object. All illustrative numbers (500 dimers, 60 min, daughter cell count) labeled illustrative in FACTCHECK.",
   "total_estimated_duration_seconds": 245.32,
-  "audience": "MEDHAVY",
-  "derived_from": "beat_sheet.json",
+  "engine": "kokoro",
   "register": "Wonder",
-  "palette": "medhavy",
-  "outro_source": "AUTHOR.MD :: Medhavy.com",
-  "_variant_todo": [
-   "rewrite every beat narration_text in the Wonder register (voices/wonder/VOICE.md + MEDHAVY.md) — voice only, facts unchanged",
-   "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
-   "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
-   "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  "voice": "af_bella",
+  "voice_kokoro": "af_bella"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Namaste, Medhavy",
+      "topic": "Why Cancer Cannot Read Its Own Death Instructions",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "act": "COLD OPEN",
@@ -58,7 +73,23 @@
    },
    "chosen_media": null,
    "new_visual_element": "[TITLE] eyebrow CANCER BIOLOGY teal, title in ink",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 10.03,
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "Teaching Why Cancer Cannot Read Its Own Death Instructions well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
@@ -89,14 +120,17 @@
    "image_prompt": "B02, photomicrograph of human keratinocyte cell layer, stratified epidermis, one cell in apoptosis showing nuclear condensation and membrane blebbing, H&E or fluorescence, surrounded by healthy cells in an organized epithelial sheet, newsprint desaturated editorial treatment",
    "chosen_media": null,
    "new_visual_element": "[STILL] keratinocyte monolayer, one apoptotic cell shrinking",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 12.07,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B03",
    "act": "THE QUESTION",
    "t_start": 21.0,
    "estimated_duration_s": 12.0,
-   "narration_text": "Here's where it gets strange. A cell with the same five hundred dimers does not die. It copies those errors into S phase and hands two corrupted sets of instructions to two daughter cells. Why does the same damage trigger death in one cell and replication in another?",
+   "narration_text": "But here is a cell with the same five hundred dimers — and it does not die. It copies those errors into S phase, and hands two corrupted sets of instructions to two daughter cells. Why does the same damage trigger death in one cell and replication in another?",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -109,7 +143,10 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] THE QUESTION on screen and in narration",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 16.67,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B04",
@@ -136,14 +173,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] expected circuit: damage signal flows to death",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 13.09,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B05",
    "act": "THE PROBLEM",
    "t_start": 44.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "The damage sensors do fire. ATR and ATM detect the thymine dimers and activate — that part works. So why doesn't death follow? Something breaks the connection between detection and response.",
+   "narration_text": "The damage sensors do fire. ATR and ATM detect the thymine dimers and activate. That part works. So why doesn't death follow? What breaks the connection?",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -163,7 +203,10 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] sensors fire but the link to death is cut",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 9.2,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B06",
@@ -189,7 +232,10 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] p53 hub appears between sensor and death",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 16.25,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B07",
@@ -215,14 +261,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] p53 fans into PUMA, NOXA, BAX",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 16.61,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B08",
    "act": "THE MECHANISM",
    "t_start": 80.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "BAX proteins oligomerize — cluster together and insert into the mitochondrial outer membrane. Pores form. Cytochrome c escapes into the cytoplasm, assembles the apoptosome, and activates the caspases that dismantle the cell.",
+   "narration_text": "The effector proteins BAX oligomerize — cluster together and insert into the mitochondrial outer membrane. Pores form. Cytochrome c escapes into the cytoplasm, assembles the apoptosome, and activates the caspases that dismantle the cell.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -246,14 +295,17 @@
    "image_prompt": "B08, scientific illustration of mitochondrial outer membrane permeabilization, MOMP, BAX oligomers forming a pore in the outer membrane, cytochrome c molecules releasing into cytoplasm, apoptosome wheel assembly visible, clean diagram style, newsprint editorial desaturated treatment",
    "chosen_media": null,
    "new_visual_element": "[STILL] MOMP — BAX pores, cytochrome c release, apoptosome",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 16.74,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B09",
    "act": "THE MECHANISM",
    "t_start": 91.0,
    "estimated_duration_s": 12.0,
-   "narration_text": "The whole cascade — damage to p53 to PUMA to BCL-2 balance to MOMP to caspases — is the circuit. p53 is the hinge at its center. Remove the hinge, and the signal that enters the circuit on one side never reaches the mitochondria on the other.",
+   "narration_text": "The whole cascade — damage to p53 to PUMA to BCL-2 balance to MOMP to caspases — is the circuit. p53 is the hinge at its center. Remove the hinge, and the signal that entered the circuit on one side never reaches the mitochondria on the other.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -272,7 +324,10 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] full intact circuit, p53 at center",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 17.74,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B10",
@@ -299,14 +354,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] COLLAPSE — p53 hub removed, downstream goes dark",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 19.12,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B11",
    "act": "THE IMPLICATION",
    "t_start": 116.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "TP53 is the most frequently mutated gene in human cancer — lost in roughly half of all cancers. And here is why: it is the one step that converts irreparable damage into death. Knock it out and the lineage does not end. It drifts.",
+   "narration_text": "TP53 is the most frequently mutated gene in human cancer — lost in roughly half of all cancers. And this is exactly why: it is the one step that converts irreparable damage into death. Knock it out and the lineage does not end. It drifts.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -326,14 +384,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] TP53 frequency grid: ~50 of 100 squares crimson",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 16.38,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B12",
    "act": "THE IMPLICATION",
    "t_start": 127.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "Every cell division after the p53 loss is a division where one layer of the damage-detection contract is missing. The tissue keeps going. The errors accumulate. The lineage that should have ended is seeded instead.",
+   "narration_text": "Every cell division after the p53 loss is a division in which one layer of the damage-detection contract is missing. The tissue keeps going. The errors accumulate. The lineage that should have ended is seeded instead.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -353,14 +414,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] lineage fan grows, errors accumulate crimson",
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 13.14,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B13",
    "act": "THE EXAMPLE",
    "t_start": 137.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "Two cells, side by side. Both absorb five hundred UV-induced thymine dimers — illustrative. Left cell: p53 wild-type. p53 rises within minutes, transcribes PUMA and NOXA, BCL-2 guardians are overwhelmed, BAX inserts into the mitochondria. In roughly sixty minutes — illustrative — the cell is gone. One clean endpoint.",
+   "narration_text": "Here are two cells, side by side. Both absorb five hundred UV-induced thymine dimers — illustrative. Left: p53 wild-type. p53 rises within minutes, transcribes PUMA and NOXA, BCL-2 guardians are overwhelmed, BAX inserts into the mitochondria. In roughly sixty minutes — illustrative — the cell is gone. One clean endpoint.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -379,14 +443,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] left cell WT: cascade fires, cell dies in 60 min",
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 23.85,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B14",
    "act": "THE EXAMPLE",
    "t_start": 151.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "Right cell: p53 mutant. The same UV hit. The damage sensors fire. But p53 does not rise. PUMA and NOXA are absent. BCL-2 holds. The mitochondria stay closed. The cell enters S phase carrying five hundred unrepaired dimers — illustrative — and divides into two daughters, each inheriting a copy of the corrupted instructions.",
+   "narration_text": "Right: p53 mutant. The same UV hit. The damage sensors fire. But p53 does not rise. PUMA and NOXA are absent. BCL-2 holds. The mitochondria stay closed. The cell enters S phase with five hundred unrepaired dimers — illustrative — and divides into two daughter cells, each carrying a copy of the corrupted instructions.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -405,7 +472,10 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] right cell mutant: no cascade, S phase, two daughters",
-   "audio_file": "mp3/beat-B14.mp3"
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 23.82,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B15",
@@ -426,14 +496,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] endcard: question answered, CANCER BIOLOGY kicker",
-   "audio_file": "mp3/beat-B15.mp3"
+   "audio_file": "mp3/beat-B15.mp3",
+   "actual_duration_s": 16.904,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B16",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroSeries",
-   "narration_text": "This is part of the Cancer Biology series on Medhavy AI.",
+   "narration_text": "Part of the Cancer Biology series.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -445,7 +518,7 @@
      "version": "1",
      "props": {
       "seriesTitle": "Cancer Biology",
-      "tagline": "An AI-powered intelligent textbook series from Medhavy AI.",
+      "tagline": "",
       "githubSlug": "cancer-biology"
      },
      "rendered": {
@@ -455,14 +528,17 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B16.mp3"
+   "audio_file": "mp3/beat-B16.mp3",
+   "actual_duration_s": 2.17,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B17",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Find the full course at medhavy.com.",
+   "narration_text": "Like and subscribe for more.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -474,8 +550,8 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@MedhavyAI",
-      "ctaText": "Explore the full course at medhavy.com"
+      "handle": "@NikBearBrown",
+      "ctaText": "Like and subscribe for more."
      },
      "rendered": {
       "out": "media/B17.mp4",
@@ -484,7 +560,10 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B17.mp3"
+   "audio_file": "mp3/beat-B17.mp3",
+   "actual_duration_s": 1.49,
+   "engine": "kokoro",
+   "voice": "af_bella"
   }
  ]
 }

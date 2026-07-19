@@ -21,9 +21,56 @@
    "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
    "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
    "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  ],
+  "engine": "kokoro",
+  "voice_kokoro": "af_bella",
+  "build": {
+   "at": "2026-07-16T15:22:54",
+   "cut": "master",
+   "filled": 2,
+   "of": 15,
+   "slates": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11",
+    "B12",
+    "B13"
+   ],
+   "skin_warnings": []
+  },
+  "voice": "af_bella"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Selam, Medhavy",
+      "topic": "Why Telomere Shortening Is Both a Cancer Brake and a Cancer Accelerator",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "act": "COLD OPEN",
@@ -40,7 +87,31 @@
     "headline": "Why Telomere Shortening Is Both Brake and Accelerator"
    },
    "estimated_duration_s": 10.0,
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 12.5,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B01.mp4)",
+    "suggested": "suggested prompt: Every time a cell divides, its chromosome tips get shorter. Here's what's actually happening: that countdown was supposed to stop cancer. Instead, it selects fo"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "Teaching Why Telomere Shortening Is Both a Cancer Brake and a Cancer Accelerator well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
@@ -75,7 +146,18 @@
     "description": "Microscopy-style view of dividing epithelial cells, chromosome tips faintly visible, newsprint treatment."
    },
    "estimated_duration_s": 11.0,
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 13.38,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B02.mp4)",
+    "suggested": "suggested prompt: Picture a pre-cancerous epithelial lineage dividing for forty years. With every division, the telomeres — the protective caps on chromosomes — grow a little sho"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B03",
@@ -92,7 +174,18 @@
     "question": "Why does exhausting the cancer brake produce the most dangerous cancer cells?"
    },
    "estimated_duration_s": 13.0,
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 15.02,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B03.mp4)",
+    "suggested": "suggested prompt: Telomere shortening should stop cells from dividing — that's the tumor-suppressor logic. Here's where it gets strange: exhausting this brake produces cells that"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B04",
@@ -109,7 +202,18 @@
     "description": "A bar representing telomere length decreasing step by step across divisions, hitting a STOP line at the end. TEAL bars shortening to a CRIMSON threshold."
    },
    "estimated_duration_s": 12.0,
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 14.34,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B04.mp4)",
+    "suggested": "suggested prompt: Here is why this is supposed to work. Telomeres shorten with every replication cycle. When they reach a critical length, the cell should halt — a built-in limit"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B05",
@@ -126,7 +230,18 @@
     "description": "Two chromosomes (TEAL) lose their caps, fuse end-to-end (CRIMSON link), then break catastrophically during division. Arrow to CRIMSON labeled CRISIS."
    },
    "estimated_duration_s": 13.0,
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 17.9,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B05.mp4)",
+    "suggested": "suggested prompt: At the critical threshold, chromosome ends lose their protective caps. Chromosomes begin fusing end-to-end. When a fused chromosome is pulled apart during mitos"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B06",
@@ -143,7 +258,18 @@
     "label": "THE MECHANISM"
    },
    "estimated_duration_s": 4.0,
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 2.24,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B06.mp4)",
+    "suggested": "suggested prompt: Here is why the crisis is not the end."
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B07",
@@ -178,7 +304,18 @@
     "description": "Abstract funnel shape with many colored dots above (population entering crisis, mostly crimson dying) and almost none below (survivors). Newsprint treatment."
    },
    "estimated_duration_s": 11.0,
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 13.91,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B07.mp4)",
+    "suggested": "suggested prompt: Most cells entering crisis die. The chromosomal chaos triggers death signals they cannot overcome. Think of it as a population bottleneck — an enormous mortalit"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B08",
@@ -195,7 +332,18 @@
     "description": "From a field of CRIMSON dying cells, one TEAL node emerges at the bottom of a funnel, labeled TELOMERASE ACTIVE."
    },
    "estimated_duration_s": 11.0,
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 16.09,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B08.mp4)",
+    "suggested": "suggested prompt: The interesting part is what happens to that one-in-a-million cell. Rarely, a cell reactivates telomerase — the enzyme that rebuilds telomere ends. Its chromoso"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B09",
@@ -212,7 +360,18 @@
     "description": "A TEAL chromosome gains multiple CRIMSON marks representing rearrangements acquired during crisis, accumulating as labels appear."
    },
    "estimated_duration_s": 12.0,
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 15.72,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B09.mp4)",
+    "suggested": "suggested prompt: That survivor is not normal. During crisis, fused chromosomes broke and rejoined incorrectly — generating new chromosomal rearrangements. The survivor carries a"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B10",
@@ -229,7 +388,18 @@
     "description": "Population funnel: many CRIMSON cells above, nearly all disappear, one TEAL cell with rearrangement marks emerges at the bottom. GOLD highlight on survivor."
    },
    "estimated_duration_s": 14.0,
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 17.71,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B10.mp4)",
+    "suggested": "suggested prompt: Here is what the bottleneck actually selected for. This cell survived because it resisted every death signal the chaos threw at it. It stabilized broken chromos"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B11",
@@ -246,7 +416,18 @@
     "description": "Left column (TEAL): brake works, 99.9% of cells die. Right column (CRIMSON-then-TEAL): the survivor is immortal, rearranged, death-resistant."
    },
    "estimated_duration_s": 13.0,
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 14.25,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B11.mp4)",
+    "suggested": "suggested prompt: The tumor suppressor worked — it stopped nearly every cell. But the selection event it created tested every cell against death. The one that passed is the most "
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B12",
@@ -263,7 +444,18 @@
     "description": "A timeline: 40 years normal division, crisis zone with mass death marks (CRIMSON), one TEAL cell exiting at the right carrying rearrangement labels. Illustrative caption."
    },
    "estimated_duration_s": 22.0,
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 19.93,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B12.mp4)",
+    "suggested": "suggested prompt: Walk through this with me. Illustrative: an epithelial lineage divides for forty years. At generation fifty, telomeres hit three kilobases — the crisis threshol"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B13",
@@ -282,7 +474,18 @@
     "topic": "CANCER BIOLOGY"
    },
    "estimated_duration_s": 14.0,
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 14.78,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:22:54",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B13.mp4)",
+    "suggested": "suggested prompt: Telomere shortening is a brake that kills nearly everything. The cell that survives has been forged by the crisis — immortalized, rearranged, and selected speci"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B14",
@@ -311,7 +514,16 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B14.mp3"
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 4.01,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B14.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T15:22:54"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B15",
@@ -340,7 +552,16 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B15.mp3"
+   "audio_file": "mp3/beat-B15.mp3",
+   "actual_duration_s": 2.5,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B15.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T15:22:54"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   }
  ]
 }

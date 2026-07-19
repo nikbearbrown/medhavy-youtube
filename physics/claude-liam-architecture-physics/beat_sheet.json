@@ -10,7 +10,7 @@
     "audience": "Claude",
     "channel": "NikBearBrown",
     "build": {
-      "at": "2026-07-17T16:21:50",
+      "at": "2026-07-19T14:56:48",
       "cut": "master",
       "filled": 7,
       "of": 7,
@@ -51,7 +51,7 @@
         "status": "VIDEO",
         "src": "media/B00.mp4",
         "filled_by": "media",
-        "at": "2026-07-17T16:21:50"
+        "at": "2026-07-19T14:56:48"
       }
     },
     {
@@ -69,7 +69,7 @@
         "status": "STILL",
         "src": "media/BREF.png",
         "filled_by": "still",
-        "at": "2026-07-17T16:21:50"
+        "at": "2026-07-19T14:56:48"
       }
     },
     {
@@ -90,7 +90,7 @@
         "status": "MANIM",
         "src": "manim/B01.mp4",
         "filled_by": "manim:B01_ImageBlocked",
-        "at": "2026-07-17T16:21:50"
+        "at": "2026-07-19T14:56:48"
       }
     },
     {
@@ -111,7 +111,7 @@
         "status": "MANIM",
         "src": "manim/B02.mp4",
         "filled_by": "manim:B02_AirtimeCeiling",
-        "at": "2026-07-17T16:21:50"
+        "at": "2026-07-19T14:56:48"
       }
     },
     {
@@ -132,7 +132,7 @@
         "status": "MANIM",
         "src": "manim/B03.mp4",
         "filled_by": "manim:B03_ResultZips",
-        "at": "2026-07-17T16:21:50"
+        "at": "2026-07-19T14:56:48"
       }
     },
     {
@@ -167,7 +167,7 @@
         "status": "VIDEO",
         "src": "media/B04.mp4",
         "filled_by": "media",
-        "at": "2026-07-17T16:21:50"
+        "at": "2026-07-19T14:56:48"
       }
     },
     {
@@ -196,7 +196,7 @@
         "status": "VIDEO",
         "src": "media/B05.mp4",
         "filled_by": "media",
-        "at": "2026-07-17T16:21:50"
+        "at": "2026-07-19T14:56:48"
       }
     }
   ]

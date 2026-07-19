@@ -14,15 +14,17 @@
     "total_estimated_duration_seconds": 108,
     "note": "CLI spine: B00 INTRO (ClaudeComposerAsk cold open) · B01 PROBLEM · B02 ASK · B03 CODE (ClaudeCodeBeat, real script) · B04 OUTPUT (Manim: skin depth log-log + MRI markers) · B05 CHANGE (ClaudeComposerAsk, material comparison) · B06 OUTPUT (Manim: 3 materials) · B07 SUMMARY · B08 NEXT STEPS (handoff 'Your turn.') · B09 OUTRO (ClaudeTitleOutro @NikBearBrown). One required revision (B05→B06).",
     "build": {
-      "at": "2026-07-15T22:56:35",
+      "at": "2026-07-19T15:06:54",
       "cut": "master",
-      "filled": 8,
-      "of": 10,
+      "filled": 9,
+      "of": 11,
       "slates": [
         "B01",
         "B07"
       ],
-      "skin_warnings": []
+      "skin_warnings": [
+        "YTV01: palette=claude but the cold open is 'ClaudeVerdictArtifact' — COLD OPEN LAW wants ClaudeComposerAsk"
+      ]
     }
   },
   "beats": [
@@ -57,7 +59,13 @@
           }
         }
       },
-      "estimated_duration_s": 22
+      "estimated_duration_s": 22,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/YTV01.mp4",
+        "filled_by": "media",
+        "at": "2026-07-19T15:06:54"
+      }
     },
     {
       "beat_id": "B00",
@@ -96,7 +104,7 @@
         "status": "VIDEO",
         "src": "media/B00.mp4",
         "filled_by": "media",
-        "at": "2026-07-15T22:56:35"
+        "at": "2026-07-19T15:06:54"
       },
       "engine": "kokoro",
       "voice": "am_onyx"
@@ -119,7 +127,7 @@
         "status": "SLATE",
         "src": null,
         "filled_by": null,
-        "at": "2026-07-15T22:56:35",
+        "at": "2026-07-19T15:06:54",
         "needs": "YOU → 5–10s gen-AI clip → pantry (as B01.mp4)",
         "suggested": "suggested prompt: An MRI scanner runs at 64 megahertz. The room is lined with copper — millimeter-thick — to keep RF noise out. Gauss's law guarantees the field inside a conducto"
       }
@@ -156,7 +164,7 @@
         "status": "VIDEO",
         "src": "media/B02.mp4",
         "filled_by": "media",
-        "at": "2026-07-15T22:56:35"
+        "at": "2026-07-19T15:06:54"
       }
     },
     {
@@ -188,7 +196,7 @@
         "status": "VIDEO",
         "src": "media/B03.mp4",
         "filled_by": "media",
-        "at": "2026-07-15T22:56:35"
+        "at": "2026-07-19T15:06:54"
       }
     },
     {
@@ -213,7 +221,7 @@
         "status": "MANIM",
         "src": "manim/B04.mp4",
         "filled_by": "manim:B04_SkinDepth",
-        "at": "2026-07-15T22:56:35"
+        "at": "2026-07-19T15:06:54"
       }
     },
     {
@@ -248,7 +256,7 @@
         "status": "VIDEO",
         "src": "media/B05.mp4",
         "filled_by": "media",
-        "at": "2026-07-15T22:56:35"
+        "at": "2026-07-19T15:06:54"
       }
     },
     {
@@ -273,7 +281,7 @@
         "status": "MANIM",
         "src": "manim/B06.mp4",
         "filled_by": "manim:B06_Materials",
-        "at": "2026-07-15T22:56:35"
+        "at": "2026-07-19T15:06:54"
       }
     },
     {
@@ -294,7 +302,7 @@
         "status": "SLATE",
         "src": null,
         "filled_by": null,
-        "at": "2026-07-15T22:56:35",
+        "at": "2026-07-19T15:06:54",
         "needs": "YOU → 5–10s gen-AI clip → pantry (as B07.mp4)",
         "suggested": "suggested prompt: So: delta equals root of two rho over omega mu zero. At 64 megahertz, copper gives 8.4 micrometers. A one-millimeter sheet gives over a thousand decibels of att"
       }
@@ -331,7 +339,7 @@
         "status": "VIDEO",
         "src": "media/B08.mp4",
         "filled_by": "media",
-        "at": "2026-07-15T22:56:35"
+        "at": "2026-07-19T15:06:54"
       }
     },
     {
@@ -363,7 +371,7 @@
         "status": "VIDEO",
         "src": "media/B09.mp4",
         "filled_by": "media",
-        "at": "2026-07-15T22:56:35"
+        "at": "2026-07-19T15:06:54"
       },
       "engine": "kokoro",
       "voice": "am_onyx"

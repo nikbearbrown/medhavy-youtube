@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-architecture-physics/media/videos/scenes/2160p24/partial_movie_files/B02_AirtimeCeiling/4124586937_2572539777_2207487717.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-architecture-physics/media/videos/scenes/2160p24/partial_movie_files/B02_AirtimeCeiling/3090979338_307464300_1154919892.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-architecture-physics/media/videos/scenes/2160p24/partial_movie_files/B02_AirtimeCeiling/3090979338_625455762_1419950364.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-architecture-physics/media/videos/scenes/2160p24/partial_movie_files/B02_AirtimeCeiling/3090979338_924930633_949295299.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-architecture-physics/media/videos/scenes/2160p24/partial_movie_files/B02_AirtimeCeiling/3090979338_2412392128_4151302581.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-architecture-physics/media/videos/scenes/2160p24/partial_movie_files/B02_AirtimeCeiling/3090979338_4107171767_3448293316.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-architecture-physics/media/videos/scenes/2160p24/partial_movie_files/B02_AirtimeCeiling/3090979338_1194855417_3917479461.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-architecture-physics/media/videos/scenes/2160p24/partial_movie_files/B02_AirtimeCeiling/3090979338_4256523652_1522077.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-architecture-physics/media/videos/scenes/2160p24/partial_movie_files/B02_AirtimeCeiling/3090979338_816073434_3009763682.mp4'

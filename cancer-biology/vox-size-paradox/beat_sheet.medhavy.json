@@ -4,7 +4,7 @@
   "title": "The Smaller Nanoparticle That Accumulates Less but Cures More",
   "topic": "CANCER NANOMEDICINE",
   "purpose": "vox-explainer slate cut of Cancer Nanomedicine card 11. Source chapter: cancer-nanomedicine/chapters/02-tumor-transport-barriers.md (size-vs-distribution paradox only).",
-  "voice_id": "1sgY6Voq1aexKOB1IJ2D",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "clock": "narration (ElevenLabs) — durations below are word-count estimates until GATE 0 audio lock",
   "aspect_ratio": "16:9",
   "style_preset": "vox-editorial",
@@ -26,24 +26,39 @@
   },
   "note": "Card exclusions honored: NO IFP mechanism derivation (own video), NO four-barriers enumeration, NO size-shrinking or matrix-degrading strategies, NO EPR 10-50x claim, NO EPR history/Matsumura-Maeda naming. One counterintuitive contrast only: total accumulation does not predict cell killing — spatial distribution does.",
   "total_estimated_duration_seconds": 194.85,
-  "audience": "MEDHAVY",
-  "derived_from": "beat_sheet.json",
+  "engine": "kokoro",
   "register": "Wonder",
-  "palette": "medhavy",
-  "outro_source": "AUTHOR.MD :: Medhavy.com",
-  "_variant_todo": [
-   "rewrite every beat narration_text in the Wonder register (voices/wonder/VOICE.md + MEDHAVY.md) — voice only, facts unchanged",
-   "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
-   "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
-   "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  "voice": "am_onyx",
+  "voice_kokoro": "am_onyx"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "This is Liam for Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Bula, Medhavy",
+      "topic": "The Smaller Nanoparticle That Accumulates Less but Cures More",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "t_start": 0.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "Here's the puzzle: a larger nanoparticle loads more drug into a tumor than a smaller one. The smaller one cures more. How is that possible?",
+   "narration_text": "A larger nanoparticle loads more drug into a tumor than a smaller one. The smaller one cures more. Why?",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -56,13 +71,29 @@
    },
    "act": "COLD OPEN",
    "new_visual_element": "[CARD] title card — the paradox stated",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 6.64,
+   "engine": "kokoro",
+   "voice": "am_onyx"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "Teaching The Smaller Nanoparticle That Accumulates Less but Cures More well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
    "t_start": 11.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "Two mouse tumors. Same injected dose. The bigger particle — 150 nanometers — piles up at the tumor rim in higher numbers. Every whole-organ measurement says it wins.",
+   "narration_text": "Two mouse tumors. Same injected dose. The big particle — 150 nanometers — piles up at the tumor rim in higher numbers. Whole-organ measurement says it wins.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -86,13 +117,16 @@
    "image_prompt": "B02, histology cross-section of a spherical mouse tumor, bright fluorescent rim band showing nanoparticle accumulation, dark empty necrotic core, labeled scale bar, desaturated editorial newsprint treatment, flat print reproduction, archival science journal style",
    "act": "COLD OPEN",
    "new_visual_element": "[STILL-ai] tumor cross-section with glowing rim, dark core",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 10.68,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B03",
    "t_start": 25.0,
    "estimated_duration_s": 13.0,
-   "narration_text": "Here's where it gets strange. At day twenty-one, the 150-nanometer arm shrank only fifteen percent. The arm with fewer particles — the 30-nanometer arm — shrank seventy-two percent. More drug in the tumor. Less kill.",
+   "narration_text": "But at day twenty-one, the tumor in the 150-nanometer arm shrank only fifteen percent. The arm that got fewer particles — the 30-nanometer arm — shrank seventy-two percent. More drug in the tumor. Less kill.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -112,13 +146,16 @@
    },
    "act": "COLD OPEN",
    "new_visual_element": "[GRAPHIC] two tumor-shrink bars: crimson 15%, teal 72%",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 14.71,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B04",
    "t_start": 38.0,
    "estimated_duration_s": 12.0,
-   "narration_text": "A larger nanoparticle loads more drug into the tumor than a smaller one. The smaller one cures more. Let's figure out why.",
+   "narration_text": "A larger nanoparticle loads more drug into the tumor than a smaller one. The smaller one cures more. How?",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -130,13 +167,16 @@
    },
    "act": "THE QUESTION",
    "new_visual_element": "[CARD] gap formula on screen",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 6.64,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B05",
    "t_start": 50.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "Here's the naive argument. Tumor blood vessels are leaky — particles slip out through gaps in the walls. Impaired lymphatics can't drain them back, so they stay. Bigger particles benefit more from this retention. More retained should mean more drug delivered.",
+   "narration_text": "Here is the naive argument. Tumor blood vessels are leaky — particles slip out through gaps in their walls. Once outside, the impaired lymphatics cannot drain them back. So they stay. Bigger particles benefit more from this retention. More retained means more drug.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -156,13 +196,16 @@
    },
    "act": "THE PROBLEM",
    "new_visual_element": "[GRAPHIC] leaky vessel, particles escaping, impaired drain",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 17.97,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B06",
    "t_start": 64.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "The 150-nanometer particle achieves 6.2 percent of the injected dose per gram at the tumor rim. The 30-nanometer particle achieves only 2.1 percent. By total mass, the big particle wins. That's the expected conclusion: bigger is better.",
+   "narration_text": "The 150-nanometer particle achieves 6.2 percent of the injected dose per gram at the tumor rim. The 30-nanometer particle achieves only 2.1 percent. By total mass, the big particle wins. The naive conclusion: bigger is better.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -182,13 +225,16 @@
    },
    "act": "THE PROBLEM",
    "new_visual_element": "[GRAPHIC] two accumulation bars — crimson 6.2%, teal 2.1%",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 16.8,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B07",
    "t_start": 78.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "The interesting part is that total mass measured on the whole organ is not what kills cells. The tumor isn't a uniform bucket. It's a three-dimensional landscape with an edge and a core — and cancer cells live throughout.",
+   "narration_text": "But total mass measured on the whole organ is not what kills cells. The tumor is not a uniform bucket. It is a three-dimensional landscape with an edge and a core — and cells live throughout.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -212,13 +258,16 @@
    "image_prompt": "B07, schematic cross-section of a solid tumor sphere, three concentric zones labeled outer rim, matrix zone, and hypoxic core, stylized cancer cells distributed throughout all zones, scientific illustration desaturated newsprint treatment, editorial flat print",
    "act": "THE MECHANISM",
    "new_visual_element": "[STILL-ai] tumor cross-section with three concentric zones",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 11.23,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B08",
    "t_start": 92.0,
    "estimated_duration_s": 16.0,
-   "narration_text": "Here's why the physics turns against the big particle. Elevated fluid pressure inside the tumor drives flow outward — from core toward rim. A large particle diffuses slowly through the dense matrix and gets shoved back by that outward current. It piles up at the vessel wall and barely moves inward.",
+   "narration_text": "Outward pressure — elevated fluid pressure inside the tumor — drives fluid from the core toward the rim. A large particle diffuses slowly through the dense matrix and gets shoved back by that outward current. It piles up at the vessel wall and barely moves inward.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -238,13 +287,16 @@
    },
    "act": "THE MECHANISM",
    "new_visual_element": "[GRAPHIC] outward pressure arrows trap big particles at the rim",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 17.32,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B09",
    "t_start": 108.0,
    "estimated_duration_s": 16.0,
-   "narration_text": "A small particle diffuses faster. That same outward current is a smaller fraction of its motion, so it isn't stopped. Eighty percent of the 30-nanometer particles spread evenly through the tissue — reaching the core cells that the drug actually needs to find.",
+   "narration_text": "A small particle diffuses faster. The same outward current is a smaller fraction of its motion. Eighty percent of the 30-nanometer particles spread evenly through the tissue — reaching the core cells that the drug actually needs to find.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -264,13 +316,16 @@
    },
    "act": "THE MECHANISM",
    "new_visual_element": "[GRAPHIC] split compare: teal deep/even vs crimson rim-only",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 14.05,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B10",
    "t_start": 124.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "Think about which cells are hardest to kill. Core cells have been oxygen-starved for months — that selects for cells that survive stress and resist treatment. These are precisely the cells most likely to drive recurrence. And they're exactly where the 150-nanometer drug never went.",
+   "narration_text": "The worst-case tumor cells are in the core. They have been under oxygen starvation for months, which selects for cells that survive stress and resist treatment. These are the cells most likely to drive recurrence — and they are exactly where the 150-nanometer drug never went.",
    "shot": {
     "type": "DOCUMENT",
     "source": "own",
@@ -284,13 +339,16 @@
    },
    "act": "THE IMPLICATION",
    "new_visual_element": "[QUOTE] hypoxic core cells are the ones that matter",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 15.7,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B11",
    "t_start": 138.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "That's the paradox resolved. The 150-nanometer particle wins on the whole-organ assay — and loses in the tumor. Because accumulation at the rim is not delivery to cancer cells. Distribution beats total mass.",
+   "narration_text": "That is the paradox resolved. The 150-nanometer particle wins on the whole-organ assay. It loses in the tumor because accumulation at the rim is not delivery to cancer cells. Distribution beats total mass.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -310,13 +368,16 @@
    },
    "act": "THE IMPLICATION",
    "new_visual_element": "[GRAPHIC] verdict: distribution (teal) beats total mass (crimson)",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 13.4,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B12",
    "t_start": 152.0,
    "estimated_duration_s": 28.0,
-   "narration_text": "Here's the example worked through. Two mouse tumors. Same injected dose. The 150-nanometer arm achieves 6.2 percent injected dose per gram at the rim — high total accumulation. The 30-nanometer arm achieves only 2.1 percent total — but 80 percent of those particles distribute evenly through the core. At day 21, the 150-nanometer arm: 15 percent tumor volume reduction. The 30-nanometer arm: 72 percent. Same dose. More drug in the tumor, less kill. Distribution won.",
+   "narration_text": "Here is the example. Two mouse tumors. Each receives the same injected dose. The 150-nanometer arm achieves 6.2 percent injected dose per gram at the rim — high total accumulation. The 30-nanometer arm achieves only 2.1 percent total — but 80 percent of those particles are distributed evenly through the core. At day 21, the 150-nanometer arm shows 15 percent tumor volume reduction. The 30-nanometer arm: 72 percent. Same dose. More drug in the tumor, less kill. Distribution won.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -336,13 +397,16 @@
    },
    "act": "THE EXAMPLE",
    "new_visual_element": "[GRAPHIC] two-column compare table: all illustrative numbers",
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 35.42,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B13",
    "t_start": 180.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "The smaller nanoparticle accumulates less in total — and cures more. Here's why that's the right framing: kill depends on where the drug goes, not how much reaches the organ. Distribution beats total mass.",
+   "narration_text": "The smaller nanoparticle accumulates less in total — and cures more. Because kill depends on where the drug goes, not how much reaches the organ. Distribution beats total mass.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -356,14 +420,17 @@
    },
    "act": "RECAP",
    "new_visual_element": "[CARD] endcard — question answered",
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 10.588,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B14",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroSeries",
-   "narration_text": "This is part of the Cancer Nanomedicine series on Medhavy AI.",
+   "narration_text": "Part of the Cancer Nanomedicine series.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -375,7 +442,7 @@
      "version": "1",
      "props": {
       "seriesTitle": "Cancer Nanomedicine",
-      "tagline": "An AI-powered intelligent textbook series from Medhavy AI.",
+      "tagline": "",
       "githubSlug": "cancer-nanomedicine"
      },
      "rendered": {
@@ -385,14 +452,17 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B14.mp3"
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 2.22,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B15",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Find the full course at medhavy.com.",
+   "narration_text": "Like and subscribe for more.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -404,8 +474,8 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@MedhavyAI",
-      "ctaText": "Explore the full course at medhavy.com"
+      "handle": "@NikBearBrown",
+      "ctaText": "Like and subscribe for more."
      },
      "rendered": {
       "out": "media/B15.mp4",
@@ -414,7 +484,10 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B15.mp3"
+   "audio_file": "mp3/beat-B15.mp3",
+   "actual_duration_s": 1.44,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   }
  ]
 }

@@ -5,7 +5,7 @@
   "topic": "CANCER NANOMEDICINE",
   "source": "cancer-nanomedicine/chapters/10-photodynamic-and-photothermal-nanomedicine.md",
   "purpose": "vox-explainer slate cut of Cancer Nanomedicine candidate 09. The light-penetration ceiling of photodynamic therapy — formulation improvements cannot beat tissue optics.",
-  "voice_id": "1sgY6Voq1aexKOB1IJ2D",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "clock": "narration (ElevenLabs) — durations below are word-count estimates until GATE 0 audio lock",
   "aspect_ratio": "16:9",
   "style_preset": "vox-editorial",
@@ -27,25 +27,40 @@
   "color_semantics": "TEAL = cleared surface tumor / light reaching; CRIMSON = deeper tumor / light doesn't reach; GOLD = the physics ceiling",
   "note": "EXCLUSIONS: oxygen dependence requirement, PDT triad Venn, photothermal therapy, photoimmunotherapy, 5-ALA surgery. Keep ONLY: light stops at millimeters, formulation cannot beat physics.",
   "total_estimated_duration_seconds": 148.28,
-  "audience": "MEDHAVY",
-  "derived_from": "beat_sheet.json",
+  "engine": "kokoro",
   "register": "Wonder",
-  "palette": "medhavy",
-  "outro_source": "AUTHOR.MD :: Medhavy.com",
-  "_variant_todo": [
-   "rewrite every beat narration_text in the Wonder register (voices/wonder/VOICE.md + MEDHAVY.md) — voice only, facts unchanged",
-   "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
-   "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
-   "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  "voice": "af_bella",
+  "voice_kokoro": "af_bella"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Namaste, Medhavy",
+      "topic": "Why a Better Cancer Drug Can't Fix a Tumor Two Centimeters Deep",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "act": "COLD OPEN",
    "t_start": 0.0,
    "estimated_duration_s": 9.5,
-   "narration_text": "Surface tumor, two millimeters deep. Same drug, same dose, same patient. Cleared. Deeper tumor, fifteen millimeters. Untouched. Something other than the drug is setting the limit.",
+   "narration_text": "Surface tumor, two millimeters deep. Same drug, same dose, same patient. Cleared. Deeper tumor, fifteen millimeters. Untouched.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -58,14 +73,30 @@
    },
    "chosen_media": null,
    "new_visual_element": "[TITLE] surface cleared, deep tumor untouched — same drug",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 10.21,
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "Teaching Why a Better Cancer Drug Can't Fix a Tumor Two Centimeters Deep well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
    "act": "COLD OPEN",
    "t_start": 9.5,
    "estimated_duration_s": 9.0,
-   "narration_text": "The drug was designed precisely for this. A nanoparticle carrier that concentrates it ten times better in tumor tissue. It reached both tumors. Only one cleared. The interesting question is why.",
+   "narration_text": "The drug was designed for this. A nanoparticle carrier that concentrates it ten times better in tumor tissue. It reached both tumors. Only one cleared.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -89,14 +120,17 @@
    "image_prompt": "B02, fiber-optic endoscope delivering red light to esophageal tissue, clinical endoscopy procedure, illuminated tumor site visible through scope, medical setting, desaturated editorial treatment, flat print reproduction pinned to aged newsprint",
    "chosen_media": null,
    "new_visual_element": "[PHOTO] endoscopic fiber-optic illuminating tumor tissue",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 9.01,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B03",
    "act": "THE QUESTION",
    "t_start": 18.5,
    "estimated_duration_s": 9.0,
-   "narration_text": "The drug accumulates in the tumor at ten times normal concentration. The surface lesion at two millimeters clears. The lesion at fifteen millimeters does not. Here's the question — why can't better drug delivery fix this?",
+   "narration_text": "The drug accumulates in the tumor at ten times normal concentration. The surface lesion at two millimeters clears. The lesion at fifteen millimeters does not. Why can't better drug delivery fix this?",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -109,14 +143,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] gap formula — delivery works, depth doesn't",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 12.36,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B04",
    "act": "THE PROBLEM",
    "t_start": 27.5,
    "estimated_duration_s": 9.5,
-   "narration_text": "Here is why photodynamic therapy works when it works. The drug reaches the tumor and sits inert. Then a fiber-optic shines light on it. The light activates the drug. Without light, nothing happens — delivery alone is not enough.",
+   "narration_text": "Photodynamic therapy works like this. The drug reaches the tumor and sits inert. Then a fiber-optic shines light on it. The light activates the drug. Without light, nothing happens.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -136,14 +173,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] drug + light -> activated killing",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 11.0,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B05",
    "act": "THE PROBLEM",
    "t_start": 37.0,
    "estimated_duration_s": 9.0,
-   "narration_text": "So the delivery question becomes a light question. Can the light actually reach the tumor? That depends entirely on tissue — on how far light travels through flesh before it disappears. Chemistry can't change that.",
+   "narration_text": "So the delivery question becomes a light question. Can the light actually get there? That depends entirely on tissue — on how far light travels through flesh before it disappears.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -162,14 +202,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] light enters tissue — question: how far?",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 10.68,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B06",
    "act": "THE MECHANISM",
    "t_start": 46.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "Here is what tissue actually does to light. Red light at 630 nanometers — the wavelength used in photodynamic therapy — fades to nothing within a few millimeters. Tissue scatters it. Tissue absorbs it. The intensity collapses exponentially with depth. That's not a formulation problem. That's tissue optics.",
+   "narration_text": "Here is what tissue does to light. Red light at 630 nanometers — the wavelength used in photodynamic therapy — fades to nothing within a few millimeters. Tissue scatters it. Tissue absorbs it. The intensity collapses exponentially with depth.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -190,14 +233,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] depth ruler — light fades, cleared vs unreached tumors marked",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 15.6,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B07",
    "act": "THE MECHANISM",
    "t_start": 57.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "Engineers chose red and near-infrared light specifically because they penetrate furthest — this is the best window tissue offers. Even so, effective treatment depth is measured in millimeters. At most a centimeter under ideal conditions. That is the ceiling.",
+   "narration_text": "Engineers chose red and near-infrared light specifically because they penetrate furthest. This is the best window tissue offers. Even so, effective treatment depth is measured in millimeters — at most a centimeter under ideal conditions.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -218,14 +264,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] bar chart — light depth vs tumor depth, ceiling marked",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 15.31,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B08",
    "act": "THE IMPLICATION",
    "t_start": 67.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "No formulation change moves the ceiling. A nanoparticle that delivers the drug ten times more efficiently still delivers it to a depth the light cannot reach. You have solved the wrong problem. The ceiling is tissue optics — not chemistry. Better delivery doesn't help if light can't activate it.",
+   "narration_text": "No formulation change moves the ceiling. A nanoparticle that delivers the drug ten times more efficiently still delivers it to a depth the light cannot reach. You have solved the wrong problem. The ceiling is tissue optics — not chemistry.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -245,7 +294,10 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] 10x delivery, same ceiling — drug above, activation below",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 15.07,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B09",
@@ -272,14 +324,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] two lesions — same drug, cleared vs untouched, light intensity compared",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 29.99,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B10",
    "act": "RECAP",
    "t_start": 89.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "Better delivery can't fix a physics problem. Photodynamic therapy works — within the envelope that light can physically reach. Outside that envelope, no drug formulation changes the result. The ceiling isn't chemistry. It's the millimeters tissue allows.",
+   "narration_text": "Better delivery can't fix a physics problem. Photodynamic therapy works — within the envelope light can physically reach. Outside that envelope, no drug formulation helps. The ceiling isn't chemistry. It's the millimeters tissue allows.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -292,14 +347,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] endcard — physics ceiling, not chemistry",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 15.325,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B11",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroSeries",
-   "narration_text": "This is part of the Cancer Nanomedicine series on Medhavy AI.",
+   "narration_text": "Part of the Cancer Nanomedicine series.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -311,7 +369,7 @@
      "version": "1",
      "props": {
       "seriesTitle": "Cancer Nanomedicine",
-      "tagline": "An AI-powered intelligent textbook series from Medhavy AI.",
+      "tagline": "",
       "githubSlug": "cancer-nanomedicine"
      },
      "rendered": {
@@ -321,14 +379,17 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 2.17,
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B12",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Find the full course at medhavy.com.",
+   "narration_text": "Like and subscribe for more.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -340,8 +401,8 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@MedhavyAI",
-      "ctaText": "Explore the full course at medhavy.com"
+      "handle": "@NikBearBrown",
+      "ctaText": "Like and subscribe for more."
      },
      "rendered": {
       "out": "media/B12.mp4",
@@ -350,7 +411,10 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 1.52,
+   "engine": "kokoro",
+   "voice": "af_bella"
   }
  ]
 }

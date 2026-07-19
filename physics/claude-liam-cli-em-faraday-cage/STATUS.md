@@ -1,9 +1,10 @@
 # STATUS — claude-liam-cli-em-faraday-cage
 
-8/10 beats filled. Derived from beat_sheet.json — edit the sheet, not this file.
+9/11 beats filled. Derived from beat_sheet.json — edit the sheet, not this file.
 
 | beat | status | fill method | who | slot | suggested prompt / search |
 |---|---|---|---|---|---|
+| YTV01 | ✅ filled | remotion | pipeline | `media/YTV01.mp4` |  |
 | B00 | ✅ filled | remotion | pipeline | `media/B00.mp4` |  |
 | B01 | ⬜ needs-fill | ai-video-prompt | human | `media/B01.mp4` | An MRI scanner runs at 64 megahertz. The room is lined with copper — millimeter-thick — to |
 | B02 | ✅ filled | remotion | pipeline | `media/B02.mp4` |  |

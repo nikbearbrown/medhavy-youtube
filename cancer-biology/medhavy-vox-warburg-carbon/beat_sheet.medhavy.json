@@ -32,9 +32,57 @@
    "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
    "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
    "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  ],
+  "engine": "kokoro",
+  "voice_kokoro": "af_bella",
+  "build": {
+   "at": "2026-07-16T15:32:30",
+   "cut": "master",
+   "filled": 2,
+   "of": 16,
+   "slates": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11",
+    "B12",
+    "B13",
+    "B14"
+   ],
+   "skin_warnings": []
+  },
+  "voice": "af_bella"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Hola, Medhavy",
+      "topic": "Why Cancer Cells Run an Inefficient Engine on Purpose",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "act": "COLD OPEN",
@@ -53,7 +101,31 @@
     "sub": "the Warburg effect"
    },
    "new_visual_element": "[TITLE] eyebrow CANCER BIOLOGY · teal; title card",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 14.98,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B01.mp4)",
+    "suggested": "suggested prompt: [TITLE] eyebrow CANCER BIOLOGY · teal; title card"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_bella",
+   "narration_text": "Teaching Why Cancer Cells Run an Inefficient Engine on Purpose well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
@@ -79,7 +151,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] 2 vs 30 ATP bar chart — the apparent waste",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 16.26,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "PIPELINE → render animated_graphics.py scene B02_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B03",
@@ -97,7 +179,18 @@
     "copy": "A cancer cell should maximize ATP from glucose. Here is a tumor extracting only two — and excreting the rest as lactate. Why?"
    },
    "new_visual_element": "[CARD] THE QUESTION — on screen and in narration",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 16.49,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B03.mp4)",
+    "suggested": "suggested prompt: [CARD] THE QUESTION — on screen and in narration"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B04",
@@ -122,7 +215,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] quiescent cell: glucose flows all the way to CO2 and 30 ATP",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 16.51,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "PIPELINE → render animated_graphics.py scene B04_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B05",
@@ -156,7 +259,18 @@
    "scene_description": "a stylized cross-section of a cell mid-division, two daughter cells beginning to separate, rendered in the flat editorial collage style — cream ground, charcoal outlines; slow push-in toward the dividing interface",
    "image_prompt": "B05, editorial illustration of an animal cell undergoing division, two daughter cells separating, simplified flat cross-section diagram, charcoal-ink line art on aged newsprint, desaturated muted tones, no color gradients, no text, biological diagram aesthetic",
    "new_visual_element": "[STILL ai] dividing cell — the building requirement",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 15.59,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B05.mp4)",
+    "suggested": "suggested prompt: [STILL ai] dividing cell — the building requirement"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B06",
@@ -181,7 +295,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] 6 carbons enter, 6 leave as CO2 — nothing left to build",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 19.01,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "PIPELINE → render animated_graphics.py scene B06_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B07",
@@ -207,7 +331,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] carbon fate split — glycolytic trunk branching into nucleotides, serine, lipids, lactate",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 19.52,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "PIPELINE → render animated_graphics.py scene B07_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B08",
@@ -225,7 +359,18 @@
     "copy": "The lactate is not a failure. It is a choice."
    },
    "new_visual_element": "[CARD] pivot statement — the Warburg reframe",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 17.81,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B08.mp4)",
+    "suggested": "suggested prompt: [CARD] pivot statement — the Warburg reframe"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B09",
@@ -250,7 +395,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] two parallel streams — glucose for carbon, other fuels for energy",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 20.37,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "PIPELINE → render animated_graphics.py scene B09_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B10",
@@ -284,7 +439,18 @@
    "scene_description": "editorial illustration of a PET scan image — two lymph nodes blazing bright against a dark background, rendered as a flat graphic showing the anatomical cross-section; newsprint treatment, muted except for the bright focal spots; slow pull-back reveal",
    "image_prompt": "B10, editorial-style flat graphic of a PET scan cross-section image, two small lymph nodes glowing bright against a dark anatomical background, simplified medical illustration aesthetic, charcoal line-art body outline, two hot-spots circled, newsprint collage treatment, no text, no color gradients",
    "new_visual_element": "[STILL ai] PET scan — the clinical implication",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 19.88,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B10.mp4)",
+    "suggested": "suggested prompt: [STILL ai] PET scan — the clinical implication"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B11",
@@ -310,7 +476,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] FDG trap mechanism — glucose in, building + lactate out, tracer glows",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 18.84,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "PIPELINE → render animated_graphics.py scene B11_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B12",
@@ -339,7 +515,17 @@
     "note": "illustrative carbon allocation — numbers are pedagogical, not precise measurements"
    },
    "new_visual_element": "[GRAPHIC] one glucose traced across four destinations — the worked example",
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 20.44,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "PIPELINE → render animated_graphics.py scene B12_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B13",
@@ -365,7 +551,17 @@
     }
    },
    "new_visual_element": "[GRAPHIC] side-by-side comparison — division strategy vs complete oxidation",
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 19.58,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "PIPELINE → render animated_graphics.py scene B13_*"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B14",
@@ -385,7 +581,18 @@
     "sub": "the Warburg effect is a carbon-allocation strategy"
    },
    "new_visual_element": "[CARD] endcard — question answered, one line",
-   "audio_file": "mp3/beat-B14.mp3"
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 21.7,
+   "build": {
+    "status": "SLATE",
+    "src": null,
+    "filled_by": null,
+    "at": "2026-07-16T15:32:30",
+    "needs": "YOU → 5–10s gen-AI clip → pantry (as B14.mp4)",
+    "suggested": "suggested prompt: [CARD] endcard — question answered, one line"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B15",
@@ -414,7 +621,16 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B15.mp3"
+   "audio_file": "mp3/beat-B15.mp3",
+   "actual_duration_s": 4.01,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B15.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T15:32:30"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   },
   {
    "beat_id": "B16",
@@ -443,7 +659,16 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B16.mp3"
+   "audio_file": "mp3/beat-B16.mp3",
+   "actual_duration_s": 2.5,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B16.mp4",
+    "filled_by": "media",
+    "at": "2026-07-16T15:32:30"
+   },
+   "engine": "kokoro",
+   "voice": "af_bella"
   }
  ]
 }

@@ -4,7 +4,7 @@
   "title": "The Cancer Drug Where the Solvent, Not the Drug, Was the Danger",
   "topic": "CANCER NANOMEDICINE",
   "purpose": "vox-explainer slate cut of Cancer Nanomedicine card 16. Source chapter: cancer-nanomedicine/chapters/03-nanocarrier-platforms-liposomes-polymeric-and-albumin-particles.md (albumin-bound paclitaxel / Cremophor solvent mechanism only).",
-  "voice_id": "1sgY6Voq1aexKOB1IJ2D",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "clock": "narration (ElevenLabs) — durations below are word-count estimates until GATE 0 audio lock",
   "aspect_ratio": "16:9",
   "style_preset": "vox-editorial",
@@ -27,24 +27,39 @@
   "note": "Card exclusions honored: NO SPARC uptake hypothesis, NO liposome/PLGA platforms, NO three-benefit framework, NO manufacturing scale-up. One point only: the solvent was the problem; albumin removed it.",
   "manim_move": "drain",
   "total_estimated_duration_seconds": 274.41,
-  "audience": "MEDHAVY",
-  "derived_from": "beat_sheet.json",
+  "engine": "kokoro",
   "register": "Wonder",
-  "palette": "medhavy",
-  "outro_source": "AUTHOR.MD :: Medhavy.com",
-  "_variant_todo": [
-   "rewrite every beat narration_text in the Wonder register (voices/wonder/VOICE.md + MEDHAVY.md) — voice only, facts unchanged",
-   "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
-   "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
-   "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
-  ]
+  "voice": "am_onyx",
+  "voice_kokoro": "am_onyx"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "This is Liam for Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Selam, Medhavy",
+      "topic": "The Cancer Drug Where the Solvent, Not the Drug, Was the Danger",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "t_start": 0.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "A nurse wheels in the IV pole. The drug in that bag has worked against cancer for decades. But for years, the real danger wasn't the drug — it was what the drug was dissolved in.",
+   "narration_text": "A nurse wheels in the IV pole. The drug in that bag has worked against cancer for decades. But for years, the real danger in the bag was not the drug.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -58,13 +73,29 @@
    },
    "chosen_media": null,
    "new_visual_element": "[TITLE] the solvent was the danger",
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 9.38,
+   "engine": "kokoro",
+   "voice": "am_onyx"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "narration_text": "Teaching The Cancer Drug Where the Solvent, Not the Drug, Was the Danger well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold"
+   }
   },
   {
    "beat_id": "B02",
    "t_start": 11.0,
    "estimated_duration_s": 13.0,
-   "narration_text": "Paclitaxel is one of the most effective chemotherapy drugs ever developed. Here is why it works: it freezes the division machinery inside cancer cells. The cells cannot replicate. The drug does its job.",
+   "narration_text": "Paclitaxel is one of the most effective chemotherapy drugs ever developed. It destroys cancer cells by freezing their division machinery. It works.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -88,13 +119,16 @@
    "image_prompt": "B02, cancer patient in hospital bed with IV pole and infusion bag, nurse standing attentively, clinical oncology ward, natural window light from left, desaturated editorial newsprint treatment, flat print reproduction, no text overlay",
    "chosen_media": null,
    "new_visual_element": "[STILL] cancer patient receiving IV chemotherapy",
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 9.46,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B03",
    "t_start": 24.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "Here's the problem: paclitaxel is nearly insoluble in water. You can't just dissolve it in saline and push it into a vein. So formulators reached for a solvent called Cremophor EL — a castor-oil derivative that happens to dissolve the drug. That decision had consequences.",
+   "narration_text": "But paclitaxel is nearly insoluble in water. You cannot just dissolve it in saline and push it into a vein. To make it injectable at all, formulators turned to a solvent called Cremophor EL — a castor-oil derivative that happens to dissolve the drug.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -114,13 +148,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] drug clumps, won't dissolve in water",
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 15.91,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B04",
    "t_start": 38.0,
    "estimated_duration_s": 13.0,
-   "narration_text": "Paclitaxel works against cancer. And yet for decades it caused severe hypersensitivity reactions — bronchospasm, plummeting blood pressure — in a significant fraction of patients. The drug didn't change. So what did? And why did the reactions eventually stop?",
+   "narration_text": "Paclitaxel works against cancer. But for decades it caused severe hypersensitivity reactions — bronchospasm, plummeting blood pressure — in a significant fraction of patients. The drug didn't change. What did — and why did the reactions stop?",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -133,13 +170,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] THE QUESTION — on screen",
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 16.74,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B05",
    "t_start": 51.0,
    "estimated_duration_s": 15.0,
-   "narration_text": "Here's what's actually happening. Cremophor EL is not inert — it's a surfactant. It disrupts cell membranes and triggers immune responses. In patients receiving Taxol, mast cells activate. Histamine floods the system. Some patients develop bronchospasm. Some crash into severe hypotension. The drug wasn't the problem. The solvent was.",
+   "narration_text": "Cremophor EL is not inert. It is a surfactant — a molecule that disrupts cell membranes and triggers immune responses. In patients receiving Taxol — the conventional formulation — mast cells activate. Histamine floods the system. Some patients develop bronchospasm. Some crash into severe hypotension.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -158,13 +198,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] Cremophor triggers mast cell — bronchospasm cascade",
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 20.3,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B06",
    "t_start": 66.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "So every Taxol infusion came loaded with precautions. Steroids the night before. Antihistamines at the bedside. A nurse standing by with epinephrine. An infusion filter. Three hours of drip time. Not because the drug demanded it — because the solvent did. The drug was fine. The vehicle was the hazard.",
+   "narration_text": "So every Taxol infusion came loaded with precautions. Steroids the night before. Antihistamines at the bedside. A nurse standing by with epinephrine. An infusion filter. Three hours of drip time. Not because the drug demanded it — because the solvent did.",
    "shot": {
     "type": "DOCUMENT",
     "source": "own",
@@ -179,13 +222,16 @@
    "scene_description": "large serif quote card of the Taxol infusion protocol; gold highlighter sweeps 'epinephrine' as it is spoken",
    "chosen_media": null,
    "new_visual_element": "[DOCUMENT] Taxol protocol — epinephrine at bedside",
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 16.3,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B07",
    "t_start": 80.0,
    "estimated_duration_s": 13.0,
-   "narration_text": "Abraxane takes a completely different approach — and the interesting part is how simple the logic is. Instead of a solvent, it uses albumin: the most abundant protein in your blood. Albumin naturally binds and transports fatty acids and drugs. Mix paclitaxel with albumin under high pressure and the drug binds to the protein, forming a nanoparticle about 130 nanometers across.",
+   "narration_text": "Abraxane takes a completely different approach. Instead of a solvent, it uses albumin — the most abundant protein in your blood. Albumin naturally binds and transports fatty acids and drugs. Mix paclitaxel with albumin under high pressure and the drug binds to the protein, forming a nanoparticle about 130 nanometers across.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -205,13 +251,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] albumin protein docks drug molecules — nanoparticle forms",
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 21.97,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B08",
    "t_start": 93.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "No Cremophor. No solvent at all. The carrier is a normal blood protein — something the immune system encounters every second of every day. There's nothing to trigger a hypersensitivity reaction, because the thing that triggered it is gone. The immune system sees a protein it already knows.",
+   "narration_text": "No Cremophor. No solvent at all. The carrier is a normal blood protein — something the immune system sees every second of every day. There is nothing to trigger a hypersensitivity reaction, because the thing that triggered it is gone.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -231,13 +280,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] crimson solvent drains — teal albumin remains",
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 15.05,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B09",
    "t_start": 107.0,
    "estimated_duration_s": 13.0,
-   "narration_text": "The hypersensitivity rate drops from roughly ten percent with Taxol to under one percent with Abraxane. Premedication is eliminated or dramatically reduced. Infusion time drops from three hours to thirty minutes. Same drug. Different carrier. The solvent was the whole problem — and removing it changed everything.",
+   "narration_text": "The hypersensitivity rate drops from roughly ten percent with Taxol to under one percent with Abraxane. Premedication is eliminated or dramatically reduced. Infusion time drops from three hours to thirty minutes. Same drug. Different carrier. The solvent was the whole problem.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -257,13 +309,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] side-by-side bars: ~10% vs <1% hypersensitivity",
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 17.08,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B10",
    "t_start": 120.0,
    "estimated_duration_s": 13.0,
-   "narration_text": "Let's make this concrete. A nurse prepares two IV bags for the same paclitaxel dose in an ovarian cancer patient. Bag A is Taxol: six vials of Cremophor EL, a required steroid premedication, epinephrine drawn and capped at the bedside, a three-hour infusion through a filter.",
+   "narration_text": "Here is what that means in practice. A nurse prepares two IV bags for the same paclitaxel dose in an ovarian cancer patient. Bag A: Taxol. Six vials of Cremophor EL, a steroid premedication required, epinephrine at the bedside, three-hour infusion with a filter.",
    "shot": {
     "type": "STILL",
     "source": "ai",
@@ -287,13 +342,16 @@
    "image_prompt": "B10, two IV infusion bags side by side on a clinical pharmacy bench, one with a red label and one with a teal-green label, clinical preparation supplies in background, overhead lighting, desaturated editorial newsprint treatment, no text visible on bags",
    "chosen_media": null,
    "new_visual_element": "[STILL] two IV bags side by side on pharmacy bench",
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 19.36,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B11",
    "t_start": 133.0,
    "estimated_duration_s": 15.0,
-   "narration_text": "Bag B is Abraxane: albumin-bound paclitaxel, no premedication required, no filter, thirty-minute infusion. Same drug. The only difference is what it was dissolved in. The hypersensitivity doesn't disappear because paclitaxel got better. It disappears because the solvent that caused it is simply gone.",
+   "narration_text": "Bag B: Abraxane. Albumin-bound paclitaxel. No premedication required. No filter. Thirty-minute infusion. Same drug. The only difference is what it was dissolved in. The hypersensitivity does not disappear because the drug got better. It disappears because the solvent is gone.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -313,13 +371,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] two-column: Taxol checklist vs Abraxane checklist",
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 20.32,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B12",
    "t_start": 148.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "Here's where it gets strange: Abraxane is different from most nanoparticle stories. We usually think about nanoparticles accumulating at tumors, exploiting leaky blood vessels. That may play a role. But Abraxane's primary, undisputed benefit has nothing to do with tumor biology. It is a pure formulation fix.",
+   "narration_text": "This is what makes Abraxane different from most nanoparticle stories. We usually talk about nanoparticles accumulating at tumors, exploiting leaky blood vessels. That may play a role. But Abraxane's primary, undisputed benefit has nothing to do with tumor biology. It is a pure formulation fix.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -332,13 +393,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] section card — formulation fix",
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 18.39,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B13",
    "t_start": 162.0,
    "estimated_duration_s": 14.0,
-   "narration_text": "The drug that required a nurse with epinephrine and a three-hour clock became a routine thirty-minute infusion. Not because paclitaxel became safer. Because the dangerous thing it was dissolved in was replaced by something the body already knows and tolerates every day.",
+   "narration_text": "The drug that required a nurse with epinephrine and a three-hour clock became a routine thirty-minute infusion. Not because paclitaxel became safer. Because the dangerous thing it was dissolved in was replaced by something the body already knows.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -358,7 +422,10 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] timeline: Taxol era vs Abraxane era",
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 13.98,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B14",
@@ -384,13 +451,16 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] THE EXAMPLE — two bags, same drug, different risks",
-   "audio_file": "mp3/beat-B14.mp3"
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 38.22,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B15",
    "t_start": 194.0,
    "estimated_duration_s": 16.0,
-   "narration_text": "Paclitaxel works against cancer. It caused severe hypersensitivity for decades. The drug never changed. The solvent did. Cremophor was the hazard. Albumin removed it. The nanoparticle's contribution here is the simplest possible one: it let a drug reach patients without poisoning them first.",
+   "narration_text": "Paclitaxel works against cancer. It caused severe hypersensitivity for decades. The drug never changed. The solvent did. Cremophor was the hazard. Albumin removed it. The nanoparticle's contribution here is the simplest possible one: it dissolved a drug without poisoning the patient first.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -404,14 +474,17 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] endcard — the drug never changed, the solvent did",
-   "audio_file": "mp3/beat-B15.mp3"
+   "audio_file": "mp3/beat-B15.mp3",
+   "actual_duration_s": 18.158,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B16",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroSeries",
-   "narration_text": "This is part of the Cancer Nanomedicine series on Medhavy AI.",
+   "narration_text": "Part of the Cancer Nanomedicine series.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -423,7 +496,7 @@
      "version": "1",
      "props": {
       "seriesTitle": "Cancer Nanomedicine",
-      "tagline": "An AI-powered intelligent textbook series from Medhavy AI.",
+      "tagline": "",
       "githubSlug": "cancer-nanomedicine"
      },
      "rendered": {
@@ -433,14 +506,17 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B16.mp3"
+   "audio_file": "mp3/beat-B16.mp3",
+   "actual_duration_s": 2.22,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   },
   {
    "beat_id": "B17",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Find the full course at medhavy.com.",
+   "narration_text": "Like and subscribe for more.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -452,8 +528,8 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@MedhavyAI",
-      "ctaText": "Explore the full course at medhavy.com"
+      "handle": "@NikBearBrown",
+      "ctaText": "Like and subscribe for more."
      },
      "rendered": {
       "out": "media/B17.mp4",
@@ -462,7 +538,10 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B17.mp3"
+   "audio_file": "mp3/beat-B17.mp3",
+   "actual_duration_s": 1.52,
+   "engine": "kokoro",
+   "voice": "am_onyx"
   }
  ]
 }
