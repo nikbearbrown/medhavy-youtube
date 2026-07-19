@@ -1,0 +1,350 @@
+{
+  "slug": "cancer-nanomedicine-ch09-nucleic-acid-delivery",
+  "title": "Nucleic Acid and Gene Delivery",
+  "series": "Cancer Nanomedicine",
+  "source": "cancer-nanomedicine/chapters/09-nucleic-acid-and-gene-delivery.md",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
+  "accent": "#ea580c",
+  "fps": 30,
+  "clock": "audio-first",
+  "segments": [
+    {
+      "id": "S01",
+      "num": 1,
+      "total": 12,
+      "section": "HOOK",
+      "label": "01 / 12 · HOOK",
+      "dark": false,
+      "title": [
+        [
+          "THE siRNA WAS PERFECT. ",
+          false
+        ],
+        [
+          "THE TUMOR DIDN'T SHRINK.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip on\">silences target 90%</span><span class=\"arw\">→</span><span class=\"chip\">inject in vivo</span><span class=\"arw\">→</span><span class=\"chip warn\">tumor unchanged</span></div>\n           <p class=\"lead\">The sequence was right. The oncogene was the right target. The delivery failed at a single step: the cargo could not escape the endosome.</p>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The siRNA was perfect. In cell culture it silenced the target oncogene by ninety percent. Cells died. The team injected it into tumor-bearing mice and waited. The tumors did not shrink. Their first explanation: wrong target. They spent months hunting for a better one. They were diagnosing the wrong failure. The sequence was right. The oncogene was right. The delivery failed at a single step — the cargo could not escape the endosome.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 31.39
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "num": 2,
+      "total": 12,
+      "section": "THE STAKES",
+      "label": "02 / 12 · THE STAKES",
+      "dark": false,
+      "title": [
+        [
+          "THE SEQUENCE IS EASY. ",
+          false
+        ],
+        [
+          "TRANSPORT IS THE WORK.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">hours</div><div class=\"cap\">to design the sequence</div></div>\n           <div class=\"eq\">&ne;</div>\n           <div class=\"stat\"><div class=\"big on\">decades</div><div class=\"cap\">to solve delivery</div></div>\n         </div>\n         <p class=\"lead\">A nucleic acid drug is a passenger that cannot walk. The central discipline of this field is not sequence design — it is transport.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Two decades of this field's history are compressed into that opening story. The rate-limiting problem in nucleic acid therapeutics is not the sequence. It is the transport. A sequence can be designed in hours on a laptop. Getting that sequence to the cytosol of a tumor cell — in a living patient, after injection into the bloodstream — is the work. A nucleic acid drug is a passenger that cannot walk. This chapter is about every barrier between a needle and the cytosol, and how to tell a delivery failure from a biology failure before you spend months looking for a new target.",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 36.36
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "num": 3,
+      "total": 12,
+      "section": "THE DOSE-LOSS FUNNEL",
+      "label": "03 / 12 · THE DOSE-LOSS FUNNEL",
+      "dark": false,
+      "title": [
+        [
+          "FIVE BARRIERS. ",
+          false
+        ],
+        [
+          "ONE RATE-LIMITING NECK.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\">\n           <span class=\"chip\">injected dose</span><span class=\"arw\">&darr;</span>\n           <span class=\"chip\">survive nucleases</span><span class=\"arw\">&darr;</span>\n           <span class=\"chip\">extravasate</span><span class=\"arw\">&darr;</span>\n           <span class=\"chip\">endocytosis</span><span class=\"arw\">&darr;</span>\n           <span class=\"chip on\">endosomal escape ~1-2%</span>\n         </div>\n         <p class=\"lead\">RNA and DNA are large, negatively charged, and degraded by nucleases. Bare nucleic acids in blood reach zero therapeutically active fraction before anything useful can happen.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The right mental model for this problem is a dose-loss funnel. Of the amount injected, a fraction survives nuclease degradation and renal clearance. Of that, a fraction extravasates from blood vessels into the tumor. Of that, a fraction is taken up by tumor cells through endocytosis. And of that, a fraction escapes the endosome into the cytosol before the endosome matures into a lysosome and its contents are digested. Published estimates for that last step put the fraction of internalized material that reaches the cytosol in the low single digits. That is the narrowest point in the entire funnel — and the place where most delivery failures actually live.",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 42.17
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "num": 4,
+      "total": 12,
+      "section": "THE LIPID NANOPARTICLE",
+      "label": "04 / 12 · THE LIPID NANOPARTICLE",
+      "dark": false,
+      "title": [
+        [
+          "FOUR COMPONENTS. ",
+          false
+        ],
+        [
+          "ONE IONIZABLE TRICK.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part hot\"><b>IONIZABLE LIPID</b><span>pKa between blood pH and endosomal pH — the pH-sensitive lock</span></div>\n           <div class=\"cell-part\"><b>STRUCTURAL PHOSPHOLIPID</b><span>bilayer scaffold</span></div>\n           <div class=\"cell-part\"><b>CHOLESTEROL</b><span>fills gaps, stabilizes, improves uptake</span></div>\n           <div class=\"cell-part\"><b>PEG-LIPID</b><span>coats surface, resists protein adsorption, extends circulation</span></div>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The vehicle that solved the delivery problem — not perfectly, but well enough to produce approved drugs and vaccines at global scale — is the lipid nanoparticle. A standard LNP contains four components. A structural phospholipid, cholesterol, a PEG-lipid that coats the surface and extends circulation time, and the functional heart of the entire mechanism: the ionizable lipid. An ionizable lipid has an amine head group with a pKa designed to sit between blood pH and endosomal pH. At blood pH of seven point four, the amine is neutral — the particle stays in circulation. When the endosome acidifies to pH five or six, the ionizable lipid gains a positive charge — and that charge switch is what triggers endosomal escape.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 50.34
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "num": 5,
+      "total": 12,
+      "section": "pH-TRIGGERED ESCAPE",
+      "label": "05 / 12 · pH-TRIGGERED ESCAPE",
+      "dark": false,
+      "title": [
+        [
+          "NEUTRAL IN BLOOD. ",
+          false
+        ],
+        [
+          "CHARGED IN THE ENDOSOME.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\">\n           <span class=\"chip\">pH 7.4 — neutral</span><span class=\"arw\">&rarr;</span>\n           <span class=\"chip\">endocytosed</span><span class=\"arw\">&rarr;</span>\n           <span class=\"chip on\">pH 5–6 — protonated (+)</span><span class=\"arw\">&rarr;</span>\n           <span class=\"chip on\">membrane disruption &rarr; escape</span>\n         </div>\n         <p class=\"lead\">The ionizable lipid is a pH-sensitive lock that only opens inside the endosome. The MC3 lipid in Onpattro, the Moderna and Pfizer-BioNTech vaccine lipids — all iterations on this design.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Without the ionizable lipid's pH-responsive charge switch, the particle would enter the endosome and stay there, its cargo eventually digested. At neutral blood pH, the particle is largely uncharged — it resists protein sticking and stays in circulation. When the endosome acidifies, the ionizable lipid protonates and gains positive charge. The now-cationic lipids interact electrostatically with the anionic lipids in the endosomal membrane, disrupting the bilayer and releasing the cargo into the cytosol. This is endosomal escape. The pH-triggered transition is what separates an LNP from a liposome carrying the same cargo. The MC3 lipid in Onpattro, the lipids in the COVID-19 vaccines — all iterations on this same basic design.",
+          "audio_file": "audio/S05.mp3",
+          "actual_duration_s": 51.78
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "num": 6,
+      "total": 12,
+      "section": "THE CARGOES",
+      "label": "06 / 12 · THE CARGOES",
+      "dark": false,
+      "title": [
+        [
+          "THREE CARGOES. ",
+          false
+        ],
+        [
+          "THREE DURATIONS OF ACTION.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>siRNA</b><span>directs RISC to destroy target mRNA — transient silencing, reversible, requires re-dosing (Onpattro every 3 weeks)</span></div>\n           <div class=\"wire\"><b>mRNA</b><span>instructs ribosomes to make a protein — transient expression, no genomic integration, enables personalized neoantigen vaccines</span></div>\n           <div class=\"wire\"><b>CRISPR-Cas9</b><span>cuts DNA at a specified location — permanent edit, all daughter cells carry the change, insufficient delivery leaves unedited cells to repopulate</span></div>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The LNP vehicle is cargo-agnostic — it can carry different nucleic acid payloads with different mechanisms and different durations of action. siRNA directs the cell's RNA interference machinery to destroy a specific messenger RNA. Silencing is transient and reversible — re-dosing is required. Onpattro, the first approved siRNA drug, is administered every three weeks for life. mRNA instructs ribosomes to synthesize a protein. The effect is transient and non-integrating, which makes the platform ideal for personalized neoantigen cancer vaccines. CRISPR-Cas9 cuts DNA at a specified location and produces a permanent edit — one successful editing event in a cell persists in all its daughters.",
+          "audio_file": "audio/S06.mp3",
+          "actual_duration_s": 49.27
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "num": 7,
+      "total": 12,
+      "section": "mRNA AT SCALE",
+      "label": "07 / 12 · mRNA AT SCALE",
+      "dark": false,
+      "title": [
+        [
+          "BILLIONS OF DOSES. ",
+          false
+        ],
+        [
+          "ONE PLATFORM PROVEN.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">~13B</div><div class=\"cap\">COVID-19 mRNA doses administered</div></div>\n         </div>\n         <div class=\"callout\">That infrastructure, regulatory experience, and manufacturing capacity directly accelerated cancer mRNA vaccine development.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "At the largest scale in history, LNP-delivered mRNA vaccines for COVID-19 demonstrated that the platform works at planetary scope. Billions of doses manufactured, administered, and monitored for safety. This was simultaneously a proof of the manufacturing technology and a massive demonstration that LNP-mRNA delivery is safe enough for prophylactic administration to healthy people. The infrastructure, regulatory experience, and manufacturing capacity this created directly accelerated cancer mRNA vaccine development. In oncology, the most active application is personalized neoantigen vaccines — the patient's tumor is sequenced, private neoantigens are identified, and mRNA encoding those neoantigens is formulated in LNPs and administered within weeks of tumor sequencing.",
+          "audio_file": "audio/S07.mp3",
+          "actual_duration_s": 53.59
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "num": 8,
+      "total": 12,
+      "section": "CRISPR IN VIVO vs EX VIVO",
+      "label": "08 / 12 · CRISPR IN VIVO vs EX VIVO",
+      "dark": false,
+      "title": [
+        [
+          "CASGEVY WORKS — ",
+          false
+        ],
+        [
+          "AND WHAT IT DOES NOT SOLVE.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"balance\">\n           <div class=\"pan surv\"><b>Ex vivo editing</b><span>cells removed, edited in a dish, returned — delivery trivially solved — Casgevy approved 2023</span></div>\n           <div class=\"fulcrum\">&ne;</div>\n           <div class=\"pan die\"><b>In vivo editing</b><span>CRISPR components to cells inside patient — same dose-loss funnel — solid tumors substantially harder</span></div>\n         </div>\n         <p class=\"lead\">Casgevy's approval is not evidence that in vivo solid-tumor CRISPR editing is ready. The delivery problem was bypassed, not solved.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The first approved CRISPR therapy, Casgevy, received FDA approval in late 2023 for sickle cell disease. It works. It produces durable, potentially curative increases in fetal hemoglobin. It is a genuine clinical achievement. But it works by ex vivo editing: hematopoietic stem cells are removed from the patient, edited in a laboratory dish — bypassing every barrier the bloodstream imposes — and the edited cells are returned after the patient's own bone marrow is cleared. The delivery problem is trivially solved because the cells are outside the body. Casgevy's approval is sometimes cited as evidence that CRISPR therapy is ready for broad in vivo application. It is not. In vivo editing of solid tumors faces the same dose-loss funnel as any other nucleic acid, with the additional burden that permanent editing requires reaching enough cells.",
+          "audio_file": "audio/S08.mp3",
+          "actual_duration_s": 56.66
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "num": 9,
+      "total": 12,
+      "section": "VIRAL DELIVERY",
+      "label": "09 / 12 · VIRAL DELIVERY",
+      "dark": false,
+      "title": [
+        [
+          "WHEN LNPs ARE NOT ",
+          false
+        ],
+        [
+          "THE RIGHT ANSWER.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>LENTIVIRAL VECTORS</b><span>integrate permanently — CAR-T manufacturing — integration near proto-oncogenes caused leukemia in X-SCID trials</span></div>\n           <div class=\"wire\"><b>AAV</b><span>episomal, strong safety record, ~4.7 kb payload limit, pre-existing immunity common — approved for SMA, hemophilia B</span></div>\n           <div class=\"wire\"><b>ADENOVIRAL VECTORS</b><span>large payload, highly immunogenic — ended for gene replacement after 1999 Gelsinger death — immunogenicity is a feature in oncolytic virotherapy (T-VEC)</span></div>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Lipid nanoparticles have no integration risk, are scalable, allow re-dosing, and carry flexible RNA payloads. They are not always the best choice. For applications requiring durable, long-term protein expression, transient mRNA delivery requires repeated administration indefinitely. Lentiviral vectors integrate permanently into the host genome — the property that makes them useful for CAR-T manufacturing, and the property that caused leukemia in the X-SCID trials. AAV persists as episomes in post-mitotic cells and carries a payload limit of about four point seven kilobases. Adenoviral vectors provoke strong immune responses — which ended their use in gene replacement therapy, but is actually a feature in oncolytic virotherapy, as in T-VEC for melanoma. The vehicle choice is application-specific, not a ranking from worse to better.",
+          "audio_file": "audio/S09.mp3",
+          "actual_duration_s": 56.94
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "num": 10,
+      "total": 12,
+      "section": "DIAGNOSTIC DISCIPLINE",
+      "label": "10 / 12 · DIAGNOSTIC DISCIPLINE",
+      "dark": false,
+      "title": [
+        [
+          "MEASURE DELIVERY FIRST. ",
+          false
+        ],
+        [
+          "THEN BLAME THE BIOLOGY.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\">\n           <span class=\"chip on\">measure cytosolic delivery</span><span class=\"arw\">&rarr;</span>\n           <span class=\"chip\">delivery confirmed?</span><span class=\"arw\">&rarr;</span>\n           <span class=\"chip\">then change biology</span>\n         </div>\n         <div class=\"flow\" style=\"margin-top:14px\">\n           <span class=\"chip warn\">delivery failed?</span><span class=\"arw\">&rarr;</span>\n           <span class=\"chip warn\">fix the particle</span><span class=\"arw\">&rarr;</span>\n           <span class=\"chip warn\">don't change both at once</span>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The opening case's team spent months hunting for a new target when their original target was correct. The diagnostic error was failing to measure delivery before interpreting the result. This error is systematic and correctable. Label the cargo, track where it goes, and measure what fraction crosses from the endosome to the cytosol. The result answers a binary diagnostic: delivery failure or biology failure. The critical discipline is to run this diagnostic in the order that preserves information. If you change the payload before measuring delivery, and the new payload also fails, you have learned nothing about whether the delivery is the problem — because you changed two things at once. Correct sequence: measure cytosolic delivery first. If delivery is confirmed and the biology still does not respond, change the biology. If delivery is the bottleneck, fix the particle.",
+          "audio_file": "audio/S10.mp3",
+          "actual_duration_s": 57.12
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "num": 11,
+      "total": 12,
+      "section": "THESIS",
+      "label": "11 / 12 · THESIS",
+      "dark": false,
+      "title": [
+        [
+          "IN VITRO PROVES THE SEQUENCE. ",
+          false
+        ],
+        [
+          "IN VIVO TESTS THE VEHICLE.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">In vitro transfection bypasses the funnel almost entirely. A result from a dish is evidence the <b>sequence can engage the target</b> — not evidence the <b>vehicle can deliver it in vivo</b>. The two experiments ask different questions.</div>\n         <p class=\"lead\">Still open: endosomal escape efficiency appears stuck in the single-digit percent range — whether that reflects a fundamental biophysical ceiling or an engineering problem without a principled limit is an active controversy.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The pivot in nucleic acid therapeutics is endosomal escape. It is the narrowest point in the funnel, the step with the lowest efficiency, and the step most often responsible for the gap between in vitro results and in vivo outcomes. In vitro transfection bypasses the funnel almost entirely — commercial transfection reagents under optimized conditions deliver cargo to the cytosol far more efficiently than any systemically injected particle in a living animal. A result from a dish is evidence that the sequence can engage the target. It is not evidence that the vehicle can deliver the sequence in vivo. The two experiments are asking different questions. And confusing them is exactly how teams spend months looking for better targets when the problem was never the target.",
+          "audio_file": "audio/S11.mp3",
+          "actual_duration_s": 47.32
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "num": 12,
+      "total": 12,
+      "section": "CLOSE",
+      "label": "12 / 12 · CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "FIND THE FUNNEL. ",
+          false
+        ],
+        [
+          "FIX THE ESCAPE.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>BARE NUCLEIC ACIDS CANNOT ACT</span><span>//</span><span>LNPs SOLVE STABILITY — NOT ESCAPE</span><span>//</span><span>MEASURE DELIVERY BEFORE BIOLOGY</span></div>\n           <p class=\"sig\">Cancer Nanomedicine · Chapter 9 · Nucleic Acid and Gene Delivery</p>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That is the frame for nucleic acid delivery. Bare nucleic acids face a cascade of losses that reduce the active fraction to essentially zero. LNPs solve stability and circulation — but the endosomal escape step, the narrowest neck in the funnel, remains stubbornly inefficient. Before changing the target or the payload, measure whether the payload reached the cytosol. The opening team's siRNA was never the problem. The funnel was the problem, concentrated at the escape step. Find the funnel. Fix the escape.",
+          "audio_file": "audio/S12.mp3",
+          "actual_duration_s": 35.76
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "Cancer Nanomedicine Ch.9 — Nucleic Acid and Gene Delivery",
+    "slug": "cancer-nanomedicine-ch09-nucleic-acid-delivery",
+    "playlist": "Cancer Nanomedicine",
+    "hashtags": [
+      "#CancerNanomedicine",
+      "#Nanomedicine",
+      "#Education",
+      "#NikBearBrown",
+      "#Lecture",
+      "#OnlineLearning"
+    ],
+    "description": "Cancer Nanomedicine Ch.9 — Nucleic Acid and Gene Delivery\n\nFull voiced lecture deck — Cancer Nanomedicine series.\n\nyoutube.com/@NikBearBrown"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "S06": {
+    "pattern": "divergentFates",
+    "meta": "// SLIDE 06 — MACROPHAGES AND MYELOID CELLS",
+    "data": {
+      "startLabel": "Macrophage recruited to the tumor",
+      "splitLabel": "Polarized by tumor-secreted signals",
+      "tracks": [
+        {"label": "M1 · pro-inflammatory", "outcome": "tumoricidal", "tone": "good", "path": "up",
+         "notes": ["pro-inflammatory state", "kills tumor cells", "the guard as intended"]},
+        {"label": "M2 · tumor-shaped (TAM)", "outcome": "angiogenesis · T-cell suppression", "tone": "warn", "path": "down",
+         "notes": ["VEGF secretion", "remodels matrix", "the dominant state in established tumors"]}
+      ]
+    }
+  },
+  "S07": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 07 — IMMUNE PHENOTYPES",
+    "data": {
+      "question": "The tumor is full of CD8+ T cells — will checkpoint blockade work?",
+      "branches": [
+        {"label": "Hot / inflamed", "detail": "CD8+ T cells throughout, touching cancer cells", "fix": "release the PD-1 brake — they kill", "tone": "good"},
+        {"label": "Excluded", "detail": "CD8+ T cells arrested at the collagen margin, absent from the core", "fix": "must break the structural barrier first", "tone": "warn"}
+      ],
+      "resolver": {"label": "Where are the T cells?", "detail": "in the tumor core vs stalled at the margin"}
+    }
+  }
+}

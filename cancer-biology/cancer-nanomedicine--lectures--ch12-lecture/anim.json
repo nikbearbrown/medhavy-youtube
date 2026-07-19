@@ -1,0 +1,38 @@
+{
+  "S01": {
+    "pattern": "divergentFates",
+    "meta": "// SLIDE 01 — HOOK",
+    "data": {
+      "startLabel": "Two prostate-cancer programs",
+      "splitLabel": "measure vs assume",
+      "tracks": [
+        {"label": "Lu-177-PSMA radioligand", "outcome": "FDA-approved 2022 · Pluvicto", "tone": "good", "path": "up", "notes": ["PSMA PET confirms the target", "only positive tumors enrolled", "VISION trial: OS benefit"]},
+        {"label": "Elegant targeted nanoparticle", "outcome": "no clinical response", "tone": "warn", "path": "down", "notes": ["striking preclinical data", "assumed delivery", "dosed without confirming target"]}
+      ]
+    }
+  },
+  "S05": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 05 — ACTIVE VS PASSIVE DELIVERY",
+    "data": {
+      "question": "How do you get the drug to the tumor reliably?",
+      "branches": [
+        {"label": "Passive · EPR", "detail": "relies on leaky vasculature", "fix": "fails in desmoplastic / heterogeneous patients", "tone": "warn"},
+        {"label": "Active · molecular binding", "detail": "nanomolar affinity for the target", "fix": "finds the target regardless of vascularity", "tone": "good"}
+      ],
+      "resolver": {"label": "Molecular recognition", "detail": "robust to vascular architecture where EPR is not"}
+    }
+  },
+  "S07": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 07 — LOOP VS LINE",
+    "data": {
+      "question": "Why do some programs learn from a negative result and others don't?",
+      "branches": [
+        {"label": "LOOP · radioligand", "detail": "image → select → treat → image response", "fix": "self-correcting, interpretable", "tone": "good"},
+        {"label": "LINE · failed programs", "detail": "dose all-comers, response-only readout", "fix": "uninterpretable dead end", "tone": "warn"}
+      ],
+      "resolver": {"label": "Build in delivery measurement", "detail": "a negative trial should tell you why"}
+    }
+  }
+}

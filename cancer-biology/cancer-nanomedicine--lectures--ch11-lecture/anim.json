@@ -1,0 +1,27 @@
+{
+  "S03": {
+    "pattern": "scaleComparison",
+    "meta": "// SLIDE 03 — THE CASCADE — SIZE & PDI",
+    "data": {
+      "axis": {"min": 1, "max": 1000, "unit": "nm"},
+      "band": {"from": 8, "to": 200, "label": "EPR / circulation window"},
+      "items": [
+        {"label": "Renal clearance cutoff", "value": 8},
+        {"label": "Designed nanoparticle", "value": 10, "value2": 200, "hot": true},
+        {"label": "Spleen / liver cutoff", "value": 200}
+      ]
+    }
+  },
+  "S08": {
+    "pattern": "divergentFates",
+    "meta": "// SLIDE 08 — BATCH EQUIVALENCE",
+    "data": {
+      "startLabel": "Same mean size & drug loading",
+      "splitLabel": "the distribution differs",
+      "tracks": [
+        {"label": "BATCH A · PDI 0.08", "outcome": "batch-equivalent — usable", "tone": "good", "path": "up", "notes": ["narrow, well-controlled", "one PK profile", "clears the gate"]},
+        {"label": "BATCH B · PDI 0.28", "outcome": "not equivalent — program stalls", "tone": "warn", "path": "down", "notes": ["3 PK sub-populations", "release rate off 40% at 24 h", "same average, different product"]}
+      ]
+    }
+  }
+}

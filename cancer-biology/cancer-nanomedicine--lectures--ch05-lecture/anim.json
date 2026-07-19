@@ -1,0 +1,44 @@
+{
+  "S03": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 03 — DRUG-TO-ANTIBODY RATIO",
+    "data": {
+      "question": "Load maximum payload onto the antibody?",
+      "branches": [
+        {"label": "DAR too low", "detail": "too little cytotoxin — below the killing threshold", "fix": "add payload", "tone": "warn"},
+        {"label": "DAR too high", "detail": "hydrophobic aggregates — liver clears before tumor", "fix": "reduce payload", "tone": "warn"}
+      ],
+      "resolver": {"label": "DAR 4-8 optimum", "detail": "an optimum, not a maximum"}
+    }
+  },
+  "S06": {
+    "pattern": "divergentFates",
+    "meta": "// SLIDE 06 — T-DM1 VS T-DXd",
+    "data": {
+      "startLabel": "Trastuzumab — same antibody",
+      "splitLabel": "linker + payload",
+      "tracks": [
+        {"label": "T-DXd", "outcome": "opens HER2-low disease", "tone": "good", "path": "up",
+         "notes": ["cleavable linker", "membrane-permeable payload", "DAR ~8", "bystander killing spreads"]},
+        {"label": "T-DM1", "outcome": "HER2-low left untouched", "tone": "warn", "path": "down",
+         "notes": ["non-cleavable linker", "impermeable payload", "DAR ~3.5", "kills only cells it binds"]}
+      ]
+    }
+  },
+  "S07": {
+    "pattern": "attritionChain",
+    "meta": "// SLIDE 07 — FIVE-STEP DELIVERY CHAIN",
+    "data": {
+      "total": 1000,
+      "startLabel": "ADC dose",
+      "stages": [
+        {"label": "Circulation (linker stability)", "survival": 0.6},
+        {"label": "Antigen binding", "survival": 0.5},
+        {"label": "Internalization", "survival": 0.5},
+        {"label": "Linker cleavage", "survival": 0.7},
+        {"label": "Payload escape (efflux)", "survival": 0.5}
+      ],
+      "endClaim": "antibody controls only 1 of 5 steps"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "S06": {
+    "pattern": "scaleComparison",
+    "meta": "// SLIDE 06 — ALPHA EMITTERS",
+    "data": {
+      "axis": {"min": 1, "max": 10000, "unit": "µm"},
+      "band": {"from": 50, "to": 100, "label": "alpha range · 50–100 µm"},
+      "items": [
+        {"label": "Cell diameter", "value": 10},
+        {"label": "Alpha (Ac-225) range", "value": 50, "value2": 100, "hot": true},
+        {"label": "Beta (Lu-177) range", "value": 2000, "value2": 5000}
+      ]
+    }
+  },
+  "S07": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 07 — EMITTER MATCHING",
+    "data": {
+      "question": "Which emitter matches this tumor's geometry?",
+      "branches": [
+        {"label": "Micrometastatic / uniform target", "detail": "every cell a few widths from a bound ligand", "fix": "ALPHA — high LET, 50–100 µm", "tone": "good"},
+        {"label": "Bulky / heterogeneous", "detail": "target-negative regions the ligand can't reach", "fix": "BETA — mm crossfire covers them", "tone": "ink"}
+      ],
+      "resolver": {"label": "Tumor geometry", "detail": "match emitter range to the target's spatial distribution"}
+    }
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "slug": "cancer-nanomedicine-ch05-antibody-drug-conjugates",
+  "title": "Antibody-Drug Conjugates as Nanoscale Medicines",
+  "series": "Cancer Nanomedicine",
+  "source": "cancer-nanomedicine/chapters/05-antibody-drug-conjugates-as-nanoscale-medicines.md",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
+  "accent": "#ea580c",
+  "fps": 30,
+  "clock": "audio-first",
+  "segments": [
+    {
+      "id": "S01",
+      "num": 1,
+      "total": 12,
+      "section": "HOOK",
+      "label": "01 / 12 · HOOK",
+      "dark": false,
+      "title": [
+        [
+          "THE ANTIBODY FINDS THE CELL. ",
+          false
+        ],
+        [
+          "EVERYTHING ELSE DECIDES WHETHER THE DRUG KILLS IT.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">ANTIBODY BINDS</span><span class=\"arw\">→</span><span class=\"chip\">LINKER LEAKS</span><span class=\"arw\">→</span><span class=\"chip warn\">WHOLE BODY POISONED</span></div>\n           <p class=\"lead\">A team had a perfect antibody. The linker they ignored killed the animals anyway.</p>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "A team builds an antibody-drug conjugate. Their antibody is exquisitely specific — in culture, antigen-positive cells die and antigen-negative cells survive. Confident, they load eight drug molecules onto each antibody. In animals, two things go wrong at once. The conjugate is cleared from blood in hours, and the animals develop liver and bone-marrow toxicity in tissues that do not express the target at all. The linker was too unstable. It leaked a potent cytotoxin into the bloodstream, dosing the whole body with naked chemotherapy. The antibody's specificity was never the problem. The delivery chain had five places to fail, and they had broken two of them.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 43.42
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "num": 2,
+      "total": 12,
+      "section": "THE STAKES",
+      "label": "02 / 12 · THE STAKES",
+      "dark": false,
+      "title": [
+        [
+          "THREE PARTS. ",
+          false
+        ],
+        [
+          "ONE JOB EACH.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">ANTIBODY</div><div class=\"cap\">which cell gets bound</div></div>\n           <div class=\"eq\">+</div>\n           <div class=\"stat\"><div class=\"big\">LINKER</div><div class=\"cap\">when &amp; where payload releases</div></div>\n           <div class=\"eq\">+</div>\n           <div class=\"stat\"><div class=\"big on\">PAYLOAD</div><div class=\"cap\">the killing</div></div>\n         </div>\n         <p class=\"lead\">The antibody controls one step. The linker controls selectivity. The payload controls death.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "An antibody-drug conjugate is a three-part molecule, and each part has one job. The antibody is the targeting module — it determines which cell gets bound. That is the only step the antibody controls. The payload is the warhead — far too toxic to give as a conventional drug, killing cells at subnanomolar concentrations, hundreds of times more potent than standard chemotherapy. And the linker is the chemistry tethering them together. The linker is where selectivity actually lives. A linker that releases payload inside the target cell concentrates killing there. A linker that releases payload in the bloodstream turns the antibody into a vehicle for dispersing chemotherapy systemically.",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 44.72
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "num": 3,
+      "total": 12,
+      "section": "DRUG-TO-ANTIBODY RATIO",
+      "label": "03 / 12 · DRUG-TO-ANTIBODY RATIO",
+      "dark": false,
+      "title": [
+        [
+          "DAR IS AN OPTIMUM, ",
+          false
+        ],
+        [
+          "NOT A MAXIMUM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"balance\">\n           <div class=\"pan die\"><b>DAR too low</b><span>too little payload reaches the cell — below killing threshold</span></div>\n           <div class=\"fulcrum\">4–8</div>\n           <div class=\"pan die\"><b>DAR too high</b><span>conjugate becomes hydrophobic — liver clears it before tumor sees it</span></div>\n         </div>\n         <p class=\"lead\">The opening-case team loaded to DAR 8 on a linker that couldn't carry it. Cleared in hours.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The drug-to-antibody ratio — DAR — is the average number of payload molecules on each antibody. For most clinical ADCs, DAR sits between four and eight. That range reflects a real trade-off that runs in both directions. A DAR too low delivers too little cytotoxin to kill the target cell after internalization. A DAR too high makes a different problem — cytotoxic payloads are small hydrophobic molecules, and attaching many of them makes the conjugate progressively hydrophobic and aggregation-prone. The immune system and liver clear hydrophobic aggregates efficiently. The opening-case team loaded to DAR eight on a scaffold and linker chemistry that couldn't tolerate that load — the conjugate was cleared in hours, not days.",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 48.81
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "num": 4,
+      "total": 12,
+      "section": "LINKER CHEMISTRY",
+      "label": "04 / 12 · LINKER CHEMISTRY",
+      "dark": false,
+      "title": [
+        [
+          "CLEAVABLE OR NON-CLEAVABLE — ",
+          false
+        ],
+        [
+          "THE DISTINCTION CONTROLS BYSTANDER REACH.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>CLEAVABLE</b><span>cut by low pH, cathepsins, glutathione inside the endosome — releases membrane-permeable drug</span></div>\n           <div class=\"cell-part hot\"><b>NON-CLEAVABLE</b><span>holds until full antibody degradation — releases charged, membrane-impermeable fragment</span></div>\n         </div>\n         <div class=\"callout\">Cleavable linkers are not perfectly stable in plasma. The degree of premature release determines off-target toxicity.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Linkers are classified by how they release payload. Cleavable linkers are cut by conditions elevated inside cells relative to plasma — the endosome and lysosome are more acidic, lysosomal enzymes like cathepsins cleave specific peptide sequences, and glutathione concentrations are a hundred to a thousand times higher inside cells than outside. In principle, a cleavable linker releases payload only after internalization. In practice, they are not perfectly stable in plasma, and premature release determines off-target toxicity. Non-cleavable linkers hold payload through bonds that resist acid, enzymes, and reductants. Payload is freed only when the antibody itself is fully degraded inside the lysosome — released still attached to an amino acid fragment. That fragment is typically charged and hydrophilic. It cannot cross cell membranes.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 56.05
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "num": 5,
+      "total": 12,
+      "section": "THE BYSTANDER EFFECT",
+      "label": "05 / 12 · THE BYSTANDER EFFECT",
+      "dark": false,
+      "title": [
+        [
+          "MEMBRANE-PERMEABLE PAYLOAD ",
+          false
+        ],
+        [
+          "CROSSES INTO NEIGHBORS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\"><span class=\"chip\">ADC binds antigen+ cell</span><span class=\"arw\">→</span><span class=\"chip\">internalized</span><span class=\"arw\">→</span><span class=\"chip\">linker cleaved</span><span class=\"arw\">→</span><span class=\"chip on\">permeable payload diffuses to antigen− neighbors</span></div>\n         <p class=\"lead\">The same membrane permeability that spreads tumor killing also spreads toxicity from premature release anywhere in the body.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The bystander effect is what happens when freed payload can cross cell membranes and enter neighboring cells — including cells that never expressed the target antigen and never bound the ADC. The mechanism: an ADC binds an antigen-positive cell, is internalized, the linker is cleaved, and a membrane-permeable payload is released into the cytoplasm. Some of that payload diffuses across the plasma membrane into adjacent cells, killing them even though they expressed no antigen. The consequence of this mechanism was one of the most significant therapeutic advances in breast cancer of the last decade. And the bystander effect is double-edged — the same membrane permeability enables both therapeutic spread in the tumor and toxicity from payload released anywhere, including normal tissues.",
+          "audio_file": "audio/S05.mp3",
+          "actual_duration_s": 50.81
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "num": 6,
+      "total": 12,
+      "section": "T-DM1 VS T-DXd",
+      "label": "06 / 12 · T-DM1 VS T-DXd",
+      "dark": false,
+      "title": [
+        [
+          "SAME ANTIBODY. ",
+          false
+        ],
+        [
+          "OPPOSITE CLINICAL OUTCOMES IN HER2-LOW.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>T-DM1</b><span>Non-cleavable linker · impermeable payload · DAR ~3.5 · kills only cells it directly binds</span></div>\n           <div class=\"cell-part hot\"><b>T-DXd</b><span>Cleavable linker · membrane-permeable payload · DAR ~8 · bystander killing spreads from entry points</span></div>\n         </div>\n         <div class=\"callout\">T-DXd opened HER2-low breast cancer as a treatable disease category. The antibodies are identical.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Trastuzumab emtansine — T-DM1 — is an anti-HER2 ADC with a non-cleavable linker and a microtubule-inhibitor payload. The freed payload bears a charged linker fragment and cannot cross membranes. T-DM1 kills only cells it directly enters. In HER2-overexpressing breast cancer, where essentially every cancer cell is HER2-positive, this is sufficient. In HER2-low tumors — where antigen expression is heterogeneous and sparse — many cancer cells would never bind or internalize the ADC. T-DM1 leaves them untouched. Trastuzumab deruxtecan — T-DXd — carries a topoisomerase-I-inhibitor payload at high DAR on a cleavable linker, and the freed payload is membrane-permeable. When T-DXd binds one of the few HER2-expressing cells, the released drug diffuses into neighbors — HER2-negative, HER2-low, and HER2-positive alike. The bystander effect spreads killing from the cells the antibody found to the cells the antibody could not bind.",
+          "audio_file": "audio/S06.mp3",
+          "actual_duration_s": 69.94
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "num": 7,
+      "total": 12,
+      "section": "FIVE-STEP DELIVERY CHAIN",
+      "label": "07 / 12 · FIVE-STEP DELIVERY CHAIN",
+      "dark": false,
+      "title": [
+        [
+          "THE ANTIBODY CONTROLS ",
+          false
+        ],
+        [
+          "ONE OF FIVE STEPS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>STEP 1 · CIRCULATION</b><span>linker stability in plasma — unstable linker wastes warheads, releases free cytotoxin</span></div>\n           <div class=\"wire\"><b>STEP 2 · ANTIGEN BINDING</b><span>antibody affinity + antigen expression + tumor perfusion — the only step the antibody controls</span></div>\n           <div class=\"wire\"><b>STEP 3 · INTERNALIZATION</b><span>receptor-mediated endocytosis — not all antigen-antibody pairs trigger efficient internalization</span></div>\n           <div class=\"wire\"><b>STEP 4 · LINKER CLEAVAGE</b><span>pH, enzyme activity, reductant concentration in the endosome/lysosome</span></div>\n           <div class=\"wire\"><b>STEP 5 · PAYLOAD ESCAPE &amp; ACTION</b><span>membrane permeability + efflux transporters — P-gp and MDR1 can pump payload out</span></div>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "For a payload molecule to kill a cancer cell, the ADC must clear five sequential steps, and the antibody controls one of them. Step one: circulation. The ADC must survive in blood long enough to reach the tumor. Linker stability in plasma governs this. Step two: antigen binding. Antibody affinity, antigen expression level, and tumor perfusion govern this — the only step targeting ligands address. Step three: internalization. The bound ADC must be pulled into the cell by receptor-mediated endocytosis. Not all antigen-antibody pairs trigger efficient internalization. Step four: linker cleavage inside the endosome or lysosome. Step five: payload must reach its intracellular target. Efflux transporters like P-glycoprotein and MDR1 can pump payload out before it reaches DNA or microtubules. The claim that the antibody targets the tumor is technically true at step two and silent about the other four.",
+          "audio_file": "audio/S07.mp3",
+          "actual_duration_s": 65.85
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "num": 8,
+      "total": 12,
+      "section": "TUMOR ARCHITECTURE",
+      "label": "08 / 12 · TUMOR ARCHITECTURE",
+      "dark": false,
+      "title": [
+        [
+          "TUMOR ARCHITECTURE DETERMINES ",
+          false
+        ],
+        [
+          "WHICH PROPERTIES MATTER.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>HER2-LOW TUMOR</b><span>antigen-positive cells sparse and interspersed — bystander effect is decisive; T-DXd wins</span></div>\n           <div class=\"cell-part hot\"><b>HER2-HIGH TUMOR</b><span>every cell antigen-positive — bystander effect matters less; payload class, DAR, and toxicity now drive comparison</span></div>\n         </div>\n         <p class=\"lead\">T-DXd's pneumonitis risk requires active monitoring and dose interruption. In HER2-high disease, that toxicity profile enters the calculation.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The tumor architecture changes which ADC properties are decisive. In a HER2-low tumor, antigen-positive cells are sparse and interspersed with antigen-negative cells. T-DM1 reaches the antigen-positive cells and leaves the antigen-negative majority untouched. T-DXd, with its membrane-permeable payload, kills the HER2-positive cell it enters and the HER2-negative cells around it — spreading killing from a small number of entry points across the entire patch. T-DXd is the correct choice for HER2-low disease, and the decisive variable is the linker-payload combination enabling bystander killing. In a uniformly HER2-high tumor, the calculation shifts. Bystander effect matters less when every cell is antigen-positive and T-DM1 can reach essentially all of them directly. Other factors now drive the comparison: payload class and potency, DAR and clearance, and toxicity profiles — specifically T-DXd's known risk of interstitial lung disease and pneumonitis.",
+          "audio_file": "audio/S08.mp3",
+          "actual_duration_s": 66.46
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "num": 9,
+      "total": 12,
+      "section": "SITE-SPECIFIC CONJUGATION",
+      "label": "09 / 12 · SITE-SPECIFIC CONJUGATION",
+      "dark": false,
+      "title": [
+        [
+          "RANDOM LOADING CREATES ",
+          false
+        ],
+        [
+          "A MIXTURE. SITE-SPECIFIC DOES NOT.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\"><span class=\"chip\">random lysine conjugation</span><span class=\"arw\">→</span><span class=\"chip warn\">heterogeneous DAR distribution</span><span class=\"arw\">→</span><span class=\"chip warn\">aggregation-prone subpopulations cleared early</span></div>\n         <div class=\"flow\" style=\"margin-top:14px\"><span class=\"chip\">site-specific conjugation</span><span class=\"arw\">→</span><span class=\"chip\">uniform loading at defined positions</span><span class=\"arw\">→</span><span class=\"chip on\">improved aggregation behavior</span></div>\n         <p class=\"lead\">Whether this genuinely breaks the DAR trade-off or relocates it to other variables is still being worked out.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The DAR optimum also depends on where payload attaches to the antibody. Conventional conjugation attaches payload at random surface lysines — producing a heterogeneous mixture of molecules with different loading at different positions. Some subpopulations in the mixture are more aggregation-prone than others, and those are cleared preferentially, pulling the effective DAR of the circulating drug below what was intended. Newer site-specific conjugation methods attach payload at defined positions on the antibody, so every molecule has the same loading at the same location. The aggregation behavior of the uniform population improves, and in principle this allows usable DAR to be pushed higher without the clearance penalty. Whether site-specific conjugation genuinely breaks the DAR trade-off or merely relocates it to other variables is still being worked out.",
+          "audio_file": "audio/S09.mp3",
+          "actual_duration_s": 52.52
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "num": 10,
+      "total": 12,
+      "section": "WORKED EXAMPLE",
+      "label": "10 / 12 · WORKED EXAMPLE",
+      "dark": false,
+      "title": [
+        [
+          "FIVE THINGS AT ONCE — ",
+          false
+        ],
+        [
+          "REMOVE ANY ONE AND YOU GET A DIFFERENT DRUG.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\"><span class=\"chip\">anti-HER2 antibody</span><span class=\"arw\">+</span><span class=\"chip\">DAR ~8</span><span class=\"arw\">+</span><span class=\"chip\">cleavable linker</span><span class=\"arw\">+</span><span class=\"chip\">permeable payload</span><span class=\"arw\">→</span><span class=\"chip on\">T-DXd: opens HER2-low</span></div>\n         <div class=\"callout\">The antibody is the part that gets named in the drug's name. It is not the part that explains its activity in HER2-low disease.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The most successful ADC in oncology by any measure is T-DXd, and understanding why requires holding five things at once: the antibody that targets HER2, the high DAR that loads enough payload per molecule, the cleavable linker that releases it in the lysosome, the membrane-permeable payload that enables bystander killing, and the pneumonitis risk that membrane permeability also creates. Remove any one of those five and you get a different drug with different clinical behavior. The antibody is the part that gets named in the drug's name. It is not the part that explains its activity in HER2-low disease. That is the whole lesson. Trastuzumab alone can't treat HER2-low breast cancer. T-DM1 can't either. T-DXd can — and the difference is entirely downstream of binding.",
+          "audio_file": "audio/S10.mp3",
+          "actual_duration_s": 49.74
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "num": 11,
+      "total": 12,
+      "section": "THESIS",
+      "label": "11 / 12 · THESIS",
+      "dark": false,
+      "title": [
+        [
+          "TARGETING IS ONE STEP. ",
+          false
+        ],
+        [
+          "DELIVERY IS THE CHAIN.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">An ADC's selectivity and clinical behavior are governed <b>downstream of antibody binding</b> — by linker stability, DAR, and payload membrane permeability. The antibody alone does not determine the outcome.</div>\n         <p class=\"lead\">Still open: how far membrane-permeable payload travels from a releasing cell, and whether the bystander diffusion radius can be tuned predictably to maximize tumor killing while limiting normal-tissue toxicity.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Here is the chapter's claim: an ADC's selectivity and clinical behavior are governed downstream of antibody binding — by linker stability, DAR, and payload membrane permeability — so that the antibody alone does not determine the outcome. This is the discipline the chapter asks for: when evaluating an ADC, trace the delivery chain. Ask which step the design improvement actually addresses. Ask which normal tissue shares a dependency with the target tissue at any step where payload escapes. Ask whether the bystander effect is a feature or a liability in the specific tumor architecture being treated. The cleanest finding that would revise this claim: a head-to-head clinical comparison showing antibody affinity dominates outcome while linker and payload design are negligible. To date the evidence runs the other way.",
+          "audio_file": "audio/S11.mp3",
+          "actual_duration_s": 52.43
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "num": 12,
+      "total": 12,
+      "section": "CLOSE",
+      "label": "12 / 12 · CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "TRACE THE DELIVERY CHAIN. ",
+          false
+        ],
+        [
+          "ALL FIVE STEPS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>LINKER STABILITY</span><span>//</span><span>DAR TRADE-OFF</span><span>//</span><span>PAYLOAD PERMEABILITY</span><span>//</span><span>BYSTANDER REACH</span></div>\n           <p class=\"sig\">Cancer Nanomedicine · Chapter 5 · Antibody-Drug Conjugates as Nanoscale Medicines</p>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That's the frame. The antibody finds the cell — but linker stability, DAR, and payload permeability decide whether the drug kills it. Five steps, each with its own failure mode, each with its own design parameter. Step two is where targeting ligands operate. The other four steps are where most ADC programs that fail actually fail. Trace the delivery chain. All five steps.",
+          "audio_file": "audio/S12.mp3",
+          "actual_duration_s": 26.7
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "Cancer Nanomedicine Ch.5 — Antibody-Drug Conjugates as Nanoscale Medicines",
+    "slug": "cancer-nanomedicine-ch05-antibody-drug-conjugates",
+    "playlist": "Cancer Nanomedicine",
+    "hashtags": [
+      "#CancerNanomedicine",
+      "#Nanomedicine",
+      "#Education",
+      "#NikBearBrown",
+      "#Lecture",
+      "#OnlineLearning"
+    ],
+    "description": "Cancer Nanomedicine Ch.5 — Antibody-Drug Conjugates as Nanoscale Medicines\n\nFull voiced lecture deck — Cancer Nanomedicine series.\n\nA team builds an antibody-drug conjugate. Their antibody is exquisitely specific — in culture, antigen-positive cells die and antigen-negative cells survive. Confident, they load eight drug molecules onto each antibody. In animals, two things go wrong at once. The conjugate is cleared from blood in hours, and the animals develop liver and bone-marrow toxicity in tissues that do not express the target at all. The linker was too unstable. It leaked a potent cytotoxin into the bloodstream, dosing the whole body with naked chemotherapy. The antibody's specificity was never the problem. The delivery chain had five places to fail, and they had broken two of them.\n\nyoutube.com/@NikBearBrown"
+  }
+}

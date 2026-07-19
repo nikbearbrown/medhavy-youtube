@@ -1,0 +1,350 @@
+{
+  "slug": "cancer-nanomedicine-ch07-radioligand-theranostics",
+  "title": "Radioligand Theranostics",
+  "series": "Cancer Nanomedicine",
+  "source": "cancer-nanomedicine/chapters/07-radioligand-theranostics.md",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
+  "accent": "#ea580c",
+  "fps": 30,
+  "clock": "audio-first",
+  "segments": [
+    {
+      "id": "S01",
+      "num": 1,
+      "total": 12,
+      "section": "HOOK",
+      "label": "01 / 12 · HOOK",
+      "dark": false,
+      "title": [
+        [
+          "IMAGE FIRST. ",
+          false
+        ],
+        [
+          "THEN TREAT.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">PSMA PET scan</span><span class=\"arw\">→</span><span class=\"chip\">target confirmed</span><span class=\"arw\">→</span><span class=\"chip on\">radioligand therapy</span></div>\n           <p class=\"lead\">The scan is not a formality. It is the patient-selection step — built from the same molecular event as the treatment.</p>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "A man with metastatic prostate cancer has exhausted standard options. His oncologist wants to give lutetium-177-PSMA-617. The temptation is to treat on diagnosis alone — it is prostate cancer, the drug is for prostate cancer, give it. But first, they image. Several large, symptomatic lesions show almost no PSMA signal. Those lesions have lost the target. Had the team treated on diagnosis alone, they would have irradiated salivary glands and kidneys while the tumors that mattered received almost nothing. The scan is not a formality. It is the patient-selection step.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 40.54
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "num": 2,
+      "total": 12,
+      "section": "THE STAKES",
+      "label": "02 / 12 · THE STAKES",
+      "dark": false,
+      "title": [
+        [
+          "ONE TARGET, ",
+          false
+        ],
+        [
+          "TWO ISOTOPES.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">Ga-68</div><div class=\"cap\">imaging isotope</div></div>\n           <div class=\"eq\">/</div>\n           <div class=\"stat\"><div class=\"big on\">Lu-177</div><div class=\"cap\">therapy isotope</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big\">PSMA</div><div class=\"cap\">shared target</div></div>\n         </div>\n         <p class=\"lead\">Same molecule. Same binding event. One loop closed.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Theranostics combines therapy and diagnostics in one molecular framework. The imaging agent and the therapeutic agent target the same molecule. In conventional oncology, imaging and treatment are separate — a patient is staged with one agent and treated with an unrelated drug. In theranostics, the loop closes. The image becomes a genuine companion diagnostic for that specific therapy, not a generic staging procedure. The question the scan asks is exactly the question the therapy requires an answer to: does this patient's tumor express the target?",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 37.2
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "num": 3,
+      "total": 12,
+      "section": "THE PSMA PAIR",
+      "label": "03 / 12 · THE PSMA PAIR",
+      "dark": false,
+      "title": [
+        [
+          "THE PSMA PAIR — ",
+          false
+        ],
+        [
+          "IMAGING LICENSES THERAPY.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>Ga-68-PSMA-11 / F-18-DCFPyL</b><span>FDA-approved PET imaging — confirms target expression before treatment</span></div>\n           <div class=\"cell-part hot\"><b>Lu-177-PSMA-617 (Pluvicto)</b><span>FDA 2022 — PSMA-positive mCRPC after taxane + ARPI — VISION trial OS benefit</span></div>\n         </div>\n         <div class=\"callout\">PSMA PET is mechanistically mandatory — not regulatory caution.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Prostate-specific membrane antigen is expressed at high levels on prostate cancer cells, and also on salivary glands and renal tubules — the dose-limiting normal tissues. The imaging side uses small molecules labeled with PET isotopes: gallium-68-PSMA-11 and fluorine-18-DCFPyL are both FDA-approved. The therapy side loads the same targeting molecule with lutetium-177. Lutetium-177-PSMA-617, brand name Pluvicto, was approved in 2022 for PSMA-positive metastatic castration-resistant prostate cancer. The VISION trial showed improved overall survival in heavily pretreated patients. Because imaging and therapy share the targeting molecule, the PSMA PET scan is not regulatory caution — it is mechanistically mandatory.",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 51.46
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "num": 4,
+      "total": 12,
+      "section": "THE DOTATATE PAIR",
+      "label": "04 / 12 · THE DOTATATE PAIR",
+      "dark": false,
+      "title": [
+        [
+          "THE SAME LOGIC, ",
+          false
+        ],
+        [
+          "A DIFFERENT CANCER.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>Ga-68-DOTATATE PET</b><span>images somatostatin receptor type 2 — confirms target on neuroendocrine tumors</span></div>\n           <div class=\"cell-part hot\"><b>Lu-177-DOTATATE (Lutathera)</b><span>FDA 2018 — first modern radioligand theranostic — NETTER-1 trial — established the pathway</span></div>\n         </div>\n         <p class=\"lead\">Same target. Two isotopes. Image before treat. The architecture is identical.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The second established pair follows the same logic in a different cancer. Lutetium-177-DOTATATE targets somatostatin receptor type 2, overexpressed on gastroenteropancreatic neuroendocrine tumors. Its companion imaging agent, gallium-68-DOTATATE PET, images the same receptor. DOTATATE was the first FDA-approved radioligand theranostic in the modern era, approved in 2018, and established the regulatory pathway that PSMA-617 followed four years later. Same target, two isotopes, imaging before therapy — the architecture is identical. One loop, applied to a completely different molecular handle.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 44.63
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "num": 5,
+      "total": 12,
+      "section": "BETA EMITTERS",
+      "label": "05 / 12 · BETA EMITTERS",
+      "dark": false,
+      "title": [
+        [
+          "BETA RANGE: MILLIMETERS. ",
+          false
+        ],
+        [
+          "CROSSFIRE HELPS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>Lu-177 / Y-90 / I-131</b><span>electrons — travel several millimeters through tissue</span></div>\n           <div class=\"wire\"><b>Low linear energy transfer</b><span>sparse damage along the track — cells can sometimes repair it</span></div>\n           <div class=\"wire\"><b>Crossfire effect</b><span>target-negative cells killed by radiation from neighboring bound cells — useful in heterogeneous tumors</span></div>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Beta emitters release electrons. Lutetium-177 is the most clinically used; yttrium-90 has higher energy and longer range; iodine-131 is the classic thyroid isotope. The key physical property is range: beta particles travel several millimeters through tissue. This produces crossfire — a cell that does not express the target can still be killed by radiation from a neighboring cell that has bound the radioligand. Crossfire is directly useful in tumors with heterogeneous target expression. The cost is lower linear energy transfer — beta particles deposit energy sparsely, and cells can sometimes repair the damage.",
+          "audio_file": "audio/S05.mp3",
+          "actual_duration_s": 42.77
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "num": 6,
+      "total": 12,
+      "section": "ALPHA EMITTERS",
+      "label": "06 / 12 · ALPHA EMITTERS",
+      "dark": false,
+      "title": [
+        [
+          "ALPHA RANGE: 50-100 µm. ",
+          false
+        ],
+        [
+          "HIGH LET. LETHAL.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"balance\">\n           <div class=\"pan surv\"><b>Ac-225 / Ra-223</b><span>helium nuclei — two protons, two neutrons</span></div>\n           <div class=\"fulcrum\">⇄</div>\n           <div class=\"pan die\"><b>50-100 µm range</b><span>dense clustered double-strand breaks — far harder to repair — kills cells resistant to beta</span></div>\n         </div>\n         <p class=\"lead\">The same property that gives precision — short range — also eliminates crossfire. No free lunch.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Alpha emitters release helium nuclei — two protons and two neutrons. Actinium-225 is the leading clinical candidate; radium-223 is already approved for prostate cancer bone metastases. Alpha particles travel only fifty to one hundred micrometers — a few cell diameters. But in that short distance they deposit enormously more energy per unit length than a beta particle. This very high linear energy transfer produces dense, clustered DNA double-strand breaks that are far harder for the cell to repair. High-LET radiation can kill cells that have developed resistance to the sparser damage of beta radiation. The cost: with a range of fifty to one hundred micrometers, there is very little crossfire.",
+          "audio_file": "audio/S06.mp3",
+          "actual_duration_s": 47.37
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "num": 7,
+      "total": 12,
+      "section": "EMITTER MATCHING",
+      "label": "07 / 12 · EMITTER MATCHING",
+      "dark": false,
+      "title": [
+        [
+          "MATCH EMITTER ",
+          false
+        ],
+        [
+          "TO TUMOR GEOMETRY.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part hot\"><b>ALPHA — micrometastatic / uniform</b><span>every tumor cell is a few widths from a bound radioligand — high LET maximizes killing — short range minimizes off-target</span></div>\n           <div class=\"cell-part\"><b>BETA — bulky / heterogeneous</b><span>millimeter crossfire reaches target-negative regions — essential when ligand cannot bind every cell</span></div>\n         </div>\n         <div class=\"callout\">The question is never which isotope is stronger — it is which range matches this tumor's spatial target distribution.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Emitter choice should be matched to tumor geometry. Micrometastatic disease or uniformly target-positive tumors favor alpha emitters: every tumor cell is a few widths from a bound radioligand, the high LET maximizes killing, and the short range minimizes off-target damage. Bulky, heterogeneous tumors with target-negative regions favor beta emitters: the millimeter crossfire reaches cells the ligand does not bind. The question is never which isotope is stronger — it is which range matches the spatial distribution of the target in this patient's tumor. Getting this wrong means either missing the cold interior or over-irradiating normal tissue.",
+          "audio_file": "audio/S07.mp3",
+          "actual_duration_s": 43.24
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "num": 8,
+      "total": 12,
+      "section": "OFF-TARGET UPTAKE",
+      "label": "08 / 12 · OFF-TARGET UPTAKE",
+      "dark": false,
+      "title": [
+        [
+          "NORMAL ORGANS CAP ",
+          false
+        ],
+        [
+          "THE DELIVERABLE DOSE.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big warn\">SALIVARY</div><div class=\"cap\">xerostomia — dry mouth</div></div>\n           <div class=\"eq\">//</div>\n           <div class=\"stat\"><div class=\"big warn\">KIDNEY</div><div class=\"cap\">renal tubule uptake</div></div>\n           <div class=\"eq\">//</div>\n           <div class=\"stat\"><div class=\"big on\">MARROW</div><div class=\"cap\">suppression</div></div>\n         </div>\n         <p class=\"lead\">More isotope raises tumor dose and normal-organ dose together. The therapeutic window is narrower than the simplest version of the story suggests.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "PSMA is expressed not only on prostate cancer cells but on salivary glands and renal tubules. The radioligand binds wherever the target is present. Regardless of how clearly the tumor lights up on PET, the delivered dose is shared between tumor and normal organs, and the tolerances of those normal organs cap how much isotope can be given. The predictable toxicities follow directly: xerostomia from salivary gland uptake, kidney toxicity from renal tubule uptake, and bone marrow suppression. You cannot simply give more isotope to deliver a higher tumor dose. More isotope also increases the salivary and renal dose, and those organs have tolerance limits crossed before the tumor dose reaches what might be needed to overcome resistance.",
+          "audio_file": "audio/S08.mp3",
+          "actual_duration_s": 49.83
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "num": 9,
+      "total": 12,
+      "section": "ABSORBED DOSE",
+      "label": "09 / 12 · ABSORBED DOSE",
+      "dark": false,
+      "title": [
+        [
+          "GRAY IS THE CURRENCY. ",
+          false
+        ],
+        [
+          "THE WINDOW IS REAL.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\"><span class=\"chip on\">TUMOR<small style='display:block;font-size:11px'>lethal dose goal</small></span><span class=\"arw\">vs</span><span class=\"chip warn\">SALIVARY<small style='display:block;font-size:11px'>tolerance limit</small></span><span class=\"arw\">vs</span><span class=\"chip warn\">KIDNEY<small style='display:block;font-size:11px'>tolerance limit</small></span></div>\n         <p class=\"lead\">Absorbed dose — energy deposited per unit mass, in gray — connects radioactivity to biology. The therapeutic window is the gap between tumor lethal dose and normal-organ tolerance.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Absorbed dose — energy deposited per unit mass of tissue, measured in gray — is the quantity that connects radioactivity to biological effect. The therapeutic goal is to deliver a lethal absorbed dose to target-expressing cells. The constraint is keeping the absorbed dose to salivary glands, kidneys, and bone marrow below their tolerances. The gap between the two is the therapeutic window, and it is narrower than the simplest version of the theranostic story suggests. This is also exactly why the opening patient with PSMA-negative metastases would have been harmed rather than helped: his salivary glands and kidneys would have received their full dose, while the target-negative tumors were largely spared.",
+          "audio_file": "audio/S09.mp3",
+          "actual_duration_s": 45.46
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "num": 10,
+      "total": 12,
+      "section": "WHY IT WORKS",
+      "label": "10 / 12 · WHY IT WORKS",
+      "dark": false,
+      "title": [
+        [
+          "SIMPLICITY TRANSLATES ",
+          false
+        ],
+        [
+          "WHERE COMPLEXITY FAILS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>Radioligand: small molecule, one binding event</b><span>no nanoparticle architecture — no protein corona — no dose-loss chain from injection to nucleus</span></div>\n           <div class=\"wire\"><b>Multifunctional nanoparticles: failed to translate</b><span>every step between injection and intracellular payload release is a point of failure</span></div>\n           <div class=\"wire\"><b>The radioligand skips most of that chain</b><span>one target, one binding event, two isotopes — mechanistically parsimonious</span></div>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Radioligand theranostics has several approved therapies with clinical benefit demonstrated in randomized trials. Engineered nanoparticles with multiple functions — targeting ligands, drug payloads, imaging labels, release triggers — have appeared promising in cell culture and animal models but have largely failed to translate. Why the difference? The answer is in simplicity. A radioligand is a small molecule carrying an isotope. No nanoparticle-scale architecture to characterize, no protein corona, no dose-loss chain between injection and intracellular payload release. It circulates, binds its target, and emits. The design succeeds because it is mechanistically parsimonious: one target, one binding event, two isotopes.",
+          "audio_file": "audio/S10.mp3",
+          "actual_duration_s": 49.69
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "num": 11,
+      "total": 12,
+      "section": "THESIS",
+      "label": "11 / 12 · THESIS",
+      "dark": false,
+      "title": [
+        [
+          "THE LOOP IS THE MECHANISM. ",
+          false
+        ],
+        [
+          "GEOMETRY PICKS THE EMITTER.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">Radioligand theranostics succeeds because its <b>companion-diagnostic loop is built from a shared targeting molecule</b> — making patient selection mechanistic rather than statistical — and because <b>emitter choice must be matched to tumor geometry</b>.</div>\n         <p class=\"lead\">Still open: per-lesion dosimetry in real time, actinium-225 supply constraints, and the minimum PSMA expression that licenses treatment.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Here is the chapter's central claim. Radioligand theranostics succeeds because its companion-diagnostic loop is built from a shared targeting molecule — making patient selection mechanistic rather than statistical. And emitter choice must be matched to tumor geometry: alpha emitters for micrometastatic or uniformly positive disease, beta emitters for heterogeneous bulky tumors where crossfire is needed. Two findings would force revision. If PSMA-negative patients showed comparable survival benefit, the imaging step would be confirmed as staging rather than companion diagnostic. If alpha emitters outperformed beta even in demonstrably heterogeneous tumors, the geometry-matching argument would need revision. Both questions are under active investigation.",
+          "audio_file": "audio/S11.mp3",
+          "actual_duration_s": 50.16
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "num": 12,
+      "total": 12,
+      "section": "CLOSE",
+      "label": "12 / 12 · CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "IMAGE THE TARGET. ",
+          false
+        ],
+        [
+          "TREAT THROUGH IT.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>ONE TARGET — TWO ISOTOPES</span><span>//</span><span>PATIENT SELECTION IS MECHANISTIC</span><span>//</span><span>GEOMETRY PICKS THE EMITTER</span></div>\n           <p class=\"sig\">Cancer Nanomedicine · Chapter 7 · Radioligand Theranostics</p>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That is the frame. One target, two isotopes — the imaging step and the treatment step built from the same molecular event. Patient selection is mechanistic, not statistical: the scan that confirms the target is the same scan that licenses the treatment. The emitter you choose must match the geometry of the tumor you are treating. And the therapeutic window is real — the dose-limiting organs are always present, binding the radioligand regardless of what the tumor does. Learn the loop. Then learn what limits it.",
+          "audio_file": "audio/S12.mp3",
+          "actual_duration_s": 32.51
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "Cancer Nanomedicine Ch.7 — Radioligand Theranostics",
+    "slug": "cancer-nanomedicine-ch07-radioligand-theranostics",
+    "playlist": "Cancer Nanomedicine",
+    "hashtags": [
+      "#CancerNanomedicine",
+      "#Nanomedicine",
+      "#Education",
+      "#NikBearBrown",
+      "#Lecture",
+      "#OnlineLearning"
+    ],
+    "description": "Cancer Nanomedicine Ch.7 — Radioligand Theranostics\n\nFull voiced lecture deck — Cancer Nanomedicine series.\n\nyoutube.com/@NikBearBrown"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "S04": {
+    "pattern": "attritionChain",
+    "meta": "// SLIDE 04 — THE MATH",
+    "data": {
+      "total": 1000,
+      "startLabel": "Batch attempt",
+      "stages": [
+        {"label": "Gold core in spec", "survival": 0.90},
+        {"label": "MRI shell in spec", "survival": 0.90},
+        {"label": "Fluorescent dye in spec", "survival": 0.90},
+        {"label": "Drug payload in spec", "survival": 0.90},
+        {"label": "pH linker in spec", "survival": 0.90},
+        {"label": "Antibody in spec", "survival": 0.90}
+      ],
+      "endClaim": "0.9^6 ≈ 53% whole-batch yield"
+    }
+  },
+  "S08": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 08 — THE DEAD END",
+    "data": {
+      "question": "The particle fails specification — what do you fix?",
+      "branches": [
+        {"label": "Fix the manufacturing", "detail": "hire process engineers, tighten the process", "fix": "dead end — can't beat multiplicative variance", "tone": "warn"},
+        {"label": "Fix the design", "detail": "cut functions to the irreducible minimum", "fix": "the move that actually translates", "tone": "good"}
+      ],
+      "resolver": {"label": "Reproducibility is multiplicative", "detail": "0.9^6 = 53% — complexity is first a design problem"}
+    }
+  }
+}

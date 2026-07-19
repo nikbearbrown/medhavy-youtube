@@ -1,0 +1,88 @@
+{
+  "S04": {
+    "pattern": "divergentFates",
+    "meta": "// SLIDE 04 — SPROUTING MACHINE: Normal Notch-controlled sprouting vs VEGF-flooded tumor",
+    "data": {
+      "startLabel": "VEGF gradient detected by endothelium",
+      "splitLabel": "VEGF concentration",
+      "tracks": [
+        {
+          "label": "Normal angiogenesis",
+          "outcome": "Ordered tube: one tip cell leads, stalk cells form lumen",
+          "tone": "positive",
+          "path": "up",
+          "notes": [
+            "One endothelial cell selected as tip cell",
+            "Tip cell expresses DLL4",
+            "DLL4 activates Notch on neighbors",
+            "Notch suppresses tip-cell identity in neighbors",
+            "Stalk cells elongate and form a patent tube"
+          ]
+        },
+        {
+          "label": "Tumor angiogenesis",
+          "outcome": "Chaotic tangle: multiple tip cells, leaky non-perfused vessels",
+          "tone": "negative",
+          "path": "down",
+          "notes": [
+            "VEGF concentration high and disorganized",
+            "Notch lateral inhibition overwhelmed",
+            "Multiple cells simultaneously adopt tip-cell identity",
+            "No single leader — branching without coordination",
+            "Result: hyperpermeable, dysfunctional vessel tangle"
+          ]
+        }
+      ]
+    }
+  },
+  "S07": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 07 — ANGIOGENIC SWITCH: Will a dormant micrometastasis vascularize?",
+    "data": {
+      "question": "Will a dormant micrometastasis vascularize?",
+      "branches": [
+        {
+          "label": "Anti-angiogenic factors dominate",
+          "detail": "Thrombospondin-1, endostatin (cleaved from collagen 18), angiostatin hold the balance",
+          "fix": "Tumor stays below 1–2 mm; oxygen diffusion limit enforces dormancy",
+          "tone": "neutral"
+        },
+        {
+          "label": "Pro-angiogenic factors tip the balance",
+          "detail": "VEGF, FGF, PDGF, angiopoietin-2 accumulate; thrombospondin-1 suppressed",
+          "fix": "Angiogenic switch flips; tumor recruits vessels and resumes exponential growth",
+          "tone": "negative"
+        }
+      ],
+      "resolver": {
+        "label": "Late recurrence — dormant micrometastasis whose angiogenic switch finally flipped",
+        "detail": "A cancer returning ten years after the primary was removed is often a dormant micrometastasis that lost anti-angiogenic suppression, not a new primary"
+      }
+    }
+  },
+  "S09": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 09 — VASCULAR NORMALIZATION: What does anti-VEGF therapy actually do to vessels?",
+    "data": {
+      "question": "What happens when you block VEGF in a tumor?",
+      "branches": [
+        {
+          "label": "Predicted: vascular starvation",
+          "detail": "Cut blood supply → tumor starves → complete response",
+          "fix": "Vasculature collapses uniformly; cancer cells die from hypoxia and nutrient deprivation",
+          "tone": "negative"
+        },
+        {
+          "label": "Observed: normalization window",
+          "detail": "Most aberrant, hyperpermeable vessels collapse first; remaining network is pruned toward more normal architecture",
+          "fix": "Reduced interstitial pressure → improved drug delivery; window is time-limited before re-pruning overshoots",
+          "tone": "positive"
+        }
+      ],
+      "resolver": {
+        "label": "Rakesh Jain's normalization window",
+        "detail": "At moderate doses and short durations, VEGF blockade selectively eliminates the most aberrant vessels — creating a window of improved perfusion and chemotherapy co-delivery, not simple starvation"
+      }
+    }
+  }
+}

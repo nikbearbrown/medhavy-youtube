@@ -1,0 +1,90 @@
+{
+  "S03": {
+    "pattern": "attritionChain",
+    "meta": "// SLIDE 03 — GETTING INTO BLOOD: From millions shed to fewer than 1-in-10,000 forming a colony",
+    "data": {
+      "total": 1000000,
+      "startLabel": "Cancer cells shed into circulation per day",
+      "stages": [
+        {
+          "label": "Survive transit (shear stress, NK cell killing, anoikis)",
+          "survival": 0.05
+        },
+        {
+          "label": "Extravasate into distant organ parenchyma",
+          "survival": 0.3
+        },
+        {
+          "label": "Avoid dormancy induction and immune clearance",
+          "survival": 0.1
+        },
+        {
+          "label": "Establish a viable, proliferating metastatic colony",
+          "survival": 0.067
+        }
+      ],
+      "endClaim": "Fewer than 1 in 10,000 circulating tumor cells ever forms a metastatic colony — each step is a bottleneck"
+    }
+  },
+  "S05": {
+    "pattern": "divergentFates",
+    "meta": "// SLIDE 05 — WHY CLUSTERS ARE THE THREAT: Single CTC vs CTC cluster",
+    "data": {
+      "startLabel": "Circulating tumor cell(s) in bloodstream",
+      "splitLabel": "Single cell vs cluster of 2–5 cells",
+      "tracks": [
+        {
+          "label": "Single circulating tumor cell",
+          "outcome": "Rarely survives: shear stress, anoikis, NK-cell killing eliminate most",
+          "tone": "negative",
+          "path": "down",
+          "notes": [
+            "Exposed on all surfaces to immune surveillance",
+            "Mechanical shear stress causes membrane damage",
+            "Detachment from ECM triggers anoikis (apoptosis)",
+            "NK cells patrol circulation and kill isolated CTCs",
+            "Baseline metastatic efficiency extremely low"
+          ]
+        },
+        {
+          "label": "CTC cluster (2–5 cells)",
+          "outcome": "50-fold more likely to form metastasis than single cells",
+          "tone": "positive",
+          "path": "up",
+          "notes": [
+            "Inner cells shielded from shear stress by outer layer",
+            "Cell-cell contacts suppress anoikis signaling",
+            "Cluster retains partial epithelial program — aids re-anchoring",
+            "Collective extravasation initiates a larger seeding event",
+            "50× higher metastatic efficiency vs single CTCs"
+          ]
+        }
+      ]
+    }
+  },
+  "S07": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 07 — PRE-METASTATIC NICHE: Does metastasis wait for the cancer cell, or does the organ prepare in advance?",
+    "data": {
+      "question": "Does metastasis require only the arriving cancer cell, or does the distant organ prepare in advance?",
+      "branches": [
+        {
+          "label": "Passive model: cancer cell arrives and adapts",
+          "detail": "Circulating tumor cell reaches a distant organ and, if conditions happen to be permissive, implants and grows",
+          "fix": "Metastasis is stochastic — right cell meets right organ by chance; no pre-conditioning required",
+          "tone": "neutral"
+        },
+        {
+          "label": "Active model: tumor pre-conditions the niche",
+          "detail": "Primary tumor secretes factors (VEGF, PlGF, LOX, exosomes) that recruit bone marrow-derived myeloid cells to specific distant organ sites before any cancer cell arrives",
+          "fix": "Pre-metastatic niche is established — altered inflammation, permeability, and growth factor signaling makes the organ receptive; cancer cells arrive into prepared soil",
+          "tone": "negative"
+        }
+      ],
+      "resolver": {
+        "label": "Tumor-secreted factors arrive at the distant organ before the cancer cell does",
+        "detail": "The pre-metastatic niche explains Paget's seed-and-soil organ tropism: breast cancer preferentially seeds bone, lung, liver, and brain because those organs are pre-conditioned by breast-tumor-derived signals — not because cancer cells randomly land there"
+      }
+    }
+  }
+}
