@@ -1,0 +1,350 @@
+{
+  "slug": "cancer-research-ch08-radiation-oncology",
+  "title": "Radiation Oncology — Principles and Biology",
+  "series": "Cancer Research",
+  "source": "cancer-research/chapters/08-radiation-oncology-principles-and-biology.md",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
+  "accent": "#ea580c",
+  "fps": 30,
+  "clock": "audio-first",
+  "segments": [
+    {
+      "id": "S01",
+      "num": 1,
+      "total": 12,
+      "section": "HOOK",
+      "label": "01 / 12 · HOOK",
+      "dark": false,
+      "title": [
+        [
+          "SAME TOTAL DOSE. ",
+          false
+        ],
+        [
+          "TWO COMPLETELY DIFFERENT OUTCOMES.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">70 Gy · 35 fractions</span><span class=\"arw\">→</span><span class=\"chip on\">CONTROLLED</span></div>\n           <div class=\"flow\"><span class=\"chip\">70 Gy · 10 fractions</span><span class=\"arw\">→</span><span class=\"chip warn\">CATASTROPHIC</span></div>\n           <p class=\"lead\">Radiation cannot distinguish a cancer cell from a spinal-cord neuron. The outcome is engineered — fraction by fraction.</p>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Two patients. Two linear accelerators. Both prescribed 70 Gray to the same type of tumor. The first plan: 35 fractions of 2 Gray over seven weeks. Controlled tumor, organs spared. The second plan: 10 fractions of 7 Gray, same total dose, finishing in two weeks. Had it been delivered, catastrophe: permanent spinal cord injury, not better tumor control. Same total dose. Radically different biology. The therapeutic effect of radiation is not read off the total dose. It is engineered.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 36.18
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "num": 2,
+      "total": 12,
+      "section": "THE STAKES",
+      "label": "02 / 12 · THE STAKES",
+      "dark": false,
+      "title": [
+        [
+          "RADIATION DAMAGES DNA ",
+          false
+        ],
+        [
+          "INDISCRIMINATELY.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>DIRECT DAMAGE</b><span>radiation breaks a DNA bond outright — dominates for high-LET particles</span></div>\n           <div class=\"cell-part hot\"><b>INDIRECT DAMAGE</b><span>ionizes water → hydroxyl radicals → attack DNA — dominates for clinical X-rays</span></div>\n         </div>\n         <div class=\"callout\">2 Gy clinical fraction → <b>~40 double-strand breaks per cell</b></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Ionizing radiation transfers energy to tissue, knocking electrons from atoms and breaking chemical bonds. The most consequential target is DNA. Damage happens two ways. Direct damage: radiation breaks a DNA bond outright. This dominates for high-LET particles like protons at the Bragg peak. Indirect damage: radiation ionizes surrounding water, producing hydroxyl radicals that diffuse to the DNA and attack it. This dominates for the clinical X-rays produced by a linear accelerator. A standard 2 Gray fraction produces roughly 40 double-strand breaks per cell. Most are repaired. The unrepaired ones are the lethal events.",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 43.7
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "num": 3,
+      "total": 12,
+      "section": "THE OXYGEN EFFECT",
+      "label": "03 / 12 · THE OXYGEN EFFECT",
+      "dark": false,
+      "title": [
+        [
+          "HYPOXIC CELLS ARE ",
+          false
+        ],
+        [
+          "2-3x MORE RADIORESISTANT.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">OER</div><div class=\"cap\">oxygen enhancement ratio</div></div>\n           <div class=\"eq\">=</div>\n           <div class=\"stat\"><div class=\"big on\">2.5-3x</div><div class=\"cap\">more damage with O2</div></div>\n         </div>\n         <p class=\"lead\">Oxygen reacts with DNA radicals to form stable, hard-to-repair peroxide lesions. Without it, the radical is fixed by a sulfhydryl donor instead and the damage is reversible.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The indirect damage mechanism has a dependency that shapes how tumors respond: it requires oxygen. Oxygen reacts with carbon-centered radicals on the DNA to form stable peroxide lesions that are difficult to repair. Without oxygen, a sulfhydryl donor fixes the radical instead, and the damage is reversible. The oxygen enhancement ratio — roughly 2.5 to 3 for clinical X-rays — means hypoxic tumor cells are two to three times more radioresistant. The chaotic vasculature that produces tumor hypoxia is not just a drug-delivery problem. It is a radiation-resistance problem too.",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 40.87
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "num": 4,
+      "total": 12,
+      "section": "THE LINEAR-QUADRATIC MODEL",
+      "label": "04 / 12 · THE LINEAR-QUADRATIC MODEL",
+      "dark": false,
+      "title": [
+        [
+          "FRACTION SIZE MATTERS ",
+          false
+        ],
+        [
+          "BECAUSE OF THE BETA TERM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">SF = exp(-aD - bD2)</span></div>\n           <div class=\"flow\"><span class=\"chip\">alpha term</span><span class=\"arw\">→</span><span class=\"chip\">single-track kill · linear with dose</span></div>\n           <div class=\"flow\"><span class=\"chip on\">beta term</span><span class=\"arw\">→</span><span class=\"chip on\">two-event kill · grows as D squared</span></div>\n         </div>\n         <p class=\"lead\">Large fractions activate disproportionately more quadratic kill — the survival curve steepens. That steepening is the whole biological story of hypofractionation.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The relationship between dose and cell survival is the linear-quadratic model. Surviving fraction equals e to the negative alpha D minus beta D squared. The alpha term captures cell kill from a single radiation track — proportional to dose. The beta term captures kill from two independent events that together become lethal — proportional to dose squared. At low doses the linear term dominates. At high doses per fraction, the quadratic term grows quickly and the survival curve steepens. This is why fraction size matters: large fractions activate more quadratic kill than small ones delivering the same total dose.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 42.26
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "num": 5,
+      "total": 12,
+      "section": "THE ALPHA-BETA RATIO",
+      "label": "05 / 12 · THE ALPHA-BETA RATIO",
+      "dark": false,
+      "title": [
+        [
+          "HIGH ALPHA-BETA VERSUS LOW ALPHA-BETA — ",
+          false
+        ],
+        [
+          "THE ASYMMETRY THAT HEALS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part hot\"><b>HIGH a/b ~10 Gy</b><span>tumors + acute tissues: skin, mucosa, marrow</span><span>shallow shoulder — insensitive to fraction size</span></div>\n           <div class=\"cell-part\"><b>LOW a/b ~3 Gy</b><span>late-responding tissues: spinal cord, brain, kidney</span><span>pronounced shoulder — very sensitive to fraction size</span></div>\n         </div>\n         <p class=\"lead\">Small fractions punish the tumor every day while allowing the spinal cord to repair between fractions. Large fractions collapse that advantage.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The alpha-beta ratio is the dose at which linear and quadratic cell killing are equal. It differs systematically between tissue types, and that difference is what makes fractionation therapeutic rather than merely convenient. High alpha-beta tissues — around 10 Gray — include most cancers and acutely responding normal tissues. Their survival curve has a shallow shoulder: fraction size matters relatively little, total dose dominates. Low alpha-beta tissues — around 3 Gray — are the late-responding normal tissues: spinal cord, brain, kidney. Their survival curve has a pronounced shoulder: they respond disproportionately badly to large fractions. Small daily fractions exploit that asymmetry. Large fractions collapse it.",
+          "audio_file": "audio/S05.mp3",
+          "actual_duration_s": 51.27
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "num": 6,
+      "total": 12,
+      "section": "THE FIVE RS",
+      "label": "06 / 12 · THE FIVE Rs",
+      "dark": false,
+      "title": [
+        [
+          "THE FIVE Rs OF RADIOBIOLOGY — ",
+          false
+        ],
+        [
+          "WHY FRACTIONATION WORKS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>REPAIR</b><span>normal tissue repairs sublethal damage more efficiently than tumor between fractions</span></div>\n           <div class=\"wire\"><b>REPOPULATION</b><span>both divide during treatment — tumor repopulation erodes cell kill in fast cancers</span></div>\n           <div class=\"wire\"><b>REDISTRIBUTION</b><span>surviving cells cycle into radiosensitive G2/M — ratcheting up kill with each fraction</span></div>\n           <div class=\"wire\"><b>REOXYGENATION</b><span>killing oxygenated cells improves perfusion, exposing hypoxic cells to the next fraction</span></div>\n           <div class=\"wire\"><b>RADIOSENSITIVITY</b><span>intrinsic — BRCA, p53, cell type — the population average underneath every alpha/beta</span></div>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Five Rs explain why fractionation works. Repair: normal tissue fixes sublethal DNA damage more efficiently than tumor between fractions — the primary biological basis of the fractionation advantage. Repopulation: both tumor and normal tissue divide during a multi-week course; fast-growing tumors can regenerate between fractions, eroding cell kill. Redistribution: each fraction kills cells in sensitive phases, and survivors redistribute into more sensitive phases for the next fraction. Reoxygenation: killing well-oxygenated cells improves perfusion to hypoxic regions, making them vulnerable to the next fraction. Radiosensitivity: intrinsic differences — BRCA status, p53, cell type — underlie the population averages we use to plan treatment.",
+          "audio_file": "audio/S06.mp3",
+          "actual_duration_s": 55.87
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "num": 7,
+      "total": 12,
+      "section": "FRACTIONATION STRATEGIES",
+      "label": "07 / 12 · FRACTIONATION STRATEGIES",
+      "dark": false,
+      "title": [
+        [
+          "FOUR STRATEGIES, ",
+          false
+        ],
+        [
+          "ONE BIOLOGICAL LOGIC.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip on\">CONVENTIONAL</span><span class=\"arw\">→</span><span class=\"chip\">~2 Gy/day · 5x/week · 5-7 weeks · widest therapeutic ratio</span></div>\n           <div class=\"flow\"><span class=\"chip\">HYPOFRACTIONATION</span><span class=\"arw\">→</span><span class=\"chip\">larger fractions · when tumor alpha/beta is low (prostate, breast)</span></div>\n           <div class=\"flow\"><span class=\"chip\">ACCELERATED</span><span class=\"arw\">→</span><span class=\"chip\">2 Gy/fraction · compressed time · starves repopulation</span></div>\n           <div class=\"flow\"><span class=\"chip warn\">SBRT / SRS</span><span class=\"arw\">→</span><span class=\"chip warn\">10-25 Gy/fraction · 1-5 fractions · LQ model less reliable</span></div>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The five Rs translate into four strategies. Conventional fractionation — 2 Gray per day, five days per week — sits where the therapeutic ratio between high alpha-beta tumors and low alpha-beta late-responding tissues is most favorable. Hypofractionation uses fewer, larger fractions, justified when the tumor has a low alpha-beta, as in prostate cancer, making large fractions disproportionately effective. Accelerated fractionation maintains fraction size near 2 Gray but compresses total time, sometimes delivering two fractions per day, to starve tumor repopulation in fast-dividing cancers. Stereotactic body radiotherapy uses extreme hypofractionation — 10 to 25 Gray per fraction — made feasible by highly conformal geometry. At those fraction sizes, the linear-quadratic model's predictions become less reliable.",
+          "audio_file": "audio/S07.mp3",
+          "actual_duration_s": 57.07
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "num": 8,
+      "total": 12,
+      "section": "BIOLOGICALLY EFFECTIVE DOSE",
+      "label": "08 / 12 · BIOLOGICALLY EFFECTIVE DOSE",
+      "dark": false,
+      "title": [
+        [
+          "PHYSICAL GRAY IS NOT ",
+          false
+        ],
+        [
+          "BIOLOGICAL EFFECT.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">BED = n times d times (1 + d / alpha-beta)</span></div>\n           <div class=\"flow\"><span class=\"chip\">Prostate conventional: 60 Gy in 30 fx of 2 Gy</span><span class=\"arw\">→</span><span class=\"chip\">BED = 140 Gy</span></div>\n           <div class=\"flow\"><span class=\"chip on\">Prostate SBRT: 36.25 Gy in 5 fx of 7.25 Gy</span><span class=\"arw\">→</span><span class=\"chip on\">BED = 211 Gy</span></div>\n         </div>\n         <p class=\"lead\">36 physical Gray is biologically more than 60 Gray for a tissue with alpha-beta of 1.5. The smaller physical number delivers the larger biological hit.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Two schedules with different fraction sizes are not on the same biological scale. Comparing their physical totals is like comparing a bullet's mass to its velocity and calling that energy. The common currency is biologically effective dose: BED equals n times d times the quantity 1 plus d divided by alpha-beta. For prostate cancer, alpha-beta is approximately 1.5 Gray. Conventional treatment: 60 Gray in 30 fractions of 2 Gray gives a BED of 140 Gray. SBRT: 36.25 Gray in 5 fractions of 7.25 Gray gives a BED of 211 Gray. Thirty-six physical Gray is biologically more than sixty. The 7.25 Gray fractions land on the steep part of the survival curve for a low-alpha-beta tissue, amplifying every fraction.",
+          "audio_file": "audio/S08.mp3",
+          "actual_duration_s": 51.73
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "num": 9,
+      "total": 12,
+      "section": "SBRT AND NORMAL TISSUE",
+      "label": "09 / 12 · SBRT AND NORMAL TISSUE",
+      "dark": false,
+      "title": [
+        [
+          "THE AMPLIFICATION WORKS ",
+          false
+        ],
+        [
+          "ON BOTH SIDES OF THE BEAM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">124</div><div class=\"cap\">Gy BED rectal wall - SBRT</div></div>\n           <div class=\"eq\">vs</div>\n           <div class=\"stat\"><div class=\"big on\">100</div><div class=\"cap\">Gy BED rectal wall - conventional</div></div>\n         </div>\n         <p class=\"lead\">The biological amplification that makes SBRT efficient for the prostate tumor also makes it more demanding on adjacent normal tissue. Physics and radiobiology must both be right.</p>\n         <div class=\"callout\">Rectal wall alpha/beta ~3 Gy — any large fraction amplifies rectal BED too.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The same arithmetic that makes prostate SBRT biologically efficient also raises the biological dose to adjacent normal tissue. For the rectal wall — a late-responding tissue with alpha-beta of approximately 3 Gray — conventional prostate treatment delivers a BED of 100 Gray. SBRT delivers 124 Gray to that same wall. The biological amplification that makes SBRT efficient for the tumor also makes it more demanding on normal tissue in the field. This is why prostate SBRT requires precise, conformal targeting that minimizes rectal dose per fraction. The physics and the radiobiology must both be right, simultaneously.",
+          "audio_file": "audio/S09.mp3",
+          "actual_duration_s": 43.65
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "num": 10,
+      "total": 12,
+      "section": "THE THERAPEUTIC RATIO",
+      "label": "10 / 12 · THE THERAPEUTIC RATIO",
+      "dark": false,
+      "title": [
+        [
+          "THE THERAPEUTIC RATIO — ",
+          false
+        ],
+        [
+          "THE GAP FRACTIONATION ENGINEERS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"balance\">\n           <div class=\"pan surv\"><b>TUMOR CONTROL DOSE</b><span>the minimum dose needed to sterilize the tumor</span></div>\n           <div class=\"fulcrum\">vs</div>\n           <div class=\"pan die\"><b>NORMAL TISSUE TOLERANCE</b><span>the dose at which irreversible injury occurs</span></div>\n         </div>\n         <div class=\"flow\" style=\"margin-top:18px\"><span class=\"chip\">Hodgkin: 20-30 Gy</span><span class=\"arw\">→</span><span class=\"chip on\">wide comfortable margin</span></div>\n         <div class=\"flow\"><span class=\"chip warn\">Head-and-neck: 70 Gy</span><span class=\"arw\">→</span><span class=\"chip warn\">narrow — every Gy matters</span></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The therapeutic ratio is the gap between the dose that controls the tumor and the dose that injures the normal tissue in the field. Fractionation does not change where the photons land. It changes the biology of how tumor and normal tissue respond to each fraction, widening that gap. For Hodgkin lymphoma, controlled at 20 to 30 Gray, the margin is comfortable — well below the tolerance of any structure in the field. For head-and-neck cancers, the ratio is narrow: 70 Gray is needed for tumor control, and salivary glands, spinal cord, pharyngeal mucosa, and mandible all hover within or near the treatment volume. Every Gray matters. Every fraction-size decision matters.",
+          "audio_file": "audio/S10.mp3",
+          "actual_duration_s": 45.79
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "num": 11,
+      "total": 12,
+      "section": "THE THESIS",
+      "label": "11 / 12 · THE THESIS",
+      "dark": false,
+      "title": [
+        [
+          "RADIATION'S SELECTIVITY IS ",
+          false
+        ],
+        [
+          "ENGINEERED, NOT INHERENT.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">The five Rs are five manifestations of one fact: <b>tumor and normal tissue respond differently to radiation</b>, and fractionation schedules that exploit those differences widen the gap between tumor control and normal-tissue damage.</div>\n         <p class=\"lead\">Still open: does the LQ model break down at SBRT fraction sizes? Are vascular collapse and immune activation the real drivers at extreme doses?</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The discipline of radiation oncology is the engineering of a gap. The linear-quadratic model and the alpha-beta ratio quantify it. The five Rs explain why it exists and what each fraction does to sustain it. The hard cases are where the ratio is narrow to begin with: head-and-neck cancers with multiple critical structures in close proximity, glioblastoma where the brain is the surrounding normal tissue. In those settings, every design decision — fraction size, total dose, treatment duration, beam arrangement — is a lever on the therapeutic ratio, and getting the lever wrong is exactly how 70 Gray in 35 fractions and 70 Gray in 10 fractions produce outcomes as different as controlled disease and permanent paralysis.",
+          "audio_file": "audio/S11.mp3",
+          "actual_duration_s": 49.32
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "num": 12,
+      "total": 12,
+      "section": "CLOSE",
+      "label": "12 / 12 · CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "ENGINEER THE GAP. ",
+          false
+        ],
+        [
+          "EVERY FRACTION, EVERY DAY.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>ALPHA-BETA ENCODES THE BIOLOGY</span><span>//</span><span>FRACTIONATION EXPLOITS IT</span><span>//</span><span>BED MEASURES IT</span></div>\n           <p class=\"sig\">Cancer Research · Chapter 8 · Radiation Oncology</p>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That's the chapter. Radiation is indiscriminate. Its selectivity is not an intrinsic property of the beam — it is produced by engineering a fractionation schedule that exploits the measurable biological difference between tumor and normal tissue. Alpha-beta encodes that difference. The five Rs explain it mechanistically. Biologically effective dose lets you compare schedules on the same scale. And the therapeutic ratio is what results when the engineering succeeds — and what collapses when the fraction size is wrong.",
+          "audio_file": "audio/S12.mp3",
+          "actual_duration_s": 31.9
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "Cancer Research Ch.8 — Radiation Oncology — Principles and Biology",
+    "slug": "cancer-research-ch08-radiation-oncology",
+    "playlist": "Cancer Research",
+    "hashtags": [
+      "#CancerResearch",
+      "#Oncology",
+      "#Education",
+      "#NikBearBrown",
+      "#Lecture",
+      "#OnlineLearning"
+    ],
+    "description": "Cancer Research Ch.8 — Radiation Oncology — Principles and Biology\n\nFull voiced lecture deck — Cancer Research series.\n\nyoutube.com/@NikBearBrown"
+  }
+}

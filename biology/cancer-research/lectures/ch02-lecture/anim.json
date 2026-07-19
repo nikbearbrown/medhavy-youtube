@@ -1,0 +1,80 @@
+{
+  "S08": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 08 — THE ASYMMETRY: POSITIVE VS NEGATIVE BIOPSY",
+    "data": {
+      "question": "The biopsy is negative — is the lesion benign?",
+      "branches": [
+        {
+          "label": "Positive biopsy",
+          "detail": "Malignant cells identified — they were present in the sample. Highly reliable.",
+          "fix": "Proceed with treatment",
+          "tone": "good"
+        },
+        {
+          "label": "Negative biopsy",
+          "detail": "No malignancy in this sample — consistent with no cancer, or with a cancer the needle did not reach",
+          "fix": "Assess whether the needle sampled the right tissue before accepting result",
+          "tone": "warn"
+        }
+      ],
+      "resolver": {
+        "label": "The failure is silent",
+        "detail": "The report says what was in the sample. It does not say whether the sample was the right tissue. Reliability of a negative result is bounded by confidence the needle was in the right place."
+      }
+    }
+  },
+  "S09": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 09 — FNA VS CORE NEEDLE BIOPSY",
+    "data": {
+      "question": "Which needle technique should be used?",
+      "branches": [
+        {
+          "label": "Fine-needle aspiration (22–25 gauge)",
+          "detail": "Cytology only — no architecture, rarely enough for molecular profiling. Cannot assess invasion through basement membranes.",
+          "fix": "Use for confirming known-primary mets or when architecture is not needed",
+          "tone": "warn"
+        },
+        {
+          "label": "Core needle biopsy (14–18 gauge)",
+          "detail": "Preserves architecture — supports IHC and NGS. Required when invasion assessment determines diagnosis.",
+          "fix": "Use when diagnosis requires architecture or molecular profiling",
+          "tone": "good"
+        }
+      ],
+      "resolver": {
+        "label": "Follicular thyroid carcinoma — the extreme case",
+        "detail": "Capsular invasion is required for diagnosis. FNA cannot establish invasion. The whole nodule must be excised — FNA cannot make this diagnosis at all."
+      }
+    }
+  },
+  "S10": {
+    "pattern": "scaleComparison",
+    "meta": "// SLIDE 10 — BAYES AT THE BEDSIDE: PANCREATIC MASS POSTERIOR PROBABILITY",
+    "data": {
+      "axis": {
+        "min": 0,
+        "max": 100,
+        "unit": "% probability of malignancy",
+        "log": false
+      },
+      "band": {
+        "from": 0,
+        "to": 50,
+        "label": "Cannot be treated as benign"
+      },
+      "items": [
+        {
+          "label": "Pretest probability (imaging features)",
+          "value": 80
+        },
+        {
+          "label": "Post-negative-biopsy probability",
+          "value": 39,
+          "hot": true
+        }
+      ]
+    }
+  }
+}

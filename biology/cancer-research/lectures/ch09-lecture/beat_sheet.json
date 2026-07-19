@@ -1,0 +1,344 @@
+{
+  "slug": "cancer-research-ch09-modern-radiation-therapy",
+  "title": "Modern Radiation Therapy — Technology, Toxicity, and Integration",
+  "series": "Cancer Research",
+  "source": "cancer-research/chapters/09-modern-radiation-therapy-technology-toxicity-and-integration.md",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
+  "accent": "#ea580c",
+  "fps": 30,
+  "clock": "audio-first",
+  "segments": [
+    {
+      "id": "S01",
+      "num": 1,
+      "total": 12,
+      "section": "HOOK",
+      "label": "01 / 12 · HOOK",
+      "dark": false,
+      "title": [
+        [
+          "THE PHYSICS IS REAL. ",
+          false
+        ],
+        [
+          "THE OUTCOME ISN'T DECIDED YET.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">proton brochure</span><span class=\"arw\">→</span><span class=\"chip\">Bragg peak</span><span class=\"arw\">→</span><span class=\"chip on\">no exit dose</span></div>\n           <p class=\"lead\">But the man hasn't asked the right question. He's buying a dose distribution — not a survival benefit.</p>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "A man reads a proton therapy brochure. The diagrams are compelling: a beam that enters the body, releases its energy in a precise burst, and stops. No exit dose spilling beyond the tumor. Compared to the photon plan his local hospital offered, the proton plan looks like a scalpel against a chisel. He asks his oncologist: shouldn't he make the drive and pay out of pocket? The physics in the brochure is real. But he has quietly substituted one question for another, and that substitution is what this chapter is about.",
+          "audio_file": "audio/S01.mp3"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "num": 2,
+      "total": 12,
+      "section": "THE STAKES",
+      "label": "02 / 12 · THE STAKES",
+      "dark": false,
+      "title": [
+        [
+          "THE GAP BETWEEN ",
+          false
+        ],
+        [
+          "THE SCREEN AND THE PATIENT.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">DOSE MAP</div><div class=\"cap\">what the plan shows</div></div>\n           <div class=\"eq\">≠</div>\n           <div class=\"stat\"><div class=\"big on\">OUTCOME</div><div class=\"cap\">what the trial proves</div></div>\n         </div>\n         <p class=\"lead\">The therapeutic ratio is the goal. Whether any technique raises it for real patients requires evidence.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Ionizing radiation doesn't know what it's supposed to hit. A beam aimed at a prostate tumor also traverses skin, fat, bowel, bladder. Every radiation side effect comes from healthy tissue absorbing dose it was never meant to absorb. The entire history of radiation oncology is the history of getting better at aiming, concentrating dose where the tumor is and withdrawing it from where it isn't. That ratio is called the therapeutic ratio. Raising it is the goal. Whether any particular technique succeeds at raising it for actual patients is the question that requires trials.",
+          "audio_file": "audio/S02.mp3"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "num": 3,
+      "total": 12,
+      "section": "IMRT",
+      "label": "03 / 12 · IMRT",
+      "dark": false,
+      "title": [
+        [
+          "IMRT MAKES ",
+          false
+        ],
+        [
+          "THE CONCAVE POSSIBLE.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>MULTI-LEAF COLLIMATOR</b><span>independently movable metal leaves shape each beam</span></div>\n           <div class=\"cell-part hot\"><b>IMRT</b><span>many beams, many angles, combining into a concave dose cloud</span></div>\n         </div>\n         <p class=\"lead\">A rectangular field can't wrap around the spinal cord. A modulated beam can, and the parotid glands prove it matters.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Before a radiation beam reaches the patient, it passes through a multi-leaf collimator, a bank of independently movable metal leaves that can shape the beam into nearly arbitrary patterns. Intensity-modulated radiation therapy uses this device to deliver many beams from many angles, combining into a dose cloud that can wrap around a critical structure. The old rectangular field either underdosed the tumor to spare the spinal cord, or overdosed the cord to treat the tumor. IMRT escapes that tradeoff. The transformative case is head and neck cancer: parotid glands spared, severe dry mouth reduced. That is a clinical benefit, not just a prettier plan.",
+          "audio_file": "audio/S03.mp3"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "num": 4,
+      "total": 12,
+      "section": "DOSE ESCALATION & VMAT",
+      "label": "04 / 12 · DOSE ESCALATION & VMAT",
+      "dark": false,
+      "title": [
+        [
+          "MORE DOSE TO THE TUMOR, ",
+          false
+        ],
+        [
+          "LESS TO THE RECTUM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\">\n           <span class=\"chip\">70 Gy old ceiling</span><span class=\"arw\">→</span><span class=\"chip on\">78–80 Gy IMRT</span><span class=\"arw\">→</span><span class=\"chip\">better biochemical control</span>\n         </div>\n         <div class=\"flow\" style=\"margin-top:14px\">\n           <span class=\"chip\">step-and-shoot 5–15 min</span><span class=\"arw\">→</span><span class=\"chip on\">VMAT arc 2–3 min</span><span class=\"arw\">→</span><span class=\"chip\">same dose, less time</span>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "For prostate cancer, IMRT enabled dose escalation: raising total dose from around seventy gray to seventy-eight to eighty gray, which improves tumor control, while keeping dose to the adjacent rectum and bladder below the thresholds that cause serious toxicity. Randomized trials confirmed better biochemical control, a real benefit. Volumetric modulated arc therapy, or VMAT, is IMRT delivered continuously as the machine rotates. The dose distribution is comparable to step-and-shoot IMRT, but delivered in two to three minutes instead of five to fifteen. The dosimetric result is similar; the practical gain is throughput and patient comfort.",
+          "audio_file": "audio/S04.mp3"
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "num": 5,
+      "total": 12,
+      "section": "IMAGE GUIDANCE",
+      "label": "05 / 12 · IMAGE GUIDANCE",
+      "dark": false,
+      "title": [
+        [
+          "A PERFECT PLAN FAILS ",
+          false
+        ],
+        [
+          "IF THE TUMOR HAS MOVED.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>CONE-BEAM CT</b><span>low-dose scan in treatment position, compare to plan, reposition before delivery</span></div>\n           <div class=\"wire\"><b>FIDUCIAL MARKERS</b><span>gold seeds implanted in the prostate, visible landmarks on imaging</span></div>\n           <div class=\"wire\"><b>MR-LINAC</b><span>real-time soft-tissue imaging, gate beam to breathing, adapt plan to that day's anatomy</span></div>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "A perfectly shaped dose distribution is useless if the tumor isn't where the plan assumed it would be. The prostate sits next to a bladder and rectum that vary in filling every day. If the rectum is more distended than on the planning day, the prostate shifts and the intended high-dose region lands in the wrong place. Image-guided radiotherapy addresses this by imaging the patient in treatment position at each fraction before delivery. Cone-beam CT, acquired by a detector on the machine itself, can flag a shift and allow repositioning in the two minutes before beam-on. Implanted gold fiducial markers make the prostate easy to localize. And on an MR-linac, soft tissue is visible in real time, with the beam gated to fire only when the tumor is in position.",
+          "audio_file": "audio/S05.mp3"
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "num": 6,
+      "total": 12,
+      "section": "SBRT",
+      "label": "06 / 12 · SBRT",
+      "dark": false,
+      "title": [
+        [
+          "FIVE FRACTIONS. ",
+          false
+        ],
+        [
+          "NINETY PERCENT LOCAL CONTROL.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">2 Gy</div><div class=\"cap\">conventional fraction</div></div>\n           <div class=\"eq\">→</div>\n           <div class=\"stat\"><div class=\"big on\">12–20 Gy</div><div class=\"cap\">SBRT fraction</div></div>\n         </div>\n         <div class=\"callout\">Early-stage inoperable lung cancer: ~90% local control at 3 years, matching surgical outcomes in selected patients.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Conventional fractionation divides total dose into many small daily fractions, typically two gray per fraction, five days a week, for five to seven weeks. Normal tissues repair sub-lethal damage between fractions while tumor cells are less efficient at this. Stereotactic body radiotherapy, or SBRT, inverts this logic for small well-circumscribed targets: twelve to twenty gray per fraction, one to five fractions total, with steep dose falloff outside the target. The entire course may complete in a week. The signature result is early-stage inoperable non-small-cell lung cancer. Patients who cannot tolerate surgery achieve roughly ninety percent local control at three years, outcomes approaching surgery in selected patients. Before SBRT, this disease had very limited options.",
+          "audio_file": "audio/S06.mp3"
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "num": 7,
+      "total": 12,
+      "section": "OLIGOMETASTASIS",
+      "label": "07 / 12 · OLIGOMETASTASIS",
+      "dark": false,
+      "title": [
+        [
+          "SABR-COMET: ",
+          false
+        ],
+        [
+          "ABLATE THE DEPOSITS, EXTEND SURVIVAL.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\">\n           <span class=\"chip\">1–5 metastatic lesions</span><span class=\"arw\">→</span><span class=\"chip\">SABR all lesions</span><span class=\"arw\">→</span><span class=\"chip on\">survival benefit vs. palliative care</span>\n         </div>\n         <p class=\"lead\">Still open: does SBRT treat the disease, or does it select the patients who were going to do well anyway?</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "SBRT has been extended to oligometastatic disease, patients with one to five metastatic deposits that are amenable to ablative treatment. The SABR-COMET trial randomized patients with controlled primary disease and one to five metastatic lesions to standard palliative care versus stereotactic ablative body radiotherapy of all lesions, and reported a survival benefit in the SBRT arm. This is an evolving area. The biology of oligometastatic disease remains contested: which patients derive genuine benefit from ablation, and which have favorable biology and would do well regardless? Those are live questions without settled answers.",
+          "audio_file": "audio/S07.mp3",
+          "actual_duration_s": 43.24
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "num": 8,
+      "total": 12,
+      "section": "PROTON THERAPY",
+      "label": "08 / 12 · PROTON THERAPY",
+      "dark": false,
+      "title": [
+        [
+          "THE BRAGG PEAK IS REAL. ",
+          false
+        ],
+        [
+          "THE CLINICAL TRANSLATION VARIES.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid3\">\n           <div class=\"cell-part hot\"><b>PEDIATRIC</b><span>decades ahead, reduced integral dose protects against second malignancy</span></div>\n           <div class=\"cell-part hot\"><b>SKULL-BASE</b><span>chordoma adjacent to brainstem, protons reach adequate dose safely</span></div>\n           <div class=\"cell-part\"><b>PROSTATE</b><span>feared toxicities arise beside the target, IMRT already protects, gap unestablished</span></div>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Proton physics is genuinely different. A proton deposits little energy along most of its path, then releases a sharp burst, the Bragg peak, at the end of its range, and stops. No exit dose. Spread the peak across a target and you get a spread-out Bragg peak that covers the tumor's depth while sparing tissue beyond. For pediatric posterior fossa tumors this is decisive: a child has decades for a radiation-induced second cancer to develop, and reducing integral dose reduces that risk. For skull-base chordomas immediately adjacent to the brainstem, protons make adequate dose feasible. For prostate cancer the picture is different: the feared toxicities come from structures beside the prostate, not beyond it, and modern IMRT already protects those structures well.",
+          "audio_file": "audio/S08.mp3",
+          "actual_duration_s": 50.67
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "num": 9,
+      "total": 12,
+      "section": "CHEMORADIATION",
+      "label": "09 / 12 · CHEMORADIATION",
+      "dark": false,
+      "title": [
+        [
+          "CONCURRENT DELIVERY: ",
+          false
+        ],
+        [
+          "SYNERGY WITH A COST.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"balance\">\n           <div class=\"pan surv\"><b>SENSITIZATION</b><span>chemo disrupts repair, synchronizes cells, kills resistant hypoxic cells</span></div>\n           <div class=\"fulcrum\">⇄</div>\n           <div class=\"pan die\"><b>COMPOUNDED TOXICITY</b><span>mucositis, esophagitis, myelosuppression, both modalities at once</span></div>\n         </div>\n         <p class=\"lead\">Standard for locally advanced cervical, head and neck, lung, and esophageal cancers. Survival benefit confirmed in trials.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Radiation as a single modality treats the tumor it can see. Systemic therapy treats the disease imaging cannot find. Their combination is not additive, it is synergistic. Concurrent chemoradiation pairs radiation with chemotherapy at the same time: the chemotherapy sensitizes tumor cells, disrupting DNA repair, synchronizing cells into radiation-sensitive phases, and impairing the hypoxic cells that would otherwise be most resistant. The result is greater tumor cell killing per fraction. Cisplatin-based concurrent chemoradiation is standard for locally advanced cervical, head and neck, lung, and esophageal cancers, with survival benefit over radiation alone established in randomized trials. The cost: compounded toxicity, as both modalities damage healthy tissue simultaneously.",
+          "audio_file": "audio/S09.mp3",
+          "actual_duration_s": 52.48
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "num": 10,
+      "total": 12,
+      "section": "IMMUNOTHERAPY INTEGRATION",
+      "label": "10 / 12 · IMMUNOTHERAPY INTEGRATION",
+      "dark": false,
+      "title": [
+        [
+          "RADIATION PRIMES IMMUNITY. ",
+          false
+        ],
+        [
+          "PACIFIC PROVED IT WORKS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\">\n           <span class=\"chip\">chemoradiation complete</span><span class=\"arw\">→</span><span class=\"chip\">tumor antigens released</span><span class=\"arw\">→</span><span class=\"chip\">durvalumab amplifies</span><span class=\"arw\">→</span><span class=\"chip on\">OS + PFS benefit</span>\n         </div>\n         <div class=\"callout\">Abscopal effect: immune regression of distant untreated tumors is real but rare. Optimal dose, fractionation, and tumor type remain open questions.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Consolidation immunotherapy following chemoradiation emerged from the PACIFIC trial. Patients with unresectable stage three non-small-cell lung cancer who completed concurrent chemoradiation without progression were randomized to durvalumab, a P-D-L-1 inhibitor, or placebo. Durvalumab produced a significant improvement in both progression-free and overall survival. The rationale: radiation kills tumor cells and releases antigens, potentially activating anti-tumor immune responses that checkpoint inhibition can amplify and sustain. The abscopal effect, radiation to one lesion causing immune-mediated regression of distant untreated tumors, is the mechanistic aspiration. It is real but rare, and the optimal parameters remain active research questions.",
+          "audio_file": "audio/S10.mp3",
+          "actual_duration_s": 50.2
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "num": 11,
+      "total": 12,
+      "section": "THESIS",
+      "label": "11 / 12 · THESIS",
+      "dark": false,
+      "title": [
+        [
+          "DOSIMETRIC SUPERIORITY ",
+          false
+        ],
+        [
+          "IS NECESSARY, NOT SUFFICIENT.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">The gap between the planning screen and the patient's life is the discipline of radiation oncology. <b>Ask: is the tissue being saved the tissue that drives this patient's outcome?</b></div>\n         <p class=\"lead\">For the child with a posterior fossa tumor, the answer is yes. For the man with prostate cancer, no, and the decision follows.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The chapter's claim is this: dosimetric superiority is necessary but not sufficient evidence of clinical benefit. The man in the opening case is about to pay a great deal of money for a better dose distribution that has not been shown to buy him a better outcome. The skill being taught is not distrust protons. It's reading a dose distribution and asking: is the tissue I'm saving the tissue that drives my patient's outcome? For a child with a posterior fossa tumor, the answer is yes and the decision goes toward protons. For the man with prostate cancer, the answer is no, and the elegant physics in the brochure and the evidence from clinical trials point in different directions.",
+          "audio_file": "audio/S11.mp3",
+          "actual_duration_s": 41.66
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "num": 12,
+      "total": 12,
+      "section": "CLOSE",
+      "label": "12 / 12 · CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "READ THE DOSE DISTRIBUTION. ",
+          false
+        ],
+        [
+          "THEN ASK WHAT IT BUYS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>BETTER AIM DOESN'T ALWAYS MEAN BETTER OUTCOMES</span><span>//</span><span>THE TRIAL IS THE ANSWER</span><span>//</span><span>THE GAP IS THE DISCIPLINE</span></div>\n           <p class=\"sig\">Cancer Research · Chapter 9 · Modern Radiation Therapy</p>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That's the frame for everything in radiation oncology. The technology has transformed: intensity modulation, image guidance, stereotactic ablation, proton beams, immunotherapy integration. Each technique raises the therapeutic ratio on the planning screen. The discipline is learning which ones raise it in the patient's life. Read the dose distribution. Understand the mechanism. Then ask what the evidence says it buys. The gap between the screen and the patient, that gap is radiation oncology.",
+          "audio_file": "audio/S12.mp3",
+          "actual_duration_s": 32.46
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "Cancer Research Ch.9 — Modern Radiation Therapy — Technology, Toxicity, and Integration",
+    "slug": "cancer-research-ch09-modern-radiation-therapy",
+    "playlist": "Cancer Research",
+    "hashtags": [
+      "#CancerResearch",
+      "#Oncology",
+      "#Education",
+      "#NikBearBrown",
+      "#Lecture",
+      "#OnlineLearning"
+    ],
+    "description": "Cancer Research Ch.9 — Modern Radiation Therapy — Technology, Toxicity, and Integration\n\nFull voiced lecture deck — Cancer Research series.\n\nyoutube.com/@NikBearBrown"
+  }
+}

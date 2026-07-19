@@ -1,0 +1,28 @@
+{
+  "S04": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 04 — DOXIL — THE CLEAREST LESSON",
+    "data": {
+      "question": "Why does Doxil help patients?",
+      "branches": [
+        {"label": "More drug to the tumor", "detail": "EPR — enhanced permeability & retention", "fix": "credit tumor accumulation", "tone": "ink"},
+        {"label": "Less drug to the heart", "detail": "PEG liposome keeps doxorubicin from cardiac tissue", "fix": "credit cardiac protection", "tone": "good"}
+      ],
+      "resolver": {"label": "The documented clinical win is the heart", "detail": "EPR contributes, but cardiac protection is the benefit"}
+    }
+  },
+  "S08": {
+    "pattern": "divergentFates",
+    "meta": "// SLIDE 08 — ABRAXANE — THE RIGHT PROBLEM",
+    "data": {
+      "startLabel": "Paclitaxel — insoluble drug",
+      "splitLabel": "how you deliver it",
+      "tracks": [
+        {"label": "nab-paclitaxel (Abraxane)", "outcome": "no solvent — standard infusion", "tone": "good", "path": "up",
+         "notes": ["albumin-bound ~130 nm", "no premedication", "hypersensitivity gone"]},
+        {"label": "Cremophor EL formulation", "outcome": "hypersensitivity risk", "tone": "warn", "path": "down",
+         "notes": ["toxic castor-oil solvent", "premedication required", "slow, monitored infusion"]}
+      ]
+    }
+  }
+}

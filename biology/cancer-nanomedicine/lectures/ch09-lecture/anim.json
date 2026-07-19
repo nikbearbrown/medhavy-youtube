@@ -1,0 +1,115 @@
+{
+ "S03": {
+  "pattern": "attritionChain",
+  "meta": "// SLIDE 03 — THE DOSE-LOSS FUNNEL",
+  "data": {
+   "total": 1000,
+   "startLabel": "Injected dose",
+   "stages": [
+    {
+     "label": "Survive nucleases / clearance",
+     "survival": 0.4
+    },
+    {
+     "label": "Extravasate into tumor",
+     "survival": 0.3
+    },
+    {
+     "label": "Endocytosed by tumor cell",
+     "survival": 0.5
+    },
+    {
+     "label": "Escape endosome to cytosol",
+     "survival": 0.25
+    }
+   ],
+   "endClaim": "~1–2% reaches the cytosol"
+  }
+ },
+ "S05": {
+  "pattern": "threshold",
+  "meta": "// SLIDE 05 — pH-TRIGGERED ESCAPE",
+  "data": {
+   "subject": {
+    "label": "Ionizable lipid pKa",
+    "size": 6.5,
+    "unit": "pH"
+   },
+   "modes": [
+    {
+     "label": "Blood",
+     "sub": "pH 7.4 — neutral",
+     "limit": 7.4,
+     "resolves": false
+    },
+    {
+     "label": "Endosome",
+     "sub": "pH 5–6 — protonated (+)",
+     "limit": 5.5,
+     "resolves": true
+    }
+   ],
+   "axisLabel": "environment pH",
+   "axis": {
+    "min": 4.5,
+    "max": 8,
+    "unit": "pH",
+    "log": false
+   },
+   "verdicts": {
+    "yes": "PROTONATED → ESCAPES",
+    "no": "NEUTRAL → TRAPPED"
+   }
+  }
+ },
+ "S08": {
+  "pattern": "binaryBranch",
+  "meta": "// SLIDE 08 — CRISPR IN VIVO vs EX VIVO",
+  "data": {
+   "question": "Does Casgevy prove in-vivo CRISPR is ready?",
+   "branches": [
+    {
+     "label": "Ex vivo (Casgevy)",
+     "detail": "cells edited in a dish, then returned",
+     "fix": "delivery bypassed — approved 2023",
+     "tone": "good"
+    },
+    {
+     "label": "In vivo solid tumor",
+     "detail": "CRISPR must reach cells inside the patient",
+     "fix": "same dose-loss funnel — much harder",
+     "tone": "warn"
+    }
+   ],
+   "resolver": {
+    "label": "The delivery problem",
+    "detail": "bypassed ex vivo, not solved — still open in vivo"
+   }
+  }
+ },
+ "S10": {
+  "pattern": "binaryBranch",
+  "meta": "// SLIDE 10 — DIAGNOSTIC DISCIPLINE",
+  "data": {
+   "question": "The tumor didn't respond — why?",
+   "branches": [
+    {
+     "label": "Delivery failure",
+     "detail": "cargo never crossed to the cytosol",
+     "fix": "fix the particle",
+     "tone": "warn"
+    },
+    {
+     "label": "Biology failure",
+     "detail": "delivery confirmed, target didn't respond",
+     "fix": "change the target",
+     "tone": "ink"
+    }
+   ],
+   "resolver": {
+    "label": "Measure cytosolic delivery first",
+    "detail": "label the cargo, track the fraction that escapes the endosome"
+   }
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+  "S03": {
+    "pattern": "scaleComparison",
+    "meta": "// SLIDE 03 — WHAT A NANOPARTICLE IS",
+    "data": {
+      "axis": {"min": 0.1, "max": 10000, "unit": "nm"},
+      "band": {"from": 10, "to": 200, "label": "10–200 nm therapeutic window"},
+      "items": [
+        {"label": "Water", "value": 0.3},
+        {"label": "Antibody", "value": 10},
+        {"label": "Virus", "value": 20, "value2": 300},
+        {"label": "Nanoparticle", "value": 10, "value2": 200, "hot": true},
+        {"label": "Red blood cell", "value": 7000}
+      ]
+    }
+  },
+  "S05": {
+    "pattern": "attritionChain",
+    "meta": "// SLIDE 05 — THE DOSE-LOSS CHAIN",
+    "data": {
+      "total": 1000,
+      "startLabel": "Injected dose",
+      "stages": [
+        {"label": "Survives circulation", "survival": 0.50},
+        {"label": "Extravasates", "survival": 0.35},
+        {"label": "Penetrates tissue", "survival": 0.40},
+        {"label": "Cell uptake", "survival": 0.50},
+        {"label": "Payload releases", "survival": 0.50},
+        {"label": "Reaches target", "survival": 0.40}
+      ],
+      "endClaim": "~0.7% at tumor"
+    }
+  },
+  "S07": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 07 — IMAGING DELIVERY",
+    "data": {
+      "question": "Nanomedicine failed in the patient — why?",
+      "branches": [
+        {"label": "Delivery failure", "detail": "the particle never arrived", "fix": "redesign the vehicle", "tone": "warn"},
+        {"label": "Biology failure", "detail": "arrived, target didn't respond", "fix": "rethink the drug", "tone": "ink"}
+      ],
+      "resolver": {"label": "Track the particle", "detail": "PET · MRI · optical biodistribution"}
+    }
+  },
+  "S08": {
+    "pattern": "divergentFates",
+    "meta": "// SLIDE 08 — TWO LIPOSOMES",
+    "data": {
+      "startLabel": "Identical in the dish",
+      "splitLabel": "In the body",
+      "tracks": [
+        {"label": "LAB A · 90nm · PEG", "outcome": "tumor accumulation", "tone": "good", "path": "up",
+         "notes": ["tight distribution", "long circulation", "the Doxil logic"]},
+        {"label": "LAB B · wide · no PEG", "outcome": "liver / spleen clearance", "tone": "warn", "path": "down",
+         "notes": ["many >250 nm", "rapidly opsonized", "fails the chain"]}
+      ]
+    }
+  },
+  "S10": {
+    "pattern": "threshold",
+    "meta": "// SLIDE 10 — SEEING PARTICLES",
+    "data": {
+      "subject": {"label": "Nanoparticle", "size": 100, "unit": "nm"},
+      "modes": [
+        {"label": "Visible light", "sub": "λ 400–700 nm", "limit": 300, "resolves": false},
+        {"label": "Electron beam", "sub": "λ picometers", "limit": 1, "resolves": true}
+      ],
+      "axisLabel": "resolution limit"
+    }
+  }
+}

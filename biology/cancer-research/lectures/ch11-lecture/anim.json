@@ -1,0 +1,106 @@
+{
+  "S04": {
+    "pattern": "divergentFates",
+    "meta": "// SLIDE 04 — PHARMACOGENOMICS: Three gene-drug pairs where variant = standard dose becomes toxic overdose",
+    "data": {
+      "startLabel": "Standard protocol dose prescribed",
+      "splitLabel": "Enzyme gene variant status",
+      "tracks": [
+        {
+          "label": "Wild-type enzyme activity",
+          "outcome": "Drug cleared at expected rate. Therapeutic exposure. Intended toxicity profile.",
+          "tone": "good",
+          "path": "up",
+          "notes": ["DPYD: 5-FU/capecitabine cleared normally", "UGT1A1: SN-38 glucuronidated efficiently", "TPMT: thiopurine nucleotides inactivated"]
+        },
+        {
+          "label": "Loss-of-function variant",
+          "outcome": "Drug accumulates to toxic concentrations. Functional overdose at standard dose. Fatalities documented.",
+          "tone": "warn",
+          "path": "down",
+          "notes": ["DPYD variant (3–5%): 5-FU → severe mucositis, neutropenia; EU mandates pre-treatment testing", "UGT1A1*28: SN-38 accumulates → diarrhea, neutropenia", "TPMT variant (10%): thiopurine → prolonged myelosuppression"]
+        }
+      ]
+    }
+  },
+  "S07": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 07 — WHY SINGLE TARGETS FAIL: P-gp inhibitors — lab success, clinical failure",
+    "data": {
+      "question": "Can blocking P-glycoprotein reverse MDR and improve outcomes?",
+      "branches": [
+        {
+          "label": "Laboratory model",
+          "detail": "P-gp inhibitor reverses efflux pump — drug accumulates in resistant cells, killing resumed. Elegant single-target logic.",
+          "fix": "Works in vitro",
+          "tone": "ink"
+        },
+        {
+          "label": "Clinical trial (1990s–2000s)",
+          "detail": "Normal gut and liver P-gp blockade alters pharmacokinetics — systemic toxicity increased. Parallel resistance routes (ABC transporters, enhanced repair, apoptosis evasion) left intact.",
+          "fix": "Failed — blocking one pump left five others running",
+          "tone": "warn"
+        }
+      ],
+      "resolver": {
+        "label": "Resistance is a system, not a leverage point",
+        "detail": "Clinical tumor resistance is overlapping mechanisms. The productive frame: which combination drives this tumor, and does any create a new exploitable vulnerability?"
+      }
+    }
+  },
+  "S08": {
+    "pattern": "threshold",
+    "meta": "// SLIDE 08 — MYELOSUPPRESSION: Nadir window timeline — the medical emergency defined by biology",
+    "data": {
+      "subject": { "label": "Neutrophil count ANC", "size": 500, "unit": "cells/µL" },
+      "modes": [
+        {
+          "label": "Post-dose (Day 1–6)",
+          "sub": "Mature circulating cells die without replacement. Counts falling.",
+          "limit": 1,
+          "resolves": "No clinical crisis yet — marrow depletion in progress"
+        },
+        {
+          "label": "Nadir window (Day 7–14)",
+          "sub": "ANC at lowest — febrile neutropenia threshold <500",
+          "limit": 0,
+          "resolves": "FEBRILE NEUTROPENIA = empirical broad-spectrum antibiotics NOW — do not wait for cultures. Sepsis risk from normal flora."
+        },
+        {
+          "label": "Recovery (Day 21)",
+          "sub": "Counts recover toward baseline — 21-day cycle timed to this window",
+          "limit": 1,
+          "resolves": "Cycle 2 can proceed after count recovery confirmed"
+        }
+      ],
+      "axisLabel": "Days post-dose",
+      "axis": { "min": 0, "max": 21, "unit": "days" },
+      "verdicts": ["febrile neutropenia is a medical emergency", "delay costs lives", "G-CSF when risk exceeds ~20%"]
+    }
+  },
+  "S09": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 09 — NEUROPATHY & NAUSEA: Two toxicities, two opposite management logics",
+    "data": {
+      "question": "Can the toxicity be prevented or reversed?",
+      "branches": [
+        {
+          "label": "Peripheral neuropathy — platinum, taxanes, vinca, bortezomib",
+          "detail": "Cumulative — worsens with each cycle. Does not fully reverse when drug stopped. No established pharmacological prevention. Completing an effective regimen may produce permanent impairment.",
+          "fix": "Dose reduction or discontinuation — the only management",
+          "tone": "warn"
+        },
+        {
+          "label": "Chemotherapy-induced nausea — cisplatin (highly emetogenic)",
+          "detail": "Modern prophylaxis: 5-HT3 antagonist + NK1 antagonist + olanzapine + dexamethasone. Transformed tolerability. Key: treat BEFORE cycle one — anticipatory nausea once conditioned is nearly untreatable.",
+          "fix": "Prevented with pre-treatment prophylaxis — biology-driven timing",
+          "tone": "good"
+        }
+      ],
+      "resolver": {
+        "label": "Prophylaxis before cycle one is non-negotiable",
+        "detail": "Anticipatory nausea is a conditioned response — prevent the first bad experience, or it cannot be undone. Each element of the supportive plan is a prediction acted on before the problem manifests."
+      }
+    }
+  }
+}

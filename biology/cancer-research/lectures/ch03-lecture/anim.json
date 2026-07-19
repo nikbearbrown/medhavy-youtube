@@ -1,0 +1,82 @@
+{
+  "S02": {
+    "pattern": "attritionChain",
+    "meta": "// SLIDE 02 — THE THREE VALIDITY BARS FOR MOLECULAR TESTS",
+    "data": {
+      "total": 100,
+      "startLabel": "Molecular tests in clinical oncology",
+      "stages": [
+        {
+          "label": "Analytic validity",
+          "survival": 90
+        },
+        {
+          "label": "Clinical validity",
+          "survival": 60
+        },
+        {
+          "label": "Clinical utility proven",
+          "survival": 20
+        }
+      ],
+      "endClaim": "Most tests clear one or two bars. The third — does using it improve outcomes? — is where they stall."
+    }
+  },
+  "S09": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 09 — LIQUID BIOPSY LIMITS: CHIP CONFOUNDING",
+    "data": {
+      "question": "DNMT3A flagged in plasma ctDNA — is this a tumor signal?",
+      "branches": [
+        {
+          "label": "Tumor signal interpretation",
+          "detail": "DNMT3A is present in plasma — mutation is real (analytic validity cleared)",
+          "fix": "Work up for hematologic malignancy",
+          "tone": "warn"
+        },
+        {
+          "label": "Clonal hematopoiesis (CHIP)",
+          "detail": "In patients over 60, aging blood cell progenitors carry DNMT3A, TET2, ASXL1, TP53 — indistinguishable from tumor without separately sequencing white blood cells",
+          "fix": "Sequence germline/WBC separately to distinguish CHIP from tumor signal",
+          "tone": "good"
+        }
+      ],
+      "resolver": {
+        "label": "DNMT3A fails clinical validity as a lung marker",
+        "detail": "Most likely source is aging white blood cells, not tumor. The test cleared analytic validity but fails clinical validity for lung cancer. Enthusiasm for the report is not evidence of utility."
+      }
+    }
+  },
+  "S10": {
+    "pattern": "divergentFates",
+    "meta": "// SLIDE 10 — DYNAMIC TRIAL: MRD-GUIDED VS STANDARD ADJUVANT CHEMOTHERAPY",
+    "data": {
+      "startLabel": "Stage II colon cancer after surgical resection",
+      "splitLabel": "Adjuvant treatment strategy",
+      "tracks": [
+        {
+          "label": "ctDNA-guided decision (DYNAMIC)",
+          "outcome": "Non-inferior recurrence-free survival, fewer patients treated",
+          "tone": "good",
+          "path": "up",
+          "notes": [
+            "MRD-positive → give adjuvant chemo",
+            "MRD-negative → withhold chemo",
+            "RFS non-inferior vs standard; less overtreatment"
+          ]
+        },
+        {
+          "label": "Standard adjuvant chemotherapy",
+          "outcome": "All patients treated regardless of recurrence risk",
+          "tone": "warn",
+          "path": "down",
+          "notes": [
+            "No molecular stratification",
+            "Overtreatment of low-risk patients",
+            "Utility of ctDNA untested until DYNAMIC"
+          ]
+        }
+      ]
+    }
+  }
+}
