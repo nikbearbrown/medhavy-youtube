@@ -1,0 +1,131 @@
+{
+  "S01": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 01 — HOOK",
+    "data": {
+      "title": "CHAPTER 4 — GENETICS AND GENOMIC INSTABILITY IN CANCER",
+      "blocks": [
+        "The organizing idea for this chapter is that cancer is a sequence of mutations selected for in a clonal lineage — evolut",
+        "Chapter 4 — Genetics and Genomic Instabi — Bert Vogelstein's work on colorectal cancer was the founding demonstration. By biopsying the same lineage at successive"
+      ],
+      "section": "HOOK"
+    }
+  },
+  "S02": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 02 — WHERE MUTATIONS COME FROM",
+    "data": {
+      "title": "WHERE MUTATIONS COME FROM.",
+      "blocks": [
+        "A human cell holds about 3 billion base pairs, replicated each S phase by DNA polymerase, which reads the parent strand",
+        "Where mutations come from — Beyond replication errors, cells face tens of thousands of DNA lesions per day from oxidative metabolism, ionizing radia"
+      ],
+      "section": "WHERE MUTATIONS COME FROM"
+    }
+  },
+  "S03": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 03 — THE CATALOG OF MUTATION TYPES",
+    "data": {
+      "title": "THE CATALOG OF MUTATION TYPES.",
+      "blocks": [
+        "Point mutations",
+        "Insertions and deletions",
+        "Copy-number variations",
+        "Chromosomal translocations",
+        "chromothripsis"
+      ],
+      "section": "THE CATALOG OF MUTATION TYPES"
+    }
+  },
+  "S04": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 04 — DRIVERS AND PASSENGERS, AND TH",
+    "data": {
+      "title": "DRIVERS AND PASSENGERS, AND THE THREE GENE CATEGORIES",
+      "blocks": [
+        "Oncogenes",
+        "Tumor suppressors",
+        "DNA-repair genes"
+      ],
+      "section": "DRIVERS AND PASSENGERS, AND TH"
+    }
+  },
+  "S05": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 05 — KNUDSON'S TWO-HIT HYPOTHESIS",
+    "data": {
+      "title": "KNUDSON'S TWO-HIT HYPOTHESIS.",
+      "blocks": [
+        "dominant at the family level",
+        "recessive at the cellular level",
+        "haploinsufficiency"
+      ],
+      "section": "KNUDSON'S TWO-HIT HYPOTHESIS"
+    }
+  },
+  "S06": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 06 — DNA REPAIR AND WHAT HAPPENS WH",
+    "data": {
+      "title": "DNA REPAIR AND WHAT HAPPENS WHEN IT FAILS",
+      "blocks": [
+        "Base excision repair",
+        "Nucleotide excision repair",
+        "Mismatch repair",
+        "microsatellite instability",
+        "Double-strand break repair"
+      ],
+      "section": "DNA REPAIR AND WHAT HAPPENS WH"
+    }
+  },
+  "S07": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 07 — GENOMIC INSTABILITY AS THE ENG",
+    "data": {
+      "title": "GENOMIC INSTABILITY AS THE ENGINE.",
+      "blocks": [
+        "genomic instability",
+        "mutator phenotype",
+        "aneuploidy"
+      ],
+      "section": "GENOMIC INSTABILITY AS THE ENG"
+    }
+  },
+  "S08": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 08 — READING THE MUTATION REPORT",
+    "data": {
+      "title": "READING THE MUTATION REPORT.",
+      "blocks": [
+        "Return to the opening case: 187 mutations including APC frameshift, KRAS G12D, TP53 nonsense, a 9p21/CDKN2A deletion, an",
+        "Reading the mutation report — The wrong approach is to rank by how damaging each mutation looks — a nonsense mutation \"sounds worse\" than a missense,"
+      ],
+      "section": "READING THE MUTATION REPORT"
+    }
+  },
+  "S09": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 09 — STILL OPEN",
+    "data": {
+      "title": "STILL OPEN",
+      "blocks": [
+        "How many drivers a given cancer actually requires, and why the number varies so widely — a single fusion gene in some le",
+        "Still open — Whether aneuploidy is primarily a cause of cancer progression or primarily a consequence of the selection pressures that"
+      ],
+      "section": "STILL OPEN"
+    }
+  },
+  "S11": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 11 — THESIS",
+    "data": {
+      "title": "KNUDSON'S TWO-HIT HYPOTHESIS.",
+      "blocks": [
+        "Alfred Knudson's 1971 analysis of retinoblastoma is the cleanest cancer mathematics ever done, and it was done entirely",
+        "Retinoblastoma is sporadic in about 60% of cases and familial in about 40%. Sporadic cases usually appear in one eye, at"
+      ],
+      "section": "THESIS"
+    }
+  }
+}

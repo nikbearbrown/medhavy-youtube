@@ -1,0 +1,68 @@
+{
+  "S01": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 01 — HOOK",
+    "data": {
+      "title": "CHAPTER 16 — CANCER METABOLISM: LIPIDS, AMINO ACIDS, AND THE TUMOR MICROENVIRONMENT",
+      "blocks": [
+        "The first misconception to retire is that lipid metabolism in cancer is about energy storage. In a proliferating cancer",
+        "Chapter 16 — Cancer Metabolism: Lipids, — Most differentiated cells take up fatty acids from the circulation. Cancer cells frequently reactivate de novo fatty aci"
+      ],
+      "section": "HOOK"
+    }
+  },
+  "S02": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 02 — GLUTAMINE ADDICTION",
+    "data": {
+      "title": "GLUTAMINE ADDICTION",
+      "blocks": [
+        "glutaminase",
+        "α-ketoglutarate",
+        "Carbon for anaplerosis",
+        "Nitrogen for biosynthesis",
+        "Glutamate for glutathione"
+      ],
+      "section": "GLUTAMINE ADDICTION"
+    }
+  },
+  "S03": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 03 — THE MTAP–PRMT5 SYNTHETIC LETHA",
+    "data": {
+      "title": "THE MTAP–PRMT5 SYNTHETIC LETHALITY.",
+      "blocks": [
+        "30% of all human cancers — MTAP is frequently co-deleted as a by",
+        "15% of all human cancers are MTAP-deleted"
+      ],
+      "section": "THE MTAP–PRMT5 SYNTHETIC LETHA"
+    }
+  },
+  "S04": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 04 — THE TUMOR MICROENVIRONMENT AS ",
+    "data": {
+      "title": "THE TUMOR MICROENVIRONMENT AS A METABOLIC ECOSYSTEM.",
+      "blocks": [
+        "Hypoxia.",
+        "Acidosis.",
+        "Nutrient depletion.",
+        "Lactate as an immunosuppressive signal.",
+        "Stromal metabolic exchange."
+      ],
+      "section": "THE TUMOR MICROENVIRONMENT AS "
+    }
+  },
+  "S05": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 05 — STILL OPEN",
+    "data": {
+      "title": "STILL OPEN",
+      "blocks": [
+        "How much dietary metabolic intervention actually does in patients — whether caloric restriction, ketogenic diet, or meth",
+        "Still open — Whether metabolic and immune combination strategies can be made to work reliably is open. The rationale is mechanistical"
+      ],
+      "section": "STILL OPEN"
+    }
+  }
+}

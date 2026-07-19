@@ -1,0 +1,128 @@
+{
+  "slug": "cancer-biology-ch09-chapter-9-cancer-etiology-chemical-and-r",
+  "title": "Chapter 9 — Cancer Etiology: Chemical and Radiation Carcinogens",
+  "series": "Cancer Biology",
+  "source": "chapters/09-cancer-etiology-chemical-and-radiation-carcinogens.md",
+  "voice_id": "",
+  "accent": "#ea580c",
+  "fps": 24,
+  "clock": "real",
+  "metadata": {
+    "chapter": 9,
+    "total_chapters": 16,
+    "playlist": "Cancer Biology",
+    "palette": "brutalist",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx"
+  },
+  "segments": [
+    {
+      "section": "HOOK",
+      "dark": false,
+      "title": [
+        [
+          "CHAPTER 9 — ",
+          false
+        ],
+        [
+          "CANCER ETIOLOGY: CHEMICAL AND RADIATION CARCINOGENS",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">(Recall — difficulty: low) Describe the primary DNA lesion produced by each of the following and name the characteristic</p><div class=\"callout\"><b>Chapter 9 — Cancer Etiology: Chemical an</b> — (Recall — difficulty: low) State the three stages of the initiation–promotion–progression model and, for each, state whe</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "(Recall , difficulty: low) Describe the primary DNA lesion produced by each of the following and name the characteristic mutation each tends to generate: (a) benzopyrene diol epoxide, (b) UV-B radiation, (c) ionizing radiation. What this tests: whether you can distinguish the three mechanisms before applying them to specific scenarios. (Recall , difficulty: low) State the three stages of the initiation, promotion, progression model and, for each, state whether it is reversible and give one real-world example of an agent that acts at that stage.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 30.02
+        }
+      ],
+      "id": "S01",
+      "num": 1,
+      "total": 4,
+      "label": "01 / 04 · HOOK"
+    },
+    {
+      "section": "PROMPTS",
+      "dark": false,
+      "title": [
+        [
+          "PROMPTS",
+          false
+        ],
+        [
+          "",
+          true
+        ]
+      ],
+      "body_html": "",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "This section covers key concepts from the chapter.",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 3.39
+        }
+      ],
+      "id": "S02",
+      "num": 2,
+      "total": 4,
+      "label": "02 / 04 · PROMPTS"
+    },
+    {
+      "section": "THESIS",
+      "dark": false,
+      "title": [
+        [
+          "THE CORE ",
+          false
+        ],
+        [
+          "CLAIM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">Figure 9.1 — Metabolic activation: procarcinogen to adduct to mutation Build a left-to-right flowchart of six sequential</div><p class=\"lead\">Figure 9.2 — Initiation, promotion, progression Build a horizontal timeline with a single left-to-right axis labeled &quot;Ti</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "This section covers key concepts from the chapter.",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 3.39
+        }
+      ],
+      "id": "S03",
+      "num": 3,
+      "total": 4,
+      "label": "03 / 04 · THESIS"
+    },
+    {
+      "section": "CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "ASK THE QUESTION. ",
+          false
+        ],
+        [
+          "APPLY THE FRAMEWORK.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>PROMPTS</span><span>//</span><span>CANCER BIOLOGY</span><span>//</span><span>CANCER BIOLOGY</span></div><p class=\"sig\">Cancer Biology · Ch.9 · Chapter 9 — Cancer Etiology: Chemical and Radiation Carcinogens</p></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That is the framework. Cancer Biology, chapter 9: Chapter 9 , Cancer Etiology: Chemical and Radiation Carcinogens. The patterns are now in place. Apply them.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 9.98
+        }
+      ],
+      "id": "S04",
+      "num": 4,
+      "total": 4,
+      "label": "04 / 04 · CLOSE"
+    }
+  ]
+}

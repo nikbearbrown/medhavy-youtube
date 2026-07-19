@@ -1,0 +1,290 @@
+{
+  "slug": "cancer-biology-ch01-chapter-1-the-building-blocks-of-life-no",
+  "title": "Chapter 1 — The Building Blocks of Life: Normal Cell Biology",
+  "series": "Cancer Biology",
+  "source": "chapters/01-the-building-blocks-of-life-normal-cell-biology.md",
+  "voice_id": "",
+  "accent": "#ea580c",
+  "fps": 24,
+  "clock": "real",
+  "metadata": {
+    "chapter": 1,
+    "total_chapters": 16,
+    "playlist": "Cancer Biology",
+    "palette": "brutalist",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx"
+  },
+  "segments": [
+    {
+      "section": "HOOK",
+      "dark": false,
+      "title": [
+        [
+          "CHAPTER 1 — ",
+          false
+        ],
+        [
+          "THE BUILDING BLOCKS OF LIFE: NORMAL CELL BIOLOGY",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">A human cell is somewhere between 10 and 100 micrometers across, and there are more than 200 distinct types. Underneath </p><div class=\"callout\"><b>Chapter 1 — The Building Blocks of Life:</b> — The nucleus isolates information from work. It holds about two meters of DNA wound around histone proteins into chromati</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "A human cell is somewhere between 10 and 100 micrometers across, and there are more than 200 distinct types. Underneath the specialization, every cell shares a common architecture: a plasma membrane bounding the cell, a nucleus holding the genome, and a cytoplasm full of organelles , membrane-enclosed compartments, each a piece of machinery with a defined job. The nucleus isolates information from work. It holds about two meters of DNA wound around histone proteins into chromatin, packaged into 46 chromosomes in human somatic cells.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 30.91
+        }
+      ],
+      "id": "S01",
+      "num": 1,
+      "total": 10,
+      "label": "01 / 10 · HOOK"
+    },
+    {
+      "section": "THE CELL CYCLE AS A DECISION S",
+      "dark": false,
+      "title": [
+        [
+          "THE CELL CYCLE AS ",
+          false
+        ],
+        [
+          "A DECISION SYSTEM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\"><span class=\"chip\">cell cycle</span><span class=\"arw\">→</span><span class=\"chip\">G1</span><span class=\"arw\">→</span><span class=\"chip\">S phase</span><span class=\"arw\">→</span><span class=\"chip\">G2</span><span class=\"arw\">→</span><span class=\"chip\">M phase</span></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "A cell does not simply decide to divide and then divide. It enters the cell cycle, a four-phase process governed by a molecular decision system that checks conditions at each transition. G1 is a growth phase , the cell takes inventory, senses nutrient and signal availability, and prepares. S phase is DNA synthesis , every chromosome is copied exactly once. G2 is further growth and preparation for division. M phase is mitosis , the chromosomes separate, the cell physically divides.",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 26.84
+        }
+      ],
+      "id": "S02",
+      "num": 2,
+      "total": 10,
+      "label": "02 / 10 · THE CELL CYCLE AS A DECISION S"
+    },
+    {
+      "section": "HOW CELLS TALK, AND WHAT THE M",
+      "dark": false,
+      "title": [
+        [
+          "HOW CELLS TALK, AND ",
+          false
+        ],
+        [
+          "WHAT THE MESSAGES SAY",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\"><span class=\"chip\">RAS/RAF/MEK/ERK pathway</span><span class=\"arw\">→</span><span class=\"chip\">PI3K/AKT/mTOR pathway</span><span class=\"arw\">→</span><span class=\"chip\">Wnt/β-catenin pathway</span></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The cell cycle does not run in isolation. The decision to divide or remain quiescent integrates signals from outside the cell , from growth factors, from neighbors, from the extracellular matrix. The machinery that transmits and interprets those signals is what cancer most directly hijacks. A signal binds a receptor, typically a protein on the plasma membrane. The receptor changes shape, activates, and triggers a cascade of proteins that relay and amplify the message inward, ultimately reaching transcription factors that change which genes are expressed.",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 29.53
+        }
+      ],
+      "id": "S03",
+      "num": 3,
+      "total": 10,
+      "label": "03 / 10 · HOW CELLS TALK, AND WHAT THE M"
+    },
+    {
+      "section": "APOPTOSIS: THE DEATH PROGRAM",
+      "dark": false,
+      "title": [
+        [
+          "APOPTOSIS: ",
+          false
+        ],
+        [
+          "THE DEATH PROGRAM",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\"><span class=\"chip\">Caspases</span><span class=\"arw\">→</span><span class=\"chip\">intrinsic pathway</span><span class=\"arw\">→</span><span class=\"chip\">Bcl-2 protein family</span><span class=\"arw\">→</span><span class=\"chip\">apoptosome</span><span class=\"arw\">→</span><span class=\"chip\">extrinsic pathway</span></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Apoptosis is programmed cell death , orderly, contained, non-inflammatory self-destruction. It is not the cell giving up; it is the cell fulfilling an obligation. Multicellular life requires it. A cell that will not die when it should is the one that has broken the contract. Caspases are the executioners , proteases that sit inactive until triggered, then cleave hundreds of cellular targets within minutes, dismantling the cell from within. Two pathways activate them.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 23.91
+        }
+      ],
+      "id": "S04",
+      "num": 4,
+      "total": 10,
+      "label": "04 / 10 · APOPTOSIS: THE DEATH PROGRAM"
+    },
+    {
+      "section": "HOW IT COMPOUNDS: TISSUE HOMEO",
+      "dark": false,
+      "title": [
+        [
+          "HOW IT COMPOUNDS: ",
+          false
+        ],
+        [
+          "TISSUE HOMEOSTASIS",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">Stack individual cells into a tissue and the controls compound. In the intestinal lining — which replaces itself complet</p><div class=\"callout\"><b>How it compounds: tissue homeostasis</b> — Mutate APC in a single crypt stem cell. The Wnt destruction complex fails. β-catenin accumulates. The cell divides sligh</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Stack individual cells into a tissue and the controls compound. In the intestinal lining , which replaces itself completely every three to five days , stem cells at the base of each crypt receive a precise set of signals from their niche: Wnt from below (keeping them proliferating), BMP from above (promoting differentiation), EGF from nearby stroma (survival and growth). As daughters migrate up the crypt wall toward the lumen, the signals change, the cells differentiate into absorptive or secretory types, and eventually they are shed.",
+          "audio_file": "audio/S05.mp3",
+          "actual_duration_s": 29.16
+        }
+      ],
+      "id": "S05",
+      "num": 5,
+      "total": 10,
+      "label": "05 / 10 · HOW IT COMPOUNDS: TISSUE HOMEO"
+    },
+    {
+      "section": "A WORKED-THROUGH EXAMPLE",
+      "dark": false,
+      "title": [
+        [
+          "A WORKED-THROUGH ",
+          false
+        ],
+        [
+          "EXAMPLE.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\"><span class=\"chip\">ATR</span><span class=\"arw\">→</span><span class=\"chip\">Chk1</span><span class=\"arw\">→</span><span class=\"chip\">Nucleotide excision repair</span></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "A keratinocyte in your skin absorbs a dose of ultraviolet light, creating a thymine dimer , two adjacent thymines covalently fused in a structure that DNA polymerase cannot read past. What happens? The wrong instinct is: the cell is damaged, so it dies. That skips the control logic entirely. Cells do not die at the first lesion; death is the expensive last resort. A sunburn does not kill every exposed cell, and if it did your skin would not recover.",
+          "audio_file": "audio/S06.mp3",
+          "actual_duration_s": 23.59
+        }
+      ],
+      "id": "S06",
+      "num": 6,
+      "total": 10,
+      "label": "06 / 10 · A WORKED-THROUGH EXAMPLE"
+    },
+    {
+      "section": "STILL OPEN",
+      "dark": false,
+      "title": [
+        [
+          "STILL OPEN",
+          false
+        ],
+        [
+          "",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">Why some tissues get cancer frequently — colon, skin, lung — and others almost never — heart muscle, mature neurons — is</p><div class=\"callout\"><b>Still open</b> — Which exact cell in a tissue initiates a given cancer — the stem cell, a progenitor, a differentiated cell that de-diffe</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Why some tissues get cancer frequently , colon, skin, lung , and others almost never , heart muscle, mature neurons , is not fully explained. The correlation with stem-cell division rate is real: a tissue that divides more accumulates more replication errors. But the correlation is imperfect at the extremes, and other factors (exposure, repair capacity, niche architecture) are clearly involved.",
+          "audio_file": "audio/S07.mp3",
+          "actual_duration_s": 21.03
+        }
+      ],
+      "id": "S07",
+      "num": 7,
+      "total": 10,
+      "label": "07 / 10 · STILL OPEN"
+    },
+    {
+      "section": "PROMPTS",
+      "dark": false,
+      "title": [
+        [
+          "PROMPTS",
+          false
+        ],
+        [
+          "",
+          true
+        ]
+      ],
+      "body_html": "",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "This section covers key concepts from the chapter.",
+          "audio_file": "audio/S08.mp3",
+          "actual_duration_s": 3.39
+        }
+      ],
+      "id": "S08",
+      "num": 8,
+      "total": 10,
+      "label": "08 / 10 · PROMPTS"
+    },
+    {
+      "section": "THESIS",
+      "dark": false,
+      "title": [
+        [
+          "THE CORE ",
+          false
+        ],
+        [
+          "CLAIM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">Figure 1.1 — The cell cycle as a decision system Build a closed-loop cycle diagram of the four-phase cell cycle. Arrange</div><p class=\"lead\">Figure 1.2 — Apoptosis: intrinsic and extrinsic convergence Build a left-to-right convergent flowchart with two input la</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "This section covers key concepts from the chapter.",
+          "audio_file": "audio/S09.mp3",
+          "actual_duration_s": 3.39
+        }
+      ],
+      "id": "S09",
+      "num": 9,
+      "total": 10,
+      "label": "09 / 10 · THESIS"
+    },
+    {
+      "section": "CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "ASK THE QUESTION. ",
+          false
+        ],
+        [
+          "APPLY THE FRAMEWORK.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>THE CELL CYCLE AS A DECIS</span><span>//</span><span>HOW CELLS TALK, AND WHAT </span><span>//</span><span>APOPTOSIS: THE DEATH PROG</span></div><p class=\"sig\">Cancer Biology · Ch.1 · Chapter 1 — The Building Blocks of Life: Normal Cell Biology</p></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That is the framework. Cancer Biology, chapter 1: Chapter 1 , The Building Blocks of Life: Normal Cell Biology. The patterns are now in place. Apply them.",
+          "audio_file": "audio/S10.mp3",
+          "actual_duration_s": 9.34
+        }
+      ],
+      "id": "S10",
+      "num": 10,
+      "total": 10,
+      "label": "10 / 10 · CLOSE"
+    }
+  ]
+}

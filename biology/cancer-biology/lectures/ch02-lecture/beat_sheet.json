@@ -1,0 +1,128 @@
+{
+  "slug": "cancer-biology-ch02-chapter-2-introduction-to-cancer-a-disea",
+  "title": "Chapter 2 — Introduction to Cancer: A Disease of Deregulation",
+  "series": "Cancer Biology",
+  "source": "chapters/02-introduction-to-cancer-a-disease-of-deregulation.md",
+  "voice_id": "",
+  "accent": "#ea580c",
+  "fps": 24,
+  "clock": "real",
+  "metadata": {
+    "chapter": 2,
+    "total_chapters": 16,
+    "playlist": "Cancer Biology",
+    "palette": "brutalist",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx"
+  },
+  "segments": [
+    {
+      "section": "HOOK",
+      "dark": false,
+      "title": [
+        [
+          "CHAPTER 2 — ",
+          false
+        ],
+        [
+          "INTRODUCTION TO CANCER: A DISEASE OF DEREGULATION",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">In one sentence each, distinguish: (a) benign versus malignant; (b) grade versus stage; (c) carcinoma versus sarcoma. Fo</p><div class=\"callout\"><b>Chapter 2 — Introduction to Cancer: A Di</b> — Name four of the original six hallmark capabilities and for each give one molecular example of how a cancer cell acquire</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "In one sentence each, distinguish: (a) benign versus malignant; (b) grade versus stage; (c) carcinoma versus sarcoma. For each, name the single feature that does the distinguishing. What this tests: precision with the foundational vocabulary , whether you are using these words to mean different things or treating them as rough synonyms. Name four of the original six hallmark capabilities and for each give one molecular example of how a cancer cell acquires it.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 23.27
+        }
+      ],
+      "id": "S01",
+      "num": 1,
+      "total": 4,
+      "label": "01 / 04 · HOOK"
+    },
+    {
+      "section": "PROMPTS",
+      "dark": false,
+      "title": [
+        [
+          "PROMPTS",
+          false
+        ],
+        [
+          "",
+          true
+        ]
+      ],
+      "body_html": "",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "This section covers key concepts from the chapter.",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 3.39
+        }
+      ],
+      "id": "S02",
+      "num": 2,
+      "total": 4,
+      "label": "02 / 04 · PROMPTS"
+    },
+    {
+      "section": "THESIS",
+      "dark": false,
+      "title": [
+        [
+          "THE CORE ",
+          false
+        ],
+        [
+          "CLAIM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">Figure 2.1 — The hallmarks of cancer (layered framework) Build a node-edge systems diagram organizing cancer hallmarks i</div><p class=\"lead\">Figure 2.2 — TNM staging structure Build a layered schematic showing three independent input coordinates combining into </p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "This section covers key concepts from the chapter.",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 3.39
+        }
+      ],
+      "id": "S03",
+      "num": 3,
+      "total": 4,
+      "label": "03 / 04 · THESIS"
+    },
+    {
+      "section": "CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "ASK THE QUESTION. ",
+          false
+        ],
+        [
+          "APPLY THE FRAMEWORK.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>PROMPTS</span><span>//</span><span>CANCER BIOLOGY</span><span>//</span><span>CANCER BIOLOGY</span></div><p class=\"sig\">Cancer Biology · Ch.2 · Chapter 2 — Introduction to Cancer: A Disease of Deregulation</p></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That is the framework. Cancer Biology, chapter 2: Chapter 2 , Introduction to Cancer: A Disease of Deregulation. The patterns are now in place. Apply them.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 9.37
+        }
+      ],
+      "id": "S04",
+      "num": 4,
+      "total": 4,
+      "label": "04 / 04 · CLOSE"
+    }
+  ]
+}
