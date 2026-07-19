@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-3d-4s-paradox/media/videos/vox_scenes/1080p24/partial_movie_files/B03_IronIonConfig/648461735_4284630211_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-3d-4s-paradox/media/videos/vox_scenes/1080p24/partial_movie_files/B03_IronIonConfig/3493624639_693119903_521595699.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-3d-4s-paradox/media/videos/vox_scenes/1080p24/partial_movie_files/B03_IronIonConfig/3493624639_2031054824_1496562190.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-3d-4s-paradox/media/videos/vox_scenes/1080p24/partial_movie_files/B03_IronIonConfig/3493624639_1294013801_1612845135.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-3d-4s-paradox/media/videos/vox_scenes/1080p24/partial_movie_files/B03_IronIonConfig/3493624639_1755204406_2504646505.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-3d-4s-paradox/media/videos/vox_scenes/1080p24/partial_movie_files/B03_IronIonConfig/3493624639_2294018586_1409832472.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-3d-4s-paradox/media/videos/vox_scenes/1080p24/partial_movie_files/B03_IronIonConfig/3493624639_3855402422_4012119023.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-3d-4s-paradox/media/videos/vox_scenes/1080p24/partial_movie_files/B03_IronIonConfig/3493624639_3402259096_2380530348.mp4'
