@@ -1,0 +1,103 @@
+{
+  "S01": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 01 — HOOK",
+    "data": {
+      "title": "CHAPTER 7 — EPIGENETICS IN CANCER: THE METHYLATION AND HISTONE CODE",
+      "blocks": [
+        "A neuron, a liver cell, and a skin cell carry the same roughly 20,000 protein-coding genes. What distinguishes them is n",
+        "Chapter 7 — Epigenetics in Cancer: The M — Epigenetics refers to heritable changes in gene expression that do not involve changes to DNA sequence. The marks are ch"
+      ],
+      "section": "HOOK"
+    }
+  },
+  "S02": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 02 — DNA METHYLATION AND CANCER'S P",
+    "data": {
+      "title": "DNA METHYLATION AND CANCER'S PARADOX",
+      "blocks": [
+        "CpG dinucleotides",
+        "CpG islands",
+        "Global hypomethylation",
+        "Focal hypermethylation at CpG islands",
+        "DNA methyltransferase inhibitors"
+      ],
+      "section": "DNA METHYLATION AND CANCER'S P"
+    }
+  },
+  "S03": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 03 — THE HISTONE CODE",
+    "data": {
+      "title": "THE HISTONE CODE.",
+      "blocks": [
+        "nucleosome",
+        "Histone acetylation",
+        "Histone methylation",
+        "Reader"
+      ],
+      "section": "THE HISTONE CODE"
+    }
+  },
+  "S04": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 04 — WHEN THE CODE IS CORRUPTED",
+    "data": {
+      "title": "WHEN THE CODE IS CORRUPTED.",
+      "blocks": [
+        "80% carry mutations in chromatin-modifying genes",
+        "20% of all human cancers, making SWI/SNF the most frequently mut"
+      ],
+      "section": "WHEN THE CODE IS CORRUPTED"
+    }
+  },
+  "S05": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 05 — THE METABOLIC CONNECTION",
+    "data": {
+      "title": "THE METABOLIC CONNECTION.",
+      "blocks": [
+        "There is a subtlety that the enzyme-centric picture of epigenetics obscures: the enzymes that write and erase chromatin",
+        "The metabolic connection — S-adenosylmethionine is the methyl donor for all methyltransferases — DNA and histone. α-ketoglutarate (αKG) is the cosu"
+      ],
+      "section": "THE METABOLIC CONNECTION"
+    }
+  },
+  "S06": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 06 — BACK TO MGMT, AND WHAT IT TEAC",
+    "data": {
+      "title": "BACK TO MGMT, AND WHAT IT TEACHES",
+      "blocks": [
+        "Return to the opening case. Temozolomide attaches a methyl group to the O6 position of guanine. During replication, O6-m",
+        "Back to MGMT, and what it teaches — In a tumor with a hypermethylated, silenced MGMT promoter, no MGMT protein is made, the O6-methylguanine lesions accumul"
+      ],
+      "section": "BACK TO MGMT, AND WHAT IT TEAC"
+    }
+  },
+  "S07": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 07 — THE LIMITS OF REVERSIBILITY",
+    "data": {
+      "title": "THE LIMITS OF REVERSIBILITY.",
+      "blocks": [
+        "Epigenetic marks are reversible in principle. The DNMT inhibitors and HDACi demonstrate reversibility in practice. So wh",
+        "The limits of reversibility — The answer is that \"reversible\" does not mean \"easily corrected.\" The same enzymes that establish cancer-associated mark"
+      ],
+      "section": "THE LIMITS OF REVERSIBILITY"
+    }
+  },
+  "S08": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 08 — STILL OPEN",
+    "data": {
+      "title": "STILL OPEN",
+      "blocks": [
+        "Why DNMT inhibitors and HDAC inhibitors work in blood cancers but largely fail in solid tumors is not settled. Candidate",
+        "Still open — Whether global hypomethylation and focal hypermethylation arise independently or whether one precipitates the other — an"
+      ],
+      "section": "STILL OPEN"
+    }
+  }
+}

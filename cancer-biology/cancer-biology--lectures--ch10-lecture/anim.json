@@ -1,0 +1,90 @@
+{
+  "S01": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 01 — HOOK",
+    "data": {
+      "title": "CHAPTER 10 — CANCER ETIOLOGY: VIRAL AND BACTERIAL CARCINOGENS",
+      "blocks": [
+        "About one in eight cancers worldwide — roughly 2.2 million new cases per year — is attributable to an infection. This is",
+        "Chapter 10 — Cancer Etiology: Viral and — Figure 10.4 — Infection-attributable cancer fraction"
+      ],
+      "section": "HOOK"
+    }
+  },
+  "S02": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 02 — FOUR MECHANISMS, NOT ONE",
+    "data": {
+      "title": "FOUR MECHANISMS, NOT ONE.",
+      "blocks": [
+        "Direct viral oncoproteins.",
+        "Insertional mutagenesis.",
+        "Chronic inflammation.",
+        "Immunosuppression."
+      ],
+      "section": "FOUR MECHANISMS, NOT ONE"
+    }
+  },
+  "S03": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 03 — HOW HPV DISABLES TWO CHECKPOIN",
+    "data": {
+      "title": "HOW HPV DISABLES TWO CHECKPOINTS SIMULTANEOUSLY.",
+      "blocks": [
+        "E6",
+        "p53",
+        "E7",
+        "Rb"
+      ],
+      "section": "HOW HPV DISABLES TWO CHECKPOIN"
+    }
+  },
+  "S04": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 04 — H. PYLORI AND WHY THE \"FIND TH",
+    "data": {
+      "title": "H. PYLORI AND WHY THE \"FIND THE ONCOGENE\" MODEL FAILS",
+      "blocks": [
+        "95% of patients",
+        "35% reduction in gastric cancer incidence in eradicated versus n"
+      ],
+      "section": "H. PYLORI AND WHY THE \"FIND TH"
+    }
+  },
+  "S05": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 05 — PREVENTION AS MECHANISM-BASED ",
+    "data": {
+      "title": "PREVENTION AS MECHANISM-BASED INTERVENTION.",
+      "blocks": [
+        "90% of cervical cancers",
+        "95% are now routine"
+      ],
+      "section": "PREVENTION AS MECHANISM-BASED "
+    }
+  },
+  "S06": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 06 — NECESSARY BUT NOT SUFFICIENT",
+    "data": {
+      "title": "NECESSARY BUT NOT SUFFICIENT.",
+      "blocks": [
+        "No real cancer has a single cause, and infection is no exception to the multifactorial rule. Most people who carry H. py",
+        "Necessary but not sufficient — Infection is typically necessary but not sufficient. Endemic Burkitt lymphoma requires EBV plus holoendemic malaria, whi"
+      ],
+      "section": "NECESSARY BUT NOT SUFFICIENT"
+    }
+  },
+  "S07": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 07 — STILL OPEN",
+    "data": {
+      "title": "STILL OPEN",
+      "blocks": [
+        "Why only a minority of persistently infected people develop cancer is not fully understood. Half the world carries H. py",
+        "Still open — There is no licensed EBV vaccine as of 2026, despite EBV's role in Burkitt lymphoma, Hodgkin lymphoma, nasopharyngeal ca"
+      ],
+      "section": "STILL OPEN"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "cancer-biology-ch12-chapter-12-cell-cycle-control-and-cancer",
+  "title": "Chapter 12 — Cell Cycle Control and Cancer: Disruption and Therapy",
+  "series": "Cancer Biology",
+  "source": "chapters/12-cell-cycle-control-and-cancer-disruption-and-therapy.md",
+  "voice_id": "",
+  "accent": "#ea580c",
+  "fps": 24,
+  "clock": "real",
+  "metadata": {
+    "chapter": 12,
+    "total_chapters": 16,
+    "playlist": "Cancer Biology",
+    "palette": "brutalist",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx"
+  },
+  "segments": [
+    {
+      "section": "HOOK",
+      "dark": false,
+      "title": [
+        [
+          "CHAPTER 12 — ",
+          false
+        ],
+        [
+          "CELL CYCLE CONTROL AND CANCER: DISRUPTION AND THERAPY",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">(Recall — difficulty: low) List four distinct molecular lesions that force the Rb–E2F gate open in cancer. For each, sta</p><div class=\"callout\"><b>Chapter 12 — Cell Cycle Control and Canc</b> — (Recall — difficulty: low) What is the difference between &quot;faster cell division&quot; and &quot;checkpoint failure&quot; as description</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "(Recall , difficulty: low) List four distinct molecular lesions that force the Rb, E2F gate open in cancer. For each, state in one clause what specifically it does to the gate and why the cell can no longer keep E2F inactive. What this tests: whether you can generate the mechanism for each lesion rather than just naming it.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 17.71
+        }
+      ],
+      "id": "S01",
+      "num": 1,
+      "total": 4,
+      "label": "01 / 04 · HOOK"
+    },
+    {
+      "section": "PROMPTS",
+      "dark": false,
+      "title": [
+        [
+          "PROMPTS",
+          false
+        ],
+        [
+          "",
+          true
+        ]
+      ],
+      "body_html": "",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "This section covers key concepts from the chapter.",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 3.39
+        }
+      ],
+      "id": "S02",
+      "num": 2,
+      "total": 4,
+      "label": "02 / 04 · PROMPTS"
+    },
+    {
+      "section": "THESIS",
+      "dark": false,
+      "title": [
+        [
+          "THE CORE ",
+          false
+        ],
+        [
+          "CLAIM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">Figure 12.1 — Six convergent routes to an open Rb–E2F gate Build a node-edge systems diagram showing a many-to-one fan-i</div><p class=\"lead\">Figure 12.2 — CDK4/6 inhibitor: target engaged vs response present Build a two-panel before/after comparison, left &quot;Rb i</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "This section covers key concepts from the chapter.",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 3.39
+        }
+      ],
+      "id": "S03",
+      "num": 3,
+      "total": 4,
+      "label": "03 / 04 · THESIS"
+    },
+    {
+      "section": "CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "ASK THE QUESTION. ",
+          false
+        ],
+        [
+          "APPLY THE FRAMEWORK.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>PROMPTS</span><span>//</span><span>CANCER BIOLOGY</span><span>//</span><span>CANCER BIOLOGY</span></div><p class=\"sig\">Cancer Biology · Ch.12 · Chapter 12 — Cell Cycle Control and Cancer: Disruption and Therapy</p></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That is the framework. Cancer Biology, chapter 12: Chapter 12 , Cell Cycle Control and Cancer: Disruption and Therapy. The patterns are now in place. Apply them.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 9.51
+        }
+      ],
+      "id": "S04",
+      "num": 4,
+      "total": 4,
+      "label": "04 / 04 · CLOSE"
+    }
+  ]
+}
