@@ -1,4 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-rabi-parabola/media/videos/vox_scenes/1080p24/partial_movie_files/B09_Applications/648461735_3973889392_223132457.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-rabi-parabola/media/videos/vox_scenes/1080p24/partial_movie_files/B09_Applications/3493624639_1809425526_2074401740.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-rabi-parabola/media/videos/vox_scenes/1080p24/partial_movie_files/B09_Applications/3493624639_3317752918_2339206005.mp4'

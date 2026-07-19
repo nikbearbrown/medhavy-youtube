@@ -1,9 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B12_PhoneCall/429858703_361461356_223132457.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B12_PhoneCall/4129186542_1601444032_1616535604.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B12_PhoneCall/4129186542_164501165_2639275376.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B12_PhoneCall/4129186542_955417035_2364857610.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B12_PhoneCall/4129186542_1537656816_1252563448.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B12_PhoneCall/4129186542_4024614206_908141248.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B12_PhoneCall/4129186542_2500466706_3849238813.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B12_PhoneCall/4129186542_2210904516_392217743.mp4'

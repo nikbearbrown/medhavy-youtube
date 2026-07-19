@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B09_MRI/648461735_2494709212_474448798.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B09_MRI/3493624639_747513966_2347400595.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B09_MRI/3493624639_1009216049_521613180.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B09_MRI/3493624639_2141389582_1038656755.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B09_MRI/3493624639_1474503738_690391926.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B09_MRI/3493624639_1699443648_772887038.mp4'

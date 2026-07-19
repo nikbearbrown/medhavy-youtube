@@ -1,3 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/claude-liam-vox-ground-stark-quadratic-corrected/media/videos/scenes/1080p24/partial_movie_files/B05_InducedDipole/429858703_2941914415_223132457.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/claude-liam-vox-ground-stark-quadratic-corrected/media/videos/scenes/1080p24/partial_movie_files/B05_InducedDipole/4129186542_4288314172_493186693.mp4'

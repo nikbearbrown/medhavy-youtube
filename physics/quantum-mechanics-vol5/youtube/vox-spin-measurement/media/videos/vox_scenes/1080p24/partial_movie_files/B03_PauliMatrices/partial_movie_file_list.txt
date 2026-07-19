@@ -1,9 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B03_PauliMatrices/648461735_3264554650_1633386038.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B03_PauliMatrices/3493624639_365094018_1919581372.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B03_PauliMatrices/3493624639_333748_1486484289.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B03_PauliMatrices/3493624639_1224049624_3326218378.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B03_PauliMatrices/3493624639_909265663_1246623979.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B03_PauliMatrices/3493624639_3469307150_2572768586.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B03_PauliMatrices/3493624639_4206680809_1670948208.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B03_PauliMatrices/3493624639_3924424857_3925685406.mp4'

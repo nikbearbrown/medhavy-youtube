@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-band-gap-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B07_GapOpening/648461735_3397927684_1633386038.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-band-gap-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B07_GapOpening/3493624639_1531838388_198545360.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-band-gap-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B07_GapOpening/3493624639_696152252_736224234.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-band-gap-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B07_GapOpening/3493624639_2247527798_1854425408.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-band-gap-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B07_GapOpening/3493624639_2366637337_136011668.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-band-gap-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B07_GapOpening/3493624639_245468642_509039233.mp4'

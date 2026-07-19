@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B04_SuperpositionStructure/648461735_2403467872_1633386038.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B04_SuperpositionStructure/3493624639_3099146256_3394147280.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B04_SuperpositionStructure/3493624639_67635038_3881182654.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B04_SuperpositionStructure/3493624639_1132669472_2608583512.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B04_SuperpositionStructure/3493624639_3404042916_24043115.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-spin-measurement/media/videos/vox_scenes/1080p24/partial_movie_files/B04_SuperpositionStructure/3493624639_2618379525_881656456.mp4'

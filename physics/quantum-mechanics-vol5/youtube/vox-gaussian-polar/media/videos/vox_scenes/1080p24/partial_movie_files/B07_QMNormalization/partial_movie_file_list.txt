@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-gaussian-polar/media/videos/vox_scenes/1080p24/partial_movie_files/B07_QMNormalization/648461735_2831830312_1633386038.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-gaussian-polar/media/videos/vox_scenes/1080p24/partial_movie_files/B07_QMNormalization/3493624639_2003014898_2978726896.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-gaussian-polar/media/videos/vox_scenes/1080p24/partial_movie_files/B07_QMNormalization/3493624639_3421391793_3212129446.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-gaussian-polar/media/videos/vox_scenes/1080p24/partial_movie_files/B07_QMNormalization/3493624639_1478996851_2186311043.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-gaussian-polar/media/videos/vox_scenes/1080p24/partial_movie_files/B07_QMNormalization/3493624639_1253168947_1432327541.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-gaussian-polar/media/videos/vox_scenes/1080p24/partial_movie_files/B07_QMNormalization/3493624639_4150269949_2926451367.mp4'

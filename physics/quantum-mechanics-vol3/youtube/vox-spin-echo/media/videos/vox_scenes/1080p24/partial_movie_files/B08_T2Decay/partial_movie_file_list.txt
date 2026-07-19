@@ -1,5 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B08_T2Decay/648461735_68214535_1638569980.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B08_T2Decay/3493624639_3659778907_1206970329.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B08_T2Decay/3493624639_1426300916_2178106634.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B08_T2Decay/3493624639_2286344560_2709404591.mp4'

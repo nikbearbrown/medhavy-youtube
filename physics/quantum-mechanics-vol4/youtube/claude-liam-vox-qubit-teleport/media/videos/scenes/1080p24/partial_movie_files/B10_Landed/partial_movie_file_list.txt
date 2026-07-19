@@ -1,4 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B10_Landed/429858703_3147823576_223132457.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B10_Landed/4129186542_3771584042_1017925823.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B10_Landed/4129186542_2023624400_2102473924.mp4'

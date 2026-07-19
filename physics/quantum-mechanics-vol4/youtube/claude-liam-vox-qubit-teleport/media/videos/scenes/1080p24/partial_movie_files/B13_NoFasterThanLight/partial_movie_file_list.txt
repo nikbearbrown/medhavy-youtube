@@ -1,5 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B13_NoFasterThanLight/429858703_3371648834_223132457.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B13_NoFasterThanLight/4129186542_4141978007_1713930377.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B13_NoFasterThanLight/4129186542_239032089_2858478436.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol4/youtube/claude-liam-vox-qubit-teleport/media/videos/scenes/1080p24/partial_movie_files/B13_NoFasterThanLight/4129186542_3938451200_3409898988.mp4'

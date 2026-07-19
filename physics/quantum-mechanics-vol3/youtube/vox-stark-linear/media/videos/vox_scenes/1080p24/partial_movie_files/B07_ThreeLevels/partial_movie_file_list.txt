@@ -1,5 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-stark-linear/media/videos/vox_scenes/1080p24/partial_movie_files/B07_ThreeLevels/648461735_870305190_3469031099.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-stark-linear/media/videos/vox_scenes/1080p24/partial_movie_files/B07_ThreeLevels/3493624639_1185694705_662707602.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-stark-linear/media/videos/vox_scenes/1080p24/partial_movie_files/B07_ThreeLevels/3493624639_3671655502_1346325707.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-stark-linear/media/videos/vox_scenes/1080p24/partial_movie_files/B07_ThreeLevels/3493624639_3366806802_1979982962.mp4'

@@ -1,3 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/claude-liam-vox-e1-omega-cubed-corrected/media/videos/scenes/1080p24/partial_movie_files/B11_Environment/429858703_2545731863_2358810818.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/claude-liam-vox-e1-omega-cubed-corrected/media/videos/scenes/1080p24/partial_movie_files/B11_Environment/4129186542_4293297594_2659950356.mp4'

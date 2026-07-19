@@ -1,3 +1,0 @@
-# Factcheck
-
-Semiclassical Bloch dynamics gives `v=(1/hbar)dE/dk`, `hbar kdot=qE`, and `a=qE/m*` with `1/m*=(1/hbar^2)d^2E/dk^2` in one dimension. A band maximum has negative electron effective mass; with `q=-e`, acceleration is along the electric field. At the exact maximum, group velocity is zero. A full band carries zero net current. Removing an electron at `k` leaves current equal to the negative of that electron's contribution, motivating a hole with charge `+e`; near a simple maximum its positive mass is the magnitude of the negative electron band mass when hole momentum is defined relative to the maximum.

@@ -1,6 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B04_InhomogeneousField/648461735_3286351752_522453384.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B04_InhomogeneousField/3493624639_3502553214_2627260815.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B04_InhomogeneousField/3493624639_2466630018_4039551641.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B04_InhomogeneousField/3493624639_2780016813_1584301369.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-spin-echo/media/videos/vox_scenes/1080p24/partial_movie_files/B04_InhomogeneousField/3493624639_587459382_176253389.mp4'

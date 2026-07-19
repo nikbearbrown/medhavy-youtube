@@ -1,3 +1,0 @@
-# Factcheck
-
-In the low-speed limit, Thomas precession is `Omega_T approximately (a cross v)/(2c^2)` up to sign convention for frame versus vector precession; it is not half the orbital frequency. For a central electrostatic potential, including this rotating-frame effect yields `H_SO=(1/(2m^2c^2))(1/r dV/dr)L dot S`, half the naive transformed-field result. For hydrogen `2p`, `<r^-3>=1/(24a_0^3)` and the `L dot S` difference between `j=3/2` and `j=1/2` is `(3/2)hbar^2`, giving `Delta E=m c^2 alpha^4/32 approximately 4.53e-5 eV`. Omitting the Thomas factor doubles it to about `9.06e-5 eV`. The Darwin term vanishes for `l>0`; relativistic kinetic correction is common to the two `2p` j levels at this order and does not fix the splitting.

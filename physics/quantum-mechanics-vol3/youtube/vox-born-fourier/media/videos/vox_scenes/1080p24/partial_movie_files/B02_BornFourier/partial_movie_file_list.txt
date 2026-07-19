@@ -1,5 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-born-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B02_BornFourier/648461735_2234719131_223132457.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-born-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B02_BornFourier/3493624639_430447652_1849053686.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-born-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B02_BornFourier/3493624639_2986653076_2716537645.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-born-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B02_BornFourier/3493624639_1281843292_571754840.mp4'

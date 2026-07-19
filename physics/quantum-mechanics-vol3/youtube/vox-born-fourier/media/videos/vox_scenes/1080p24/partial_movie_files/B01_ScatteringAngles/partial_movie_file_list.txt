@@ -1,4 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-born-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B01_ScatteringAngles/648461735_3137967903_223132457.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-born-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B01_ScatteringAngles/3493624639_428468265_1545257161.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-born-fourier/media/videos/vox_scenes/1080p24/partial_movie_files/B01_ScatteringAngles/3493624639_582549024_2681944341.mp4'

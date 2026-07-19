@@ -1,3 +1,0 @@
-# Factcheck
-
-For ground-state hydrogen in a static uniform electric field, parity gives `<1s|z|1s>=0`, so the first-order Stark shift vanishes. The leading shift is `Delta E=-alpha E^2/2`, with `alpha=4 pi epsilon_0 (9/2)a_0^3` in ideal nonrelativistic hydrogen. At `E=1e5 V/m`, its magnitude is about `5.1e-13 eV`. In the ideal Coulomb `n=2` manifold, degenerate `2s` and `2p,m=0` mix into first-order branches `Delta E=+-3 e a_0 E`, whose magnitude at that field is about `1.59e-5 eV`. Real fine structure and Lamb splitting remove exact degeneracy, so sufficiently weak fields yield quadratic behavior before a linear-like regime when mixing dominates.
