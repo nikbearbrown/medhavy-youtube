@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/claude-liam-vox-thomas-spin-orbit-corrected/media/videos/scenes/1080p24/partial_movie_files/B03_TransformedField/429858703_3464462002_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/claude-liam-vox-thomas-spin-orbit-corrected/media/videos/scenes/1080p24/partial_movie_files/B03_TransformedField/4129186542_1806516562_1200226294.mp4'
