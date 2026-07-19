@@ -1,0 +1,236 @@
+{
+  "slug": "quantum-mechanics-vol1-ch02-chapter-2-matter-waves-de-broglie-daviss",
+  "title": "Chapter 2 — Matter Waves: de Broglie, Davisson–Germer, and the Double Slit",
+  "series": "Quantum Mechanics Vol 1",
+  "source": "chapters/02-matter-waves.md",
+  "voice_id": "",
+  "accent": "#ea580c",
+  "fps": 24,
+  "clock": "real",
+  "metadata": {
+    "chapter": 2,
+    "total_chapters": 11,
+    "playlist": "Quantum Mechanics Vol 1",
+    "palette": "brutalist",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx"
+  },
+  "segments": [
+    {
+      "section": "HOOK",
+      "dark": false,
+      "title": [
+        [
+          "CHAPTER 2 — ",
+          false
+        ],
+        [
+          "MATTER WAVES: DE BROGLIE, DAVISSON–GERMER, AND THE DOUBLE SLIT",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">In 1924, Louis-Victor de Broglie proposed, in a doctoral thesis that his committee nearly rejected, that if light waves </p><div class=\"callout\"><b>Chapter 2 — Matter Waves: de Broglie, Da</b> — Einstein, consulted by the committee before the thesis was approved, called the idea brilliant. De Broglie received the </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "In 1924, Louis-Victor de Broglie proposed, in a doctoral thesis that his committee nearly rejected, that if light waves can behave like particles , as Einstein had shown with the photoelectric effect , then matter particles ought to behave like waves. Einstein had established that electromagnetic waves carry momentum p equals h over lambda . De Broglie reversed the relation: a particle with momentum p should have an associated wavelength Einstein, consulted by the committee before the thesis was approved, called the idea brilliant. De Broglie received the Nobel Prize in 1929.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 32.85
+        }
+      ],
+      "id": "S01",
+      "num": 1,
+      "total": 8,
+      "label": "01 / 08 · HOOK"
+    },
+    {
+      "section": "THE FORMULA AND WHAT IT MEANS",
+      "dark": false,
+      "title": [
+        [
+          "THE FORMULA AND ",
+          false
+        ],
+        [
+          "WHAT IT MEANS",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">Let us begin with what de Broglie actually wrote. For a non-relativistic particle with kinetic energy $K$ and mass $m$, </p><div class=\"callout\"><b>The Formula and What It Means</b> — $$\\lambda = \\frac{h}{\\sqrt{2mK}}.$$</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Let us begin with what de Broglie actually wrote. For a non-relativistic particle with kinetic energy K and mass m , energy and momentum are related by K equals p squared over 2 m , so p equals the square root of 2 mK . Substituting gives For a charged particle of charge e accelerated from rest through a potential difference V , the kinetic energy is K equals eV , which gives",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 21.46
+        }
+      ],
+      "id": "S02",
+      "num": 2,
+      "total": 8,
+      "label": "02 / 08 · THE FORMULA AND WHAT IT MEANS"
+    },
+    {
+      "section": "THE DAVISSON–GERMER EXPERIMENT",
+      "dark": false,
+      "title": [
+        [
+          "THE DAVISSON–GERMER ",
+          false
+        ],
+        [
+          "EXPERIMENT.",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">We can reconstruct the 1927 result from first principles. For electrons accelerated through 54 V, Davisson and Germer re</p><div class=\"callout\"><b>The Davisson–Germer Experiment</b> — $$p = \\sqrt{2 \\times (9.109 \\times 10^{-31}) \\times (54 \\times 1.602 \\times 10^{-19})} = 3.970 \\times 10^{-24}\\text{ kg </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "We can reconstruct the 1927 result from first principles. For electrons accelerated through 54 V, Davisson and Germer recorded a sharp diffraction peak at 50°. The de Broglie wavelength at 54 eV is: p equals 2 times (9.109 times 10 to the minus 31 ) times (54 times 1.602 times 10 to the minus 19 ) equals 3.970 times 10 to the minus 24 kg m s to the minus 1",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 27.97
+        }
+      ],
+      "id": "S03",
+      "num": 3,
+      "total": 8,
+      "label": "03 / 08 · THE DAVISSON–GERMER EXPERIMENT"
+    },
+    {
+      "section": "SINGLE ELECTRONS, ONE AT A TIM",
+      "dark": false,
+      "title": [
+        [
+          "SINGLE ELECTRONS, ONE AT ",
+          false
+        ],
+        [
+          "A TIME.",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">Akira Tonomura and colleagues at Hitachi performed a particularly instructive version of the double-slit experiment in 1</p><div class=\"callout\"><b>Single Electrons, One at a Time</b> — The accumulated pattern builds in a characteristic way. At ten electrons, the dots appear randomly distributed, with no </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Akira Tonomura and colleagues at Hitachi performed a particularly instructive version of the double-slit experiment in 1989. They used an electron biprism , a fine wire held at positive potential that splits an electron beam into two coherent paths, physically equivalent to two slits , and reduced the beam intensity until fewer than one electron was in the apparatus at any moment. Each electron was recorded as a single localized dot on a position-sensitive detector. The accumulated pattern builds in a characteristic way.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 30.7
+        }
+      ],
+      "id": "S04",
+      "num": 4,
+      "total": 8,
+      "label": "04 / 08 · SINGLE ELECTRONS, ONE AT A TIM"
+    },
+    {
+      "section": "WHY HUMAN-SCALE OBJECTS DO NOT",
+      "dark": false,
+      "title": [
+        [
+          "WHY HUMAN-SCALE OBJECTS DO ",
+          false
+        ],
+        [
+          "NOT DIFFRACT.",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">The de Broglie relation applies to all objects with momentum, not only to quantum particles. The relevant question is wh</p><div class=\"callout\"><b>Why Human-Scale Objects Do Not Diffract</b> — A proton accelerated through the same 54 V has 1836 times the electron's mass. At the same kinetic energy its momentum i</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The de Broglie relation applies to all objects with momentum, not only to quantum particles. The relevant question is whether the associated wavelength is large enough to produce observable interference. A proton accelerated through the same 54 V has 1836 times the electron's mass. At the same kinetic energy its momentum is the square root of 1836 times larger, so its wavelength is the square root of 1836 approximately 43 times smaller: about 4 pm. That is still within reach of crystal diffraction , neutron and proton diffraction are real techniques used in materials science.",
+          "audio_file": "audio/S05.mp3",
+          "actual_duration_s": 37.53
+        }
+      ],
+      "id": "S05",
+      "num": 5,
+      "total": 8,
+      "label": "05 / 08 · WHY HUMAN-SCALE OBJECTS DO NOT"
+    },
+    {
+      "section": "WHAT THE WAVE FUNCTION IS NOT ",
+      "dark": false,
+      "title": [
+        [
+          "WHAT THE WAVE FUNCTION ",
+          false
+        ],
+        [
+          "IS NOT YET.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\"><div class=\"cell-part\"><span>The Tonomura experiment illustrates Born's rule. The interference pattern that accumulates, dot by dot, matches the patt</span></div><div class=\"cell-part hot\"><span>The connection between the de Broglie wavelength and the wave function is exact, not merely analogical. A state of defin</span></div></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "De Broglie established that there is a wave associated with a moving particle, but did not say what the wave represents. That question was answered by Max Born in 1926. Born proposed that the wave function psi (x,t) is not a physical wave in space, like a water wave or a sound wave. Its square modulus, the magnitude of psi (x,t) squared , is a probability density: the probability per unit length of finding the particle at position x at time t . This interpretation is not derivable from the de Broglie relation.",
+          "audio_file": "audio/S06.mp3",
+          "actual_duration_s": 30.27
+        }
+      ],
+      "id": "S06",
+      "num": 6,
+      "total": 8,
+      "label": "06 / 08 · WHAT THE WAVE FUNCTION IS NOT "
+    },
+    {
+      "section": "THESIS",
+      "dark": false,
+      "title": [
+        [
+          "THE CORE ",
+          false
+        ],
+        [
+          "CLAIM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">De Broglie established that there is a wave associated with a moving particle, but did not say what the wave represents.</div><p class=\"lead\">This interpretation is not derivable from the de Broglie relation. It is a separate postulate, and it is the one that ma</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "De Broglie established that there is a wave associated with a moving particle, but did not say what the wave represents. That question was answered by Max Born in 1926. Born proposed that the wave function psi (x,t) is not a physical wave in space, like a water wave or a sound wave. Its square modulus, the magnitude of psi (x,t) squared , is a probability density: the probability per unit length of finding the particle at position x at time t . This interpretation is not derivable from the de Broglie relation.",
+          "audio_file": "audio/S07.mp3",
+          "actual_duration_s": 30.27
+        }
+      ],
+      "id": "S07",
+      "num": 7,
+      "total": 8,
+      "label": "07 / 08 · THESIS"
+    },
+    {
+      "section": "CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "ASK THE QUESTION. ",
+          false
+        ],
+        [
+          "APPLY THE FRAMEWORK.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>THE FORMULA AND WHAT IT M</span><span>//</span><span>THE DAVISSON–GERMER EXPER</span><span>//</span><span>SINGLE ELECTRONS, ONE AT </span></div><p class=\"sig\">Quantum Mechanics Vol 1 · Ch.2 · Chapter 2 — Matter Waves: de Broglie, Davisson–Germer, and the Double Slit</p></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That is the framework. Quantum Mechanics Vol 1, chapter 2: Chapter 2 , Matter Waves: de Broglie, Davisson, Germer, and the Double Slit. The patterns are now in place. Apply them.",
+          "audio_file": "audio/S08.mp3",
+          "actual_duration_s": 10.35
+        }
+      ],
+      "id": "S08",
+      "num": 8,
+      "total": 8,
+      "label": "08 / 08 · CLOSE"
+    }
+  ]
+}
