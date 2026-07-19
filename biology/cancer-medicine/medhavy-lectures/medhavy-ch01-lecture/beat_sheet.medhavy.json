@@ -1,0 +1,382 @@
+{
+  "slug": "cancer-medicine-ch01-angiogenesis",
+  "title": "Angiogenesis: The Tumor's New Blood Supply",
+  "series": "Cancer Medicine",
+  "source": "chapters/01-angiogenesis-the-tumors-new-blood-supply.md",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
+  "accent": "#ea580c",
+  "fps": 24,
+  "clock": "real",
+  "metadata": {
+    "chapter": 1,
+    "total_chapters": 11,
+    "playlist": "Cancer Medicine",
+    "audience": "MEDHAVY",
+    "derived_from": "beat_sheet.json",
+    "register": "Wonder",
+    "palette": "medhavy",
+    "outro_source": "AUTHOR.MD :: Medhavy.com",
+    "engine": "kokoro",
+    "voice_kokoro": "af_kore",
+    "_variant_todo": [
+      "rewrite every beat narration_text in the Wonder register (voices/wonder/VOICE.md + MEDHAVY.md) — voice only, facts unchanged",
+      "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
+      "swap the outro to the MEDHAVY outro from AUTHOR.MD :: Medhavy.com",
+      "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
+    ]
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "num": 1,
+      "total": 13,
+      "section": "HOOK",
+      "label": "01 / 13 · HOOK",
+      "dark": false,
+      "title": [
+        [
+          "MOST CANCERS NEVER ",
+          false
+        ],
+        [
+          "KILL YOU.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n  <div class=\"flow\"><span class=\"chip\">tumor cluster</span><span class=\"arw\">→</span><span class=\"chip on\">~1 mm</span><span class=\"arw\">→</span><span class=\"chip warn\">oxygen runs out · growth stops</span></div>\n  <p class=\"lead\">Physics decides before biology does. One hundred to two hundred micrometers is as far as oxygen can diffuse from the nearest vessel. Cross that line and the tumor suffocates itself.</p>\n</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Here's a puzzle about cancer that most people don't know. You might think cancer means uncontrolled growth — and death. And yet the autopsies tell a stranger story. Roughly forty percent of women over forty carry microscopic thyroid cancers that were never diagnosed and never caused symptoms. Similar pre-clinical cancer cell populations sit quietly in breast and prostate tissue. These are real cancer cells, real mutations — and they do nothing. What stops them is not the immune system, not primarily. It is physics. Oxygen can only diffuse about 100 to 200 micrometers from the nearest blood vessel before it runs out. A tumor cluster that cannot recruit new vessels hits that ceiling and stays there, suffocating in its own metabolic waste, permanently bounded. The cancers that kill are the ones that figured out how to break through this constraint — not by cheating biology, but by hijacking a repair system the body built for legitimate emergencies.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 47.0
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "num": 2,
+      "total": 13,
+      "section": "THE STAKES",
+      "label": "02 / 13 · THE STAKES",
+      "dark": false,
+      "title": [
+        [
+          "FOLKMAN'S 1971 BET — ",
+          false
+        ],
+        [
+          "ALL THREE CLAIMS VALIDATED.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n  <div class=\"wire\"><b>Claim 1</b><span>Solid tumors must induce their own new blood vessels to grow beyond one millimeter</span></div>\n  <div class=\"wire\"><b>Claim 2</b><span>There is a diffusible molecular signal — a tumor angiogenesis factor — that recruits vessels</span></div>\n  <div class=\"wire\"><b>Claim 3</b><span>Blocking that signal could starve tumors without the toxicity of conventional chemotherapy</span></div>\n</div>\n<p class=\"lead\">Dismissed for a decade. Validation came slowly, then all at once.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "In 1971, a surgeon named Judah Folkman proposed something that sounded almost naive: tumors cannot grow past one millimeter without inducing their own new blood vessels, and there must be a molecular signal doing the recruiting, and blocking that signal might starve tumors into dormancy without the broad toxicity of conventional chemotherapy. The oncology establishment dismissed him for a decade. His lab was largely isolated. And then, slowly, every claim was validated. The signal he predicted — he called it tumor angiogenesis factor — turned out to be VEGF, vascular endothelial growth factor, cloned in 1989. The antibody against it was approved by the FDA in 2004. What is remarkable here is not simply that Folkman was right. It is that he was right about something genuinely counterintuitive: that the tumor's blood supply, not the tumor cells themselves, could be a therapeutic target — and that the strategy might be to deprive rather than destroy. That shift in perspective is the interesting thing to hold onto.",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 54.12
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "num": 3,
+      "total": 13,
+      "section": "TWO WAYS TO BUILD A VESSEL",
+      "label": "03 / 13 · TWO WAYS TO BUILD A VESSEL",
+      "dark": false,
+      "title": [
+        [
+          "VASCULOGENESIS VS. ",
+          false
+        ],
+        [
+          "ANGIOGENESIS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\">\n  <div class=\"cell-part\"><b>Vasculogenesis</b><span>Embryonic · de novo · hemangioblast precursors assemble the primary network from scratch — happens once</span></div>\n  <div class=\"cell-part hot\"><b>Angiogenesis</b><span>Adult · from existing vessels · sprouting, intussusception · wound healing, menstrual cycle, placenta — tumors hijack this</span></div>\n</div>\n<p class=\"lead\">The adult body keeps this tool in reserve for legitimate emergencies. Tumors steal it.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The body has two ways to build blood vessels, and they are quite different things. The first — vasculogenesis — happens only once, in the embryo. Hemangioblast precursor cells assemble the primary vascular network from scratch, essentially drawing the circulatory blueprint before the heart has fully formed. By birth, that process is essentially complete. The second — angiogenesis — is the adult mode: new vessels sprout or split from pre-existing ones. This is the tool the body reaches for in wound healing, in the monthly rebuilding of the uterine lining, in the growth of the placenta. It is controlled, reversible, tightly regulated. What tumors do is not build new vessels from nothing — they do not have their own vessel-building machinery. What they do is issue the same molecular distress signals that normally tell existing blood vessels there is a wound that needs vascularizing. And the endothelium responds as if that were true. The tumor is a parasite on adult repair, not an invader with independent tools.",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 48.51
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "num": 4,
+      "total": 13,
+      "section": "THE SPROUTING MACHINE",
+      "label": "04 / 13 · THE SPROUTING MACHINE",
+      "dark": false,
+      "title": [
+        [
+          "ONE MECHANISM. ",
+          false
+        ],
+        [
+          "TWO OUTCOMES.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\">\n  <span class=\"chip\">VEGF gradient</span><span class=\"arw\">→</span><span class=\"chip on\">tip cell selected</span><span class=\"arw\">→</span><span class=\"chip\">DLL4 → Notch on neighbors</span><span class=\"arw\">→</span><span class=\"chip\">stalk cells form tube</span>\n</div>\n<div class=\"callout\"><b>In tumors:</b> VEGF flood overwhelms Notch lateral inhibition → multiple tip cells → chaotic tangle instead of ordered sprout.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The mechanism of endothelial sprouting is worth thinking about carefully, because it reveals how an elegant system breaks down. A chemical gradient of VEGF — higher concentration further from the existing vessel — acts as a compass. One endothelial cell at the vessel tip responds most strongly to the gradient. It extends long, thin projections called filopodia to sense the direction and begin migrating toward it. Then it does something remarkable: it secretes a signal — DLL4 — that activates Notch in its neighbors and suppresses their ability to also become tip cells. They become stalk cells instead, elongating and forming the tube behind the leader. The result is a single directed sprout: one navigator, a trail of followers, orderly and purposeful. Now put that same mechanism inside a tumor, where VEGF is not a gentle gradient but a flood. The Notch signal is overwhelmed. Multiple cells try to lead simultaneously. What forms is not an orderly capillary loop but a chaotic tangle of branches pointing in different directions, with blind ends and shunts and inconsistent flow — a structural mess that turns out to be worse, in some ways, than no vessels at all.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 60.78
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "num": 5,
+      "total": 13,
+      "section": "VEGF AND THE HIF-1α LOOP",
+      "label": "05 / 13 · VEGF AND THE HIF-1α LOOP",
+      "dark": false,
+      "title": [
+        [
+          "HYPOXIA FLIPS THE ",
+          false
+        ],
+        [
+          "VEGF SWITCH.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\">\n  <span class=\"chip\">normoxia</span><span class=\"arw\">→</span><span class=\"chip\">prolyl hydroxylases active</span><span class=\"arw\">→</span><span class=\"chip\">VHL tags HIF-1α</span><span class=\"arw\">→</span><span class=\"chip warn\">HIF-1α destroyed</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip\">hypoxia</span><span class=\"arw\">→</span><span class=\"chip warn\">hydroxylases stall</span><span class=\"arw\">→</span><span class=\"chip warn\">VHL cannot bind</span><span class=\"arw\">→</span><span class=\"chip on\">HIF-1α stabilizes → VEGF spike</span>\n</div>\n<p class=\"lead\">VEGF-A binds VEGFR-2 on endothelial cells → proliferation, migration, survival. The system is self-limiting in normal tissue. In tumors, it never turns off.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Here is one of the more elegant feedback loops in cell biology. In normal tissue with adequate oxygen, a family of enzymes called prolyl hydroxylases continuously attaches a small chemical tag — a hydroxyl group — to a transcription factor called HIF-1-alpha, hypoxia-inducible factor one alpha. That tag is recognized by a protein called VHL, which brings in the cellular destruction machinery. HIF-1-alpha is ubiquitinated and degraded within minutes of being made. VEGF transcription stays low. Now remove the oxygen. Prolyl hydroxylases need oxygen as a co-substrate — without it, they stall. HIF-1-alpha stops getting tagged. It accumulates. It enters the nucleus and drives transcription of VEGF-A, among dozens of other genes needed for surviving low oxygen. VEGF binds its receptor on endothelial cells and recruits new vessels, which restore oxygenation, which reactivates the hydroxylases, which destroy HIF-1-alpha, and VEGF returns to baseline. In normal tissue, the loop closes. The intriguing part is that this entire cascade — whether a tumor recruits new blood vessels or not — hangs on one chemical step: whether a single enzyme can add a small group to one protein. That enzyme needs one molecule of oxygen to run.",
+          "audio_file": "audio/S05.mp3",
+          "actual_duration_s": 68.12
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "num": 6,
+      "total": 13,
+      "section": "WHAT LOSING VHL DOES",
+      "label": "06 / 13 · WHAT LOSING VHL DOES",
+      "dark": false,
+      "title": [
+        [
+          "VHL LOSS — THE ",
+          false
+        ],
+        [
+          "OFF-SWITCH REMOVED.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n  <div class=\"stat\"><div class=\"big warn\">VHL −/−</div><div class=\"cap\">no degradation signal for HIF-1α</div></div>\n  <div class=\"eq\">→</div>\n  <div class=\"stat\"><div class=\"big on\">constitutive VEGF</div><div class=\"cap\">regardless of oxygen level</div></div>\n</div>\n<p class=\"lead\">The cell is permanently convinced it is suffocating — even in normal oxygen. This is why clear-cell renal carcinoma is so densely vascular so early: the VEGF signal never stops.</p>\n<div class=\"callout\">VHL mutation: present in ~85% of clear-cell renal cell carcinomas. VEGF pathway inhibitors are first-line therapy.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Now here is where it gets specific in a way that matters clinically. The VHL gene's job is to trigger the destruction of HIF-1-alpha. When both copies of VHL are inactivated — which happens in approximately 85 percent of clear-cell renal cell carcinomas — there is simply no mechanism to degrade HIF-1-alpha, regardless of how much oxygen is actually present. HIF-1-alpha accumulates continuously. The cell is permanently convinced it is suffocating. VEGF runs at maximum all the time. The result — which you can actually see on imaging — is that clear-cell renal cancers are unusually vascular from an early stage. Thick, tortuous, visible vessels. Not because the tumor is particularly aggressive in most other respects. But because a single gene loss permanently locked open the VEGF signal. There is something philosophically striking here: this cell's entire assessment of its own oxygen status, its judgment about whether it needs to summon new blood vessels, is determined by whether one enzyme can run. Remove the gene that regulates the target of that enzyme, and the cell lives in permanent false emergency.",
+          "audio_file": "audio/S06.mp3",
+          "actual_duration_s": 60.97
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "num": 7,
+      "total": 13,
+      "section": "THE ANGIOGENIC SWITCH",
+      "label": "07 / 13 · THE ANGIOGENIC SWITCH",
+      "dark": false,
+      "title": [
+        [
+          "BALANCE TIPPED: ",
+          false
+        ],
+        [
+          "PRO VS. ANTI.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"balance\">\n  <div class=\"pan surv\"><b>Pro-angiogenic</b><span>VEGF · FGF · PDGF · Angiopoietin-2</span></div>\n  <div class=\"fulcrum\">⇄</div>\n  <div class=\"pan die\"><b>Anti-angiogenic</b><span>Thrombospondin-1 · Endostatin · Angiostatin</span></div>\n</div>\n<div class=\"stack\" style=\"margin-top:12px\">\n  <div class=\"wire\"><b>p53 loss</b><span>removes TSP-1 transcription → pro-angiogenic tilt</span></div>\n  <div class=\"wire\"><b>Ras activation</b><span>raises VEGF expression</span></div>\n  <div class=\"wire\"><b>VHL loss</b><span>constitutive HIF-1α → permanent VEGF flood</span></div>\n</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The question of whether a tumor vascularizes is not determined by VEGF alone. It is determined by a balance — a tipping point between signals that promote vessel growth and signals that suppress it. On one side: VEGF, FGF, PDGF, angiopoietin-2. On the other: thrombospondin-1, endostatin, angiostatin. When inhibitory signals dominate, the tumor cluster stays dormant, permanently bounded by physics, unable to cross the millimeter threshold. The switch flips when oncogenic mutations tip the balance. Loss of p53 removes thrombospondin-1, because p53 normally activates its transcription. Ras activation raises VEGF directly. VHL loss floods the system. What I find fascinating here is the implication for dormancy. Late recurrence — a cancer returning eight or ten years after surgery — is not the tumor growing slowly for a decade. It is a micrometastasis that spent those years in angiogenic equilibrium, held at switch-off by the balance of signals, until something in the local microenvironment shifted and the balance tipped. The cancer did not grow to kill you later. It waited.",
+          "audio_file": "audio/S07.mp3",
+          "actual_duration_s": 62.63
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "num": 8,
+      "total": 13,
+      "section": "WHAT TUMOR VESSELS LOOK LIKE",
+      "label": "08 / 13 · WHAT TUMOR VESSELS LOOK LIKE",
+      "dark": false,
+      "title": [
+        [
+          "CHAOTIC PLUMBING ",
+          false
+        ],
+        [
+          "BLOCKS THERAPY.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n  <div class=\"wire\"><b>Chaotic branching + blind ends</b><span>inconsistent flow — some regions perfused, others not</span></div>\n  <div class=\"wire\"><b>AV shunts</b><span>blood bypasses capillary bed — nutrient exchange fails</span></div>\n  <div class=\"wire\"><b>Leaky walls + sparse pericytes</b><span>↑ interstitial fluid pressure → drug delivery opposed at the boundary</span></div>\n  <div class=\"wire\"><b>Hypoxic pockets</b><span>free radicals needed for radiation — hypoxia means radioresistance</span></div>\n</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "When you look at tumor vasculature under a microscope, the abnormality is immediately striking. Healthy capillary networks are orderly trees: arteriole branches to capillary, capillary drains to venule, flow is unidirectional and regulated. Tumor vessels branch chaotically, form blind ends that go nowhere, contain arteriovenous shunts that let blood bypass the capillary bed entirely. The wall structure is wrong: poor pericyte coverage, leaky junctions between endothelial cells that let plasma flood the surrounding tissue, raising the interstitial pressure. Here is the cruel irony. All of this was the tumor's solution to its oxygen problem. And it does keep the tumor alive. But it is such an imperfect solution that it creates a second problem the tumor did not anticipate: drugs struggle to get in. The elevated interstitial pressure opposes the concentration gradient that would otherwise drive drug diffusion inward. And the hypoxic pockets — regions left without adequate perfusion — are resistant to radiation, which works through reactive oxygen species that require oxygen to form. The tumor built itself a blood supply that simultaneously sustains it and shields it.",
+          "audio_file": "audio/S08.mp3",
+          "actual_duration_s": 61.72
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "num": 9,
+      "total": 13,
+      "section": "VASCULAR NORMALIZATION",
+      "label": "09 / 13 · VASCULAR NORMALIZATION",
+      "dark": false,
+      "title": [
+        [
+          "NOT STARVATION. ",
+          false
+        ],
+        [
+          "PRUNING.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\">\n  <span class=\"chip\">low-dose VEGF blockade</span><span class=\"arw\">→</span><span class=\"chip on\">weaker vessels pruned</span><span class=\"arw\">→</span><span class=\"chip on\">survivors gain pericytes</span><span class=\"arw\">→</span><span class=\"chip on\">lower IFP · better flow</span>\n</div>\n<div class=\"callout\"><b>Normalization window:</b> transient period when the remaining vessels are less leaky, more homogeneous, better oxygenated — and tumor tissue is more accessible to drugs and radiation.</div>\n<p class=\"lead\">Rakesh Jain's insight: the goal of anti-angiogenic therapy in combination regimens is not vessel destruction — it is vessel repair.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The original intuition behind anti-angiogenic therapy was simple: cut the blood supply, starve the tumor. Rakesh Jain at Harvard noticed something more nuanced, and I think genuinely surprising. When you apply moderate VEGF blockade — not maximum, not flooding the system — not everything collapses equally. The most abnormal vessels — the ones with the least pericyte coverage, the most disorganized structure, the highest dependence on VEGF signaling — are the first to go. What remains is a pruned network that is, paradoxically, better than before treatment: the surviving vessels recruit pericytes, lose their leakiness, reduce interstitial pressure, and achieve more uniform flow. For a window of time — typically days to two weeks after initiating treatment — the tumor's vasculature functions more like normal tissue than it did before. The tumor is better oxygenated, more accessible to chemotherapy, more sensitive to radiation. Jain called this the normalization window. What strikes me about this finding is what it implies about the mechanism: the therapeutic value of anti-VEGF drugs in combination regimens is not primarily about starvation. It is about briefly repairing the plumbing to let other therapies work better. The goal is not to cut off the supply. It is to fix it, briefly — and exploit the opening.",
+          "audio_file": "audio/S09.mp3",
+          "actual_duration_s": 62.7
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "num": 10,
+      "total": 13,
+      "section": "DORMANCY AND THE CLINICAL STAKES",
+      "label": "10 / 13 · DORMANCY AND THE CLINICAL STAKES",
+      "dark": false,
+      "title": [
+        [
+          "THE SWITCH, NOT THE MASS, ",
+          false
+        ],
+        [
+          "IS THE THREAT.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n  <div class=\"stat\"><div class=\"big\">40%</div><div class=\"cap\">of women over 40 have abortive thyroid tumors at autopsy that never became clinical</div></div>\n  <div class=\"eq\">→</div>\n  <div class=\"stat\"><div class=\"big on\">switch never flipped</div><div class=\"cap\">no vessel recruitment · no growth beyond 1 mm</div></div>\n</div>\n<p class=\"lead\">Dormant micrometastases — cells that seeded distant sites years before diagnosis — are the source of late recurrence. Adjuvant therapy and the five-to-ten year surveillance window exist because of this biology.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The autopsy evidence carries a quiet significance that is easy to miss. Roughly forty percent of women over forty carry microscopic thyroid cancers that were never diagnosed and never caused symptoms. Similar dormant cancer cell populations are found in breast and prostate tissue. These are not early cancers on a slow march toward lethality. Many will never progress at all. They are real cancer cells, with real driver mutations, permanently held below the angiogenic threshold because the switch never flipped. The clinical meaning of this is worth sitting with. Micrometastases — cells that shed from a primary tumor and seeded distant sites years before diagnosis — can persist in this pre-angiogenic, dormant state for a decade or more. Late recurrence, a patient who appeared cured and relapsed eight years later, is not simply a treatment failure. It is the biology of a switch that was held off for years and then flipped. Adjuvant chemotherapy given after surgery, when there is no detectable disease, is an attempt to kill these dormant seeds before they ever reach the threshold of vessel recruitment. The five and ten year surveillance windows in breast and prostate cancer reflect how long this latency can run — and how honest we must be about the limits of declaring a cure.",
+          "audio_file": "audio/S10.mp3",
+          "actual_duration_s": 62.21
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "num": 11,
+      "total": 13,
+      "section": "THE THESIS",
+      "label": "11 / 13 · THE THESIS",
+      "dark": false,
+      "title": [
+        [
+          "PHYSICS FIRST. THEN ",
+          false
+        ],
+        [
+          "MOLECULAR FAILURE.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">The tumors that kill are the ones that solved the oxygen problem. The drug that targets VEGF is not starving the tumor — it is briefly <b>normalizing the plumbing</b> to let other drugs in. The switch, not the mass, is the target.</div>\n<p class=\"lead\">Three connected claims: the diffusion limit is the primary constraint; the angiogenic switch is the decision point; and normalization, not starvation, is the therapeutic mechanism worth optimizing.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Three ideas thread through this chapter, and holding them together changes how the whole subject looks. First: physics limits first. The oxygen diffusion constraint — 100 to 200 micrometers — is not incidental to cancer biology. It is the primary filter. Every cancer that kills broke through it. The fact that most cancers never do is, in its own way, reassuring — and worth knowing precisely because it clarifies what the dangerous ones actually accomplished. Second: the switch matters more than the mass. A cancer that has not crossed the angiogenic threshold is fundamentally different from one that has — not just smaller, but different in kind. Dormancy and late recurrence are switch biology. The biology of when to worry, when to intervene, and when watching is appropriate is, at its core, the biology of this switch. Third: the normalization insight, which I think is genuinely underappreciated outside of a narrow research community. The best use of anti-angiogenic drugs in combination regimens is not destruction. It is creating a window — a brief period of relative normality in the tumor's vasculature — and timing other therapies to exploit it. Pruning the worst vessels briefly improves the function of the rest. The goal is not to cut off the supply. It is to fix it, briefly, and use the opening.",
+          "audio_file": "audio/S11.mp3",
+          "actual_duration_s": 62.55
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "num": 12,
+      "total": 13,
+      "section": "CLOSE",
+      "label": "12 / 13 · CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "ASK NOT: DOES THE TUMOR HAVE VESSELS? ",
+          false
+        ],
+        [
+          "ASK: NORMALIZED OR CHAOTIC — AND WHEN?",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\">\n  <div class=\"close-tags\"><span>PHYSICS DECIDES FIRST</span><span>//</span><span>THE SWITCH IS THE TARGET</span><span>//</span><span>NORMALIZATION, NOT STARVATION</span></div>\n  <p class=\"sig\">Cancer Medicine · Chapter 1 · Angiogenesis: The Tumor's New Blood Supply</p>\n</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The question worth carrying forward is not whether a tumor has blood vessels — every tumor past one millimeter does. The deeper question is about state and timing: is the vasculature chaotic and drug-blocking, or transiently normalized and drug-permissive? And which phase of the normalization window, if any, is the patient currently in? Answering that would let clinicians sequence therapies precisely. We do not yet have the tools to answer it in routine practice — that is the open problem. But what the framework gives us, even without those tools, is a way of thinking about the problem that was not available before. The diffusion limit tells us where the hard ceiling is and why early detection matters. The angiogenic switch tells us what crossing that ceiling actually requires, and why dormancy can last a decade. The normalization insight tells us that even a broken, chaotic blood supply can be briefly corrected — and that the correction is the therapeutic mechanism, not the destruction. Physics constrains everything upstream. The switch is the decision point. And the most sophisticated anti-angiogenic strategy is not to cut off the blood supply. It is to briefly, precisely, fix it.",
+          "audio_file": "audio/S12.mp3",
+          "actual_duration_s": 59.75
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "num": 13,
+      "total": 13,
+      "section": "OUTRO",
+      "label": "13 / 13 · OUTRO",
+      "dark": true,
+      "title": [
+        [
+          "CANCER MEDICINE — ",
+          false
+        ],
+        [
+          "MEDHAVY.COM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\">\n  <div class=\"close-tags\"><span>CANCER MEDICINE</span><span>//</span><span>FREE GRADUATE-LEVEL SCIENCE EDUCATION</span></div>\n  <p class=\"sig\">medhavy.com · rigorous explanations without the noise</p>\n</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "act": "OUTRO",
+          "text": "This lecture is part of the Cancer Medicine course at medhavy.com — a free resource for graduate students and researchers who want to understand cancer biology at the level of mechanisms, not just vocabulary. If this chapter raised questions about the normalization window, about dormancy, or about how we might one day measure angiogenic switch state in living patients — those are exactly the questions worth bringing into the next chapter. See you there.",
+          "actual_duration_s": 21.23,
+          "audio_file": "audio/S13.mp3"
+        }
+      ]
+    }
+  ]
+}
