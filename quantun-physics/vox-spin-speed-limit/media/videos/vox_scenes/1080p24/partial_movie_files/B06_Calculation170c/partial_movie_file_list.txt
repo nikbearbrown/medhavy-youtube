@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Calculation170c/648461735_620252579_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Calculation170c/3493624639_741262504_247708893.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Calculation170c/3493624639_3533069481_1543313288.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Calculation170c/3493624639_1546100543_2085266479.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Calculation170c/3493624639_875647807_970976034.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Calculation170c/3493624639_3543131973_1740264817.mp4'

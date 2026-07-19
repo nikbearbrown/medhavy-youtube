@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-stark-linear/media/videos/vox_scenes/1080p24/partial_movie_files/B09_LinearVsQuadratic/648461735_174817885_1417933736.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-stark-linear/media/videos/vox_scenes/1080p24/partial_movie_files/B09_LinearVsQuadratic/3493624639_3928953837_907062694.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-stark-linear/media/videos/vox_scenes/1080p24/partial_movie_files/B09_LinearVsQuadratic/3493624639_1364546390_1064954666.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-stark-linear/media/videos/vox_scenes/1080p24/partial_movie_files/B09_LinearVsQuadratic/3493624639_4052943791_3115614900.mp4'
