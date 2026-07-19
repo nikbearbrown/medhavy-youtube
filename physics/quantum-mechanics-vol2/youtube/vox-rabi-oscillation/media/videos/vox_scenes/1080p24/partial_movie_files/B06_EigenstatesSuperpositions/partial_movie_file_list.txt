@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B06_EigenstatesSuperpositions/648461735_1342776618_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B06_EigenstatesSuperpositions/3493624639_863457299_2204142858.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B06_EigenstatesSuperpositions/3493624639_4080098110_2410569583.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B06_EigenstatesSuperpositions/3493624639_2520281576_3589111173.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B06_EigenstatesSuperpositions/3493624639_1789427086_946603527.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B06_EigenstatesSuperpositions/3493624639_3438275483_2336287504.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B06_EigenstatesSuperpositions/3493624639_298938724_3876202311.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B06_EigenstatesSuperpositions/3493624639_3072483679_4095367041.mp4'

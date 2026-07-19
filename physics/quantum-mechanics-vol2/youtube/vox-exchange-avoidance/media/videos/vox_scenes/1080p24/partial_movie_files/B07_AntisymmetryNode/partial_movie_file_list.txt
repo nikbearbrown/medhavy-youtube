@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_AntisymmetryNode/648461735_2076639462_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_AntisymmetryNode/3493624639_492593934_1990562182.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_AntisymmetryNode/3493624639_2353830635_27215369.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_AntisymmetryNode/3493624639_1579738094_1896110936.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_AntisymmetryNode/3493624639_1803797953_2734381070.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_AntisymmetryNode/3493624639_2447753942_575516468.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_AntisymmetryNode/3493624639_3828711988_1677101945.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_AntisymmetryNode/3493624639_2052441537_646203395.mp4'

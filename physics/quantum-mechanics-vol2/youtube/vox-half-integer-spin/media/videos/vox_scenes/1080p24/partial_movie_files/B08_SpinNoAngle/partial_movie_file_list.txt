@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SpinNoAngle/648461735_2080298282_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SpinNoAngle/3493624639_1284362989_2285533649.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SpinNoAngle/3493624639_3397134717_3643753122.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SpinNoAngle/3493624639_1677156869_4010344804.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SpinNoAngle/3493624639_276402232_4269489597.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SpinNoAngle/3493624639_953177713_2877392072.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SpinNoAngle/3493624639_2983337980_3154916372.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SpinNoAngle/3493624639_2456296485_3325955039.mp4'

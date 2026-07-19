@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_Example/648461735_2137764720_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_Example/3493624639_4139385833_3699753662.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_Example/3493624639_3557976762_2976886084.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_Example/3493624639_3214811993_2253979974.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_Example/3493624639_310723607_270185153.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_Example/3493624639_2615407720_4228135780.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_Example/3493624639_3336758114_847653502.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_Example/3493624639_2534182521_1474771260.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-speed-limit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_Example/3493624639_1935822965_1019151301.mp4'

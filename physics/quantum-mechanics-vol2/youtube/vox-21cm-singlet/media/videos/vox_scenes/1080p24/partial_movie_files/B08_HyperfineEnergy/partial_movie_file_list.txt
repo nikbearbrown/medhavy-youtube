@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-21cm-singlet/media/videos/vox_scenes/1080p24/partial_movie_files/B08_HyperfineEnergy/648461735_1014536086_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-21cm-singlet/media/videos/vox_scenes/1080p24/partial_movie_files/B08_HyperfineEnergy/3493624639_1770077592_3833001250.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-21cm-singlet/media/videos/vox_scenes/1080p24/partial_movie_files/B08_HyperfineEnergy/3493624639_4240055637_1219878762.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-21cm-singlet/media/videos/vox_scenes/1080p24/partial_movie_files/B08_HyperfineEnergy/3493624639_1453563888_3571250777.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-21cm-singlet/media/videos/vox_scenes/1080p24/partial_movie_files/B08_HyperfineEnergy/3493624639_1276593196_242039671.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-21cm-singlet/media/videos/vox_scenes/1080p24/partial_movie_files/B08_HyperfineEnergy/3493624639_4273219717_4075288924.mp4'

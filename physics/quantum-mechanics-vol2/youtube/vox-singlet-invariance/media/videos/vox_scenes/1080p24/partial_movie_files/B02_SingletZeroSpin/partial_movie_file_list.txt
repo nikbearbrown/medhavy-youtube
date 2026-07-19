@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B02_SingletZeroSpin/648461735_3014387521_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B02_SingletZeroSpin/3493624639_1810283330_1675010388.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B02_SingletZeroSpin/3493624639_3972907757_1258595315.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B02_SingletZeroSpin/3493624639_2019867340_1096518650.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B02_SingletZeroSpin/3493624639_799170966_2786627602.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B02_SingletZeroSpin/3493624639_2338814793_967104018.mp4'

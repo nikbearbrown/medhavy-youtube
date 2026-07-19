@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B01_TitleCard/648461735_1788996212_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B01_TitleCard/3493624639_2382228746_4262357711.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B01_TitleCard/3493624639_3640980522_4023163820.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B01_TitleCard/3493624639_1729030641_1505691173.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B01_TitleCard/3493624639_1115910698_1123488559.mp4'

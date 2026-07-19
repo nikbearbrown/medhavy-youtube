@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HundsRule/648461735_846683343_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HundsRule/3493624639_4116909790_1783444310.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HundsRule/3493624639_609945163_1197514460.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HundsRule/3493624639_122523323_3941910426.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HundsRule/3493624639_2015540459_903217260.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HundsRule/3493624639_2785216437_922595157.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HundsRule/3493624639_1166554899_11441425.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HundsRule/3493624639_698143752_871765355.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HundsRule/3493624639_1103851422_988856605.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HundsRule/3493624639_235130851_2736773751.mp4'

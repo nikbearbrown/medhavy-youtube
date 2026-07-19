@@ -1,0 +1,195 @@
+{
+  "video": "claude-liam-vox-e1-omega-cubed-corrected",
+  "metadata": {
+    "slug": "vox-e1-omega-cubed-corrected",
+    "title": "Why Electric-Dipole Spontaneous Emission Speeds Up as Frequency Cubed",
+    "topic": "QUANTUM MECHANICS",
+    "source": "quantum-mechanics-vol3/chapters/06-radiation-and-fermis-golden-rule.md",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "audience": "Claude",
+    "register": "Teardown",
+    "palette": "claude",
+    "total_estimated_duration_seconds": 190,
+    "build": {
+      "at": "2026-07-18T21:20:50",
+      "cut": "master",
+      "filled": 15,
+      "of": 15,
+      "slates": [],
+      "skin_warnings": [
+        "B15: palette=claude but the outro is 'un-annotated' \u2014 OUTRO LAW wants ClaudeTitleOutro"
+      ]
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 15,
+  "beats_open": 0,
+  "beats": [
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "media/B01.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B01.mp4",
+      "label": "This is Liam, in for Bear. Hydrogen's two-p state emits an ultraviolet photon and falls to one-s in "
+    },
+    {
+      "beat_id": "B02",
+      "status": "filled",
+      "on_disk": "manim/B02.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "The vacuum is the same vacuum at radio and optical frequencies. So why does the rate change so steeply? The answer has two factors: how many photon modes are av",
+      "slot": "media/B02.mp4",
+      "label": "The vacuum is the same vacuum at radio and optical frequencies. So why does the rate change so steep"
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "manim/B03.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Fermi's golden rule says rate equals a constant times the coupling matrix element squared times the density of final photon states. We only need the frequency s",
+      "slot": "media/B03.mp4",
+      "label": "Fermi's golden rule says rate equals a constant times the coupling matrix element squared times the "
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "manim/B04.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "In three-dimensional free space, photon wave vectors fill spherical shells. A shell's area grows like k squared. Since k equals omega over c, the number of mode",
+      "slot": "media/B04.mp4",
+      "label": "In three-dimensional free space, photon wave vectors fill spherical shells. A shell's area grows lik"
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "manim/B05.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Now normalize a single photon in a fixed volume. Its electric-field amplitude scales like the square root of omega. Squaring the electric-dipole coupling theref",
+      "slot": "media/B05.mp4",
+      "label": "Now normalize a single photon in a fixed volume. Its electric-field amplitude scales like the square"
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "manim/B06.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Multiply the pieces: omega squared from photon phase space, times omega from the squared field amplitude. For an allowed electric-dipole transition in free spac",
+      "slot": "media/B06.mp4",
+      "label": "Multiply the pieces: omega squared from photon phase space, times omega from the squared field ampli"
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "manim/B07.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Hold the dipole matrix element fixed. Double the frequency and the rate grows by eight. Multiply frequency by ten and the rate grows by one thousand. Lifetime m",
+      "slot": "media/B07.mp4",
+      "label": "Hold the dipole matrix element fixed. Double the frequency and the rate grows by eight. Multiply fre"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "manim/B08.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "A clean comparison uses two hypothetical electric-dipole transitions with the same dipole magnitude. Moving from three hundred megahertz to six hundred terahert",
+      "slot": "media/B08.mp4",
+      "label": "A clean comparison uses two hypothetical electric-dipole transitions with the same dipole magnitude."
+    },
+    {
+      "beat_id": "B09",
+      "status": "filled",
+      "on_disk": "manim/B09.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Real transitions do not hold the matrix element fixed. Selection rules, wave-function overlap, and multipole type can suppress or enhance the coupling. Frequenc",
+      "slot": "media/B09.mp4",
+      "label": "Real transitions do not hold the matrix element fixed. Selection rules, wave-function overlap, and m"
+    },
+    {
+      "beat_id": "B10",
+      "status": "filled",
+      "on_disk": "manim/B10.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "A proton spin flip is not an electric-dipole transition. It couples mainly through a magnetic dipole, with a nuclear magnetic moment, and an observed NMR relaxa",
+      "slot": "media/B10.mp4",
+      "label": "A proton spin flip is not an electric-dipole transition. It couples mainly through a magnetic dipole"
+    },
+    {
+      "beat_id": "B11",
+      "status": "filled",
+      "on_disk": "manim/B11.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Free space matters too. Put the emitter in a cavity, near a surface, or inside a photonic band gap, and the local density of electromagnetic states changes. The",
+      "slot": "media/B11.mp4",
+      "label": "Free space matters too. Put the emitter in a cavity, near a surface, or inside a photonic band gap, "
+    },
+    {
+      "beat_id": "B12",
+      "status": "filled",
+      "on_disk": "manim/B12.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "The formula also assumes the electric-dipole and long-wavelength approximations. Forbidden E1 lines may decay through magnetic dipole, electric quadrupole, or m",
+      "slot": "media/B12.mp4",
+      "label": "The formula also assumes the electric-dipole and long-wavelength approximations. Forbidden E1 lines "
+    },
+    {
+      "beat_id": "B13",
+      "status": "filled",
+      "on_disk": "manim/B13.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Your turn. Two allowed electric-dipole transitions have the same dipole magnitude in free space. One has three times the angular frequency of the other. What is",
+      "slot": "media/B13.mp4",
+      "label": "Your turn. Two allowed electric-dipole transitions have the same dipole magnitude in free space. One"
+    },
+    {
+      "beat_id": "B14",
+      "status": "filled",
+      "on_disk": "manim/B14.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Three cubed is twenty-seven. The higher-frequency transition emits twenty-seven times faster, provided the dipole strengths and electromagnetic environment trul",
+      "slot": "media/B14.mp4",
+      "label": "Three cubed is twenty-seven. The higher-frequency transition emits twenty-seven times faster, provid"
+    },
+    {
+      "beat_id": "B15",
+      "status": "filled",
+      "on_disk": "manim/B15.mp4",
+      "method": "ai-video-prompt",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "Why Electric-Dipole Spontaneous Emission Speeds Up as Frequency Cubed.",
+      "slot": "media/B15.mp4",
+      "label": "Why Electric-Dipole Spontaneous Emission Speeds Up as Frequency Cubed."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B09_CoulombConsequence/648461735_2716163045_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B09_CoulombConsequence/3493624639_4089999494_4290366485.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B09_CoulombConsequence/3493624639_1753004383_2419069762.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B09_CoulombConsequence/3493624639_927648314_1804425308.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B09_CoulombConsequence/3493624639_659127526_1658703918.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B09_CoulombConsequence/3493624639_4204455070_2949327979.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B09_CoulombConsequence/3493624639_916204089_2974923367.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-exchange-avoidance/media/videos/vox_scenes/1080p24/partial_movie_files/B09_CoulombConsequence/3493624639_3475287690_2887267957.mp4'

@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B02_ProbabilitiesOne/648461735_1391238293_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B02_ProbabilitiesOne/3493624639_4284262047_2963021363.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B02_ProbabilitiesOne/3493624639_3924207330_1995556272.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B02_ProbabilitiesOne/3493624639_524843481_526300987.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B02_ProbabilitiesOne/3493624639_3985974448_1453209604.mp4'

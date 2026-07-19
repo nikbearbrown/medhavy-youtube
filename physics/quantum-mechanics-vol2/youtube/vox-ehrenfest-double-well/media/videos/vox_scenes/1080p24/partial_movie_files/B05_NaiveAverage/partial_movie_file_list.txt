@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-ehrenfest-double-well/media/videos/vox_scenes/1080p24/partial_movie_files/B05_NaiveAverage/648461735_3376936801_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-ehrenfest-double-well/media/videos/vox_scenes/1080p24/partial_movie_files/B05_NaiveAverage/3493624639_995180297_3392485102.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-ehrenfest-double-well/media/videos/vox_scenes/1080p24/partial_movie_files/B05_NaiveAverage/3493624639_535530877_1381318394.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-ehrenfest-double-well/media/videos/vox_scenes/1080p24/partial_movie_files/B05_NaiveAverage/3493624639_3207006567_486337652.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-ehrenfest-double-well/media/videos/vox_scenes/1080p24/partial_movie_files/B05_NaiveAverage/3493624639_10990564_3525471105.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-ehrenfest-double-well/media/videos/vox_scenes/1080p24/partial_movie_files/B05_NaiveAverage/3493624639_1647629627_1491210900.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-ehrenfest-double-well/media/videos/vox_scenes/1080p24/partial_movie_files/B05_NaiveAverage/3493624639_444725495_2815430073.mp4'

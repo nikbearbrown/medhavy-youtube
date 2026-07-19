@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-phase-clock/media/videos/vox_scenes/1080p24/partial_movie_files/B09_WhyStationary/648461735_2373175798_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-phase-clock/media/videos/vox_scenes/1080p24/partial_movie_files/B09_WhyStationary/3493624639_1450498037_2298162043.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-phase-clock/media/videos/vox_scenes/1080p24/partial_movie_files/B09_WhyStationary/3493624639_2942725998_509360822.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-phase-clock/media/videos/vox_scenes/1080p24/partial_movie_files/B09_WhyStationary/3493624639_4054726471_1313393780.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-phase-clock/media/videos/vox_scenes/1080p24/partial_movie_files/B09_WhyStationary/3493624639_2433950357_822316437.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-phase-clock/media/videos/vox_scenes/1080p24/partial_movie_files/B09_WhyStationary/3493624639_688891012_690252150.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-phase-clock/media/videos/vox_scenes/1080p24/partial_movie_files/B09_WhyStationary/3493624639_3185123087_2058716810.mp4'

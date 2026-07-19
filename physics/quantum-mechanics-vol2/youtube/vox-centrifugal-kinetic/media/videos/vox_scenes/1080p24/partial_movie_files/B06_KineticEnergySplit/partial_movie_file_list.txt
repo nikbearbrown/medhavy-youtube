@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B06_KineticEnergySplit/648461735_1342776618_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B06_KineticEnergySplit/3493624639_3861342657_2204142858.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B06_KineticEnergySplit/3493624639_1548916944_539380718.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B06_KineticEnergySplit/3493624639_4069153316_473453149.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B06_KineticEnergySplit/3493624639_4182958251_2614304681.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B06_KineticEnergySplit/3493624639_2525379720_1479203661.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B06_KineticEnergySplit/3493624639_2229385777_1233702703.mp4'

@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B11_Endcard/648461735_955536590_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B11_Endcard/3493624639_3067362673_123367365.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B11_Endcard/3493624639_446148788_1076474722.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B11_Endcard/3493624639_2118526719_3596577751.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B11_Endcard/3493624639_1438531426_4233556259.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B11_Endcard/3493624639_3292592142_3731869373.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B11_Endcard/3493624639_410529729_3128056729.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-centrifugal-kinetic/media/videos/vox_scenes/1080p24/partial_movie_files/B11_Endcard/3493624639_1000107528_3065799735.mp4'

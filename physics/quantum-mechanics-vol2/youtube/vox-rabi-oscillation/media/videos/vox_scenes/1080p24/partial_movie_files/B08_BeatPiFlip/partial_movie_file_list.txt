@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B08_BeatPiFlip/648461735_1612209924_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B08_BeatPiFlip/3493624639_866139962_2223071351.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B08_BeatPiFlip/3493624639_620654407_793878639.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B08_BeatPiFlip/3493624639_2394633147_2680189421.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B08_BeatPiFlip/3493624639_1847895998_3775079148.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B08_BeatPiFlip/3493624639_1111696357_2546322049.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B08_BeatPiFlip/3493624639_3987112352_2150884853.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-rabi-oscillation/media/videos/vox_scenes/1080p24/partial_movie_files/B08_BeatPiFlip/3493624639_2637160892_1609526359.mp4'

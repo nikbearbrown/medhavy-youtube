@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-2s-forbidden/media/videos/vox_scenes/1080p24/partial_movie_files/B10_Metastable/648461735_2997979658_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-2s-forbidden/media/videos/vox_scenes/1080p24/partial_movie_files/B10_Metastable/3493624639_3683812282_682311850.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-2s-forbidden/media/videos/vox_scenes/1080p24/partial_movie_files/B10_Metastable/3493624639_3077867843_483875605.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-2s-forbidden/media/videos/vox_scenes/1080p24/partial_movie_files/B10_Metastable/3493624639_104524820_301357450.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-2s-forbidden/media/videos/vox_scenes/1080p24/partial_movie_files/B10_Metastable/3493624639_3575688071_809072207.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-2s-forbidden/media/videos/vox_scenes/1080p24/partial_movie_files/B10_Metastable/3493624639_1496536115_2394007932.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-2s-forbidden/media/videos/vox_scenes/1080p24/partial_movie_files/B10_Metastable/3493624639_267656124_730683890.mp4'

@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Unitarity/648461735_1192805004_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Unitarity/3493624639_297484742_2456746478.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Unitarity/3493624639_1570491585_1253278209.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Unitarity/3493624639_799006873_1884378138.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Unitarity/3493624639_3725730860_2602414839.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Unitarity/3493624639_3441291098_3561966804.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B06_Unitarity/3493624639_2263228547_1768149561.mp4'

@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-stern-gerlach-erase/media/videos/vox_scenes/1080p24/partial_movie_files/B07_LeftSuperposition/648461735_1103013341_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-stern-gerlach-erase/media/videos/vox_scenes/1080p24/partial_movie_files/B07_LeftSuperposition/3493624639_2887272059_3445617051.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-stern-gerlach-erase/media/videos/vox_scenes/1080p24/partial_movie_files/B07_LeftSuperposition/3493624639_94406571_3002799486.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-stern-gerlach-erase/media/videos/vox_scenes/1080p24/partial_movie_files/B07_LeftSuperposition/3493624639_3470320299_1256707501.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-stern-gerlach-erase/media/videos/vox_scenes/1080p24/partial_movie_files/B07_LeftSuperposition/3493624639_4103445825_47508385.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-stern-gerlach-erase/media/videos/vox_scenes/1080p24/partial_movie_files/B07_LeftSuperposition/3493624639_3761555287_315182823.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-stern-gerlach-erase/media/videos/vox_scenes/1080p24/partial_movie_files/B07_LeftSuperposition/3493624639_4273219717_3488103835.mp4'

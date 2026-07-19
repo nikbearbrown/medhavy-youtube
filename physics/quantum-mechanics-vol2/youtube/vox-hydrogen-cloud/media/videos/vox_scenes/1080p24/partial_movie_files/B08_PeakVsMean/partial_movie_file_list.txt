@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-hydrogen-cloud/media/videos/vox_scenes/1080p24/partial_movie_files/B08_PeakVsMean/648461735_1963648078_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-hydrogen-cloud/media/videos/vox_scenes/1080p24/partial_movie_files/B08_PeakVsMean/3493624639_3562400749_2508094096.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-hydrogen-cloud/media/videos/vox_scenes/1080p24/partial_movie_files/B08_PeakVsMean/3493624639_962748027_1836156281.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-hydrogen-cloud/media/videos/vox_scenes/1080p24/partial_movie_files/B08_PeakVsMean/3493624639_2355621441_3049567170.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-hydrogen-cloud/media/videos/vox_scenes/1080p24/partial_movie_files/B08_PeakVsMean/3493624639_3219820639_3765742895.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-hydrogen-cloud/media/videos/vox_scenes/1080p24/partial_movie_files/B08_PeakVsMean/3493624639_3367130978_1374598521.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-hydrogen-cloud/media/videos/vox_scenes/1080p24/partial_movie_files/B08_PeakVsMean/3493624639_86952241_2771682263.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-hydrogen-cloud/media/videos/vox_scenes/1080p24/partial_movie_files/B08_PeakVsMean/3493624639_641134080_4210966180.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-hydrogen-cloud/media/videos/vox_scenes/1080p24/partial_movie_files/B08_PeakVsMean/3493624639_3297423366_2065870162.mp4'

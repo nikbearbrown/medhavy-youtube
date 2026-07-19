@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B03_AntiCorrelation/648461735_2489812572_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B03_AntiCorrelation/3493624639_4209983549_2211137356.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B03_AntiCorrelation/3493624639_3450069404_1610686106.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B03_AntiCorrelation/3493624639_152578239_1244248379.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B03_AntiCorrelation/3493624639_609844216_2509016513.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B03_AntiCorrelation/3493624639_2225584908_526911516.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B03_AntiCorrelation/3493624639_1290933969_762735528.mp4'

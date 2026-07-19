@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B07_HermitianGenerator/648461735_748294837_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B07_HermitianGenerator/3493624639_2037764591_2348381965.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B07_HermitianGenerator/3493624639_1591668992_2220007161.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B07_HermitianGenerator/3493624639_1853528607_2676736986.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B07_HermitianGenerator/3493624639_3252184824_517717428.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B07_HermitianGenerator/3493624639_913906448_87512385.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-schrodinger-theorem/media/videos/vox_scenes/1080p24/partial_movie_files/B07_HermitianGenerator/3493624639_3555832914_3606552436.mp4'

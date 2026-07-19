@@ -1,0 +1,14 @@
+{
+ "B01": "L2|1280x720@24|crop|9.740|fade|||ce87972387cfdfbfffe2caf6c58279f0a7a070f0",
+ "B02": "L2|1280x720@24|crop|14.110|accumulate|||d49b2b4edeca1fd0b2b576f9613a23326647c7c4",
+ "B03": "L2|1280x720@24|crop|14.520|rotate|||4f7f202cc4ea867ecc4bfad839fea9df775c68aa",
+ "B04": "L2|1280x720@24|crop|13.920|fade|||5310da2ed5ff60146d3a095b54fe947752137ca8",
+ "B05": "L2|1280x720@24|crop|18.390|compare|||8718b6eb7b31c5da783a4fafc560679f2890f724",
+ "B06": "L2|1280x720@24|crop|17.550|accumulate|||9791261eefad7761afa4c682f77cd3f804fab9dc",
+ "B07": "L2|1280x720@24|crop|17.140|rotate|||bbcfd40ed8526bb1130dd5258f6df43324a3afcc",
+ "B08": "L2|1280x720@24|crop|16.850|accumulate|||db8d5da2ce44b0dd4154961d7284c89a7741038f",
+ "B09": "L2|1280x720@24|crop|22.050|accumulate|||0f21f5a9ea63b8a7ac56dd19aa99fee28f9331a4",
+ "B10": "L2|1280x720@24|crop|16.904|fade|||b245057399f62f054d55d2ef1825f27e2a82abca",
+ "B11": "L2|1280x720@24|crop|4.550|fade|||9f7085dcb9586bf508de2b8b1e3c380b65b2d0e5",
+ "B12": "L2|1280x720@24|crop|1.520|fade|||c707709c2013120fcdb1c5ccac57861a05e3ed14"
+}

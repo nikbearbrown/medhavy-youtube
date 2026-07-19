@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B02_LadderSpectrum/648461735_1468163188_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B02_LadderSpectrum/3493624639_2779239120_1351954226.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B02_LadderSpectrum/3493624639_3562651734_3578862866.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B02_LadderSpectrum/3493624639_1484272645_2447574125.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B02_LadderSpectrum/3493624639_1772801457_455358126.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B02_LadderSpectrum/3493624639_3354868409_732893626.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B02_LadderSpectrum/3493624639_1678848800_802050384.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B02_LadderSpectrum/3493624639_661065640_2790229477.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B02_LadderSpectrum/3493624639_3073931514_3311631181.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B02_LadderSpectrum/3493624639_2010941828_3553170719.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-half-integer-spin/media/videos/vox_scenes/1080p24/partial_movie_files/B02_LadderSpectrum/3493624639_2551001824_520322981.mp4'

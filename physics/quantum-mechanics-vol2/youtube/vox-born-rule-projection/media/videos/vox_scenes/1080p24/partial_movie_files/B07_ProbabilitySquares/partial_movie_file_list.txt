@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-born-rule-projection/media/videos/vox_scenes/1080p24/partial_movie_files/B07_ProbabilitySquares/648461735_1805718349_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-born-rule-projection/media/videos/vox_scenes/1080p24/partial_movie_files/B07_ProbabilitySquares/3493624639_773687132_2795257745.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-born-rule-projection/media/videos/vox_scenes/1080p24/partial_movie_files/B07_ProbabilitySquares/3493624639_1935686143_396456575.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-born-rule-projection/media/videos/vox_scenes/1080p24/partial_movie_files/B07_ProbabilitySquares/3493624639_899602595_4023341955.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-born-rule-projection/media/videos/vox_scenes/1080p24/partial_movie_files/B07_ProbabilitySquares/3493624639_498561181_719898803.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-born-rule-projection/media/videos/vox_scenes/1080p24/partial_movie_files/B07_ProbabilitySquares/3493624639_2865453385_2198352078.mp4'

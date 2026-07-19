@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_RotationalInvariance/648461735_2912640561_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_RotationalInvariance/3493624639_3961399810_2665759539.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_RotationalInvariance/3493624639_3077867843_720919154.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_RotationalInvariance/3493624639_1679141933_75787028.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_RotationalInvariance/3493624639_1419942252_3545647491.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_RotationalInvariance/3493624639_501571489_1826648184.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_RotationalInvariance/3493624639_4124532408_2406836513.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_RotationalInvariance/3493624639_3472966285_1805215307.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-singlet-invariance/media/videos/vox_scenes/1080p24/partial_movie_files/B07_RotationalInvariance/3493624639_3119593081_2569873842.mp4'

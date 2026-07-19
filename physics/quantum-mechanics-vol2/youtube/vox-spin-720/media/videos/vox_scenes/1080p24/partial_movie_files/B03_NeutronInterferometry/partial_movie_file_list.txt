@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-720/media/videos/vox_scenes/1080p24/partial_movie_files/B03_NeutronInterferometry/648461735_2483496147_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-720/media/videos/vox_scenes/1080p24/partial_movie_files/B03_NeutronInterferometry/3493624639_1910209460_869308748.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-720/media/videos/vox_scenes/1080p24/partial_movie_files/B03_NeutronInterferometry/3493624639_1280230792_1600641898.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-720/media/videos/vox_scenes/1080p24/partial_movie_files/B03_NeutronInterferometry/3493624639_76096972_1755852590.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-720/media/videos/vox_scenes/1080p24/partial_movie_files/B03_NeutronInterferometry/3493624639_803268806_3862024430.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-720/media/videos/vox_scenes/1080p24/partial_movie_files/B03_NeutronInterferometry/3493624639_1235950125_2891396622.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-720/media/videos/vox_scenes/1080p24/partial_movie_files/B03_NeutronInterferometry/3493624639_457095498_1287835331.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-720/media/videos/vox_scenes/1080p24/partial_movie_files/B03_NeutronInterferometry/3493624639_2715358247_2032525171.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-spin-720/media/videos/vox_scenes/1080p24/partial_movie_files/B03_NeutronInterferometry/3493624639_678168641_459277463.mp4'
