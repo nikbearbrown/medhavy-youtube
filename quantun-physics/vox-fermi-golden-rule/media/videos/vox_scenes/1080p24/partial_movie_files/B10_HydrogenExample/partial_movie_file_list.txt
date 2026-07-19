@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-fermi-golden-rule/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HydrogenExample/648461735_1486509246_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-fermi-golden-rule/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HydrogenExample/3493624639_271340446_648733039.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-fermi-golden-rule/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HydrogenExample/3493624639_2068590949_245064441.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-fermi-golden-rule/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HydrogenExample/3493624639_4136263208_872834425.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-fermi-golden-rule/media/videos/vox_scenes/1080p24/partial_movie_files/B10_HydrogenExample/3493624639_3541147761_1870918815.mp4'

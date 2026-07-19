@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-bloch-sphere-qubit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_BornRuleGeometry/648461735_672929705_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-bloch-sphere-qubit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_BornRuleGeometry/3493624639_2161589048_3718496725.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-bloch-sphere-qubit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_BornRuleGeometry/3493624639_1187358540_4170309837.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-bloch-sphere-qubit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_BornRuleGeometry/3493624639_1057351369_3073489833.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-bloch-sphere-qubit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_BornRuleGeometry/3493624639_2685996178_3100851278.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-bloch-sphere-qubit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_BornRuleGeometry/3493624639_4051516306_2997386208.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-bloch-sphere-qubit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_BornRuleGeometry/3493624639_948539211_2155898668.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-bloch-sphere-qubit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_BornRuleGeometry/3493624639_1799128059_914430781.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol2/youtube/vox-bloch-sphere-qubit/media/videos/vox_scenes/1080p24/partial_movie_files/B09_BornRuleGeometry/3493624639_1516019680_2881758087.mp4'

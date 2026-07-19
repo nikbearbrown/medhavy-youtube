@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-band-gap/media/videos/vox_scenes/1080p24/partial_movie_files/B04_FreeParabola/648461735_329096960_631390644.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-band-gap/media/videos/vox_scenes/1080p24/partial_movie_files/B04_FreeParabola/3493624639_1946860131_3562785086.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-band-gap/media/videos/vox_scenes/1080p24/partial_movie_files/B04_FreeParabola/3493624639_2328656786_3960611151.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol3/youtube/vox-band-gap/media/videos/vox_scenes/1080p24/partial_movie_files/B04_FreeParabola/3493624639_4027528990_4042701599.mp4'

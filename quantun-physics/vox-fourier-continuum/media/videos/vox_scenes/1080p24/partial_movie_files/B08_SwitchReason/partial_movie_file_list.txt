@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-fourier-continuum/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SwitchReason/648461735_2958760945_1633386038.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-fourier-continuum/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SwitchReason/3493624639_1558840956_1567343527.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-fourier-continuum/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SwitchReason/3493624639_789009636_4041700586.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-fourier-continuum/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SwitchReason/3493624639_3506647914_1296566578.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-fourier-continuum/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SwitchReason/3493624639_3596131751_221866385.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-fourier-continuum/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SwitchReason/3493624639_3875305329_967167189.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/quantum-mechanics-vol5/youtube/vox-fourier-continuum/media/videos/vox_scenes/1080p24/partial_movie_files/B08_SwitchReason/3493624639_3228694655_3481118638.mp4'
