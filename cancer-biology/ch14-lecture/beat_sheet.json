@@ -1,0 +1,128 @@
+{
+  "slug": "cancer-biology-ch14-chapter-14-apoptosis-in-cancer-evasion-a",
+  "title": "Chapter 14 — Apoptosis in Cancer: Evasion and Restoration",
+  "series": "Cancer Biology",
+  "source": "chapters/14-apoptosis-in-cancer-evasion-and-restoration.md",
+  "voice_id": "",
+  "accent": "#ea580c",
+  "fps": 24,
+  "clock": "real",
+  "metadata": {
+    "chapter": 14,
+    "total_chapters": 16,
+    "playlist": "Cancer Biology",
+    "palette": "brutalist",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx"
+  },
+  "segments": [
+    {
+      "section": "HOOK",
+      "dark": false,
+      "title": [
+        [
+          "CHAPTER 14 — ",
+          false
+        ],
+        [
+          "APOPTOSIS IN CANCER: EVASION AND RESTORATION",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">Explain in three sentences why apoptosis evasion in cancer is an active defense rather than a passive absence, and name </p><div class=\"callout\"><b>Chapter 14 — Apoptosis in Cancer: Evasio</b> — Define apoptotic priming. Explain why a highly primed, BCL-2-dependent cell is more vulnerable to venetoclax than a cell</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Explain in three sentences why apoptosis evasion in cancer is an active defense rather than a passive absence, and name three molecular strategies a cancer cell uses to maintain that defense. Your answer should make clear why the death pressure in cancer cells is often higher than in normal cells, not lower. What this tests: the conceptual reorientation from \"cells fail to die\" to \"cells are fighting actively against death\" , the framing that makes BH3 mimetics logical. Define apoptotic priming.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 26.77
+        }
+      ],
+      "id": "S01",
+      "num": 1,
+      "total": 4,
+      "label": "01 / 04 · HOOK"
+    },
+    {
+      "section": "PROMPTS",
+      "dark": false,
+      "title": [
+        [
+          "PROMPTS",
+          false
+        ],
+        [
+          "",
+          true
+        ]
+      ],
+      "body_html": "",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "This section covers key concepts from the chapter.",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 3.39
+        }
+      ],
+      "id": "S02",
+      "num": 2,
+      "total": 4,
+      "label": "02 / 04 · PROMPTS"
+    },
+    {
+      "section": "THESIS",
+      "dark": false,
+      "title": [
+        [
+          "THE CORE ",
+          false
+        ],
+        [
+          "CLAIM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">Figure 14.1 — BH3 mimetic releasing effectors from the guardian Build a left-to-right flowchart of five sequential stage</div><p class=\"lead\">Figure 14.2 — Apoptosis evasion map: where each strategy intervenes Build an annotated callout diagram: a central horizo</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "This section covers key concepts from the chapter.",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 3.39
+        }
+      ],
+      "id": "S03",
+      "num": 3,
+      "total": 4,
+      "label": "03 / 04 · THESIS"
+    },
+    {
+      "section": "CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "ASK THE QUESTION. ",
+          false
+        ],
+        [
+          "APPLY THE FRAMEWORK.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>PROMPTS</span><span>//</span><span>CANCER BIOLOGY</span><span>//</span><span>CANCER BIOLOGY</span></div><p class=\"sig\">Cancer Biology · Ch.14 · Chapter 14 — Apoptosis in Cancer: Evasion and Restoration</p></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That is the framework. Cancer Biology, chapter 14: Chapter 14 , Apoptosis in Cancer: Evasion and Restoration. The patterns are now in place. Apply them.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 9.96
+        }
+      ],
+      "id": "S04",
+      "num": 4,
+      "total": 4,
+      "label": "04 / 04 · CLOSE"
+    }
+  ]
+}

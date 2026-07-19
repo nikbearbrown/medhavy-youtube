@@ -1,0 +1,350 @@
+{
+  "slug": "cancer-research-ch01-cancer-screening",
+  "title": "Cancer Screening — Finding It Early Enough to Cure",
+  "series": "Cancer Research",
+  "source": "cancer-research/chapters/01-cancer-screening-finding-it-early-enough-to-cure.md",
+  "voice_id": "TyW6NH39JcFb5M3xdIIk",
+  "accent": "#ea580c",
+  "fps": 30,
+  "clock": "audio-first",
+  "segments": [
+    {
+      "id": "S01",
+      "num": 1,
+      "total": 12,
+      "section": "HOOK",
+      "label": "01 / 12 · HOOK",
+      "dark": false,
+      "title": [
+        [
+          "A BLOOD TEST, A POSITIVE RESULT, ",
+          false
+        ],
+        [
+          "AND SIX WEEKS OF TERROR.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">positive signal</span><span class=\"arw\">→</span><span class=\"chip\">CT + MRI + EUS + PET</span><span class=\"arw\">→</span><span class=\"chip on\">nothing found</span></div>\n           <p class=\"lead\">The test reported cancer. Every scan said otherwise. He was never told the number that mattered.</p>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "A 58-year-old man with no symptoms takes a blood test that claims to detect 50 cancers. It comes back positive. Over the next six weeks he undergoes a CT, an MRI, an endoscopic ultrasound, and a PET scan. The pancreas is normal. A biopsy needle nicks a vessel. He spends a night in hospital. Three months and several thousand dollars later, the working conclusion is: false positive. He was terrified, harmed, and bankrupted by a number nobody computed before sending him down that path.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 32.65
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "num": 2,
+      "total": 12,
+      "section": "THE STAKES",
+      "label": "02 / 12 · THE STAKES",
+      "dark": false,
+      "title": [
+        [
+          "SCREENING IS A POPULATION TEST, ",
+          false
+        ],
+        [
+          "NOT A DIAGNOSIS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">4</div><div class=\"cap\">outcomes possible</div></div>\n           <div class=\"eq\">=</div>\n           <div class=\"stat\"><div class=\"big on\">1</div><div class=\"cap\">that ruins lives</div></div>\n         </div>\n         <p class=\"lead\">Because most screened people are healthy, the test must be judged across the whole population — not by one person's result.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "A screening test is applied to people without symptoms, drawn from a defined risk group. This is categorically different from a diagnostic test. Because most screened people do not have the disease, the test must be judged by what happens across the whole population: deaths prevented, false alarms generated, healthy people harmed by follow-up. When a test meets a person, four outcomes are possible. True positive, false negative, true negative, false positive. The false positive is the person sent for six weeks of invasive workup who had nothing wrong.",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 36.41
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "num": 3,
+      "total": 12,
+      "section": "SENSITIVITY, SPECIFICITY, PPV",
+      "label": "03 / 12 · THE THREE NUMBERS",
+      "dark": false,
+      "title": [
+        [
+          "SENSITIVITY AND SPECIFICITY ",
+          false
+        ],
+        [
+          "ARE PROPERTIES OF THE TEST. PPV IS NOT.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid3\">\n           <div class=\"cell-part\"><b>SENSITIVITY</b><span>fraction of sick people correctly flagged — a sensitive test misses few cancers</span></div>\n           <div class=\"cell-part\"><b>SPECIFICITY</b><span>fraction of healthy people correctly cleared — a specific test raises few false alarms</span></div>\n           <div class=\"cell-part hot\"><b>PPV</b><span>given a positive, the probability disease is truly present — depends on <i>prevalence</i></span></div>\n         </div>\n         <p class=\"lead\">The worried patient wants PPV. PPV is not on the test's spec sheet.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Two properties describe the test itself. Sensitivity is the fraction of people with the disease who are correctly flagged. Specificity is the fraction without the disease who are correctly cleared. These are measured once and applied everywhere. But the number a worried patient actually wants is the positive predictive value, or PPV: given a positive result, the probability that disease is truly present. PPV is not a property of the test. It depends on prevalence, the fraction of the screened population that actually has the disease. That dependence is the fact nobody told the man at the opening of this chapter.",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 39.61
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "num": 4,
+      "total": 12,
+      "section": "WHY PREVALENCE GOVERNS PPV",
+      "label": "04 / 12 · THE PREVALENCE TRAP",
+      "dark": false,
+      "title": [
+        [
+          "SAME TEST. ",
+          false
+        ],
+        [
+          "PPV 31% IN ONE GROUP, 91% IN ANOTHER.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">0.5%</div><div class=\"cap\">prevalence</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big warn\">31%</div><div class=\"cap\">PPV</div></div>\n           <div class=\"eq\">//</div>\n           <div class=\"stat\"><div class=\"big\">10%</div><div class=\"cap\">prevalence</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big on\">91%</div><div class=\"cap\">PPV</div></div>\n         </div>\n         <p class=\"lead\">Sensitivity 90%, specificity 99% — held fixed. Only who was tested changed.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Compute it to see why. A blood screen: sensitivity 90%, specificity 99%. Apply it to a general-population cohort with 0.5% prevalence. On 100,000 people, there are 500 with disease: 450 true positives, 50 missed. But 99,500 healthy people produce 995 false positives. PPV is 450 divided by 1,445: 31 percent. Nearly two-thirds of all positives are false. Now run the same test on a high-risk cohort with 10% prevalence. PPV jumps to 91 percent. Nothing about the test changed. Only who was tested changed.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 40.22
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "num": 5,
+      "total": 12,
+      "section": "LEAD-TIME BIAS",
+      "label": "05 / 12 · LEAD-TIME BIAS",
+      "dark": false,
+      "title": [
+        [
+          "EARLIER DIAGNOSIS, ",
+          false
+        ],
+        [
+          "SAME DATE OF DEATH.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\">\n           <span class=\"chip\">screen detects at 50</span><span class=\"arw\">→</span><span class=\"chip\">dies at 60</span><span class=\"arw\">=</span><span class=\"chip on\">10yr survival</span>\n         </div>\n         <div class=\"flow\" style=\"margin-top:14px\">\n           <span class=\"chip\">symptoms at 55</span><span class=\"arw\">→</span><span class=\"chip\">dies at 60</span><span class=\"arw\">=</span><span class=\"chip warn\">5yr survival</span>\n         </div>\n         <p class=\"lead\">Survival doubles. Age at death: identical. The screen moved the clock, not the outcome.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Three artifacts can make a screening program look effective when it changes nothing about when people die. Lead-time bias: screening moves the diagnosis date earlier. If cancer is found at 50 by screening but the patient still dies at 60, survival from diagnosis is ten years. If the same cancer surfaces as symptoms at 55, survival is five years. The screened patient appears to survive twice as long but died at the identical age. Earlier diagnosis inflates survival even when treatment changes nothing. A program can show dramatic improvement in five-year survival statistics while leaving age at death completely unchanged.",
+          "audio_file": "audio/S05.mp3",
+          "actual_duration_s": 41.98
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "num": 6,
+      "total": 12,
+      "section": "LENGTH-TIME BIAS AND OVERDIAGNOSIS",
+      "label": "06 / 12 · THE OTHER TWO BIASES",
+      "dark": false,
+      "title": [
+        [
+          "SLOW TUMORS GET CAUGHT. ",
+          false
+        ],
+        [
+          "FAST ONES SLIP BETWEEN ROUNDS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>LENGTH-TIME BIAS</b><span>slow-growing tumors over-represented among screen-detected cancers — they'd have done better anyway</span></div>\n           <div class=\"cell-part hot\"><b>OVERDIAGNOSIS</b><span>cancers detected that would never have caused symptoms in the patient's lifetime — invisible at the individual level</span></div>\n         </div>\n         <div class=\"callout\">The corrective: <b>disease-specific mortality</b> in randomized trials with long follow-up.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Length-time bias: screening catches cancers during their detectable preclinical phase. Slow-growing tumors spend a long time in that phase, so they are over-represented among screen-detected cancers. Fast, lethal tumors produce symptoms between rounds and are under-represented. Screen-detected cancers would have done better on average even without treatment. And then overdiagnosis: the hardest bias to see. Screening can detect cancers that would never have caused symptoms. The patient is diagnosed, treated, potentially harmed, but would have lived just as long without any of it. Only population-level studies reveal overdiagnosis as excess diagnoses above expected incidence.",
+          "audio_file": "audio/S06.mp3",
+          "actual_duration_s": 44.95
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "num": 7,
+      "total": 12,
+      "section": "WHEN SCREENING IS JUSTIFIED",
+      "label": "07 / 12 · WILSON AND JUNGNER",
+      "dark": false,
+      "title": [
+        [
+          "SCREENING IS JUSTIFIED ",
+          false
+        ],
+        [
+          "ONLY WHEN BENEFITS OUTWEIGH HARMS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>DETECTABLE PRECLINICAL PHASE</b><span>a window where the disease is present but catchable</span></div>\n           <div class=\"wire\"><b>EFFECTIVE EARLY TREATMENT</b><span>finding it earlier only matters if earlier treatment works better</span></div>\n           <div class=\"wire\"><b>ACCEPTABLE HARM BURDEN</b><span>false positives, unnecessary procedures, overdiagnosis, and anxiety must all be weighed</span></div>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "In 1968, Wilson and Jungner laid out criteria still in use today. The disease must have a detectable preclinical phase. Effective treatment must exist for early disease: finding something earlier only matters if earlier treatment works better. The test must perform well enough that benefits outweigh harms. And harms include false positives, unnecessary procedures, overdiagnosis, and anxiety. The accepted screening programs are those where randomized trial evidence shows benefit clearly dominates harm in a defined population: low-dose CT for lung cancer in heavy smokers, cervical cytology, mammography with appropriate qualification, colonoscopy for colorectal cancer.",
+          "audio_file": "audio/S07.mp3",
+          "actual_duration_s": 46.63
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "num": 8,
+      "total": 12,
+      "section": "PSA: A CAUTIONARY CASE",
+      "label": "08 / 12 · PSA CASE STUDY",
+      "dark": false,
+      "title": [
+        [
+          "PSA FINDS CANCERS. ",
+          false
+        ],
+        [
+          "THE QUESTION IS WHICH ONES MATTER.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"balance\">\n           <div class=\"pan surv\"><b>ERSPC</b><span>modest mortality benefit in European trial</span></div>\n           <div class=\"fulcrum\">⇄</div>\n           <div class=\"pan die\"><b>PLCO</b><span>no mortality benefit in US trial</span></div>\n         </div>\n         <p class=\"lead\">Conflicting results track directly to differing estimates of overdiagnosis. Reasonable experts disagree.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "Prostate-specific antigen screening is the sharpest example of a program that satisfies some Wilson and Jungner criteria and strains others. PSA finds cancers that would not otherwise have been found. But PSA-detected prostate cancer includes a substantial fraction of tumors that would never have caused symptoms. The ERSPC and PLCO trials produced conflicting results on mortality benefit. Clinical guidelines now emphasize shared decision-making rather than universal recommendation. The disagreement tracks directly to differing estimates of overdiagnosis. That is not a failure of the science. It is the science doing its job.",
+          "audio_file": "audio/S08.mp3",
+          "actual_duration_s": 39.75
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "num": 9,
+      "total": 12,
+      "section": "SURVIVAL STATISTICS",
+      "label": "09 / 12 · THE WRONG METRIC",
+      "dark": false,
+      "title": [
+        [
+          "IMPROVED SURVIVAL STATISTICS ",
+          false
+        ],
+        [
+          "ARE NOT PROOF OF BENEFIT.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>WRONG QUESTION</b><span>did screen-detected cases survive longer than symptom-detected cases?</span></div>\n           <div class=\"wire\"><b>RIGHT QUESTION</b><span>did the screened group die of this cancer less often than the unscreened group?</span></div>\n         </div>\n         <div class=\"callout\">NLST: low-dose CT reduced lung cancer mortality by <b>approx 20%</b> — a real endpoint that licenses a recommendation.</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "A pervasive error in the public understanding of screening is treating improved survival statistics as proof of benefit. They are not. Lead-time bias guarantees improved survival even with zero therapeutic benefit. Length-time bias adds to it. Overdiagnosis inflates the denominator with patients who were never going to die of the disease. The correct question is: did the screened group die of this cancer less often than the unscreened group? The National Lung Screening Trial showed that low-dose CT in heavy smokers reduced lung cancer mortality by approximately 20 percent. That is the kind of endpoint that licenses a recommendation.",
+          "audio_file": "audio/S09.mp3",
+          "actual_duration_s": 41.61
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "num": 10,
+      "total": 12,
+      "section": "WHAT WOULD CHANGE THIS PICTURE",
+      "label": "10 / 12 · THE OPEN FRONTIER",
+      "dark": false,
+      "title": [
+        [
+          "MULTI-CANCER BLOOD TESTS: ",
+          false
+        ],
+        [
+          "PROMISING TECHNOLOGY, UNANSWERED QUESTION.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"flow\">\n           <span class=\"chip\">detect ctDNA</span><span class=\"arw\">→</span><span class=\"chip\">50 cancer types</span><span class=\"arw\">→</span><span class=\"chip warn\">stage I sensitivity low</span><span class=\"arw\">→</span><span class=\"chip on\">mortality benefit?</span>\n         </div>\n         <p class=\"lead\">The curable early-stage cancers shed the least circulating tumor DNA — precisely the cancers screening most needs to find.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "The finding that would revise this chapter: a large randomized trial of a multi-cancer early detection blood test that demonstrated a clear reduction in cancer-specific mortality, not just more cancers found, not just longer survival from diagnosis, but fewer deaths, with an acceptable false-positive and overdiagnosis burden. The NHS-Galleri trial and NCI prospective studies are designed to answer exactly this question. There is a hard biological constraint: the curable early-stage cancers shed the least circulating tumor DNA, precisely the cancers screening most needs to find. Whether sensitivity at stage I can ever be high enough to matter is set partly by tumor biology, not only by assay technology.",
+          "audio_file": "audio/S10.mp3",
+          "actual_duration_s": 48.85
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "num": 11,
+      "total": 12,
+      "section": "THESIS",
+      "label": "11 / 12 · THE THESIS",
+      "dark": false,
+      "title": [
+        [
+          "SCREENING MUST BE JUDGED BY ",
+          false
+        ],
+        [
+          "POPULATION-LEVEL MORTALITY REDUCTION.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">Survival statistics, detection counts, and even PPV can each mislead. The only endpoint immune to all three biases simultaneously is: <b>did fewer people die of this cancer?</b></div>\n         <p class=\"lead\">Still open: what informed consent means when overdiagnosis is invisible at the individual level, and how to balance depth versus breadth in risk-stratified screening.</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "So here is the chapter's claim. Screening must be judged by population-level mortality reduction, because survival statistics, detection counts, and even positive predictive value can each mislead in isolation. The only endpoint immune to lead-time bias, length-time bias, and overdiagnosis simultaneously is: did fewer people die of this cancer in the screened group than in the unscreened group? What remains open: what informed consent means when overdiagnosis is invisible at the individual level, and how to balance depth of coverage against population breadth in risk-stratified screening programs.",
+          "audio_file": "audio/S11.mp3",
+          "actual_duration_s": 40.26
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "num": 12,
+      "total": 12,
+      "section": "CLOSE",
+      "label": "12 / 12 · CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "FIND IT EARLIER. ",
+          false
+        ],
+        [
+          "BUT FIRST, KNOW WHAT EARLIER ACTUALLY MEANS.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>PREVALENCE GOVERNS PPV</span><span>//</span><span>MORTALITY, NOT SURVIVAL</span><span>//</span><span>BENEFIT MUST OUTWEIGH HARM</span></div>\n           <p class=\"sig\">Cancer Research · Chapter 1 · Cancer Screening — Finding It Early Enough to Cure</p>\n         </div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That is the frame for everything ahead. Earlier detection is only beneficial when it leads to treatment that changes the outcome, in a population where the prevalence is high enough to keep false positives from overwhelming true positives, evaluated by an endpoint that cannot be gamed by moving the clock. Prevalence governs PPV. Mortality, not survival, is the measure. Benefits must outweigh harms in the specific population being screened. Everything else in this series is simply what happens when those conditions are, or are not, met.",
+          "audio_file": "audio/S12.mp3",
+          "actual_duration_s": 36.18
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "Cancer Research Ch.1 — Cancer Screening — Finding It Early Enough to Cure",
+    "slug": "cancer-research-ch01-cancer-screening",
+    "playlist": "Cancer Research",
+    "hashtags": [
+      "#CancerResearch",
+      "#Oncology",
+      "#Education",
+      "#NikBearBrown",
+      "#Lecture",
+      "#OnlineLearning"
+    ],
+    "description": "Cancer Research Ch.1 — Cancer Screening — Finding It Early Enough to Cure\n\nFull voiced lecture deck — Cancer Research series.\n\nyoutube.com/@NikBearBrown"
+  }
+}

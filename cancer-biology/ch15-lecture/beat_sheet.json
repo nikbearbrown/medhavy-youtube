@@ -1,0 +1,128 @@
+{
+  "slug": "cancer-biology-ch15-chapter-15-cancer-metabolism-the-warburg",
+  "title": "Chapter 15 — Cancer Metabolism: The Warburg Effect and Glucose",
+  "series": "Cancer Biology",
+  "source": "chapters/15-cancer-metabolism-the-warburg-effect-and-glucose.md",
+  "voice_id": "",
+  "accent": "#ea580c",
+  "fps": 24,
+  "clock": "real",
+  "metadata": {
+    "chapter": 15,
+    "total_chapters": 16,
+    "playlist": "Cancer Biology",
+    "palette": "brutalist",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx"
+  },
+  "segments": [
+    {
+      "section": "HOOK",
+      "dark": false,
+      "title": [
+        [
+          "CHAPTER 15 — ",
+          false
+        ],
+        [
+          "CANCER METABOLISM: THE WARBURG EFFECT AND GLUCOSE",
+          true
+        ]
+      ],
+      "body_html": "<p class=\"lead\">(Recall — difficulty: low) State in one sentence the modern explanation for why a cancer cell performs aerobic glycolysi</p><div class=\"callout\"><b>Chapter 15 — Cancer Metabolism: The Warb</b> — (Recall — difficulty: low) Trace the HIF-1α destruction pathway in a normoxic cell: name the enzyme that hydroxylates HI</div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "(Recall , difficulty: low) State in one sentence the modern explanation for why a cancer cell performs aerobic glycolysis despite available oxygen, and name the single quantity the cell is optimizing rather than ATP per glucose. What this tests: whether you have replaced the broken-mitochondria framing with the biomass-allocation framing. (Recall , difficulty: low) Trace the HIF-1alpha destruction pathway in a normoxic cell: name the enzyme that hydroxylates HIF-1alpha, the protein that recognizes the hydroxylated form, and the outcome for HIF-1alpha protein levels.",
+          "audio_file": "audio/S01.mp3",
+          "actual_duration_s": 34.6
+        }
+      ],
+      "id": "S01",
+      "num": 1,
+      "total": 4,
+      "label": "01 / 04 · HOOK"
+    },
+    {
+      "section": "PROMPTS",
+      "dark": false,
+      "title": [
+        [
+          "PROMPTS",
+          false
+        ],
+        [
+          "",
+          true
+        ]
+      ],
+      "body_html": "",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "This section covers key concepts from the chapter.",
+          "audio_file": "audio/S02.mp3",
+          "actual_duration_s": 3.39
+        }
+      ],
+      "id": "S02",
+      "num": 2,
+      "total": 4,
+      "label": "02 / 04 · PROMPTS"
+    },
+    {
+      "section": "THESIS",
+      "dark": false,
+      "title": [
+        [
+          "THE CORE ",
+          false
+        ],
+        [
+          "CLAIM.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"thesis\">Figure 15.1 — Carbon fate map for a proliferating cell Build a top-down (or left-rooted) hierarchy / branching tree with</div><p class=\"lead\">Figure 15.2 — HIF-1α oxygen sensing: normoxia versus hypoxia Build a two-panel comparison, left &quot;Normoxia&quot; and right &quot;Hy</p>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "This section covers key concepts from the chapter.",
+          "audio_file": "audio/S03.mp3",
+          "actual_duration_s": 3.39
+        }
+      ],
+      "id": "S03",
+      "num": 3,
+      "total": 4,
+      "label": "03 / 04 · THESIS"
+    },
+    {
+      "section": "CLOSE",
+      "dark": true,
+      "title": [
+        [
+          "ASK THE QUESTION. ",
+          false
+        ],
+        [
+          "APPLY THE FRAMEWORK.",
+          true
+        ]
+      ],
+      "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>PROMPTS</span><span>//</span><span>CANCER BIOLOGY</span><span>//</span><span>CANCER BIOLOGY</span></div><p class=\"sig\">Cancer Biology · Ch.15 · Chapter 15 — Cancer Metabolism: The Warburg Effect and Glucose</p></div>",
+      "beats": [
+        {
+          "type": "analytic",
+          "text": "That is the framework. Cancer Biology, chapter 15: Chapter 15 , Cancer Metabolism: The Warburg Effect and Glucose. The patterns are now in place. Apply them.",
+          "audio_file": "audio/S04.mp3",
+          "actual_duration_s": 9.88
+        }
+      ],
+      "id": "S04",
+      "num": 4,
+      "total": 4,
+      "label": "04 / 04 · CLOSE"
+    }
+  ]
+}

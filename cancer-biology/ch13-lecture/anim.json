@@ -1,0 +1,95 @@
+{
+  "S01": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 01 — HOOK",
+    "data": {
+      "title": "CHAPTER 13 — APOPTOSIS IN CANCER: THE DEATH PROGRAMS",
+      "blocks": [
+        "Apoptosis is a cell's orderly, pre-programmed self-disassembly — controlled demolition that leaves no mess. The word com",
+        "Chapter 13 — Apoptosis in Cancer: The De — Contrast this with necrosis: uncontrolled death from injury beyond the cell's tolerance, in which the cell swells, the m"
+      ],
+      "section": "HOOK"
+    }
+  },
+  "S02": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 02 — THE INTRINSIC PATHWAY: DEATH F",
+    "data": {
+      "title": "THE INTRINSIC PATHWAY: DEATH FROM WITHIN",
+      "blocks": [
+        "anoikis",
+        "mitochondrial outer membrane permeabilization",
+        "cytochrome c",
+        "apoptosome",
+        "SMAC/DIABLO"
+      ],
+      "section": "THE INTRINSIC PATHWAY: DEATH F"
+    }
+  },
+  "S03": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 03 — HOW P53 CONNECTS DAMAGE TO DEA",
+    "data": {
+      "title": "HOW P53 CONNECTS DAMAGE TO DEATH.",
+      "blocks": [
+        "p53 connects the cell-cycle story to the death story, and it deserves its own account here rather than just a cross-refe",
+        "How p53 connects damage to death — When DNA damage exceeds what arrest and repair can fix, p53 — stabilized as described in Chapter 4 — acts as a transcrip"
+      ],
+      "section": "HOW P53 CONNECTS DAMAGE TO DEA"
+    }
+  },
+  "S04": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 04 — THE EXTRINSIC PATHWAY: DEATH F",
+    "data": {
+      "title": "THE EXTRINSIC PATHWAY: DEATH FROM OUTSIDE",
+      "blocks": [
+        "death ligand",
+        "death receptor",
+        "type I cells",
+        "type II cells",
+        "tBID"
+      ],
+      "section": "THE EXTRINSIC PATHWAY: DEATH F"
+    }
+  },
+  "S05": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 05 — WHEN APOPTOSIS IS BLOCKED: ALT",
+    "data": {
+      "title": "WHEN APOPTOSIS IS BLOCKED: ALTERNATIVE PROGRAMS",
+      "blocks": [
+        "Necroptosis",
+        "Pyroptosis",
+        "gasdermin D",
+        "Ferroptosis",
+        "GPX4"
+      ],
+      "section": "WHEN APOPTOSIS IS BLOCKED: ALT"
+    }
+  },
+  "S06": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 06 — RUNNING THE SCENARIO TWICE",
+    "data": {
+      "title": "RUNNING THE SCENARIO TWICE.",
+      "blocks": [
+        "Return to the keratinocyte. Two versions.",
+        "Running the scenario twice — In the first version, the UV dose produces 50 thymine dimers. ATR and ATM activate, phosphorylate p53, which stabilizes"
+      ],
+      "section": "RUNNING THE SCENARIO TWICE"
+    }
+  },
+  "S07": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 07 — STILL OPEN",
+    "data": {
+      "title": "STILL OPEN",
+      "blocks": [
+        "The threshold at which p53 chooses arrest over apoptosis remains unpredictable from first principles in most cell types.",
+        "Still open — How often a human tumor is actually killed through necroptosis, pyroptosis, or ferroptosis in clinical settings — versus"
+      ],
+      "section": "STILL OPEN"
+    }
+  }
+}

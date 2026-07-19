@@ -1,0 +1,14 @@
+{
+  "S01": {
+    "pattern": "calloutTour",
+    "meta": "// SLIDE 01 — HOOK",
+    "data": {
+      "title": "CHAPTER 15 — CANCER METABOLISM: THE WARBURG EFFECT AND GLUCOSE",
+      "blocks": [
+        "(Recall — difficulty: low) State in one sentence the modern explanation for why a cancer cell performs aerobic glycolysi",
+        "Chapter 15 — Cancer Metabolism: The Warb — (Recall — difficulty: low) Trace the HIF-1α destruction pathway in a normoxic cell: name the enzyme that hydroxylates HI"
+      ],
+      "section": "HOOK"
+    }
+  }
+}

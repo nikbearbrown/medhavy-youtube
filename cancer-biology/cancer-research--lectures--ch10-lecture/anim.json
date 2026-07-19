@@ -1,0 +1,100 @@
+{
+  "S04": {
+    "pattern": "threshold",
+    "meta": "// SLIDE 04 — THERAPEUTIC WINDOW: Too little → resistance; too much → lethal toxicity",
+    "data": {
+      "subject": { "label": "Cytotoxic dose", "size": 1, "unit": "relative" },
+      "modes": [
+        {
+          "label": "Sub-therapeutic",
+          "sub": "Insufficient tumor kill",
+          "limit": 0,
+          "resolves": "Resistance emerges from surviving cells — tumor progresses"
+        },
+        {
+          "label": "Therapeutic window",
+          "sub": "Exploits tumor vulnerability over normal-tissue tolerance",
+          "limit": 1,
+          "resolves": "Tumor kill without life-threatening normal-tissue injury"
+        },
+        {
+          "label": "Supra-therapeutic",
+          "sub": "Marrow, gut, organ failure",
+          "limit": 2,
+          "resolves": "Toxicities become life-threatening faster than tumor kill extends life"
+        }
+      ],
+      "axisLabel": "Dose intensity",
+      "verdicts": ["window is narrow — normal tissue carries the same machinery the drug attacks", "every dosing decision is an attempt to exploit or widen this gap"]
+    }
+  },
+  "S07": {
+    "pattern": "binaryBranch",
+    "meta": "// SLIDE 07 — COMBINATION PRINCIPLES: Three rules that prevent single-mutation resistance",
+    "data": {
+      "question": "Why does combination chemotherapy beat single agents at cure?",
+      "branches": [
+        {
+          "label": "Single-agent therapy",
+          "detail": "One mechanism — one resistance mutation defeats the entire treatment. High proliferation + genomic instability make such mutations abundant.",
+          "fix": "Resistance arises readily — no curative potential for most cancers",
+          "tone": "warn"
+        },
+        {
+          "label": "Combination — three rules",
+          "detail": "Different mechanisms + non-overlapping toxicities + each with single-agent activity. A single mutation cannot defeat all three simultaneously.",
+          "fix": "First curative regimens for Hodgkin, testicular cancer — uniformly fatal diseases",
+          "tone": "good"
+        }
+      ],
+      "resolver": {
+        "label": "Combination as proof of concept",
+        "detail": "MOPP cured Hodgkin. BEP cures most metastatic testicular cancer. The three rules are why."
+      }
+    }
+  },
+  "S09": {
+    "pattern": "scaleComparison",
+    "meta": "// SLIDE 09 — CARBOPLATIN DOSING: Calvert formula — same target AUC, very different doses by kidney function",
+    "data": {
+      "axis": { "min": 0, "max": 650, "unit": "mg" },
+      "axisLabel": "Carboplatin dose (mg) — target AUC 5, same body surface area",
+      "items": [
+        {
+          "label": "GFR 90 — normal kidney function",
+          "value": 575,
+          "hot": false
+        },
+        {
+          "label": "GFR 40 — impaired kidney function",
+          "value": 325,
+          "hot": true
+        }
+      ]
+    }
+  },
+  "S10": {
+    "pattern": "divergentFates",
+    "meta": "// SLIDE 10 — TOXICITY TRACKING: Per-cycle (recoverable) vs cumulative (lifetime limit) toxicities",
+    "data": {
+      "startLabel": "Chemotherapy delivered",
+      "splitLabel": "Toxicity accumulation pattern",
+      "tracks": [
+        {
+          "label": "Per-cycle toxicities",
+          "outcome": "Myelosuppression, nausea — dip after each dose, recover toward baseline. Managed with growth factors and dose timing.",
+          "tone": "good",
+          "path": "up",
+          "notes": ["resets each cycle", "growth factors reduce nadir depth", "21-day cycle timed to recovery"]
+        },
+        {
+          "label": "Cumulative / lifetime-limit toxicities",
+          "outcome": "Doxorubicin cardiomyopathy, bleomycin fibrosis, etoposide secondary AML — never reset. Tracked across all prior treatment.",
+          "tone": "warn",
+          "path": "down",
+          "notes": ["doxorubicin ceiling ~500 mg/m²", "bleomycin: pulmonary function monitoring", "etoposide: long-term leukemia surveillance"]
+        }
+      ]
+    }
+  }
+}
