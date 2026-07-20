@@ -5,7 +5,7 @@
   "topic": "CLAUDE CODE · MANIM",
   "audience": "MEDHAVY",
   "voice_id": "1sgY6Voq1aexKOB1IJ2D",
-  "voice": "MEDHAVY",
+  "voice": "af_kore",
   "register": "Wonder",
   "palette": "medhavy",
   "style_preset": "medhavy",
@@ -31,9 +31,34 @@
    "B02",
    "B04"
   ],
-  "playlist_short": "Shorts"
+  "playlist_short": "Shorts",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "channel": "medhavy"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Hei, Medhavy",
+      "topic": "MEDHAVY · Build an Uncertainty Squeeze Sim with Claude Code",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B00",
    "act": "MEDHAVY INTRO",
@@ -65,7 +90,42 @@
    },
    "estimated_duration_s": 10.0,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 9.43
+   "actual_duration_s": 9.43,
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Teaching Build an Uncertainty Squeeze Sim with Claude Code well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "remotion",
+    "motion": "fade",
+    "remotion": {
+     "pattern": "MedhavyOpen",
+     "provenance": "reel-local",
+     "version": "1",
+     "props": {
+      "topic": "MEDHAVY AI",
+      "lines": [
+       "Medhavy AI",
+       "Also known as Medhavi",
+       "मेधावी (Medhavy): From Sanskrit, meaning",
+       "\"intelligent\" or \"intellectually brilliant\"",
+       "— the perfect name for our AI-powered",
+       "  intelligent learning systems."
+      ]
+     },
+     "rendered": {
+      "out": "media/B00.mp4",
+      "at": ""
+     }
+    }
+   }
   },
   {
    "beat_id": "B03",
@@ -82,7 +142,9 @@
    },
    "estimated_duration_s": 18.0,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 24.37
+   "actual_duration_s": 24.37,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B05",
@@ -99,7 +161,7 @@
      "props": {
       "brand": "Medhavy",
       "tagline": "AI-powered intelligent learning systems",
-      "handle": "@MedhavyAI",
+      "handle": "@Medhavy",
       "url": "medhavy.com"
      },
      "rendered": {
@@ -110,7 +172,9 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 7.52
+   "actual_duration_s": 7.52,
+   "engine": "kokoro",
+   "voice": "af_kore"
   }
  ]
 }

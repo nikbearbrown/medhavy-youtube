@@ -11,9 +11,36 @@
  "metadata": {
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "note": "Exclusions: no quantum correlation formula derivation, no Tsirelson bound proof, no experimental loopholes, no CHSH history or attribution",
-  "total_estimated_duration_seconds": 198.79
+  "total_estimated_duration_seconds": 198.79,
+  "engine": "kokoro",
+  "register": "Wonder",
+  "voice": "af_kore",
+  "voice_kokoro": "af_kore",
+  "channel": "medhavy"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Yassou, Medhavy",
+      "topic": "MEDHAVY · vox-chsh-arithmetic",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "t_start": 0.0,
@@ -41,7 +68,32 @@
    },
    "new_visual_element": "[TITLE] CHSH setup",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 13.04
+   "actual_duration_s": 13.04,
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Teaching vox chsh arithmetic well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "SlateCard",
+     "provenance": "proven-core/SlateCard",
+     "version": "1",
+     "props": {
+      "headline": "Alice and Bob run an experiment. Each has two measurement settings.…",
+      "eyebrow": "",
+      "topic": ""
+     }
+    }
+   }
   },
   {
    "beat_id": "B02",
@@ -55,7 +107,9 @@
    },
    "new_visual_element": "[SCALE] S axis with classical bound at 2 and quantum at 2root2",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 16.2
+   "actual_duration_s": 16.2,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B03",
@@ -84,7 +138,9 @@
    },
    "new_visual_element": "[QUESTION] why arithmetic gives the bound",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 12.15
+   "actual_duration_s": 12.15,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B04",
@@ -98,7 +154,9 @@
    },
    "new_visual_element": "[DIAGRAM] lambda assigns A1,A2,B1,B2 values each +1/-1",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 16.61
+   "actual_duration_s": 16.61,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B05",
@@ -130,7 +188,9 @@
    },
    "new_visual_element": "[SECTION] factor",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 1.15
+   "actual_duration_s": 1.15,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B06",
@@ -144,7 +204,9 @@
    },
    "new_visual_element": "[ALGEBRA] S factored as A1(B1+B2) + A2(B1-B2)",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 16.54
+   "actual_duration_s": 16.54,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B07",
@@ -176,7 +238,9 @@
    },
    "new_visual_element": "[SECTION] four-row table",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 1.07
+   "actual_duration_s": 1.07,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B08",
@@ -190,7 +254,9 @@
    },
    "new_visual_element": "[TABLE] 4 rows: B1,B2 | B1+B2 | B1-B2",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 25.81
+   "actual_duration_s": 25.81,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B09",
@@ -204,7 +270,9 @@
    },
    "new_visual_element": "[TABLE] same table with |S(lambda)|=2 column added and highlighted",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 17.4
+   "actual_duration_s": 17.4,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B10",
@@ -236,7 +304,9 @@
    },
    "new_visual_element": "[SECTION] implication",
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 1.52
+   "actual_duration_s": 1.52,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B11",
@@ -250,7 +320,9 @@
    },
    "new_visual_element": "[DIAGRAM] all lambda arrows bounded by |S|=2 line",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 18.1
+   "actual_duration_s": 18.1,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B12",
@@ -282,7 +354,9 @@
    },
    "new_visual_element": "[SECTION] example",
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 1.7
+   "actual_duration_s": 1.7,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B13",
@@ -296,7 +370,9 @@
    },
    "new_visual_element": "[SCALE] S axis: classical bound 2, quantum 2root2=2.83, gap labeled",
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 16.12
+   "actual_duration_s": 16.12,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B14",
@@ -310,7 +386,9 @@
    },
    "new_visual_element": "[TABLE] example: A1=+1, A2=-1 with all four B rows showing |S|=2",
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 22.1
+   "actual_duration_s": 22.1,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B15",
@@ -343,7 +421,9 @@
    },
    "new_visual_element": "[ENDCARD] recap",
    "audio_file": "mp3/beat-B15.mp3",
-   "actual_duration_s": 13.142
+   "actual_duration_s": 13.142,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B16",
@@ -369,14 +449,16 @@
    },
    "estimated_duration_s": 6,
    "audio_file": "mp3/beat-B16.mp3",
-   "actual_duration_s": 4.6
+   "actual_duration_s": 4.6,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B17",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Like and subscribe for more.",
+   "narration_text": "Like and subscribe for more. From Medhavy.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -388,14 +470,16 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@NikBearBrown",
+      "handle": "@Medhavy",
       "ctaText": "Like and subscribe for more."
      }
     }
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B17.mp3",
-   "actual_duration_s": 1.49
+   "actual_duration_s": 1.49,
+   "engine": "kokoro",
+   "voice": "af_kore"
   }
  ]
 }

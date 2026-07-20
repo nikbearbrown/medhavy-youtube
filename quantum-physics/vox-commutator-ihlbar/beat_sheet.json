@@ -4,7 +4,11 @@
   "title": "Why Position and Momentum Cannot Commute",
   "topic": "QUANTUM MECHANICS",
   "aspect_ratio": "16:9",
-  "style_preset": "vox-editorial"
+  "style_preset": "vox-editorial",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
  },
  "beats": []
 }

@@ -1,332 +1,420 @@
 {
-  "metadata": {
-    "slug": "vox-hole-quasiparticle-corrected",
-    "title": "How a Missing Valence Electron Becomes a Positive Hole",
-    "topic": "QUANTUM MECHANICS",
-    "source": "quantum-mechanics-vol3/chapters/10-periodic-potentials-and-band-structure.md",
-    "engine": "kokoro",
-    "voice_kokoro": "am_onyx",
-    "audience": "Claude",
-    "register": "Teardown",
-    "palette": "claude",
-    "total_estimated_duration_seconds": 195,
-    "build": {
-      "at": "2026-07-18T21:34:56",
-      "cut": "master",
-      "filled": 15,
-      "of": 15,
-      "slates": [],
-      "skin_warnings": [
-        "B15: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro"
-      ]
-    }
+ "metadata": {
+  "slug": "vox-hole-quasiparticle-corrected",
+  "title": "How a Missing Valence Electron Becomes a Positive Hole",
+  "topic": "QUANTUM MECHANICS",
+  "source": "quantum-mechanics-vol3/chapters/10-periodic-potentials-and-band-structure.md",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "audience": "Claude",
+  "register": "Wonder",
+  "palette": "claude",
+  "total_estimated_duration_seconds": 195,
+  "build": {
+   "at": "2026-07-18T21:34:56",
+   "cut": "master",
+   "filled": 15,
+   "of": 15,
+   "slates": [],
+   "skin_warnings": [
+    "B15: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro"
+   ]
   },
-  "beats": [
-    {
-      "beat_id": "B01",
-      "act": "COLD OPEN",
-      "estimated_duration_s": 14,
-      "narration_text": "This is Liam, in for Bear. A nearly full valence band is missing one electron. Instead of tracking every remaining electron, semiconductor physics tracks the vacancy: a hole with positive charge and positive effective mass near the band maximum.",
-      "shot": {
-        "type": "CARD",
-        "source": "own",
-        "motion": "hold",
-        "remotion": {
-          "pattern": "ClaudeComposerAsk",
-          "props": {
-            "command": "How can one missing valence electron behave like a positive charge carrier?",
-            "topic": "QUANTUM MECHANICS — BAND DYNAMICS",
-            "segment": "From Negative Curvature to a Positive Hole",
-            "greeting": "Merhaba, Liam",
-            "runningText": "subtracting one state from a current-free filled band…",
-            "output": [
-              "Band curvature controls semiclassical acceleration.",
-              "A missing electron reverses charge and current bookkeeping."
-            ],
-            "folderLabel": "@NikBearBrown",
-            "modelLabel": "Fable 5",
-            "effortLabel": "High"
-          },
-          "rendered": {
-            "out": "media/B01.mp4",
-            "at": ""
-          }
-        }
-      },
-      "audio_file": "mp3/beat-B01.mp3",
-      "actual_duration_s": 14.34,
-      "build": {
-        "status": "VIDEO",
-        "src": "media/B01.mp4",
-        "filled_by": "media",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B02",
-      "act": "QUESTION",
-      "estimated_duration_s": 13,
-      "narration_text": "There are two linked puzzles. Why does an electron near a band maximum accelerate along an electric field even though its charge is negative? And why does removing that electron leave a carrier whose charge is positive?",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "separate"
-      },
-      "audio_file": "mp3/beat-B02.mp3",
-      "actual_duration_s": 12.78,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B02.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B03",
-      "act": "DISPERSION",
-      "estimated_duration_s": 13,
-      "narration_text": "Use a one-dimensional tight-binding band, E of k equals E zero minus two t cosine k a. It curves upward at the bottom and downward at the top. The slope gives group velocity; the curvature controls acceleration.",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "draw"
-      },
-      "audio_file": "mp3/beat-B03.mp3",
-      "actual_duration_s": 13.14,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B03.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B04",
-      "act": "VELOCITY",
-      "estimated_duration_s": 12,
-      "narration_text": "A Bloch wave packet moves with group velocity one over h bar times d E by d k. Exactly at a band extremum the slope is zero, so an electron exactly at the top is momentarily stationary, not already carrying a current.",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "tangent"
-      },
-      "audio_file": "mp3/beat-B04.mp3",
-      "actual_duration_s": 14.1,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B04.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B05",
-      "act": "FORCE",
-      "estimated_duration_s": 12,
-      "narration_text": "An electric field changes crystal momentum according to h bar k dot equals q E. For an electron q is minus e, so k moves opposite the field.",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "shift"
-      },
-      "audio_file": "mp3/beat-B05.mp3",
-      "actual_duration_s": 10.05,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B05.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B06",
-      "act": "CURVATURE",
-      "estimated_duration_s": 13,
-      "narration_text": "Differentiate the group velocity. Acceleration equals q E divided by the effective mass, where one over m star is the band curvature divided by h bar squared. Downward curvature means electron m star is negative.",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "derive"
-      },
-      "audio_file": "mp3/beat-B06.mp3",
-      "actual_duration_s": 13.7,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B06.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B07",
-      "act": "ACCELERATION",
-      "estimated_duration_s": 12,
-      "narration_text": "Near the top, q is negative and m star is negative. Their ratio is positive, so the electron wave packet accelerates along the electric field. That is negative effective-mass dynamics, not a change in the electron's fundamental charge.",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "cancel"
-      },
-      "audio_file": "mp3/beat-B07.mp3",
-      "actual_duration_s": 14.31,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B07.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B08",
-      "act": "FILLED BAND",
-      "estimated_duration_s": 13,
-      "narration_text": "Now fill the entire band. For every occupied state with velocity v of k, symmetry supplies an occupied state with opposite velocity. The sum of electron currents across a full band is zero.",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "pair"
-      },
-      "audio_file": "mp3/beat-B08.mp3",
-      "actual_duration_s": 11.9,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B08.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B09",
-      "act": "MISSING STATE",
-      "estimated_duration_s": 13,
-      "narration_text": "Remove one electron from a state near, but not exactly at, the maximum. The remaining-band current equals minus the current that missing electron would have contributed. That subtraction is identical to a carrier with charge plus e and the opposite velocity bookkeeping.",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "subtract"
-      },
-      "audio_file": "mp3/beat-B09.mp3",
-      "actual_duration_s": 15.13,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B09.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B10",
-      "act": "HOLE MASS",
-      "estimated_duration_s": 13,
-      "narration_text": "Measure hole momentum relative to the band maximum. The downward electron dispersion becomes an upward hole energy bowl. The hole mass is positive: the magnitude of the electron's negative band mass in this simple isotropic picture.",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "morph"
-      },
-      "audio_file": "mp3/beat-B10.mp3",
-      "actual_duration_s": 13.82,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B10.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B11",
-      "act": "HOLE DYNAMICS",
-      "estimated_duration_s": 13,
-      "narration_text": "The hole therefore obeys a clean quasiparticle equation: positive charge plus e, positive hole mass, acceleration along the electric field. This compact description reproduces the collective current of all the occupied valence states.",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "recast"
-      },
-      "audio_file": "mp3/beat-B11.mp3",
-      "actual_duration_s": 14.49,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B11.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B12",
-      "act": "BOUNDARY",
-      "estimated_duration_s": 13,
-      "narration_text": "Real valence bands are three-dimensional, anisotropic, and often have several coupled branches such as heavy and light holes. Scattering, Berry curvature, and multiple bands can modify the simple scalar-mass picture. The hole remains a quasiparticle, not a literal empty marble.",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "audit"
-      },
-      "audio_file": "mp3/beat-B12.mp3",
-      "actual_duration_s": 16.17,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B12.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B13",
-      "act": "YOUR TURN",
-      "estimated_duration_s": 13,
-      "narration_text": "Your turn. Near a band maximum an electron has charge minus e and effective mass minus zero point four electron masses. In a rightward electric field, which way does its acceleration point?",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "predict"
-      },
-      "audio_file": "mp3/beat-B13.mp3",
-      "actual_duration_s": 11.73,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B13.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B14",
-      "act": "ANSWER",
-      "estimated_duration_s": 11,
-      "narration_text": "Acceleration is q E over m star. Negative divided by negative is positive, so it points right, along the field. The equivalent hole has charge plus e and mass plus zero point four electron masses.",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "reveal"
-      },
-      "audio_file": "mp3/beat-B14.mp3",
-      "actual_duration_s": 13.01,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B14.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
-    },
-    {
-      "beat_id": "B15",
-      "act": "OUTRO",
-      "estimated_duration_s": 5,
-      "narration_text": "How a Missing Valence Electron Becomes a Positive Hole.",
-      "shot": {
-        "type": "GRAPHIC",
-        "source": "own",
-        "motion": "fade"
-      },
-      "audio_file": "mp3/beat-B15.mp3",
-      "actual_duration_s": 3.88,
-      "build": {
-        "status": "MANIM",
-        "src": "manim/B15.mp4",
-        "filled_by": "manim",
-        "at": "2026-07-18T21:34:56"
-      }
+  "voice": "af_kore",
+  "channel": "medhavy"
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Bula, Medhavy",
+      "topic": "MEDHAVY · How a Missing Valence Electron Becomes a Positive Hole",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
     }
-  ]
+   }
+  },
+  {
+   "beat_id": "B01",
+   "act": "COLD OPEN",
+   "estimated_duration_s": 14,
+   "narration_text": "This is Medhavy. A nearly full valence band is missing one electron. Instead of tracking every remaining electron, semiconductor physics tracks the vacancy: a hole with positive charge and positive effective mass near the band maximum.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "command": "How can one missing valence electron behave like a positive charge carrier?",
+      "topic": "MEDHAVY · QUANTUM MECHANICS — BAND DYNAMICS",
+      "segment": "From Negative Curvature to a Positive Hole",
+      "greeting": "Merhaba, Liam",
+      "runningText": "subtracting one state from a current-free filled band…",
+      "output": [
+       "Band curvature controls semiclassical acceleration.",
+       "A missing electron reverses charge and current bookkeeping."
+      ],
+      "folderLabel": "@NikBearBrown",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 14.34,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B01.mp4",
+    "filled_by": "media",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Teaching How a Missing Valence Electron Becomes a Positive Hole well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "command": "How can one missing valence electron behave like a positive charge carrier?",
+      "topic": "MEDHAVY · QUANTUM MECHANICS — BAND DYNAMICS",
+      "segment": "From Negative Curvature to a Positive Hole",
+      "greeting": "Merhaba, Liam",
+      "runningText": "subtracting one state from a current-free filled band…",
+      "output": [
+       "Band curvature controls semiclassical acceleration.",
+       "A missing electron reverses charge and current bookkeeping."
+      ],
+      "folderLabel": "@NikBearBrown",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B01.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B02",
+   "act": "QUESTION",
+   "estimated_duration_s": 13,
+   "narration_text": "There are two linked puzzles. Why does an electron near a band maximum accelerate along an electric field even though its charge is negative? And why does removing that electron leave a carrier whose charge is positive?",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "separate"
+   },
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 12.78,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B02.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B03",
+   "act": "DISPERSION",
+   "estimated_duration_s": 13,
+   "narration_text": "Use a one-dimensional tight-binding band, E of k equals E zero minus two t cosine k a. It curves upward at the bottom and downward at the top. The slope gives group velocity; the curvature controls acceleration.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "draw"
+   },
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 13.14,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B03.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B04",
+   "act": "VELOCITY",
+   "estimated_duration_s": 12,
+   "narration_text": "A Bloch wave packet moves with group velocity one over h bar times d E by d k. Exactly at a band extremum the slope is zero, so an electron exactly at the top is momentarily stationary, not already carrying a current.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "tangent"
+   },
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 14.1,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B04.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B05",
+   "act": "FORCE",
+   "estimated_duration_s": 12,
+   "narration_text": "An electric field changes crystal momentum according to h bar k dot equals q E. For an electron q is minus e, so k moves opposite the field.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "shift"
+   },
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 10.05,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B05.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B06",
+   "act": "CURVATURE",
+   "estimated_duration_s": 13,
+   "narration_text": "Differentiate the group velocity. Acceleration equals q E divided by the effective mass, where one over m star is the band curvature divided by h bar squared. Downward curvature means electron m star is negative.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "derive"
+   },
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 13.7,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B06.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B07",
+   "act": "ACCELERATION",
+   "estimated_duration_s": 12,
+   "narration_text": "Near the top, q is negative and m star is negative. Their ratio is positive, so the electron wave packet accelerates along the electric field. That is negative effective-mass dynamics, not a change in the electron's fundamental charge.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "cancel"
+   },
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 14.31,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B07.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B08",
+   "act": "FILLED BAND",
+   "estimated_duration_s": 13,
+   "narration_text": "Now fill the entire band. For every occupied state with velocity v of k, symmetry supplies an occupied state with opposite velocity. The sum of electron currents across a full band is zero.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "pair"
+   },
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 11.9,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B08.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B09",
+   "act": "MISSING STATE",
+   "estimated_duration_s": 13,
+   "narration_text": "Remove one electron from a state near, but not exactly at, the maximum. The remaining-band current equals minus the current that missing electron would have contributed. That subtraction is identical to a carrier with charge plus e and the opposite velocity bookkeeping.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "subtract"
+   },
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 15.13,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B09.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B10",
+   "act": "HOLE MASS",
+   "estimated_duration_s": 13,
+   "narration_text": "Measure hole momentum relative to the band maximum. The downward electron dispersion becomes an upward hole energy bowl. The hole mass is positive: the magnitude of the electron's negative band mass in this simple isotropic picture.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "morph"
+   },
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 13.82,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B10.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B11",
+   "act": "HOLE DYNAMICS",
+   "estimated_duration_s": 13,
+   "narration_text": "The hole therefore obeys a clean quasiparticle equation: positive charge plus e, positive hole mass, acceleration along the electric field. This compact description reproduces the collective current of all the occupied valence states.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "recast"
+   },
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 14.49,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B11.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B12",
+   "act": "BOUNDARY",
+   "estimated_duration_s": 13,
+   "narration_text": "Real valence bands are three-dimensional, anisotropic, and often have several coupled branches such as heavy and light holes. Scattering, Berry curvature, and multiple bands can modify the simple scalar-mass picture. The hole remains a quasiparticle, not a literal empty marble.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "audit"
+   },
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 16.17,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B12.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B13",
+   "act": "YOUR TURN",
+   "estimated_duration_s": 13,
+   "narration_text": "Your turn. Near a band maximum an electron has charge minus e and effective mass minus zero point four electron masses. In a rightward electric field, which way does its acceleration point?",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "predict"
+   },
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 11.73,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B13.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B14",
+   "act": "ANSWER",
+   "estimated_duration_s": 11,
+   "narration_text": "Acceleration is q E over m star. Negative divided by negative is positive, so it points right, along the field. The equivalent hole has charge plus e and mass plus zero point four electron masses.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "reveal"
+   },
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 13.01,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B14.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B15",
+   "act": "OUTRO",
+   "estimated_duration_s": 5,
+   "narration_text": "How a Missing Valence Electron Becomes a Positive Hole. From Medhavy.",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "motion": "fade"
+   },
+   "audio_file": "mp3/beat-B15.mp3",
+   "actual_duration_s": 3.88,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B15.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-18T21:34:56"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  }
+ ]
 }

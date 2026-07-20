@@ -9,9 +9,36 @@
    "TEAL": "Planck curve (quantum, finite peak, correct)"
   },
   "note": "Card 11. Exclusions: no geometric-series average-energy derivation, no mode-counting integral, no historical Planck-vs-Einstein quantization subtlety beyond one line.",
-  "total_estimated_duration_seconds": 148
+  "total_estimated_duration_seconds": 148,
+  "engine": "kokoro",
+  "register": "Wonder",
+  "voice": "af_kore",
+  "voice_kokoro": "af_kore",
+  "channel": "medhavy"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Bula, Medhavy",
+      "topic": "MEDHAVY · vox-planck-catastrophe",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "t_start": 0,
@@ -41,7 +68,36 @@
     "kicker": "QUANTUM MECHANICS",
     "style": "title"
    },
-   "audio_file": "mp3/beat-B01.mp3"
+   "audio_file": "mp3/beat-B01.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Teaching QUANTUM MECHANICS well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "SlateCard",
+     "provenance": "proven-core/SlateCard",
+     "version": "1",
+     "props": {
+      "headline": "A glowing oven should contain infinite energy — if classical physics…",
+      "eyebrow": "",
+      "topic": "QUANTUM MECHANICS"
+     },
+     "rendered": {
+      "out": "media/B01.mp4",
+      "at": ""
+     }
+    }
+   }
   },
   {
    "beat_id": "B02",
@@ -67,7 +123,9 @@
      }
     }
    },
-   "audio_file": "mp3/beat-B02.mp3"
+   "audio_file": "mp3/beat-B02.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B03",
@@ -97,7 +155,9 @@
     "headline": "Classical physics predicts infinite energy. A real oven has a finite peak. Why?",
     "style": "question"
    },
-   "audio_file": "mp3/beat-B03.mp3"
+   "audio_file": "mp3/beat-B03.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B04",
@@ -123,7 +183,9 @@
      }
     }
    },
-   "audio_file": "mp3/beat-B04.mp3"
+   "audio_file": "mp3/beat-B04.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B05",
@@ -153,7 +215,9 @@
     "headline": "Energy comes in chunks hν — high-frequency modes are starved.",
     "style": "section"
    },
-   "audio_file": "mp3/beat-B05.mp3"
+   "audio_file": "mp3/beat-B05.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B06",
@@ -179,7 +243,9 @@
      }
     }
    },
-   "audio_file": "mp3/beat-B06.mp3"
+   "audio_file": "mp3/beat-B06.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B07",
@@ -205,7 +271,9 @@
      }
     }
    },
-   "audio_file": "mp3/beat-B07.mp3"
+   "audio_file": "mp3/beat-B07.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B08",
@@ -235,7 +303,9 @@
     "headline": "Equipartition climbs forever. Quantization bends it back down.",
     "style": "implication"
    },
-   "audio_file": "mp3/beat-B08.mp3"
+   "audio_file": "mp3/beat-B08.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B09",
@@ -265,7 +335,9 @@
     "headline": "Two frequencies, one temperature, two regimes",
     "style": "example"
    },
-   "audio_file": "mp3/beat-B09.mp3"
+   "audio_file": "mp3/beat-B09.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B10",
@@ -291,7 +363,9 @@
      }
     }
    },
-   "audio_file": "mp3/beat-B10.mp3"
+   "audio_file": "mp3/beat-B10.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B11",
@@ -322,7 +396,9 @@
     "kicker": "QUANTUM MECHANICS",
     "style": "recap"
    },
-   "audio_file": "mp3/beat-B11.mp3"
+   "audio_file": "mp3/beat-B11.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B12",
@@ -351,14 +427,16 @@
     }
    },
    "estimated_duration_s": 6,
-   "audio_file": "mp3/beat-B12.mp3"
+   "audio_file": "mp3/beat-B12.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B13",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Like and subscribe for more.",
+   "narration_text": "Like and subscribe for more. From Medhavy.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -370,7 +448,7 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@NikBearBrown",
+      "handle": "@Medhavy",
       "ctaText": "Like and subscribe for more."
      },
      "rendered": {
@@ -380,7 +458,9 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "mp3/beat-B13.mp3"
+   "audio_file": "mp3/beat-B13.mp3",
+   "engine": "kokoro",
+   "voice": "af_kore"
   }
  ]
 }

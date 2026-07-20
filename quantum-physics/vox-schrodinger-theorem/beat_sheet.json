@@ -9,9 +9,36 @@
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "color_law": "TEAL = the derivation steps (probability conservation -> unitarity -> Hermitian generator -> exponential -> Schrodinger eq); CRIMSON = the postulate framing being displaced",
   "note": "Exclusions: no interaction-picture detour, no path-integral derivation, no Hamiltonian constraint in curved spacetime, no Stone's theorem",
-  "total_estimated_duration_seconds": 157.44
+  "total_estimated_duration_seconds": 157.44,
+  "engine": "kokoro",
+  "register": "Wonder",
+  "voice": "af_kore",
+  "voice_kokoro": "af_kore",
+  "channel": "medhavy"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Selam, Medhavy",
+      "topic": "MEDHAVY · vox-schrodinger-theorem",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "act": "COLD OPEN — title/hook",
@@ -29,7 +56,22 @@
     "dek": ""
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 9.27
+   "actual_duration_s": 9.27,
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Teaching vox schrodinger theorem well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "fade"
+   }
   },
   {
    "beat_id": "B02",
@@ -43,7 +85,9 @@
     "motion": "accumulate"
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 10.06
+   "actual_duration_s": 10.06,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B03",
@@ -57,7 +101,9 @@
     "motion": "accumulate"
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 11.96
+   "actual_duration_s": 11.96,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B04",
@@ -76,7 +122,9 @@
     "dek": ""
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 9.33
+   "actual_duration_s": 9.33,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B05",
@@ -90,7 +138,9 @@
     "motion": "accumulate"
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 10.53
+   "actual_duration_s": 10.53,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B06",
@@ -104,7 +154,9 @@
     "motion": "accumulate"
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 10.16
+   "actual_duration_s": 10.16,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B07",
@@ -118,7 +170,9 @@
     "motion": "accumulate"
    },
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 12.49
+   "actual_duration_s": 12.49,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B08",
@@ -132,7 +186,9 @@
     "motion": "accumulate"
    },
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 15.07
+   "actual_duration_s": 15.07,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B09",
@@ -146,7 +202,9 @@
     "motion": "accumulate"
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 11.23
+   "actual_duration_s": 11.23,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B10",
@@ -160,7 +218,9 @@
     "motion": "accumulate"
    },
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 14.05
+   "actual_duration_s": 14.05,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B11",
@@ -175,7 +235,9 @@
    },
    "example_note": "illustrative",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 23.43
+   "actual_duration_s": 23.43,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B12",
@@ -194,7 +256,9 @@
     "dek": ""
    },
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 13.793
+   "actual_duration_s": 13.793,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B13",
@@ -224,14 +288,16 @@
    },
    "estimated_duration_s": 6,
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 4.6
+   "actual_duration_s": 4.6,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B14",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Like and subscribe for more.",
+   "narration_text": "Like and subscribe for more. From Medhavy.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -243,7 +309,7 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@NikBearBrown",
+      "handle": "@Medhavy",
       "ctaText": "Like and subscribe for more."
      },
      "rendered": {
@@ -254,7 +320,9 @@
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 1.44
+   "actual_duration_s": 1.44,
+   "engine": "kokoro",
+   "voice": "af_kore"
   }
  ]
 }

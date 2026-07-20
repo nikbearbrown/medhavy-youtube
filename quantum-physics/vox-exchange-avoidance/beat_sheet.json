@@ -9,9 +9,36 @@
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "color_law": "TEAL = antisymmetric spatial state (parallel spins, node at coincidence, lower energy); CRIMSON = symmetric spatial state (opposite spins, enhanced overlap, higher energy)",
   "note": "Exclusions: no exchange-integral J/K formulas on screen, no Slater-determinant algebra, no spin-statistics-theorem proof",
-  "total_estimated_duration_seconds": 131.89
+  "total_estimated_duration_seconds": 131.89,
+  "engine": "kokoro",
+  "register": "Wonder",
+  "voice": "af_kore",
+  "voice_kokoro": "af_kore",
+  "channel": "medhavy"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Ahoj, Medhavy",
+      "topic": "MEDHAVY · vox-exchange-avoidance",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "act": "COLD OPEN — title/hook",
@@ -29,7 +56,22 @@
     "dek": ""
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 6.5
+   "actual_duration_s": 6.5,
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Teaching vox exchange avoidance well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "fade"
+   }
   },
   {
    "beat_id": "B02",
@@ -43,7 +85,9 @@
     "motion": "compare"
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 8.91
+   "actual_duration_s": 8.91,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B03",
@@ -57,7 +101,9 @@
     "motion": "compare"
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 8.59
+   "actual_duration_s": 8.59,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B04",
@@ -76,7 +122,9 @@
     "dek": ""
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 8.8
+   "actual_duration_s": 8.8,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B05",
@@ -90,7 +138,9 @@
     "motion": "compare"
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 9.04
+   "actual_duration_s": 9.04,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B06",
@@ -104,7 +154,9 @@
     "motion": "compare"
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 10.06
+   "actual_duration_s": 10.06,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B07",
@@ -118,7 +170,9 @@
     "motion": "compare"
    },
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 13.14
+   "actual_duration_s": 13.14,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B08",
@@ -132,7 +186,9 @@
     "motion": "compare"
    },
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 10.48
+   "actual_duration_s": 10.48,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B09",
@@ -146,7 +202,9 @@
     "motion": "compare"
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 11.1
+   "actual_duration_s": 11.1,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B10",
@@ -160,7 +218,9 @@
     "motion": "compare"
    },
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 11.73
+   "actual_duration_s": 11.73,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B11",
@@ -175,7 +235,9 @@
    },
    "example_note": "illustrative",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 17.4
+   "actual_duration_s": 17.4,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B12",
@@ -194,7 +256,9 @@
     "dek": "The exchange effect"
    },
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 10.263
+   "actual_duration_s": 10.263,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B13",
@@ -224,14 +288,16 @@
    },
    "estimated_duration_s": 6,
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 4.36
+   "actual_duration_s": 4.36,
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B14",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Like and subscribe for more.",
+   "narration_text": "Like and subscribe for more. From Medhavy.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -243,7 +309,7 @@
      "version": "1",
      "props": {
       "authorName": "Nik Bear Brown",
-      "handle": "@NikBearBrown",
+      "handle": "@Medhavy",
       "ctaText": "Like and subscribe for more."
      },
      "rendered": {
@@ -254,7 +320,9 @@
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 1.49
+   "actual_duration_s": 1.49,
+   "engine": "kokoro",
+   "voice": "af_kore"
   }
  ]
 }

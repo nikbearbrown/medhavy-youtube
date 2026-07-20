@@ -24,11 +24,11 @@
   "total_estimated_duration_seconds": 160.36,
   "audience": "Claude",
   "derived_from": "beat_sheet.json",
-  "register": "Teardown",
+  "register": "Wonder",
   "palette": "claude",
   "outro_source": "AUTHOR.MD :: NikBearBrown",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "af_kore",
   "_variant_todo": [
    "rewrite every beat narration_text in the Teardown register (voices/teardown/VOICE.md + CLAUDE-BRAND.md) — voice only, facts unchanged",
    "signature tangent 0-1 per video, ONLY on a clear opportunity (see SKILL)",
@@ -63,14 +63,38 @@
     "B01: palette=claude but the cold open is 'SlateCard' — COLD OPEN LAW wants ClaudeComposerAsk",
     "B19: palette=claude but the outro is 'OutroCTA' — OUTRO LAW wants ClaudeTitleOutro"
    ]
-  }
+  },
+  "voice": "af_kore",
+  "channel": "medhavy"
  },
  "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Medhavy.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Halo, Medhavy",
+      "topic": "MEDHAVY · The Shrinking Arrow: How Quantum Becomes Classical",
+      "segment": "Medhavy",
+      "command": "This is Medhavy.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
   {
    "beat_id": "B01",
    "t_start": 0.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "This is Liam, in for Bear. Every qubit has a timer. Not on the hardware — on the physics. It counts down the moment the qubit powers on.",
+   "narration_text": "This is Medhavy. Every qubit has a timer. Not on the hardware — on the physics. It counts down the moment the qubit powers on.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -79,7 +103,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "What does T2 actually mean for a Bloch vector?",
-      "topic": "QUANTUM MECHANICS — DECOHERENCE",
+      "topic": "MEDHAVY · QUANTUM MECHANICS — DECOHERENCE",
       "segment": "The Shrinking Arrow",
       "greeting": "Ciao, Liam",
       "runningText": "separating dephasing from depolarization…",
@@ -107,6 +131,38 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → fill_slates/remotion_scenes for B01"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Teaching The Shrinking Arrow: How Quantum Becomes Classical well means starting with the question, not the answer. What does a learner already know that this idea can hook onto? The goal is not coverage — it's the moment a student stops copying and starts thinking through the mechanism themselves.",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "command": "What does T2 actually mean for a Bloch vector?",
+      "topic": "MEDHAVY · QUANTUM MECHANICS — DECOHERENCE",
+      "segment": "The Shrinking Arrow",
+      "greeting": "Ciao, Liam",
+      "runningText": "separating dephasing from depolarization…",
+      "output": [
+       "At one T2, transverse coherence is 1/e.",
+       "The center is not the generic endpoint of dephasing."
+      ],
+      "folderLabel": "@NikBearBrown",
+      "modelLabel": "Claude",
+      "effortLabel": "High"
+     }
+    }
    }
   },
   {
@@ -141,7 +197,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → render animated_graphics.py scene B02_*"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B03",
@@ -174,7 +232,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → render animated_graphics.py scene B03_*"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B04",
@@ -210,7 +270,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → fill_slates/remotion_scenes for B04"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B05",
@@ -247,7 +309,9 @@
     "at": "2026-07-16T10:33:25",
     "needs": "YOU → 5–10s gen-AI clip → pantry (as B05.mp4)",
     "suggested": "suggested prompt: [STILL·ai] qubit surrounded by entangling environment"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B06",
@@ -283,7 +347,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → fill_slates/remotion_scenes for B06"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B07",
@@ -316,7 +382,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → render animated_graphics.py scene B07_*"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B08",
@@ -350,7 +418,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → render animated_graphics.py scene B08_*"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B09",
@@ -386,7 +456,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → fill_slates/remotion_scenes for B09"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B10",
@@ -419,7 +491,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → render animated_graphics.py scene B10_*"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B11",
@@ -459,7 +533,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → fill_slates/remotion_scenes for B11"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B12",
@@ -493,7 +569,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → render animated_graphics.py scene B12_*"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B13",
@@ -527,7 +605,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → render animated_graphics.py scene B13_*"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B14",
@@ -568,7 +648,9 @@
     "at": "2026-07-16T10:33:25",
     "needs": "YOU → 5–10s gen-AI clip → pantry (as B14.mp4)",
     "suggested": "suggested prompt: [STILL·ai] sealed cat box with dissolving interference fringes"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B15",
@@ -602,7 +684,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → render animated_graphics.py scene B15_*"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B16",
@@ -642,7 +726,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → fill_slates/remotion_scenes for B16"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B17",
@@ -683,7 +769,9 @@
     "filled_by": null,
     "at": "2026-07-16T10:33:25",
     "needs": "PIPELINE → fill_slates/remotion_scenes for B17"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B18",
@@ -700,7 +788,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "Given a Bloch vector and separate T1 and T2 values, sketch how each component changes with time and explain which noise process moves it.",
-      "topic": "YOUR TURN",
+      "topic": "MEDHAVY · YOUR TURN",
       "segment": "Diagnose the Noise",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -726,14 +814,16 @@
     "src": "media/B18.mp4",
     "filled_by": "media",
     "at": "2026-07-16T10:33:25"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   },
   {
    "beat_id": "B19",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "The Shrinking Arrow: How Quantum Becomes Classical. Liam, in for Bear.",
+   "narration_text": "The Shrinking Arrow: How Quantum Becomes Classical. Medhavy.",
    "shot": {
     "type": "GRAPHIC",
     "source": "own",
@@ -748,7 +838,9 @@
     "src": "media/B19.mp4",
     "filled_by": "media",
     "at": "2026-07-16T10:33:25"
-   }
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
   }
  ]
 }
