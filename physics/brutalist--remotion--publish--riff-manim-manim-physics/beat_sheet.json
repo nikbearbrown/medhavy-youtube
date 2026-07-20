@@ -11,6 +11,10 @@
    "Brutalist",
    "NikBearBrown"
   ],
-  "playlist": "Brutalist"
+  "playlist": "Brutalist",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
  }
 }

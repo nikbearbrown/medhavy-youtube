@@ -1,9 +1,10 @@
 # STATUS — hai-who-was-max-planck
 
-7/10 beats filled. Derived from beat_sheet.json — edit the sheet, not this file.
+8/11 beats filled. Derived from beat_sheet.json — edit the sheet, not this file.
 
 | beat | status | fill method | who | slot | suggested prompt / search |
 |---|---|---|---|---|---|
+| YTV01 | ✅ filled | remotion | pipeline | `media/YTV01.mp4` |  |
 | B00 | ✅ filled | remotion | pipeline | `media/B00.mp4` |  |
 | B01 | ⬜ needs-fill | ai-video-prompt | human | `media/B01.mp4` | In the late 1800s, physicists had precise blackbody radiation measurements. The Rayleigh-J |
 | B02 | ✅ filled | manim | pipeline | `manim/B02.mp4` |  |

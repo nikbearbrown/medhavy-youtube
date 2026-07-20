@@ -1,5 +1,5 @@
 # This file is used internally by FFMPEG.
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-cli-em-maxwell-light/media/videos/scenes/2160p24/partial_movie_files/B04_WavePacket/3259267828_2954428315_3190736864.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-cli-em-maxwell-light/media/videos/scenes/2160p24/partial_movie_files/B04_WavePacket/3810696560_4079250704_464890158.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-cli-em-maxwell-light/media/videos/scenes/2160p24/partial_movie_files/B04_WavePacket/3810696560_3768420329_241726348.mp4'
-file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-cli-em-maxwell-light/media/videos/scenes/2160p24/partial_movie_files/B04_WavePacket/3810696560_310540274_2672460121.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-cli-em-maxwell-light/media/videos/scenes/2160p24/partial_movie_files/B04_WavePacket/3259267828_2954428315_583465693.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-cli-em-maxwell-light/media/videos/scenes/2160p24/partial_movie_files/B04_WavePacket/3810696560_4079250704_2117937895.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-cli-em-maxwell-light/media/videos/scenes/2160p24/partial_movie_files/B04_WavePacket/3810696560_3768420329_2910873935.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/medhavy/youtube/physics/claude-liam-cli-em-maxwell-light/media/videos/scenes/2160p24/partial_movie_files/B04_WavePacket/3810696560_310540274_570103581.mp4'

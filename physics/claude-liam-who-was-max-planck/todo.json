@@ -41,22 +41,35 @@
       "Nik Bear Brown"
     ],
     "build": {
-      "at": "2026-07-15T22:35:43",
+      "at": "2026-07-19T20:57:20",
       "cut": "master",
-      "filled": 7,
-      "of": 10,
+      "filled": 8,
+      "of": 11,
       "slates": [
         "B01",
         "B05",
         "B07"
       ],
-      "skin_warnings": []
+      "skin_warnings": [
+        "YTV01: palette=claude but the cold open is 'ClaudeVerdictArtifact' \u2014 COLD OPEN LAW wants ClaudeComposerAsk"
+      ]
     }
   },
   "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
-  "beats_total": 10,
+  "beats_total": 11,
   "beats_open": 3,
   "beats": [
+    {
+      "beat_id": "YTV01",
+      "status": "filled",
+      "on_disk": "media/YTV01.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/YTV01.mp4",
+      "label": "Let's recap with Claude. Classical physics said a warm oven should emit infinite short-wavelength en"
+    },
     {
       "beat_id": "B00",
       "status": "filled",
@@ -66,7 +79,7 @@
       "scene_hint": null,
       "prompt": null,
       "slot": "media/B00.mp4",
-      "label": "This is Liam, in for Bear. Max Planck didn't mean to start a revolution. He was a classicist \u2014 conse"
+      "label": "What sticks with me is the strangeness you flagged: an assumption with no foundation in any physics "
     },
     {
       "beat_id": "B01",
@@ -165,7 +178,7 @@
       "scene_hint": null,
       "prompt": null,
       "slot": "media/B09.mp4",
-      "label": "Liam, in for Bear. Subscribe."
+      "label": "Who was Max Planck?"
     }
   ]
 }

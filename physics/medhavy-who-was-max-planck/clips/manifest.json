@@ -1,12 +1,13 @@
 {
- "B00": "L2|1920x1080@24|crop|11.780|type-on|||fbf9df0b2d3dae68e5fe2b33f329ee0135c68332",
- "B01": "L2|1920x1080@24|crop|20.780|hold|||slate",
- "B02": "L2|1920x1080@24|crop|19.610|scan|||e69d1b8cefb28684e81b45f839058afb0adc0a15",
- "B03": "L2|1920x1080@24|crop|2.650|type-on|||4f3aefd06b2ee629a1ff2a0d71bbfe5a8407801f",
- "B04": "L2|1920x1080@24|crop|18.390|scan|||e89d2fc1f4f4a4dc41c90b081a5ec0531315aaa1",
- "B05": "L2|1920x1080@24|crop|19.390|hold|||slate",
- "B06": "L2|1920x1080@24|crop|17.410|stagger|||4c713323e1f284bd5459b8e03bbc05b51270bae4",
- "B07": "L2|1920x1080@24|crop|19.110|hold|||slate",
- "B08": "L2|1920x1080@24|crop|2.990|type-on|||70b0805056745c6cb281d3c7bd2fc5beae9f799c",
- "B09": "L2|1920x1080@24|crop|1.940|fade|||2024377ec31c5c9dcc9b9accafd480e109f4cfdd"
+ "B00": "L3|3840x2160@24|crop|28.070|type-on|||321e90c72bad20fb33641c7c257f1dc866c6e990",
+ "B01": "L3|3840x2160@24|crop|20.780|hold|||slate",
+ "B02": "L3|3840x2160@24|crop|19.610|scan|||acc50ccce6ed259a84f1847af0537aef1bc80680",
+ "B03": "L3|3840x2160@24|crop|2.650|type-on|||3aaf7e3f435f2d79daf170ef429f639fb5629c75",
+ "B04": "L3|3840x2160@24|crop|18.390|scan|||0ec7965a5be9bfdd561c3c3528601f4923e0f0b1",
+ "B05": "L3|3840x2160@24|crop|19.390|hold|||slate",
+ "B06": "L3|3840x2160@24|crop|17.410|stagger|||a3a7ec2334cd919fa8cd77de59b575873e5bfeeb",
+ "B07": "L3|3840x2160@24|crop|19.110|hold|||slate",
+ "B08": "L3|3840x2160@24|crop|2.990|type-on|||7b83e2060c006fcf7625ab2ef722c2584312d2ac",
+ "B09": "L3|3840x2160@24|crop|1.560|fade|||4683cff9d64defd9d448a4aca491ff2adabca74d",
+ "YTV01": "L3|3840x2160@24|crop|22.460|hold|||c90b64e2b0b49044df202e866fe716af8df117af"
 }
