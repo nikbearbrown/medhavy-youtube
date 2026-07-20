@@ -1,350 +1,354 @@
 {
-  "slug": "cancer-nanomedicine-ch02-transport-barriers",
-  "title": "Tumor Transport Barriers",
-  "series": "Cancer Nanomedicine",
-  "source": "cancer-nanomedicine/chapters/02-tumor-transport-barriers.md",
-  "voice_id": "TyW6NH39JcFb5M3xdIIk",
-  "accent": "#ea580c",
-  "fps": 30,
-  "clock": "audio-first",
-  "segments": [
-    {
-      "id": "S01",
-      "num": 1,
-      "total": 12,
-      "section": "HOOK",
-      "label": "01 / 12 · HOOK",
-      "dark": false,
-      "title": [
-        [
-          "THE DRUG GOT IN. ",
-          false
-        ],
-        [
-          "IT JUST COULDN'T GET THROUGH.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">PARTICLE CIRCULATES</span><span class=\"arw\">→</span><span class=\"chip\">LEAKS INTO TUMOR</span><span class=\"arw\">→</span><span class=\"chip on\">STALLS AT THE RIM</span></div>\n           <p class=\"lead\">The tumor regrew from the inside out. Not a drug-sensitivity problem. A transport problem.</p>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "A nanoparticle chemotherapy shrinks a mouse tumor. Imaging looks promising. But section the tumor and stain for drug — and you find a band only along the outer rim. The core is untouched. The particles circulated. They leaked from tumor vessels. They accumulated. But they stalled at the vessel wall, unable to push through the dense, pressurized interior. Within weeks, the tumor regrows from the inside out. This is not a drug-sensitivity problem. It is a transport problem — built into the tumor's own architecture.",
-          "audio_file": "audio/S01.mp3",
-          "actual_duration_s": 34.690612
-        }
-      ]
-    },
-    {
-      "id": "S02",
-      "num": 2,
-      "total": 12,
-      "section": "THE STAKES",
-      "label": "02 / 12 · THE STAKES",
-      "dark": false,
-      "title": [
-        [
-          "THE PHYSICS ",
-          false
-        ],
-        [
-          "THAT GOVERNS EVERYTHING.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">1–2<span style=\"font-size:0.5em\">mm</span></div><div class=\"cap\">diffusion limit</div></div>\n           <div class=\"eq\">→</div>\n           <div class=\"stat\"><div class=\"big\">100<span style=\"font-size:0.5em\">µm</span></div><div class=\"cap\">oxygen reach</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big on\">0</div><div class=\"cap\">nanoparticle at 2mm</div></div>\n         </div>\n         <p class=\"lead\">The same tyranny of distance that forced tumors to build blood vessels governs how far a drug can travel through tissue.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Start with the number that governs everything. A cluster of cells can survive on passive diffusion alone — oxygen drifting from a nearby vessel — only up to about one to two millimeters in diameter. Beyond that, the interior starves. Oxygen itself, molecular weight 32, can only diffuse about 100 to 200 micrometers from a vessel before it is fully consumed. A drug molecule is ten to one hundred times larger. A 100 nanometer nanoparticle is 100,000 times larger. The same physics that forced the tumor to recruit blood vessels governs how far a drug can travel through tumor tissue.",
-          "audio_file": "audio/S02.mp3",
-          "actual_duration_s": 41.00644
-        }
-      ]
-    },
-    {
-      "id": "S03",
-      "num": 3,
-      "total": 12,
-      "section": "TUMOR VASCULATURE",
-      "label": "03 / 12 · TUMOR VASCULATURE",
-      "dark": false,
-      "title": [
-        [
-          "A CHAOTIC BLOOD SUPPLY, ",
-          false
-        ],
-        [
-          "NOT DESIGNED TO DELIVER.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>NORMAL VESSELS</b><span>orderly branching, tight junctions, stable pericytes, functional lymphatics</span></div>\n           <div class=\"cell-part hot\"><b>TUMOR VESSELS</b><span>chaotic branching, endothelial gaps, absent pericytes, impaired lymphatics</span></div>\n         </div>\n         <p class=\"lead\">HIF-1α drives VEGF; VEGF sprouts capillaries. What grows instead of orderly vasculature is a mess — and that mess is now the drug delivery problem.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "When a tumor recruits vessels, it hijacks the angiogenesis machinery. Hypoxia activates HIF-1-alpha, which drives expression of VEGF, which sprouts new capillaries. But the normal regulation — the balanced interplay of signals producing orderly, functional vasculature — is lost. Tumor vessels have chaotic branching, abrupt diameter changes, blind ends, and arteriovenous shunts. Blood flow is intermittent. Endothelial cells have gaps rather than tight junctions. Pericytes are sparse or absent. Lymphatic drainage is impaired. The tumor grew precisely by solving its transport problem inadequately — and that inadequacy is now the drug delivery problem.",
-          "audio_file": "audio/S03.mp3",
-          "actual_duration_s": 45.83619
-        }
-      ]
-    },
-    {
-      "id": "S04",
-      "num": 4,
-      "total": 12,
-      "section": "EPR EFFECT",
-      "label": "04 / 12 · EPR EFFECT",
-      "dark": false,
-      "title": [
-        [
-          "EPR: ",
-          false
-        ],
-        [
-          "THE RATIONALE AND ITS TRAP.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">LEAKY WALLS</span><span class=\"arw\">→</span><span class=\"chip on\">PARTICLE ENTERS</span><span class=\"arw\">+</span><span class=\"chip\">IMPAIRED LYMPHATICS</span><span class=\"arw\">→</span><span class=\"chip on\">PARTICLE STAYS</span></div>\n           <div class=\"callout\">Same leaky walls → fluid floods interstitium → <b>elevated IFP → outward flow</b></div>\n         </div>\n         <p class=\"lead\">Leakiness admits the particle. Then the pressure it created pushes it back toward the rim.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Here is the pivot on which the whole chapter turns. The leaky vessel walls are the basis of the EPR effect — enhanced permeability and retention — first described by Matsumura and Maeda in 1986. Particles in the 10 to 200 nanometer range leak out through endothelial gaps, and then stay, because the impaired lymphatics cannot drain them out. EPR is the physical basis for the entire field of nanoparticle drug delivery. But the same features that produce EPR also produce the delivery problem. Leaky vessels pour fluid into the tumor interstitium faster than it can drain. Pressure builds — elevated interstitial fluid pressure — and that elevated pressure means net fluid flow is outward, from the pressurized core toward the lower-pressure periphery. Leakiness admits the particle and then the pressure it created pushes it back toward the rim.",
-          "audio_file": "audio/S04.mp3",
-          "actual_duration_s": 55.820771
-        }
-      ]
-    },
-    {
-      "id": "S05",
-      "num": 5,
-      "total": 12,
-      "section": "FOUR BARRIERS",
-      "label": "05 / 12 · FOUR BARRIERS",
-      "dark": false,
-      "title": [
-        [
-          "FOUR BARRIERS. ",
-          false
-        ],
-        [
-          "FAIL ANY ONE, THE JOURNEY ENDS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\">\n           <span class=\"chip\">1 VASCULAR<br><small>reach the vessel</small></span><span class=\"arw\">→</span>\n           <span class=\"chip\">2 EXTRAVASATION<br><small>cross the wall</small></span><span class=\"arw\">→</span>\n           <span class=\"chip on\">3 INTERSTITIAL<br><small>push through matrix</small></span><span class=\"arw\">→</span>\n           <span class=\"chip\">4 CELLULAR<br><small>enter and release</small></span>\n         </div>\n         <p class=\"lead\">Barrier three — interstitial penetration — is almost always the binding constraint once the first two are cleared.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "For a nanoparticle to deliver its payload, it must clear four sequential barriers. Barrier one: vascular transport — the particle must reach the tumor's vessels via blood flow. Some vessels are collapsed under tissue pressure; whole regions receive little perfusion. Barrier two: extravasation — the particle must cross the vessel wall through EPR gaps. Barrier three: interstitial penetration — once outside the vessel, the particle must move through the dense extracellular matrix of crosslinked collagen, fibronectin, and hyaluronic acid, fighting the outward IFP gradient. This is where the opening-case nanoparticle stalled. Barrier four: cellular uptake and payload release — the particle must be taken up by a cancer cell and release its drug in the right compartment. Targeting ligands operate only at this step, and only if barrier three was cleared first.",
-          "audio_file": "audio/S05.mp3",
-          "actual_duration_s": 57.306848
-        }
-      ]
-    },
-    {
-      "id": "S06",
-      "num": 6,
-      "total": 12,
-      "section": "INTERSTITIAL FLUID PRESSURE",
-      "label": "06 / 12 · INTERSTITIAL FLUID PRESSURE",
-      "dark": false,
-      "title": [
-        [
-          "PRESSURE PUSHES ",
-          false
-        ],
-        [
-          "FLUID OUTWARD — ALWAYS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">30–40</div><div class=\"cap\">mm Hg at core</div></div>\n           <div class=\"eq\">vs</div>\n           <div class=\"stat\"><div class=\"big\">~0</div><div class=\"cap\">normal tissue</div></div>\n           <div class=\"arw\" style=\"color:#b91c1c\">⟵ outward</div>\n         </div>\n         <p class=\"lead\">Rim-dominant delivery is not a measurement artifact — it is physics. Total accumulation can look good while spatial distribution is disastrous.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Interstitial fluid pressure in tumors is typically five to ten times higher than in normal tissue. The IFP at the tumor center can reach 30 to 40 millimeters of mercury; the periphery, where the tumor meets normal tissue with functional lymphatics, is much lower. Fluid moves down pressure gradients — so net interstitial fluid flow is outward, centrifugal, from the high-pressure core to the lower-pressure periphery. A particle trying to diffuse inward is fighting this current. For large particles, which diffuse slowly through collagen matrix, the outward convective push dominates and they barely move. This is the physical explanation for rim-dominant delivery. The whole-organ measurement can look good while the spatial distribution is disastrous. Accumulation at the rim is real accumulation — it simply does not reach the cells that matter.",
-          "audio_file": "audio/S06.mp3",
-          "actual_duration_s": 52.709297
-        }
-      ]
-    },
-    {
-      "id": "S07",
-      "num": 7,
-      "total": 12,
-      "section": "HYPOXIA AND RECURRENCE",
-      "label": "07 / 12 · HYPOXIA AND RECURRENCE",
-      "dark": false,
-      "title": [
-        [
-          "THE UNREACHABLE CORE ",
-          false
-        ],
-        [
-          "SELECTS FOR DANGER.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>RADIATION RESISTANCE</b><span>Hypoxic cells are ~3× more radioresistant — reactive oxygen species require oxygen to kill</span></div>\n           <div class=\"wire\"><b>HIF-1α SELECTION</b><span>Drives glycolysis, invasion, survival under stress — selecting the most dangerous cells</span></div>\n         </div>\n         <p class=\"lead\">The rim cells killed by the drug were not the cells most likely to generate recurrence. The core cells were — and hypoxic selection had spent months making them harder to kill.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The poorly perfused, drug-inaccessible tumor core is also hypoxic — and this compounds the transport problem in two ways. Radiation therapy requires oxygen for most of its cell-killing effect. Hypoxic cells are roughly three times more radioresistant than well-oxygenated cells. So the region hardest to reach by drug delivery is simultaneously the region most resistant to radiation. More important for understanding recurrence: hypoxia selects for aggressive cells. HIF-1-alpha drives expression of genes for glycolytic metabolism, invasion, and survival under stress. A tumor growing under hypoxic pressure selects, generation by generation, for cells that tolerate oxygen deprivation and evade apoptosis. The cells in the unreached core are biologically the most dangerous cells in the mass — and exactly the cells the drug never reached.",
-          "audio_file": "audio/S07.mp3",
-          "actual_duration_s": 58.932245
-        }
-      ]
-    },
-    {
-      "id": "S08",
-      "num": 8,
-      "total": 12,
-      "section": "SIZE TRADEOFF",
-      "label": "08 / 12 · SIZE TRADEOFF",
-      "dark": false,
-      "title": [
-        [
-          "BIGGER ACCUMULATES MORE. ",
-          false
-        ],
-        [
-          "SMALLER PENETRATES DEEPER.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>150 nm</b><span>higher total accumulation · too big for lymphatic drainage · crowds the rim · core unreached</span></div>\n           <div class=\"cell-part hot\"><b>30 nm</b><span>lower total accumulation · penetrates matrix farther · distributes more evenly · reaches core cells</span></div>\n         </div>\n         <p class=\"lead\">Distribution governs killing, not total mass. Treating whole-organ accumulation as the goal is the dead end the opening case already showed.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "A colleague argues: bigger particles benefit more from EPR retention — too big for lymphatic drainage, they stay. Go with 150 nanometers for maximum tumor accumulation. The argument is half right. Larger particles do show higher total drug recovered from whole tumor tissue. But return to barrier three. The 150 nanometer particle extravasates and is retained, but its larger size means slower diffusion through dense collagen matrix and greater susceptibility to the outward convective push of elevated IFP. It piles up at the periphery. The 30 nanometer particle accumulates less in total, but penetrates farther from each vessel, distributing more evenly through the tissue. For cell killing, which depends on drug reaching cells throughout the tumor including the hypoxic core, distribution can matter more than total mass.",
-          "audio_file": "audio/S08.mp3",
-          "actual_duration_s": 55.960091
-        }
-      ]
-    },
-    {
-      "id": "S09",
-      "num": 9,
-      "total": 12,
-      "section": "IDENTIFY THE BINDING BARRIER",
-      "label": "09 / 12 · IDENTIFY THE BINDING BARRIER",
-      "dark": false,
-      "title": [
-        [
-          "THE RIGHT ANSWER: ",
-          false
-        ],
-        [
-          "IDENTIFY THE BINDING BARRIER.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">HIGHLY PERMEABLE TUMOR</span><span class=\"arw\">→</span><span class=\"chip\">extravasation easy</span><span class=\"arw\">→</span><span class=\"chip on\">favor SMALLER</span></div>\n           <div class=\"flow\"><span class=\"chip\">POORLY PERMEABLE TUMOR</span><span class=\"arw\">→</span><span class=\"chip\">extravasation is the problem</span><span class=\"arw\">→</span><span class=\"chip warn\">size debate is MOOT</span></div>\n         </div>\n         <p class=\"lead\">Engineering responses: size-shrinking nanoparticles large enough to circulate, shedding a smaller active payload on entering the tumor. Matrix-degrading strategies to lower physical obstruction at barrier three.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The right answer is not bigger or smaller. It is: identify which barrier is limiting. In a highly permeable tumor, extravasation is easy and penetration is the problem — favor smaller. In a poorly permeable tumor, extravasation is the problem and the size debate is moot. In most real tumors, the binding constraint is barrier three, and the optimization pressure favors smaller particles than EPR-centric reasoning would suggest. Engineering responses include size-shrinking nanoparticles that are large enough to circulate but shed a smaller active payload on entering the tumor, and matrix-degrading strategies that lower the physical obstruction at barrier three.",
-          "audio_file": "audio/S09.mp3",
-          "actual_duration_s": 43.374875
-        }
-      ]
-    },
-    {
-      "id": "S10",
-      "num": 10,
-      "total": 12,
-      "section": "EPR REVISITED",
-      "label": "10 / 12 · EPR REVISITED",
-      "dark": false,
-      "title": [
-        [
-          "0.7%: ",
-          false
-        ],
-        [
-          "THE REAL DELIVERY EFFICIENCY.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">0.7%</div><div class=\"cap\">median dose reaching tumor<br>(Wilhelm et al., 2016)</div></div>\n           <div class=\"eq\">→</div>\n           <div class=\"stat\"><div class=\"big\">99%</div><div class=\"cap\">goes to liver &amp; spleen</div></div>\n         </div>\n         <p class=\"lead\">EPR is real and was the rationale for decades of development. Whether it is large enough in human tumors to be clinically meaningful is a more complicated question.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The EPR effect was named in 1986, and for three decades it was the central rationale for nanoparticle drug delivery. The revisionist view, which hardened around 2016 when Wilhelm and colleagues compiled delivery efficiency across hundreds of nanoparticle studies, is sobering: the median delivery efficiency to tumors — the fraction of the administered dose that actually reaches the tumor — is approximately 0.7 percent. Ninety-nine percent of administered nanoparticles go elsewhere, primarily to liver and spleen. This does not mean nanoparticles do not work. It means EPR is a real but modest effect, highly variable across tumor types and patients, and that the barriers described in this chapter account for most of the gap between the clean in-vitro killing curve and the disappointing in-vivo result.",
-          "audio_file": "audio/S10.mp3",
-          "actual_duration_s": 52.616417
-        }
-      ]
-    },
-    {
-      "id": "S11",
-      "num": 11,
-      "total": 12,
-      "section": "THESIS",
-      "label": "11 / 12 · THESIS",
-      "dark": false,
-      "title": [
-        [
-          "THE TUMOR BUILT ITSELF ",
-          false
-        ],
-        [
-          "TO PROTECT ITS MOST DANGEROUS CELLS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"thesis\">Delivery is defeated not by biology but by <b>physics</b> — by distance, by pressure, by the geometry of a vasculature that was never designed to deliver anything uniformly.</div>\n         <p class=\"lead\">Still open: noninvasive IFP measurement, vascular normalization efficacy, and what fraction of human tumors have co-opted vasculature where EPR barely operates.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "What is not puzzling is the physics. Pressure pushes fluid outward. Dense matrix slows diffusion. Hypoxic cells selected for survival cluster in the unreachable core. The tumor built itself in a way that protects its most dangerous inhabitants from the drugs sent to kill them. Three unsolved problems remain honest ones: we cannot yet measure tumor IFP noninvasively in patients. We do not know what fraction of human tumors grow by co-opting existing vasculature rather than building new leaky vessels — for those tumors, EPR barely operates and passive nanoparticle accumulation may be the wrong strategy entirely. And vascular normalization — improving tumor vessel function to lower IFP and improve delivery — remains compelling in principle and inconsistently demonstrated in practice.",
-          "audio_file": "audio/S11.mp3",
-          "actual_duration_s": 54.659773
-        }
-      ]
-    },
-    {
-      "id": "S12",
-      "num": 12,
-      "total": 12,
-      "section": "CLOSE",
-      "label": "12 / 12 · CLOSE",
-      "dark": true,
-      "title": [
-        [
-          "SEE THE TRANSPORT PROBLEM. ",
-          false
-        ],
-        [
-          "THEN SEE WHAT PHYSICS BUILT IT.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>OUTWARD PRESSURE</span><span>//</span><span>DENSE MATRIX</span><span>//</span><span>HYPOXIC SELECTION</span><span>//</span><span>RIM-ONLY DELIVERY</span></div>\n           <p class=\"sig\">Cancer Nanomedicine · Chapter 2 · Tumor Transport Barriers</p>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "That is the frame for everything ahead in this series. A nanoparticle can be perfectly engineered — right size, right surface, right payload — and still fail because of physics it cannot control. Outward pressure. Dense matrix. A hypoxic core that selected for the most dangerous cells over months. Learn the transport barriers first. Every strategy you encounter in nanomedicine — EPR exploitation, active targeting, matrix degradation, vascular normalization — is an answer to one specific barrier. Knowing which barrier you are addressing is the whole game.",
-          "audio_file": "audio/S12.mp3",
-          "actual_duration_s": 37.987846
-        }
-      ]
-    }
-  ],
-  "metadata": {
-    "title": "Cancer Nanomedicine Ch.2 — Tumor Transport Barriers",
-    "slug": "cancer-nanomedicine-ch02-transport-barriers",
-    "playlist": "Cancer Nanomedicine",
-    "hashtags": [
-      "#CancerNanomedicine",
-      "#Nanomedicine",
-      "#Education",
-      "#NikBearBrown",
-      "#Lecture",
-      "#OnlineLearning"
+ "slug": "cancer-nanomedicine-ch02-transport-barriers",
+ "title": "Tumor Transport Barriers",
+ "series": "Cancer Nanomedicine",
+ "source": "cancer-nanomedicine/chapters/02-tumor-transport-barriers.md",
+ "voice_id": "TyW6NH39JcFb5M3xdIIk",
+ "accent": "#ea580c",
+ "fps": 30,
+ "clock": "audio-first",
+ "segments": [
+  {
+   "id": "S01",
+   "num": 1,
+   "total": 12,
+   "section": "HOOK",
+   "label": "01 / 12 · HOOK",
+   "dark": false,
+   "title": [
+    [
+     "THE DRUG GOT IN. ",
+     false
     ],
-    "description": "Cancer Nanomedicine Ch.2 — Tumor Transport Barriers\n\nFull voiced lecture deck — Cancer Nanomedicine series.\n\nA nanoparticle chemotherapy shrinks a mouse tumor. Imaging looks promising. But section the tumor and stain for drug — and you find a band only along the outer rim. The core is untouched. The particles circulated. They leaked from tumor vessels. They accumulated. But they stalled at the vessel wall, unable to push through the dense, pressurized interior. Within weeks, the tumor regrows from the inside out. This is not a drug-sensitivity problem. It is a transport problem — built into the tumor's own architecture. Start with the number that governs everything. A cluster of cells can survive on passive diffusion alone — oxygen drifting from a nearby vessel — only up to about one to two millimeters in diameter. Beyond that, the interior starves. Oxygen itself, molecular weight 32, can only diffuse about 100 to 200 micrometers from a vessel before it is fully consumed. A drug molecule is ten to one hundred times larger. A 100 nanometer nanoparticle is 100,000 times larger. The same physics that forced the tumor to recruit blood vessels governs how far a drug can travel through tumor tissue. Here is the pivot on which the whole chapter turns. The leaky vessel walls are the basis of the EPR effect — enhanced permeability and retention — first described by Matsumura and Maeda in 1986. Particles in the 10 to 200 nanometer range leak out through endothelial gaps, and then stay, because the impaired lymphatics cannot drain them out. EPR is the physical basis for the entire field of nanoparticle drug delivery. But the same features that produce EPR also produce the delivery problem. For a nanoparticle to deliver its payload, it must clear four sequential barriers. Barrier one: vascular transport. Barrier two: extravasation. Barrier three: interstitial penetration — fighting outward IFP through dense matrix. Barrier four: cellular uptake and payload release. The median delivery efficiency to tumors is approximately 0.7 percent. Ninety-nine percent of administered nanoparticles go to liver and spleen. The physics is not puzzling: pressure pushes fluid outward, dense matrix slows diffusion, hypoxic cells cluster in the unreachable core. The tumor built itself to protect its most dangerous inhabitants.\n\nyoutube.com/@NikBearBrown"
+    [
+     "IT JUST COULDN'T GET THROUGH.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">PARTICLE CIRCULATES</span><span class=\"arw\">→</span><span class=\"chip\">LEAKS INTO TUMOR</span><span class=\"arw\">→</span><span class=\"chip on\">STALLS AT THE RIM</span></div>\n           <p class=\"lead\">The tumor regrew from the inside out. Not a drug-sensitivity problem. A transport problem.</p>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "A nanoparticle chemotherapy shrinks a mouse tumor. Imaging looks promising. But section the tumor and stain for drug — and you find a band only along the outer rim. The core is untouched. The particles circulated. They leaked from tumor vessels. They accumulated. But they stalled at the vessel wall, unable to push through the dense, pressurized interior. Within weeks, the tumor regrows from the inside out. This is not a drug-sensitivity problem. It is a transport problem — built into the tumor's own architecture.",
+     "audio_file": "audio/S01.mp3",
+     "actual_duration_s": 34.690612
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "num": 2,
+   "total": 12,
+   "section": "THE STAKES",
+   "label": "02 / 12 · THE STAKES",
+   "dark": false,
+   "title": [
+    [
+     "THE PHYSICS ",
+     false
+    ],
+    [
+     "THAT GOVERNS EVERYTHING.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">1–2<span style=\"font-size:0.5em\">mm</span></div><div class=\"cap\">diffusion limit</div></div>\n           <div class=\"eq\">→</div>\n           <div class=\"stat\"><div class=\"big\">100<span style=\"font-size:0.5em\">µm</span></div><div class=\"cap\">oxygen reach</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big on\">0</div><div class=\"cap\">nanoparticle at 2mm</div></div>\n         </div>\n         <p class=\"lead\">The same tyranny of distance that forced tumors to build blood vessels governs how far a drug can travel through tissue.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Start with the number that governs everything. A cluster of cells can survive on passive diffusion alone — oxygen drifting from a nearby vessel — only up to about one to two millimeters in diameter. Beyond that, the interior starves. Oxygen itself, molecular weight 32, can only diffuse about 100 to 200 micrometers from a vessel before it is fully consumed. A drug molecule is ten to one hundred times larger. A 100 nanometer nanoparticle is 100,000 times larger. The same physics that forced the tumor to recruit blood vessels governs how far a drug can travel through tumor tissue.",
+     "audio_file": "audio/S02.mp3",
+     "actual_duration_s": 41.00644
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "num": 3,
+   "total": 12,
+   "section": "TUMOR VASCULATURE",
+   "label": "03 / 12 · TUMOR VASCULATURE",
+   "dark": false,
+   "title": [
+    [
+     "A CHAOTIC BLOOD SUPPLY, ",
+     false
+    ],
+    [
+     "NOT DESIGNED TO DELIVER.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>NORMAL VESSELS</b><span>orderly branching, tight junctions, stable pericytes, functional lymphatics</span></div>\n           <div class=\"cell-part hot\"><b>TUMOR VESSELS</b><span>chaotic branching, endothelial gaps, absent pericytes, impaired lymphatics</span></div>\n         </div>\n         <p class=\"lead\">HIF-1α drives VEGF; VEGF sprouts capillaries. What grows instead of orderly vasculature is a mess — and that mess is now the drug delivery problem.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "When a tumor recruits vessels, it hijacks the angiogenesis machinery. Hypoxia activates HIF-1-alpha, which drives expression of VEGF, which sprouts new capillaries. But the normal regulation — the balanced interplay of signals producing orderly, functional vasculature — is lost. Tumor vessels have chaotic branching, abrupt diameter changes, blind ends, and arteriovenous shunts. Blood flow is intermittent. Endothelial cells have gaps rather than tight junctions. Pericytes are sparse or absent. Lymphatic drainage is impaired. The tumor grew precisely by solving its transport problem inadequately — and that inadequacy is now the drug delivery problem.",
+     "audio_file": "audio/S03.mp3",
+     "actual_duration_s": 45.83619
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "num": 4,
+   "total": 12,
+   "section": "EPR EFFECT",
+   "label": "04 / 12 · EPR EFFECT",
+   "dark": false,
+   "title": [
+    [
+     "EPR: ",
+     false
+    ],
+    [
+     "THE RATIONALE AND ITS TRAP.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">LEAKY WALLS</span><span class=\"arw\">→</span><span class=\"chip on\">PARTICLE ENTERS</span><span class=\"arw\">+</span><span class=\"chip\">IMPAIRED LYMPHATICS</span><span class=\"arw\">→</span><span class=\"chip on\">PARTICLE STAYS</span></div>\n           <div class=\"callout\">Same leaky walls → fluid floods interstitium → <b>elevated IFP → outward flow</b></div>\n         </div>\n         <p class=\"lead\">Leakiness admits the particle. Then the pressure it created pushes it back toward the rim.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Here is the pivot on which the whole chapter turns. The leaky vessel walls are the basis of the EPR effect — enhanced permeability and retention — first described by Matsumura and Maeda in 1986. Particles in the 10 to 200 nanometer range leak out through endothelial gaps, and then stay, because the impaired lymphatics cannot drain them out. EPR is the physical basis for the entire field of nanoparticle drug delivery. But the same features that produce EPR also produce the delivery problem. Leaky vessels pour fluid into the tumor interstitium faster than it can drain. Pressure builds — elevated interstitial fluid pressure — and that elevated pressure means net fluid flow is outward, from the pressurized core toward the lower-pressure periphery. Leakiness admits the particle and then the pressure it created pushes it back toward the rim.",
+     "audio_file": "audio/S04.mp3",
+     "actual_duration_s": 55.820771
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "num": 5,
+   "total": 12,
+   "section": "FOUR BARRIERS",
+   "label": "05 / 12 · FOUR BARRIERS",
+   "dark": false,
+   "title": [
+    [
+     "FOUR BARRIERS. ",
+     false
+    ],
+    [
+     "FAIL ANY ONE, THE JOURNEY ENDS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\">\n           <span class=\"chip\">1 VASCULAR<br><small>reach the vessel</small></span><span class=\"arw\">→</span>\n           <span class=\"chip\">2 EXTRAVASATION<br><small>cross the wall</small></span><span class=\"arw\">→</span>\n           <span class=\"chip on\">3 INTERSTITIAL<br><small>push through matrix</small></span><span class=\"arw\">→</span>\n           <span class=\"chip\">4 CELLULAR<br><small>enter and release</small></span>\n         </div>\n         <p class=\"lead\">Barrier three — interstitial penetration — is almost always the binding constraint once the first two are cleared.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "For a nanoparticle to deliver its payload, it must clear four sequential barriers. Barrier one: vascular transport — the particle must reach the tumor's vessels via blood flow. Some vessels are collapsed under tissue pressure; whole regions receive little perfusion. Barrier two: extravasation — the particle must cross the vessel wall through EPR gaps. Barrier three: interstitial penetration — once outside the vessel, the particle must move through the dense extracellular matrix of crosslinked collagen, fibronectin, and hyaluronic acid, fighting the outward IFP gradient. This is where the opening-case nanoparticle stalled. Barrier four: cellular uptake and payload release — the particle must be taken up by a cancer cell and release its drug in the right compartment. Targeting ligands operate only at this step, and only if barrier three was cleared first.",
+     "audio_file": "audio/S05.mp3",
+     "actual_duration_s": 57.306848
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "num": 6,
+   "total": 12,
+   "section": "INTERSTITIAL FLUID PRESSURE",
+   "label": "06 / 12 · INTERSTITIAL FLUID PRESSURE",
+   "dark": false,
+   "title": [
+    [
+     "PRESSURE PUSHES ",
+     false
+    ],
+    [
+     "FLUID OUTWARD — ALWAYS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">30–40</div><div class=\"cap\">mm Hg at core</div></div>\n           <div class=\"eq\">vs</div>\n           <div class=\"stat\"><div class=\"big\">~0</div><div class=\"cap\">normal tissue</div></div>\n           <div class=\"arw\" style=\"color:#b91c1c\">⟵ outward</div>\n         </div>\n         <p class=\"lead\">Rim-dominant delivery is not a measurement artifact — it is physics. Total accumulation can look good while spatial distribution is disastrous.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Interstitial fluid pressure in tumors is typically five to ten times higher than in normal tissue. The IFP at the tumor center can reach 30 to 40 millimeters of mercury; the periphery, where the tumor meets normal tissue with functional lymphatics, is much lower. Fluid moves down pressure gradients — so net interstitial fluid flow is outward, centrifugal, from the high-pressure core to the lower-pressure periphery. A particle trying to diffuse inward is fighting this current. For large particles, which diffuse slowly through collagen matrix, the outward convective push dominates and they barely move. This is the physical explanation for rim-dominant delivery. The whole-organ measurement can look good while the spatial distribution is disastrous. Accumulation at the rim is real accumulation — it simply does not reach the cells that matter.",
+     "audio_file": "audio/S06.mp3",
+     "actual_duration_s": 52.709297
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "num": 7,
+   "total": 12,
+   "section": "HYPOXIA AND RECURRENCE",
+   "label": "07 / 12 · HYPOXIA AND RECURRENCE",
+   "dark": false,
+   "title": [
+    [
+     "THE UNREACHABLE CORE ",
+     false
+    ],
+    [
+     "SELECTS FOR DANGER.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>RADIATION RESISTANCE</b><span>Hypoxic cells are ~3× more radioresistant — reactive oxygen species require oxygen to kill</span></div>\n           <div class=\"wire\"><b>HIF-1α SELECTION</b><span>Drives glycolysis, invasion, survival under stress — selecting the most dangerous cells</span></div>\n         </div>\n         <p class=\"lead\">The rim cells killed by the drug were not the cells most likely to generate recurrence. The core cells were — and hypoxic selection had spent months making them harder to kill.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The poorly perfused, drug-inaccessible tumor core is also hypoxic — and this compounds the transport problem in two ways. Radiation therapy requires oxygen for most of its cell-killing effect. Hypoxic cells are roughly three times more radioresistant than well-oxygenated cells. So the region hardest to reach by drug delivery is simultaneously the region most resistant to radiation. More important for understanding recurrence: hypoxia selects for aggressive cells. HIF-1-alpha drives expression of genes for glycolytic metabolism, invasion, and survival under stress. A tumor growing under hypoxic pressure selects, generation by generation, for cells that tolerate oxygen deprivation and evade apoptosis. The cells in the unreached core are biologically the most dangerous cells in the mass — and exactly the cells the drug never reached.",
+     "audio_file": "audio/S07.mp3",
+     "actual_duration_s": 58.932245
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "num": 8,
+   "total": 12,
+   "section": "SIZE TRADEOFF",
+   "label": "08 / 12 · SIZE TRADEOFF",
+   "dark": false,
+   "title": [
+    [
+     "BIGGER ACCUMULATES MORE. ",
+     false
+    ],
+    [
+     "SMALLER PENETRATES DEEPER.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>150 nm</b><span>higher total accumulation · too big for lymphatic drainage · crowds the rim · core unreached</span></div>\n           <div class=\"cell-part hot\"><b>30 nm</b><span>lower total accumulation · penetrates matrix farther · distributes more evenly · reaches core cells</span></div>\n         </div>\n         <p class=\"lead\">Distribution governs killing, not total mass. Treating whole-organ accumulation as the goal is the dead end the opening case already showed.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "A colleague argues: bigger particles benefit more from EPR retention — too big for lymphatic drainage, they stay. Go with 150 nanometers for maximum tumor accumulation. The argument is half right. Larger particles do show higher total drug recovered from whole tumor tissue. But return to barrier three. The 150 nanometer particle extravasates and is retained, but its larger size means slower diffusion through dense collagen matrix and greater susceptibility to the outward convective push of elevated IFP. It piles up at the periphery. The 30 nanometer particle accumulates less in total, but penetrates farther from each vessel, distributing more evenly through the tissue. For cell killing, which depends on drug reaching cells throughout the tumor including the hypoxic core, distribution can matter more than total mass.",
+     "audio_file": "audio/S08.mp3",
+     "actual_duration_s": 55.960091
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "num": 9,
+   "total": 12,
+   "section": "IDENTIFY THE BINDING BARRIER",
+   "label": "09 / 12 · IDENTIFY THE BINDING BARRIER",
+   "dark": false,
+   "title": [
+    [
+     "THE RIGHT ANSWER: ",
+     false
+    ],
+    [
+     "IDENTIFY THE BINDING BARRIER.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">HIGHLY PERMEABLE TUMOR</span><span class=\"arw\">→</span><span class=\"chip\">extravasation easy</span><span class=\"arw\">→</span><span class=\"chip on\">favor SMALLER</span></div>\n           <div class=\"flow\"><span class=\"chip\">POORLY PERMEABLE TUMOR</span><span class=\"arw\">→</span><span class=\"chip\">extravasation is the problem</span><span class=\"arw\">→</span><span class=\"chip warn\">size debate is MOOT</span></div>\n         </div>\n         <p class=\"lead\">Engineering responses: size-shrinking nanoparticles large enough to circulate, shedding a smaller active payload on entering the tumor. Matrix-degrading strategies to lower physical obstruction at barrier three.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The right answer is not bigger or smaller. It is: identify which barrier is limiting. In a highly permeable tumor, extravasation is easy and penetration is the problem — favor smaller. In a poorly permeable tumor, extravasation is the problem and the size debate is moot. In most real tumors, the binding constraint is barrier three, and the optimization pressure favors smaller particles than EPR-centric reasoning would suggest. Engineering responses include size-shrinking nanoparticles that are large enough to circulate but shed a smaller active payload on entering the tumor, and matrix-degrading strategies that lower the physical obstruction at barrier three.",
+     "audio_file": "audio/S09.mp3",
+     "actual_duration_s": 43.374875
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "num": 10,
+   "total": 12,
+   "section": "EPR REVISITED",
+   "label": "10 / 12 · EPR REVISITED",
+   "dark": false,
+   "title": [
+    [
+     "0.7%: ",
+     false
+    ],
+    [
+     "THE REAL DELIVERY EFFICIENCY.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">0.7%</div><div class=\"cap\">median dose reaching tumor<br>(Wilhelm et al., 2016)</div></div>\n           <div class=\"eq\">→</div>\n           <div class=\"stat\"><div class=\"big\">99%</div><div class=\"cap\">goes to liver &amp; spleen</div></div>\n         </div>\n         <p class=\"lead\">EPR is real and was the rationale for decades of development. Whether it is large enough in human tumors to be clinically meaningful is a more complicated question.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The EPR effect was named in 1986, and for three decades it was the central rationale for nanoparticle drug delivery. The revisionist view, which hardened around 2016 when Wilhelm and colleagues compiled delivery efficiency across hundreds of nanoparticle studies, is sobering: the median delivery efficiency to tumors — the fraction of the administered dose that actually reaches the tumor — is approximately 0.7 percent. Ninety-nine percent of administered nanoparticles go elsewhere, primarily to liver and spleen. This does not mean nanoparticles do not work. It means EPR is a real but modest effect, highly variable across tumor types and patients, and that the barriers described in this chapter account for most of the gap between the clean in-vitro killing curve and the disappointing in-vivo result.",
+     "audio_file": "audio/S10.mp3",
+     "actual_duration_s": 52.616417
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "num": 11,
+   "total": 12,
+   "section": "THESIS",
+   "label": "11 / 12 · THESIS",
+   "dark": false,
+   "title": [
+    [
+     "THE TUMOR BUILT ITSELF ",
+     false
+    ],
+    [
+     "TO PROTECT ITS MOST DANGEROUS CELLS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"thesis\">Delivery is defeated not by biology but by <b>physics</b> — by distance, by pressure, by the geometry of a vasculature that was never designed to deliver anything uniformly.</div>\n         <p class=\"lead\">Still open: noninvasive IFP measurement, vascular normalization efficacy, and what fraction of human tumors have co-opted vasculature where EPR barely operates.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "What is not puzzling is the physics. Pressure pushes fluid outward. Dense matrix slows diffusion. Hypoxic cells selected for survival cluster in the unreachable core. The tumor built itself in a way that protects its most dangerous inhabitants from the drugs sent to kill them. Three unsolved problems remain honest ones: we cannot yet measure tumor IFP noninvasively in patients. We do not know what fraction of human tumors grow by co-opting existing vasculature rather than building new leaky vessels — for those tumors, EPR barely operates and passive nanoparticle accumulation may be the wrong strategy entirely. And vascular normalization — improving tumor vessel function to lower IFP and improve delivery — remains compelling in principle and inconsistently demonstrated in practice.",
+     "audio_file": "audio/S11.mp3",
+     "actual_duration_s": 54.659773
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "num": 12,
+   "total": 12,
+   "section": "CLOSE",
+   "label": "12 / 12 · CLOSE",
+   "dark": true,
+   "title": [
+    [
+     "SEE THE TRANSPORT PROBLEM. ",
+     false
+    ],
+    [
+     "THEN SEE WHAT PHYSICS BUILT IT.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>OUTWARD PRESSURE</span><span>//</span><span>DENSE MATRIX</span><span>//</span><span>HYPOXIC SELECTION</span><span>//</span><span>RIM-ONLY DELIVERY</span></div>\n           <p class=\"sig\">Cancer Nanomedicine · Chapter 2 · Tumor Transport Barriers</p>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "That is the frame for everything ahead in this series. A nanoparticle can be perfectly engineered — right size, right surface, right payload — and still fail because of physics it cannot control. Outward pressure. Dense matrix. A hypoxic core that selected for the most dangerous cells over months. Learn the transport barriers first. Every strategy you encounter in nanomedicine — EPR exploitation, active targeting, matrix degradation, vascular normalization — is an answer to one specific barrier. Knowing which barrier you are addressing is the whole game.",
+     "audio_file": "audio/S12.mp3",
+     "actual_duration_s": 37.987846
+    }
+   ]
   }
+ ],
+ "metadata": {
+  "title": "Cancer Nanomedicine Ch.2 — Tumor Transport Barriers",
+  "slug": "cancer-nanomedicine-ch02-transport-barriers",
+  "playlist": "Cancer Nanomedicine",
+  "hashtags": [
+   "#CancerNanomedicine",
+   "#Nanomedicine",
+   "#Education",
+   "#NikBearBrown",
+   "#Lecture",
+   "#OnlineLearning"
+  ],
+  "description": "Cancer Nanomedicine Ch.2 — Tumor Transport Barriers\n\nFull voiced lecture deck — Cancer Nanomedicine series.\n\nA nanoparticle chemotherapy shrinks a mouse tumor. Imaging looks promising. But section the tumor and stain for drug — and you find a band only along the outer rim. The core is untouched. The particles circulated. They leaked from tumor vessels. They accumulated. But they stalled at the vessel wall, unable to push through the dense, pressurized interior. Within weeks, the tumor regrows from the inside out. This is not a drug-sensitivity problem. It is a transport problem — built into the tumor's own architecture. Start with the number that governs everything. A cluster of cells can survive on passive diffusion alone — oxygen drifting from a nearby vessel — only up to about one to two millimeters in diameter. Beyond that, the interior starves. Oxygen itself, molecular weight 32, can only diffuse about 100 to 200 micrometers from a vessel before it is fully consumed. A drug molecule is ten to one hundred times larger. A 100 nanometer nanoparticle is 100,000 times larger. The same physics that forced the tumor to recruit blood vessels governs how far a drug can travel through tumor tissue. Here is the pivot on which the whole chapter turns. The leaky vessel walls are the basis of the EPR effect — enhanced permeability and retention — first described by Matsumura and Maeda in 1986. Particles in the 10 to 200 nanometer range leak out through endothelial gaps, and then stay, because the impaired lymphatics cannot drain them out. EPR is the physical basis for the entire field of nanoparticle drug delivery. But the same features that produce EPR also produce the delivery problem. For a nanoparticle to deliver its payload, it must clear four sequential barriers. Barrier one: vascular transport. Barrier two: extravasation. Barrier three: interstitial penetration — fighting outward IFP through dense matrix. Barrier four: cellular uptake and payload release. The median delivery efficiency to tumors is approximately 0.7 percent. Ninety-nine percent of administered nanoparticles go to liver and spleen. The physics is not puzzling: pressure pushes fluid outward, dense matrix slows diffusion, hypoxic cells cluster in the unreachable core. The tumor built itself to protect its most dangerous inhabitants.\n\nyoutube.com/@NikBearBrown",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
+ }
 }

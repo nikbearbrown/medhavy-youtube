@@ -1,350 +1,354 @@
 {
-  "slug": "cancer-medicine-ch11-cancer-prevention",
-  "title": "Cancer Prevention — Stopping Cancer Before It Starts",
-  "series": "Cancer Medicine",
-  "source": "cancer-medicine/chapters/11-cancer-prevention-stopping-cancer-before-it-starts.md",
-  "voice_id": "TyW6NH39JcFb5M3xdIIk",
-  "accent": "#ea580c",
-  "fps": 30,
-  "clock": "audio-first",
-  "segments": [
-    {
-      "id": "S01",
-      "num": 1,
-      "total": 12,
-      "section": "HOOK",
-      "label": "01 / 12 · HOOK",
-      "dark": false,
-      "title": [
-        [
-          "TWO CLINICS, SAME BUILDING. ",
-          false
-        ],
-        [
-          "ONE IS HALF EMPTY.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">HPV VACCINE · $200</span><span class=\"arw\">→</span><span class=\"chip on\">cervical cancer — prevented</span></div>\n           <div class=\"flow\"><span class=\"chip warn\">NO VACCINE</span><span class=\"arw\">→</span><span class=\"chip warn\">metastatic cancer · $300k+</span></div>\n           <p class=\"lead\">Same building. Same disease. One clinic is half empty while the first is full. The arithmetic is that simple.</p>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Two clinics, same building, same city. One is treating a 58-year-old woman with metastatic cervical cancer. Her care over the next two years will cost several hundred thousand dollars and, statistically, buy her time rather than a cure. Down the hall, a pediatric clinic offers the HPV vaccine to 12-year-olds — two hundred dollars, prevents most vaccine-type cervical cancer risk before exposure. She was never vaccinated. The second clinic's waiting room is half empty while the first is full. That gap is what this chapter is about.",
-          "audio_file": "audio/S01.mp3",
-          "actual_duration_s": 34.04
-        }
-      ]
-    },
-    {
-      "id": "S02",
-      "num": 2,
-      "total": 12,
-      "section": "THE STAKES",
-      "label": "02 / 12 · THE STAKES",
-      "dark": false,
-      "title": [
-        [
-          "HALF OF ALL CANCER DEATHS ",
-          false
-        ],
-        [
-          "ARE PREVENTABLE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">~50%</div><div class=\"cap\">U.S. cancer deaths — modifiable causes</div></div>\n           <div class=\"eq\">//</div>\n           <div class=\"stat\"><div class=\"big\">30–50%</div><div class=\"cap\">global cancer burden — preventable (WHO)</div></div>\n         </div>\n         <p class=\"lead\">The tools exist. The evidence is settled. The gap between what is known and what is done is political economy, not science.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The American Cancer Society estimates that roughly half of all U.S. cancer deaths are attributable to modifiable risk factors. The W-H-O estimates 30 to 50 percent of the global cancer burden is preventable with tools we already have. This chapter is about where in the disease process the intervention is cheapest and most effective — and about why we so consistently underinvest there.",
-          "audio_file": "audio/S02.mp3",
-          "actual_duration_s": 24.43
-        }
-      ]
-    },
-    {
-      "id": "S03",
-      "num": 3,
-      "total": 12,
-      "section": "THREE LEVELS OF PREVENTION",
-      "label": "03 / 12 · THREE LEVELS",
-      "dark": false,
-      "title": [
-        [
-          "THE LEVEL ",
-          false
-        ],
-        [
-          "SETS THE ACCEPTABLE RISK.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid3\">\n           <div class=\"cell-part hot\"><b>PRIMARY</b><span>stop disease before it occurs — tobacco tax, HPV vaccine, healthy weight</span></div>\n           <div class=\"cell-part\"><b>SECONDARY</b><span>detect early — mammography, colonoscopy, Pap smear, low-dose CT</span></div>\n           <div class=\"cell-part\"><b>TERTIARY</b><span>manage established disease — the rest of oncology</span></div>\n         </div>\n         <div class=\"callout\">Primary targets <b>healthy people</b> — safety requirement is therefore <b>severe</b>.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Public health sorts prevention by what stage of disease the intervention targets, and the level determines what is acceptable to do. Primary prevention stops disease from ever occurring: not smoking, avoiding oncogenic infections, limiting carcinogen exposure. The target is a healthy person — and that target sets a severe safety requirement. You are intervening on millions who would never have gotten cancer anyway. Secondary prevention detects disease at an early, more curable stage. Tertiary prevention manages established disease. The recurring policy error is confusing the levels.",
-          "audio_file": "audio/S03.mp3",
-          "actual_duration_s": 38.78
-        }
-      ]
-    },
-    {
-      "id": "S04",
-      "num": 4,
-      "total": 12,
-      "section": "TOBACCO",
-      "label": "04 / 12 · TOBACCO",
-      "dark": false,
-      "title": [
-        [
-          "TOBACCO IS ",
-          false
-        ],
-        [
-          "THE DOMINANT MODIFIABLE CAUSE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">22%</div><div class=\"cap\">global cancer deaths — tobacco</div></div>\n           <div class=\"eq\">//</div>\n           <div class=\"stat\"><div class=\"big\">~140k</div><div class=\"cap\">U.S. lung cancer deaths / year, ~90% tobacco-related</div></div>\n         </div>\n         <div class=\"flow\" style=\"margin-top:18px\"><span class=\"chip\">PREVENT INITIATION</span><span class=\"arw\">→</span><span class=\"chip\">PROMOTE CESSATION</span><span class=\"arw\">→</span><span class=\"chip on\">HARM REDUCTION</span></div>\n         <p class=\"lead\">Eliminating tobacco would prevent more annual cancer deaths than every cancer therapy ever developed, combined. That is arithmetic.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "If you wanted to save the most lives from cancer with a single policy lever, the answer is tobacco control — and has been for seventy years. Tobacco causes about 22 percent of cancer deaths globally. In the U.S., lung cancer kills about 140,000 people a year, roughly 90 percent tobacco-related. Eliminating tobacco would prevent more annual cancer deaths than every cancer therapy ever developed, combined. That is not rhetoric. It is arithmetic. Prevention operates at three points: preventing initiation in young people, promoting cessation in current users, and harm reduction for those who will not quit.",
-          "audio_file": "audio/S04.mp3",
-          "actual_duration_s": 42.07
-        }
-      ]
-    },
-    {
-      "id": "S05",
-      "num": 5,
-      "total": 12,
-      "section": "INFECTION AND VACCINATION",
-      "label": "05 / 12 · INFECTION & VACCINES",
-      "dark": false,
-      "title": [
-        [
-          "13% OF CANCER — ",
-          false
-        ],
-        [
-          "CAUSED BY INFECTION.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>HPV VACCINE</b><span>9-valent — 80–90% reduction in vaccine-type HPV; Australia on track to eliminate cervical cancer as a public-health problem</span></div>\n           <div class=\"wire\"><b>HEPATITIS B VACCINE</b><span>since 1982 — prevents HBV-driven hepatocellular carcinoma (~700k deaths/year globally)</span></div>\n           <div class=\"wire\"><b>HEPATITIS C · H. PYLORI</b><span>HCV: curable with direct-acting antivirals (&gt;95%); H. pylori eradication prevents gastric cancer</span></div>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "About 13 percent of cancer globally is caused by infection, and most of that fraction is preventable by vaccination or by eliminating the infection. The H-P-V vaccine targets the major oncogenic types responsible for most cervical cancer and substantial fractions of anal, oropharyngeal, and other cancers. In countries with high coverage, vaccine-type H-P-V prevalence in young women has fallen 80 to 90 percent. Hepatitis B vaccine, available since 1982, prevents most H-B-V-driven liver cancer — 700,000 deaths a year globally. Hepatitis C is now curable; H. pylori eradication prevents gastric cancer. The tools are inexpensive. The barriers are organizational and political.",
-          "audio_file": "audio/S05.mp3",
-          "actual_duration_s": 48.9
-        }
-      ]
-    },
-    {
-      "id": "S06",
-      "num": 6,
-      "total": 12,
-      "section": "LIFESTYLE AND STRUCTURE",
-      "label": "06 / 12 · LIFESTYLE & STRUCTURE",
-      "dark": false,
-      "title": [
-        [
-          "REGULATION OUTPERFORMS ",
-          false
-        ],
-        [
-          "WILLPOWER AT SCALE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>OBESITY</b><span>13 cancers — endometrial, breast, colorectal, liver, kidney, pancreatic…</span></div>\n           <div class=\"cell-part\"><b>ALCOHOL</b><span>mouth, throat, esophagus, liver, breast, colorectum — dose-response, no safe floor for breast cancer</span></div>\n         </div>\n         <div class=\"callout\">Tobacco taxes — not lectures — drove the steepest declines in smoking. The same principle governs <b>everything else</b>.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Body weight, physical activity, diet, and alcohol each contribute meaningfully to cancer risk. Obesity is causally linked to at least 13 cancers and is the second-ranking modifiable risk factor in high-income countries after smoking rates fell. Alcohol causes cancers of the mouth, throat, esophagus, liver, breast, and colorectum, with a dose-response that has no clearly safe floor for breast cancer. Here is the honest assessment: telling people to eat better, move more, and drink less is biologically correct advice that mostly does not move populations. The interventions that actually shift population-level rates are structural. Regulation outperforms willpower at population scale — reliably, repeatedly, across different countries and cancers.",
-          "audio_file": "audio/S06.mp3",
-          "actual_duration_s": 53.03
-        }
-      ]
-    },
-    {
-      "id": "S07",
-      "num": 7,
-      "total": 12,
-      "section": "CHEMOPREVENTION",
-      "label": "07 / 12 · CHEMOPREVENTION",
-      "dark": false,
-      "title": [
-        [
-          "THE DRUG IS APPROPRIATE ",
-          false
-        ],
-        [
-          "ONLY WHERE RISK IS HIGH ENOUGH.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>ASPIRIN</b><span>colorectal cancer — ~20–30% reduction; GI and intracranial bleeding risk rises with age</span></div>\n           <div class=\"wire\"><b>TAMOXIFEN / RALOXIFENE</b><span>invasive breast cancer — ~50% reduction over 5 years in high-risk women</span></div>\n           <div class=\"wire\"><b>AROMATASE INHIBITORS</b><span>postmenopausal high-risk women — more effective than tamoxifen; bone loss, joint pain</span></div>\n           <div class=\"wire\"><b>FINASTERIDE</b><span>prostate cancer incidence reduced; debate over indolent-cancer prevention; sexual side effects</span></div>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Chemoprevention is the use of drugs to prevent cancer in people at elevated risk — the part of primary prevention that most resembles clinical medicine. The evidence for selected agents is strong. Aspirin reduces colorectal cancer incidence and mortality by roughly 20 to 30 percent. Tamoxifen and raloxifene cut invasive breast cancer incidence by about half over five years in high-risk women. Aromatase inhibitors are more effective still in postmenopausal high-risk women. The hard constraint in each case: side effects that are acceptable in someone facing serious cancer risk are not acceptable in someone who would probably never have gotten cancer. That constraint produces the defining discipline of chemoprevention — risk stratification.",
-          "audio_file": "audio/S07.mp3",
-          "actual_duration_s": 46.35
-        }
-      ]
-    },
-    {
-      "id": "S08",
-      "num": 8,
-      "total": 12,
-      "section": "HEREDITARY RISK",
-      "label": "08 / 12 · HEREDITARY RISK",
-      "dark": false,
-      "title": [
-        [
-          "FOR BRCA CARRIERS, ",
-          false
-        ],
-        [
-          "THE RISK IS NEAR-CERTAIN.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part hot\"><b>BRCA1/2 CARRIERS</b><span>breast: 65–80% lifetime risk · ovarian: 40–60% lifetime risk<br><i>Options: MRI surveillance · tamoxifen · prophylactic mastectomy (&gt;90% reduction) · oophorectomy</i></span></div>\n           <div class=\"cell-part\"><b>LYNCH SYNDROME</b><span>colorectal, endometrial, ovarian, gastric risk — colonoscopy every 1–2 yr from mid-20s · aspirin chemoprevention in selected cases</span></div>\n         </div>\n         <div class=\"callout\">Familial adenomatous polyposis — near-100% CRC risk untreated — requires <b>prophylactic colectomy</b>. No chemoprevention manages that polyp burden.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "For people with hereditary cancer syndromes, primary prevention operates in a more aggressive register, because the cancer risk is not statistical — it is near-certain over a lifetime. BRCA1 and 2 carriers face lifetime breast cancer risks of 65 to 80 percent and ovarian risks of 40 to 60 percent. Options span surveillance, chemoprevention, and prophylactic surgery — bilateral mastectomy cutting breast cancer risk by over 90 percent. Lynch syndrome carriers face elevated risks of colorectal, endometrial, ovarian, and gastric cancers, managed with intensive colonoscopy and in some cases aspirin. Familial adenomatous polyposis requires prophylactic colectomy — the colon must come out.",
-          "audio_file": "audio/S08.mp3",
-          "actual_duration_s": 48.53
-        }
-      ]
-    },
-    {
-      "id": "S09",
-      "num": 9,
-      "total": 12,
-      "section": "WORKED EXAMPLE",
-      "label": "09 / 12 · WORKED EXAMPLE",
-      "dark": false,
-      "title": [
-        [
-          "SAME DRUG, SAME AGE, ",
-          false
-        ],
-        [
-          "DIFFERENT ANSWER.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip warn\">avg-risk · age 62</span><span class=\"arw\">→</span><span class=\"chip warn\">bleeding risk &gt; cancer benefit</span><span class=\"arw\">→</span><span class=\"chip warn\">NO aspirin</span></div>\n           <div class=\"flow\"><span class=\"chip on\">Lynch syndrome · age 62</span><span class=\"arw\">→</span><span class=\"chip on\">CRC risk &gt;&gt; population</span><span class=\"arw\">→</span><span class=\"chip on\">aspirin appropriate</span></div>\n         </div>\n         <p class=\"lead\">A population-average effect is not a personal prescription. The denominator is everyone you would treat — including all who would never have gotten cancer.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "A healthy 62-year-old man asks whether he should take daily low-dose aspirin for cancer prevention. Aspirin does reduce colorectal cancer incidence by 20 to 30 percent — that part is true. But aspirin also causes gastrointestinal and intracranial bleeding, and that risk rises steeply in the sixties. The U.S. Preventive Services Task Force in 2022 stopped recommending aspirin initiation for primary prevention in people 60 or older because the bleeding risk has grown large enough to overtake the benefit. For this average-risk patient at 62: no aspirin. Now shift to the same age but Lynch syndrome. The colorectal cancer prevention benefit is substantially larger. Same drug, same dose, same age — different answer, because the benefit depends on the individual risk being offset.",
-          "audio_file": "audio/S09.mp3",
-          "actual_duration_s": 54.75
-        }
-      ]
-    },
-    {
-      "id": "S10",
-      "num": 10,
-      "total": 12,
-      "section": "POLITICAL ECONOMY",
-      "label": "10 / 12 · POLITICAL ECONOMY",
-      "dark": false,
-      "title": [
-        [
-          "THE PREVENTED CASE ",
-          false
-        ],
-        [
-          "NEVER APPEARS ON ANY LEDGER.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"balance\">\n           <div class=\"pan die\"><b>DRAMATIC TREATMENT</b><span>surgery, chemo, targeted drug — billed at delivery, attributed to a patient, visible as a saved life</span></div>\n           <div class=\"fulcrum\">≠</div>\n           <div class=\"pan surv\"><b>QUIET PREVENTION</b><span>a tax, a vaccine, a smoke-free law — the prevented case never appears; the system gets paid when it treats what it failed to prevent</span></div>\n         </div>\n         <p class=\"lead\">The gap between what is known and what is done is political economy, not science. The biology of prevention has been settled for decades.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The pattern of underinvestment in prevention is not mysterious once you understand how health systems pay for things. A dramatic late intervention — surgery, chemotherapy, a targeted drug — is billed at the moment it is delivered, attributed to a specific patient, and visible as a saved life. A quiet intervention — a tax, a vaccine, a smoke-free law — prevents a disease that was going to happen to an anonymous person twenty years from now. The prevented case never appears on any ledger. The health system that fails to prevent it still gets paid when it treats it. The biology is settled. The gap is political economy.",
-          "audio_file": "audio/S10.mp3",
-          "actual_duration_s": 38.82
-        }
-      ]
-    },
-    {
-      "id": "S11",
-      "num": 11,
-      "total": 12,
-      "section": "THE THESIS",
-      "label": "11 / 12 · THE THESIS",
-      "dark": false,
-      "title": [
-        [
-          "PREVENTION OUT-LEVERAGES ",
-          false
-        ],
-        [
-          "TREATMENT PER DEATH PREVENTED.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"thesis\">Tobacco control, HPV and HBV vaccination, H. pylori eradication, carcinogen regulation — among the most carefully studied interventions in all of medicine. Their population-level effects are <b>large</b>. The arithmetic clearly favors the empty clinic.</div>\n         <p class=\"lead\">Still open: why the political economy so reliably favors treatment — and whether payment reform can fix it, or whether it is rooted in how systems perceive dramatic versus quiet benefit.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "So here is the chapter's claim. Primary prevention — especially tobacco control and oncogenic-virus vaccination — is the highest-leverage way to reduce cancer mortality, far exceeding what treatment achieves per death prevented, and it is underused for reasons of political economy rather than weak evidence. The finding that would force a revision: rigorous long-horizon data showing that high-coverage H-P-V and hepatitis B vaccination programs failed to reduce their target cancers as vaccinated cohorts aged. The early Australian and hepatitis B data point the other way. But the decisive cohorts are still aging — we are running experiments whose results our successors will read.",
-          "audio_file": "audio/S11.mp3",
-          "actual_duration_s": 44.95
-        }
-      ]
-    },
-    {
-      "id": "S12",
-      "num": 12,
-      "total": 12,
-      "section": "CLOSE",
-      "label": "12 / 12 · CLOSE",
-      "dark": true,
-      "title": [
-        [
-          "WHY THE ARITHMETIC FAVORS ",
-          false
-        ],
-        [
-          "THE HALF-EMPTY CLINIC.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>TOBACCO CONTROL</span><span>//</span><span>VACCINATION</span><span>//</span><span>RISK STRATIFICATION</span><span>//</span><span>STRUCTURAL POLICY</span></div>\n           <p class=\"sig\">Cancer Medicine · Chapter 11 · Cancer Prevention · Nik Bear Brown</p>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The two clinics are still there. The oncology clinic's waiting room is full. The pediatric clinic's waiting room is half empty. The most important insight this chapter offers is not which drugs prevent cancer — it is why the arithmetic so clearly favors the second clinic, and why the first one keeps getting all the resources. Cancer prevention: the cheapest cure is the one that happens before the disease.",
-          "audio_file": "audio/S12.mp3",
-          "actual_duration_s": 25.12
-        }
-      ]
-    }
-  ],
-  "metadata": {
-    "title": "Cancer Medicine Ch.11 — Cancer Prevention — Stopping Cancer Before It Starts",
-    "slug": "cancer-medicine-ch11-cancer-prevention",
-    "playlist": "Cancer Medicine",
-    "hashtags": [
-      "#CancerMedicine",
-      "#Oncology",
-      "#Education",
-      "#NikBearBrown",
-      "#Lecture",
-      "#OnlineLearning"
+ "slug": "cancer-medicine-ch11-cancer-prevention",
+ "title": "Cancer Prevention — Stopping Cancer Before It Starts",
+ "series": "Cancer Medicine",
+ "source": "cancer-medicine/chapters/11-cancer-prevention-stopping-cancer-before-it-starts.md",
+ "voice_id": "TyW6NH39JcFb5M3xdIIk",
+ "accent": "#ea580c",
+ "fps": 30,
+ "clock": "audio-first",
+ "segments": [
+  {
+   "id": "S01",
+   "num": 1,
+   "total": 12,
+   "section": "HOOK",
+   "label": "01 / 12 · HOOK",
+   "dark": false,
+   "title": [
+    [
+     "TWO CLINICS, SAME BUILDING. ",
+     false
     ],
-    "description": "Cancer Medicine Ch.11 — Cancer Prevention — Stopping Cancer Before It Starts\n\nFull voiced lecture deck — Cancer Medicine series.\n\nyoutube.com/@NikBearBrown"
+    [
+     "ONE IS HALF EMPTY.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">HPV VACCINE · $200</span><span class=\"arw\">→</span><span class=\"chip on\">cervical cancer — prevented</span></div>\n           <div class=\"flow\"><span class=\"chip warn\">NO VACCINE</span><span class=\"arw\">→</span><span class=\"chip warn\">metastatic cancer · $300k+</span></div>\n           <p class=\"lead\">Same building. Same disease. One clinic is half empty while the first is full. The arithmetic is that simple.</p>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Two clinics, same building, same city. One is treating a 58-year-old woman with metastatic cervical cancer. Her care over the next two years will cost several hundred thousand dollars and, statistically, buy her time rather than a cure. Down the hall, a pediatric clinic offers the HPV vaccine to 12-year-olds — two hundred dollars, prevents most vaccine-type cervical cancer risk before exposure. She was never vaccinated. The second clinic's waiting room is half empty while the first is full. That gap is what this chapter is about.",
+     "audio_file": "audio/S01.mp3",
+     "actual_duration_s": 34.04
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "num": 2,
+   "total": 12,
+   "section": "THE STAKES",
+   "label": "02 / 12 · THE STAKES",
+   "dark": false,
+   "title": [
+    [
+     "HALF OF ALL CANCER DEATHS ",
+     false
+    ],
+    [
+     "ARE PREVENTABLE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">~50%</div><div class=\"cap\">U.S. cancer deaths — modifiable causes</div></div>\n           <div class=\"eq\">//</div>\n           <div class=\"stat\"><div class=\"big\">30–50%</div><div class=\"cap\">global cancer burden — preventable (WHO)</div></div>\n         </div>\n         <p class=\"lead\">The tools exist. The evidence is settled. The gap between what is known and what is done is political economy, not science.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The American Cancer Society estimates that roughly half of all U.S. cancer deaths are attributable to modifiable risk factors. The W-H-O estimates 30 to 50 percent of the global cancer burden is preventable with tools we already have. This chapter is about where in the disease process the intervention is cheapest and most effective — and about why we so consistently underinvest there.",
+     "audio_file": "audio/S02.mp3",
+     "actual_duration_s": 24.43
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "num": 3,
+   "total": 12,
+   "section": "THREE LEVELS OF PREVENTION",
+   "label": "03 / 12 · THREE LEVELS",
+   "dark": false,
+   "title": [
+    [
+     "THE LEVEL ",
+     false
+    ],
+    [
+     "SETS THE ACCEPTABLE RISK.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid3\">\n           <div class=\"cell-part hot\"><b>PRIMARY</b><span>stop disease before it occurs — tobacco tax, HPV vaccine, healthy weight</span></div>\n           <div class=\"cell-part\"><b>SECONDARY</b><span>detect early — mammography, colonoscopy, Pap smear, low-dose CT</span></div>\n           <div class=\"cell-part\"><b>TERTIARY</b><span>manage established disease — the rest of oncology</span></div>\n         </div>\n         <div class=\"callout\">Primary targets <b>healthy people</b> — safety requirement is therefore <b>severe</b>.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Public health sorts prevention by what stage of disease the intervention targets, and the level determines what is acceptable to do. Primary prevention stops disease from ever occurring: not smoking, avoiding oncogenic infections, limiting carcinogen exposure. The target is a healthy person — and that target sets a severe safety requirement. You are intervening on millions who would never have gotten cancer anyway. Secondary prevention detects disease at an early, more curable stage. Tertiary prevention manages established disease. The recurring policy error is confusing the levels.",
+     "audio_file": "audio/S03.mp3",
+     "actual_duration_s": 38.78
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "num": 4,
+   "total": 12,
+   "section": "TOBACCO",
+   "label": "04 / 12 · TOBACCO",
+   "dark": false,
+   "title": [
+    [
+     "TOBACCO IS ",
+     false
+    ],
+    [
+     "THE DOMINANT MODIFIABLE CAUSE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">22%</div><div class=\"cap\">global cancer deaths — tobacco</div></div>\n           <div class=\"eq\">//</div>\n           <div class=\"stat\"><div class=\"big\">~140k</div><div class=\"cap\">U.S. lung cancer deaths / year, ~90% tobacco-related</div></div>\n         </div>\n         <div class=\"flow\" style=\"margin-top:18px\"><span class=\"chip\">PREVENT INITIATION</span><span class=\"arw\">→</span><span class=\"chip\">PROMOTE CESSATION</span><span class=\"arw\">→</span><span class=\"chip on\">HARM REDUCTION</span></div>\n         <p class=\"lead\">Eliminating tobacco would prevent more annual cancer deaths than every cancer therapy ever developed, combined. That is arithmetic.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "If you wanted to save the most lives from cancer with a single policy lever, the answer is tobacco control — and has been for seventy years. Tobacco causes about 22 percent of cancer deaths globally. In the U.S., lung cancer kills about 140,000 people a year, roughly 90 percent tobacco-related. Eliminating tobacco would prevent more annual cancer deaths than every cancer therapy ever developed, combined. That is not rhetoric. It is arithmetic. Prevention operates at three points: preventing initiation in young people, promoting cessation in current users, and harm reduction for those who will not quit.",
+     "audio_file": "audio/S04.mp3",
+     "actual_duration_s": 42.07
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "num": 5,
+   "total": 12,
+   "section": "INFECTION AND VACCINATION",
+   "label": "05 / 12 · INFECTION & VACCINES",
+   "dark": false,
+   "title": [
+    [
+     "13% OF CANCER — ",
+     false
+    ],
+    [
+     "CAUSED BY INFECTION.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>HPV VACCINE</b><span>9-valent — 80–90% reduction in vaccine-type HPV; Australia on track to eliminate cervical cancer as a public-health problem</span></div>\n           <div class=\"wire\"><b>HEPATITIS B VACCINE</b><span>since 1982 — prevents HBV-driven hepatocellular carcinoma (~700k deaths/year globally)</span></div>\n           <div class=\"wire\"><b>HEPATITIS C · H. PYLORI</b><span>HCV: curable with direct-acting antivirals (&gt;95%); H. pylori eradication prevents gastric cancer</span></div>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "About 13 percent of cancer globally is caused by infection, and most of that fraction is preventable by vaccination or by eliminating the infection. The H-P-V vaccine targets the major oncogenic types responsible for most cervical cancer and substantial fractions of anal, oropharyngeal, and other cancers. In countries with high coverage, vaccine-type H-P-V prevalence in young women has fallen 80 to 90 percent. Hepatitis B vaccine, available since 1982, prevents most H-B-V-driven liver cancer — 700,000 deaths a year globally. Hepatitis C is now curable; H. pylori eradication prevents gastric cancer. The tools are inexpensive. The barriers are organizational and political.",
+     "audio_file": "audio/S05.mp3",
+     "actual_duration_s": 48.9
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "num": 6,
+   "total": 12,
+   "section": "LIFESTYLE AND STRUCTURE",
+   "label": "06 / 12 · LIFESTYLE & STRUCTURE",
+   "dark": false,
+   "title": [
+    [
+     "REGULATION OUTPERFORMS ",
+     false
+    ],
+    [
+     "WILLPOWER AT SCALE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>OBESITY</b><span>13 cancers — endometrial, breast, colorectal, liver, kidney, pancreatic…</span></div>\n           <div class=\"cell-part\"><b>ALCOHOL</b><span>mouth, throat, esophagus, liver, breast, colorectum — dose-response, no safe floor for breast cancer</span></div>\n         </div>\n         <div class=\"callout\">Tobacco taxes — not lectures — drove the steepest declines in smoking. The same principle governs <b>everything else</b>.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Body weight, physical activity, diet, and alcohol each contribute meaningfully to cancer risk. Obesity is causally linked to at least 13 cancers and is the second-ranking modifiable risk factor in high-income countries after smoking rates fell. Alcohol causes cancers of the mouth, throat, esophagus, liver, breast, and colorectum, with a dose-response that has no clearly safe floor for breast cancer. Here is the honest assessment: telling people to eat better, move more, and drink less is biologically correct advice that mostly does not move populations. The interventions that actually shift population-level rates are structural. Regulation outperforms willpower at population scale — reliably, repeatedly, across different countries and cancers.",
+     "audio_file": "audio/S06.mp3",
+     "actual_duration_s": 53.03
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "num": 7,
+   "total": 12,
+   "section": "CHEMOPREVENTION",
+   "label": "07 / 12 · CHEMOPREVENTION",
+   "dark": false,
+   "title": [
+    [
+     "THE DRUG IS APPROPRIATE ",
+     false
+    ],
+    [
+     "ONLY WHERE RISK IS HIGH ENOUGH.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>ASPIRIN</b><span>colorectal cancer — ~20–30% reduction; GI and intracranial bleeding risk rises with age</span></div>\n           <div class=\"wire\"><b>TAMOXIFEN / RALOXIFENE</b><span>invasive breast cancer — ~50% reduction over 5 years in high-risk women</span></div>\n           <div class=\"wire\"><b>AROMATASE INHIBITORS</b><span>postmenopausal high-risk women — more effective than tamoxifen; bone loss, joint pain</span></div>\n           <div class=\"wire\"><b>FINASTERIDE</b><span>prostate cancer incidence reduced; debate over indolent-cancer prevention; sexual side effects</span></div>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Chemoprevention is the use of drugs to prevent cancer in people at elevated risk — the part of primary prevention that most resembles clinical medicine. The evidence for selected agents is strong. Aspirin reduces colorectal cancer incidence and mortality by roughly 20 to 30 percent. Tamoxifen and raloxifene cut invasive breast cancer incidence by about half over five years in high-risk women. Aromatase inhibitors are more effective still in postmenopausal high-risk women. The hard constraint in each case: side effects that are acceptable in someone facing serious cancer risk are not acceptable in someone who would probably never have gotten cancer. That constraint produces the defining discipline of chemoprevention — risk stratification.",
+     "audio_file": "audio/S07.mp3",
+     "actual_duration_s": 46.35
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "num": 8,
+   "total": 12,
+   "section": "HEREDITARY RISK",
+   "label": "08 / 12 · HEREDITARY RISK",
+   "dark": false,
+   "title": [
+    [
+     "FOR BRCA CARRIERS, ",
+     false
+    ],
+    [
+     "THE RISK IS NEAR-CERTAIN.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part hot\"><b>BRCA1/2 CARRIERS</b><span>breast: 65–80% lifetime risk · ovarian: 40–60% lifetime risk<br><i>Options: MRI surveillance · tamoxifen · prophylactic mastectomy (&gt;90% reduction) · oophorectomy</i></span></div>\n           <div class=\"cell-part\"><b>LYNCH SYNDROME</b><span>colorectal, endometrial, ovarian, gastric risk — colonoscopy every 1–2 yr from mid-20s · aspirin chemoprevention in selected cases</span></div>\n         </div>\n         <div class=\"callout\">Familial adenomatous polyposis — near-100% CRC risk untreated — requires <b>prophylactic colectomy</b>. No chemoprevention manages that polyp burden.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "For people with hereditary cancer syndromes, primary prevention operates in a more aggressive register, because the cancer risk is not statistical — it is near-certain over a lifetime. BRCA1 and 2 carriers face lifetime breast cancer risks of 65 to 80 percent and ovarian risks of 40 to 60 percent. Options span surveillance, chemoprevention, and prophylactic surgery — bilateral mastectomy cutting breast cancer risk by over 90 percent. Lynch syndrome carriers face elevated risks of colorectal, endometrial, ovarian, and gastric cancers, managed with intensive colonoscopy and in some cases aspirin. Familial adenomatous polyposis requires prophylactic colectomy — the colon must come out.",
+     "audio_file": "audio/S08.mp3",
+     "actual_duration_s": 48.53
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "num": 9,
+   "total": 12,
+   "section": "WORKED EXAMPLE",
+   "label": "09 / 12 · WORKED EXAMPLE",
+   "dark": false,
+   "title": [
+    [
+     "SAME DRUG, SAME AGE, ",
+     false
+    ],
+    [
+     "DIFFERENT ANSWER.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip warn\">avg-risk · age 62</span><span class=\"arw\">→</span><span class=\"chip warn\">bleeding risk &gt; cancer benefit</span><span class=\"arw\">→</span><span class=\"chip warn\">NO aspirin</span></div>\n           <div class=\"flow\"><span class=\"chip on\">Lynch syndrome · age 62</span><span class=\"arw\">→</span><span class=\"chip on\">CRC risk &gt;&gt; population</span><span class=\"arw\">→</span><span class=\"chip on\">aspirin appropriate</span></div>\n         </div>\n         <p class=\"lead\">A population-average effect is not a personal prescription. The denominator is everyone you would treat — including all who would never have gotten cancer.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "A healthy 62-year-old man asks whether he should take daily low-dose aspirin for cancer prevention. Aspirin does reduce colorectal cancer incidence by 20 to 30 percent — that part is true. But aspirin also causes gastrointestinal and intracranial bleeding, and that risk rises steeply in the sixties. The U.S. Preventive Services Task Force in 2022 stopped recommending aspirin initiation for primary prevention in people 60 or older because the bleeding risk has grown large enough to overtake the benefit. For this average-risk patient at 62: no aspirin. Now shift to the same age but Lynch syndrome. The colorectal cancer prevention benefit is substantially larger. Same drug, same dose, same age — different answer, because the benefit depends on the individual risk being offset.",
+     "audio_file": "audio/S09.mp3",
+     "actual_duration_s": 54.75
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "num": 10,
+   "total": 12,
+   "section": "POLITICAL ECONOMY",
+   "label": "10 / 12 · POLITICAL ECONOMY",
+   "dark": false,
+   "title": [
+    [
+     "THE PREVENTED CASE ",
+     false
+    ],
+    [
+     "NEVER APPEARS ON ANY LEDGER.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"balance\">\n           <div class=\"pan die\"><b>DRAMATIC TREATMENT</b><span>surgery, chemo, targeted drug — billed at delivery, attributed to a patient, visible as a saved life</span></div>\n           <div class=\"fulcrum\">≠</div>\n           <div class=\"pan surv\"><b>QUIET PREVENTION</b><span>a tax, a vaccine, a smoke-free law — the prevented case never appears; the system gets paid when it treats what it failed to prevent</span></div>\n         </div>\n         <p class=\"lead\">The gap between what is known and what is done is political economy, not science. The biology of prevention has been settled for decades.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The pattern of underinvestment in prevention is not mysterious once you understand how health systems pay for things. A dramatic late intervention — surgery, chemotherapy, a targeted drug — is billed at the moment it is delivered, attributed to a specific patient, and visible as a saved life. A quiet intervention — a tax, a vaccine, a smoke-free law — prevents a disease that was going to happen to an anonymous person twenty years from now. The prevented case never appears on any ledger. The health system that fails to prevent it still gets paid when it treats it. The biology is settled. The gap is political economy.",
+     "audio_file": "audio/S10.mp3",
+     "actual_duration_s": 38.82
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "num": 11,
+   "total": 12,
+   "section": "THE THESIS",
+   "label": "11 / 12 · THE THESIS",
+   "dark": false,
+   "title": [
+    [
+     "PREVENTION OUT-LEVERAGES ",
+     false
+    ],
+    [
+     "TREATMENT PER DEATH PREVENTED.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"thesis\">Tobacco control, HPV and HBV vaccination, H. pylori eradication, carcinogen regulation — among the most carefully studied interventions in all of medicine. Their population-level effects are <b>large</b>. The arithmetic clearly favors the empty clinic.</div>\n         <p class=\"lead\">Still open: why the political economy so reliably favors treatment — and whether payment reform can fix it, or whether it is rooted in how systems perceive dramatic versus quiet benefit.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "So here is the chapter's claim. Primary prevention — especially tobacco control and oncogenic-virus vaccination — is the highest-leverage way to reduce cancer mortality, far exceeding what treatment achieves per death prevented, and it is underused for reasons of political economy rather than weak evidence. The finding that would force a revision: rigorous long-horizon data showing that high-coverage H-P-V and hepatitis B vaccination programs failed to reduce their target cancers as vaccinated cohorts aged. The early Australian and hepatitis B data point the other way. But the decisive cohorts are still aging — we are running experiments whose results our successors will read.",
+     "audio_file": "audio/S11.mp3",
+     "actual_duration_s": 44.95
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "num": 12,
+   "total": 12,
+   "section": "CLOSE",
+   "label": "12 / 12 · CLOSE",
+   "dark": true,
+   "title": [
+    [
+     "WHY THE ARITHMETIC FAVORS ",
+     false
+    ],
+    [
+     "THE HALF-EMPTY CLINIC.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>TOBACCO CONTROL</span><span>//</span><span>VACCINATION</span><span>//</span><span>RISK STRATIFICATION</span><span>//</span><span>STRUCTURAL POLICY</span></div>\n           <p class=\"sig\">Cancer Medicine · Chapter 11 · Cancer Prevention · Nik Bear Brown</p>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The two clinics are still there. The oncology clinic's waiting room is full. The pediatric clinic's waiting room is half empty. The most important insight this chapter offers is not which drugs prevent cancer — it is why the arithmetic so clearly favors the second clinic, and why the first one keeps getting all the resources. Cancer prevention: the cheapest cure is the one that happens before the disease.",
+     "audio_file": "audio/S12.mp3",
+     "actual_duration_s": 25.12
+    }
+   ]
   }
+ ],
+ "metadata": {
+  "title": "Cancer Medicine Ch.11 — Cancer Prevention — Stopping Cancer Before It Starts",
+  "slug": "cancer-medicine-ch11-cancer-prevention",
+  "playlist": "Cancer Medicine",
+  "hashtags": [
+   "#CancerMedicine",
+   "#Oncology",
+   "#Education",
+   "#NikBearBrown",
+   "#Lecture",
+   "#OnlineLearning"
+  ],
+  "description": "Cancer Medicine Ch.11 — Cancer Prevention — Stopping Cancer Before It Starts\n\nFull voiced lecture deck — Cancer Medicine series.\n\nyoutube.com/@NikBearBrown",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
+ }
 }

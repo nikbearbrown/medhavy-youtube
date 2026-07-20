@@ -1,349 +1,353 @@
 {
-  "slug": "cancer-research-ch04-therapy-principles",
-  "title": "Principles of Cancer Therapy — Goals and Modalities",
-  "series": "Cancer Research",
-  "source": "cancer-research/chapters/04-principles-of-cancer-therapy-goals-and-modalities.md",
-  "voice_id": "TyW6NH39JcFb5M3xdIIk",
-  "accent": "#ea580c",
-  "fps": 30,
-  "clock": "audio-first",
-  "segments": [
-    {
-      "id": "S01",
-      "num": 1,
-      "total": 12,
-      "section": "HOOK",
-      "label": "01 / 12 · HOOK",
-      "dark": false,
-      "title": [
-        [
-          "THE TUMOR SHRANK. ",
-          false
-        ],
-        [
-          "THE PATIENT DID NOT LIVE LONGER.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">ORR 60%</span><span class=\"arw\">→</span><span class=\"chip\">PFS improved</span><span class=\"arw\">→</span><span class=\"chip warn\">OS: identical</span></div>\n           <p class=\"lead\">A drug shrank tumors three times as often — and patients still died at the same time. That gap is the whole chapter.</p>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "A new drug gets approved. In the trial, tumors shrank in sixty percent of patients — three times the rate of the old regimen. The press calls it a breakthrough. But the oncologist reads past the headline: the overall survival curves are nearly identical. Tumors shrank more, and shrank for longer — but patients did not live longer. Meanwhile, the new drug caused more severe side effects. Did the drug work? It depends entirely on what work means. That gap — between what a treatment does to the tumor and what it does for the patient — is the subject of this chapter.",
-          "audio_file": "audio/S01.mp3"
-        }
-      ]
-    },
-    {
-      "id": "S02",
-      "num": 2,
-      "total": 12,
-      "section": "THE STAKES",
-      "label": "02 / 12 · THE STAKES",
-      "dark": false,
-      "title": [
-        [
-          "TREATMENT INTENT IS ",
-          false
-        ],
-        [
-          "THE FIRST CLINICAL DECISION.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">CURE</div><div class=\"cap\">eliminate cancer</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big\">CONTROL</div><div class=\"cap\">slow progression</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big\">PALLIATION</div><div class=\"cap\">relieve symptoms</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big\">COMFORT</div><div class=\"cap\">remaining time</div></div>\n         </div>\n         <p class=\"lead\">These are not stages on a single path. They are genuinely different objectives — and the goal governs which endpoint counts as success.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Before any treatment decision, a goal must be named. There are four, and they are not a progression toward one endpoint — they are genuinely different objectives. Cure means eliminating the cancer so the patient lives a normal lifespan. Control means slowing or halting progression when cure is no longer attainable. Palliation means relieving symptoms and improving quality of life without necessarily extending it. And comfort means that disease-modifying treatment no longer helps — the focus shifts entirely to the patient's remaining time. The goal usually shifts over a disease course, but matching treatment intensity to the current goal is the first clinical obligation. Aggressive multimodality therapy is right for a curable cancer. It can be the wrong choice — more harm than benefit — for a patient whose goal is comfort.",
-          "audio_file": "audio/S02.mp3",
-          "actual_duration_s": 54.2
-        }
-      ]
-    },
-    {
-      "id": "S03",
-      "num": 3,
-      "total": 12,
-      "section": "THE THREE MODALITIES",
-      "label": "03 / 12 · THE THREE MODALITIES",
-      "dark": false,
-      "title": [
-        [
-          "THREE TOOLS. ",
-          false
-        ],
-        [
-          "EACH REACHES WHERE THE OTHERS CANNOT.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid3\">\n           <div class=\"cell-part hot\"><b>SURGERY</b><span>removes the visible — cannot address microscopic dissemination</span></div>\n           <div class=\"cell-part\"><b>RADIATION</b><span>DNA damage, precise dose — local control, palliation, adjuvant</span></div>\n           <div class=\"cell-part\"><b>SYSTEMIC</b><span>bloodstream reach — chemo, hormonal, targeted, immunotherapy</span></div>\n         </div>\n         <p class=\"lead\">No modern treatment uses just one modality when combining them produces a better result.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Cancer treatment uses three modalities. Surgery is the oldest and most effective for many localized solid tumors — clear margins, lymph-node sampling, minimal disruption to surrounding structures. Its limitation is reach: it removes what the surgeon can see, but cannot address microscopic dissemination beyond the operative field. Radiation uses ionizing radiation to damage DNA and kill cells — delivered as external beam, brachytherapy, or stereotactic approaches. It can be primary treatment, adjuvant after surgery, neoadjuvant before surgery, or concurrent with chemotherapy. Systemic therapy travels through the bloodstream and can reach disease anywhere in the body — chemotherapy, hormonal therapy, targeted agents, and immunotherapy. Each modality addresses what the others cannot. That is why they are combined.",
-          "audio_file": "audio/S03.mp3",
-          "actual_duration_s": 58.19
-        }
-      ]
-    },
-    {
-      "id": "S04",
-      "num": 4,
-      "total": 12,
-      "section": "SYSTEMIC THERAPY CATEGORIES",
-      "label": "04 / 12 · SYSTEMIC THERAPY CATEGORIES",
-      "dark": false,
-      "title": [
-        [
-          "SYSTEMIC THERAPY IS ",
-          false
-        ],
-        [
-          "FOUR DIFFERENT WEAPONS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>CHEMOTHERAPY</b><span>cytotoxic — disrupts DNA synthesis or mitotic machinery</span></div>\n           <div class=\"wire\"><b>HORMONAL THERAPY</b><span>blocks growth-driving hormones — estrogen in breast, androgen in prostate</span></div>\n           <div class=\"wire\"><b>TARGETED THERAPY</b><span>kinase inhibitors, HER2 antibodies — specific molecular features</span></div>\n           <div class=\"wire\"><b>IMMUNOTHERAPY</b><span>checkpoint inhibitors, CAR-T — activates immune system against cancer</span></div>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Systemic therapy is not one thing — it is four distinct categories with different mechanisms and different evidence bases. Chemotherapy uses cytotoxic agents that disrupt DNA synthesis or the mitotic machinery, killing dividing cells. Hormonal therapy blocks hormones that drive cancer growth — estrogen for breast cancer, androgen deprivation for prostate. Targeted therapy uses small molecules or antibodies against specific molecular features of cancer cells: kinase inhibitors, HER2-directed agents. And immunotherapy activates the immune system against cancer — checkpoint inhibitors that release brakes on T cells, and CAR-T cell therapies that engineer immune cells to recognize tumor antigens. Each category arrived from a different scientific lineage and works by a different principle.",
-          "audio_file": "audio/S04.mp3",
-          "actual_duration_s": 52.48
-        }
-      ]
-    },
-    {
-      "id": "S05",
-      "num": 5,
-      "total": 12,
-      "section": "TIMING HAS A NAME",
-      "label": "05 / 12 · TIMING HAS A NAME",
-      "dark": false,
-      "title": [
-        [
-          "WHEN YOU TREAT ",
-          false
-        ],
-        [
-          "CHANGES WHAT YOU ARE TREATING.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\">\n           <span class=\"chip\">NEOADJUVANT<small style=\"display:block;font-size:10px\">before surgery</small></span>\n           <span class=\"arw\">→</span>\n           <span class=\"chip on\">SURGERY<small style=\"display:block;font-size:10px\">definitive</small></span>\n           <span class=\"arw\">→</span>\n           <span class=\"chip\">ADJUVANT<small style=\"display:block;font-size:10px\">after, for microMets</small></span>\n         </div>\n         <div class=\"flow\" style=\"margin-top:14px\">\n           <span class=\"chip\">CONCURRENT<small style=\"display:block;font-size:10px\">chemoradiation</small></span>\n           <span class=\"arw\">+</span>\n           <span class=\"chip\">CONSOLIDATION<small style=\"display:block;font-size:10px\">deepen response</small></span>\n           <span class=\"arw\">+</span>\n           <span class=\"chip\">MAINTENANCE<small style=\"display:block;font-size:10px\">prevent progression</small></span>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "When systemic therapy or radiation is given relative to surgery is not a scheduling detail — it changes what the treatment is trying to accomplish. Neoadjuvant therapy is given before the primary intervention: it can shrink a breast tumor to enable lumpectomy where mastectomy would have been required, and reveals whether the cancer responds to a regimen before committing to the full course. Adjuvant therapy is given after surgery to a patient with no detectable disease — the rationale is that micrometastases are statistically likely to be present, and population-level trial evidence shows adjuvant therapy reduces recurrence. You are treating disease you cannot see. Concurrent therapy means two modalities simultaneously — chemoradiation for head and neck or cervical cancer. Consolidation deepens a response; maintenance prevents progression over the long term. Each term encodes a different mechanism and a different evidentiary basis.",
-          "audio_file": "audio/S05.mp3",
-          "actual_duration_s": 55.96
-        }
-      ]
-    },
-    {
-      "id": "S06",
-      "num": 6,
-      "total": 12,
-      "section": "THE ENDPOINT HIERARCHY",
-      "label": "06 / 12 · THE ENDPOINT HIERARCHY",
-      "dark": false,
-      "title": [
-        [
-          "SURROGATES MOVE FAST. ",
-          false
-        ],
-        [
-          "HARD ENDPOINTS TELL THE TRUTH.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>OVERALL SURVIVAL · QUALITY OF LIFE</b><span>hard endpoints — what patients ultimately care about · years to mature</span></div>\n           <div class=\"wire\"><b>PROGRESSION-FREE SURVIVAL</b><span>surrogate — valid only when validated in the specific cancer type</span></div>\n           <div class=\"wire\"><b>OVERALL RESPONSE RATE · BIOMARKER</b><span>fastest proxies — a hypothesis about benefit, not benefit itself</span></div>\n         </div>\n         <p class=\"lead\">A surrogate is only trustworthy if improving it reliably improves the hard endpoint — and that validation must be demonstrated, not assumed.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "To evaluate a treatment, you measure something. The cleanest measures — hard endpoints — are the outcomes patients ultimately care about: overall survival, how long they live, and quality of life, how they experience that time. Hard endpoints take years to mature in trials. So trials use surrogate endpoints — faster proxies expected to predict the hard outcome. Overall response rate measures tumor shrinkage. Progression-free survival measures time until growth or death. Biomarker response — falling PSA, CA-125, circulating tumor DNA — is the fastest proxy of all. But a surrogate is only trustworthy if improving it reliably improves the hard endpoint. Where that validation exists, the surrogate earns the right to stand in. Where it does not, a change in surrogates is a hypothesis about benefit — not benefit. The endpoint hierarchy: overall survival and quality of life are the arbiters. PFS can stand in when its surrogate validity has been established. Response rate is a hypothesis.",
-          "audio_file": "audio/S06.mp3",
-          "actual_duration_s": 68.22
-        }
-      ]
-    },
-    {
-      "id": "S07",
-      "num": 7,
-      "total": 12,
-      "section": "THE PROXY TRAP",
-      "label": "07 / 12 · THE PROXY TRAP",
-      "dark": false,
-      "title": [
-        [
-          "THE PROXY MOVES. ",
-          false
-        ],
-        [
-          "THE PATIENT DOESN'T BENEFIT.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"balance\">\n           <div class=\"pan surv\"><b>Surrogates</b><span>ORR up · PFS up</span></div>\n           <div class=\"fulcrum\">not equal to</div>\n           <div class=\"pan die\"><b>Hard endpoints</b><span>OS: flat · Toxicity: worse</span></div>\n         </div>\n         <div class=\"callout\" style=\"margin-top:16px\">FDA accelerated approval: initial approval on surrogates — confirmatory survival benefit must follow. Many drugs have not confirmed.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The recurring failure mode in oncology evidence is treating the proxy as the thing itself. A drug that improves response rate and progression-free survival has demonstrated that it affects the tumor. It has not demonstrated that it benefits the patient until the hard endpoints move. The FDA's accelerated-approval pathway allows initial approval on surrogate endpoints, with confirmatory trials proving real benefit required afterward. Recent FDA initiatives — including Project Optimus, focusing on dose optimization for meaningful benefit — reflect awareness that approvals on surrogates have sometimes resulted in drugs that reached patients without ever demonstrating survival benefit. Some drugs have remained approved for years without completing confirmatory trials. The pattern is consistent: tumor shrinkage is what the drug does to the tumor. Overall survival and quality of life are what it does for the patient — and the two can diverge.",
-          "audio_file": "audio/S07.mp3",
-          "actual_duration_s": 59.68
-        }
-      ]
-    },
-    {
-      "id": "S08",
-      "num": 8,
-      "total": 12,
-      "section": "READING THE OPENING CASE",
-      "label": "08 / 12 · READING THE OPENING CASE",
-      "dark": false,
-      "title": [
-        [
-          "APPLY THE HIERARCHY ",
-          false
-        ],
-        [
-          "TO THE OPENING DRUG.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>ORR 60% vs 20%</b><span>surrogate — drug is biologically active. Does not confirm patient benefit.</span></div>\n           <div class=\"cell-part\"><b>PFS improved</b><span>surrogate — real, but PFS not validated as OS surrogate in this cancer. 3-month delay: meaningful?</span></div>\n           <div class=\"cell-part hot\"><b>OS: no difference</b><span>hard endpoint — patients did not live longer. The question patients ask is answered: no.</span></div>\n           <div class=\"cell-part hot\"><b>Grade 3-4 toxicity: higher</b><span>hard endpoint, wrong direction — patients on the new drug felt worse.</span></div>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Apply the endpoint hierarchy to the drug from the opening case. The overall response rate was sixty percent versus twenty — strongly favoring the new drug. This tells us the drug is biologically active. It does not tell us whether that activity benefits patients. Progression-free survival improved. A three-month gain is real. Whether it translates to survival depends on whether PFS is a validated surrogate in this particular cancer, and whether a three-month delay in progression represents meaningful clinical benefit. Neither is given. Overall survival: no significant difference. Patients did not live longer. Both arms died at the same time. The question the patient is actually asking — does this drug extend my life — is answered: it does not, in this trial. Grade three and four toxicity was higher on the new drug. Patients felt worse. Both hard endpoints failed to improve, and one moved in the wrong direction. The recommendation depends entirely on the goal.",
-          "audio_file": "audio/S08.mp3",
-          "actual_duration_s": 66.46
-        }
-      ]
-    },
-    {
-      "id": "S09",
-      "num": 9,
-      "total": 12,
-      "section": "MULTIDISCIPLINARY PLANNING",
-      "label": "09 / 12 · MULTIDISCIPLINARY PLANNING",
-      "dark": false,
-      "title": [
-        [
-          "COMBINING MODALITIES REQUIRES ",
-          false
-        ],
-        [
-          "COMBINING SPECIALISTS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\">\n           <span class=\"chip\">SURGEON</span>\n           <span class=\"arw\">+</span>\n           <span class=\"chip\">RAD ONC</span>\n           <span class=\"arw\">+</span>\n           <span class=\"chip\">MED ONC</span>\n           <span class=\"arw\">+</span>\n           <span class=\"chip on\">TUMOR BOARD</span>\n         </div>\n         <div class=\"flow\" style=\"margin-top:14px\">\n           <span class=\"chip dim\">PATHOLOGIST</span>\n           <span class=\"arw\">+</span>\n           <span class=\"chip dim\">RADIOLOGIST</span>\n           <span class=\"arw\">→</span>\n           <span class=\"chip\">integrated plan</span>\n         </div>\n         <p class=\"lead\">Surgery removes bulk. Radiation sterilizes the local bed. Systemic therapy addresses distant micrometastases. No silo can see all three.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Because the decisions about how to combine surgery, radiation, and systemic therapy involve multiple specialties, treatment is planned by multidisciplinary tumor boards — surgeon, radiation oncologist, medical oncologist, pathologist, and radiologist together — rather than sequentially or siloed. The rationale for combination is that each modality addresses what the others cannot. Surgery removes the bulk primary tumor but leaves microscopic disease. Radiation sterilizes the local bed. Systemic therapy addresses distant micrometastases that neither surgery nor radiation can reach. No single specialist has the full picture. The tumor board is the mechanism by which the modalities are integrated into a coherent plan — and by which the treatment goal, and the endpoints that will measure its success, are agreed upon before treatment begins.",
-          "audio_file": "audio/S09.mp3",
-          "actual_duration_s": 54.8
-        }
-      ]
-    },
-    {
-      "id": "S10",
-      "num": 10,
-      "total": 12,
-      "section": "PSEUDOPROGRESSION",
-      "label": "10 / 12 · PSEUDOPROGRESSION",
-      "dark": false,
-      "title": [
-        [
-          "IMMUNOTHERAPY FAKES ",
-          false
-        ],
-        [
-          "ITS OWN FAILURE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\"><span class=\"chip\">checkpoint inhibitor</span><span class=\"arw\">→</span><span class=\"chip warn\">tumor looks LARGER on scan</span><span class=\"arw\">→</span><span class=\"chip\">immune infiltration</span><span class=\"arw\">→</span><span class=\"chip on\">regression follows</span></div>\n         <div class=\"flow\" style=\"margin-top:14px\"><span class=\"chip warn\">RECIST: progressive disease</span><span class=\"arw\">→</span><span class=\"chip warn\">stop drug</span><span class=\"arw\">→</span><span class=\"chip warn\">abandon working treatment</span></div>\n         <div class=\"callout\" style=\"margin-top:16px\">iRECIST: confirm apparent progression at a second timepoint before concluding failure.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Immunotherapy introduced a specific artifact into response assessment. Immune checkpoint inhibitors can cause early apparent growth — tumor lesions look larger on the first post-treatment scan — because immune cells are infiltrating the tumor and the lesion is inflamed before regression occurs. Standard RECIST applied at that timepoint would declare the patient a non-responder and potentially discontinue a treatment that was actually working. This is pseudoprogression. Modified criteria, iRECIST, require confirming apparent progression at a later timepoint before concluding the drug failed. This is a precise instance of the chapter's central theme. Response assessment is a measurement system, and measurement systems have artifacts. An early RECIST reading in an immunotherapy patient is a proxy for the underlying biology — and that proxy can mislead at exactly the timepoint when an immune response is generating transient inflammation.",
-          "audio_file": "audio/S10.mp3",
-          "actual_duration_s": 58.93
-        }
-      ]
-    },
-    {
-      "id": "S11",
-      "num": 11,
-      "total": 12,
-      "section": "THESIS",
-      "label": "11 / 12 · THESIS",
-      "dark": false,
-      "title": [
-        [
-          "SURROGATES ARE ",
-          false
-        ],
-        [
-          "HYPOTHESES UNTIL THE HARD ENDPOINT MOVES.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"thesis\">A change in surrogates is a <b>hypothesis about benefit</b>, not benefit. Tumor shrinkage is what the drug does to the tumor. Overall survival and quality of life are what it does for the patient — and they can diverge.</div>\n         <p class=\"lead\">Still open: for which cancers is PFS a validated OS surrogate? When survival and quality of life diverge, whose judgment should prevail?</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The chapter's claim is this: surrogate endpoints can move without hard endpoints following, so treatment claims must ultimately rest on overall survival and quality of life. A drug that improves response rate and progression-free survival has demonstrated that it affects the tumor. It has not demonstrated that it benefits the patient until the hard endpoints move. The finding that would revise this: rigorous, disease-specific evidence that a particular surrogate is a validated predictor of survival — a formal meta-analysis showing that in a given cancer, improvements in progression-free survival reliably and quantitatively translate into improvements in overall survival across many trials. Where such validation exists, the surrogate earns the right to stand in, and the skepticism relaxes. But that validation must be demonstrated, not assumed. Two questions remain genuinely open: for which cancers and which surrogates is progression-free survival actually a validated stand-in for overall survival — and when survival and quality of life diverge, how should the two hard endpoints be weighed against each other.",
-          "audio_file": "audio/S11.mp3",
-          "actual_duration_s": 72.17
-        }
-      ]
-    },
-    {
-      "id": "S12",
-      "num": 12,
-      "total": 12,
-      "section": "CLOSE",
-      "label": "12 / 12 · CLOSE",
-      "dark": true,
-      "title": [
-        [
-          "NAME THE GOAL. ",
-          false
-        ],
-        [
-          "THEN CHOOSE THE ENDPOINT THAT MEASURES IT.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>TREATMENT INTENT FIRST</span><span>//</span><span>MODALITY TO MATCH</span><span>//</span><span>HARD ENDPOINTS LAST WORD</span></div>\n           <p class=\"sig\">Cancer Research · Chapter 4 · Principles of Cancer Therapy — Goals and Modalities</p>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "That is the frame for reading every oncology trial. Name the goal first — cure, control, palliation, or comfort. Choose the modality or combination whose evidence base matches that goal. Then demand that success be measured by the endpoints that patients actually care about. Overall survival and quality of life are the arbiters. Surrogates can stand in, but only where their validity has been established. A tumor that shrinks is not a patient who lives longer — not unless the data say so. The gap between what a treatment does to the tumor and what it does for the patient is real, it is measurable, and it is the most consequential distance in oncology. Learn to see it.",
-          "audio_file": "audio/S12.mp3",
-          "actual_duration_s": 44.86
-        }
-      ]
-    }
-  ],
-  "metadata": {
-    "title": "Cancer Research Ch.4 — Principles of Cancer Therapy — Goals and Modalities",
-    "slug": "cancer-research-ch04-therapy-principles",
-    "playlist": "Cancer Research",
-    "hashtags": [
-      "#CancerResearch",
-      "#Oncology",
-      "#Education",
-      "#NikBearBrown",
-      "#Lecture",
-      "#OnlineLearning"
+ "slug": "cancer-research-ch04-therapy-principles",
+ "title": "Principles of Cancer Therapy — Goals and Modalities",
+ "series": "Cancer Research",
+ "source": "cancer-research/chapters/04-principles-of-cancer-therapy-goals-and-modalities.md",
+ "voice_id": "TyW6NH39JcFb5M3xdIIk",
+ "accent": "#ea580c",
+ "fps": 30,
+ "clock": "audio-first",
+ "segments": [
+  {
+   "id": "S01",
+   "num": 1,
+   "total": 12,
+   "section": "HOOK",
+   "label": "01 / 12 · HOOK",
+   "dark": false,
+   "title": [
+    [
+     "THE TUMOR SHRANK. ",
+     false
     ],
-    "description": "Cancer Research Ch.4 — Principles of Cancer Therapy — Goals and Modalities\n\nFull voiced lecture deck — Cancer Research series.\n\nA new drug gets approved. In the trial, tumors shrank in sixty percent of patients — three times the rate of the old regimen. The press calls it a breakthrough. But the oncologist reads past the headline: the overall survival curves are nearly identical. Tumors shrank more, and shrank for longer — but patients did not live longer. Meanwhile, the new drug caused more severe side effects. Did the drug work? It depends entirely on what work means. That gap — between what a treatment does to the tumor and what it does for the patient — is the subject of this chapter.\n\nyoutube.com/@NikBearBrown"
+    [
+     "THE PATIENT DID NOT LIVE LONGER.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">ORR 60%</span><span class=\"arw\">→</span><span class=\"chip\">PFS improved</span><span class=\"arw\">→</span><span class=\"chip warn\">OS: identical</span></div>\n           <p class=\"lead\">A drug shrank tumors three times as often — and patients still died at the same time. That gap is the whole chapter.</p>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "A new drug gets approved. In the trial, tumors shrank in sixty percent of patients — three times the rate of the old regimen. The press calls it a breakthrough. But the oncologist reads past the headline: the overall survival curves are nearly identical. Tumors shrank more, and shrank for longer — but patients did not live longer. Meanwhile, the new drug caused more severe side effects. Did the drug work? It depends entirely on what work means. That gap — between what a treatment does to the tumor and what it does for the patient — is the subject of this chapter.",
+     "audio_file": "audio/S01.mp3"
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "num": 2,
+   "total": 12,
+   "section": "THE STAKES",
+   "label": "02 / 12 · THE STAKES",
+   "dark": false,
+   "title": [
+    [
+     "TREATMENT INTENT IS ",
+     false
+    ],
+    [
+     "THE FIRST CLINICAL DECISION.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">CURE</div><div class=\"cap\">eliminate cancer</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big\">CONTROL</div><div class=\"cap\">slow progression</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big\">PALLIATION</div><div class=\"cap\">relieve symptoms</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big\">COMFORT</div><div class=\"cap\">remaining time</div></div>\n         </div>\n         <p class=\"lead\">These are not stages on a single path. They are genuinely different objectives — and the goal governs which endpoint counts as success.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Before any treatment decision, a goal must be named. There are four, and they are not a progression toward one endpoint — they are genuinely different objectives. Cure means eliminating the cancer so the patient lives a normal lifespan. Control means slowing or halting progression when cure is no longer attainable. Palliation means relieving symptoms and improving quality of life without necessarily extending it. And comfort means that disease-modifying treatment no longer helps — the focus shifts entirely to the patient's remaining time. The goal usually shifts over a disease course, but matching treatment intensity to the current goal is the first clinical obligation. Aggressive multimodality therapy is right for a curable cancer. It can be the wrong choice — more harm than benefit — for a patient whose goal is comfort.",
+     "audio_file": "audio/S02.mp3",
+     "actual_duration_s": 54.2
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "num": 3,
+   "total": 12,
+   "section": "THE THREE MODALITIES",
+   "label": "03 / 12 · THE THREE MODALITIES",
+   "dark": false,
+   "title": [
+    [
+     "THREE TOOLS. ",
+     false
+    ],
+    [
+     "EACH REACHES WHERE THE OTHERS CANNOT.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid3\">\n           <div class=\"cell-part hot\"><b>SURGERY</b><span>removes the visible — cannot address microscopic dissemination</span></div>\n           <div class=\"cell-part\"><b>RADIATION</b><span>DNA damage, precise dose — local control, palliation, adjuvant</span></div>\n           <div class=\"cell-part\"><b>SYSTEMIC</b><span>bloodstream reach — chemo, hormonal, targeted, immunotherapy</span></div>\n         </div>\n         <p class=\"lead\">No modern treatment uses just one modality when combining them produces a better result.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Cancer treatment uses three modalities. Surgery is the oldest and most effective for many localized solid tumors — clear margins, lymph-node sampling, minimal disruption to surrounding structures. Its limitation is reach: it removes what the surgeon can see, but cannot address microscopic dissemination beyond the operative field. Radiation uses ionizing radiation to damage DNA and kill cells — delivered as external beam, brachytherapy, or stereotactic approaches. It can be primary treatment, adjuvant after surgery, neoadjuvant before surgery, or concurrent with chemotherapy. Systemic therapy travels through the bloodstream and can reach disease anywhere in the body — chemotherapy, hormonal therapy, targeted agents, and immunotherapy. Each modality addresses what the others cannot. That is why they are combined.",
+     "audio_file": "audio/S03.mp3",
+     "actual_duration_s": 58.19
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "num": 4,
+   "total": 12,
+   "section": "SYSTEMIC THERAPY CATEGORIES",
+   "label": "04 / 12 · SYSTEMIC THERAPY CATEGORIES",
+   "dark": false,
+   "title": [
+    [
+     "SYSTEMIC THERAPY IS ",
+     false
+    ],
+    [
+     "FOUR DIFFERENT WEAPONS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>CHEMOTHERAPY</b><span>cytotoxic — disrupts DNA synthesis or mitotic machinery</span></div>\n           <div class=\"wire\"><b>HORMONAL THERAPY</b><span>blocks growth-driving hormones — estrogen in breast, androgen in prostate</span></div>\n           <div class=\"wire\"><b>TARGETED THERAPY</b><span>kinase inhibitors, HER2 antibodies — specific molecular features</span></div>\n           <div class=\"wire\"><b>IMMUNOTHERAPY</b><span>checkpoint inhibitors, CAR-T — activates immune system against cancer</span></div>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Systemic therapy is not one thing — it is four distinct categories with different mechanisms and different evidence bases. Chemotherapy uses cytotoxic agents that disrupt DNA synthesis or the mitotic machinery, killing dividing cells. Hormonal therapy blocks hormones that drive cancer growth — estrogen for breast cancer, androgen deprivation for prostate. Targeted therapy uses small molecules or antibodies against specific molecular features of cancer cells: kinase inhibitors, HER2-directed agents. And immunotherapy activates the immune system against cancer — checkpoint inhibitors that release brakes on T cells, and CAR-T cell therapies that engineer immune cells to recognize tumor antigens. Each category arrived from a different scientific lineage and works by a different principle.",
+     "audio_file": "audio/S04.mp3",
+     "actual_duration_s": 52.48
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "num": 5,
+   "total": 12,
+   "section": "TIMING HAS A NAME",
+   "label": "05 / 12 · TIMING HAS A NAME",
+   "dark": false,
+   "title": [
+    [
+     "WHEN YOU TREAT ",
+     false
+    ],
+    [
+     "CHANGES WHAT YOU ARE TREATING.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\">\n           <span class=\"chip\">NEOADJUVANT<small style=\"display:block;font-size:10px\">before surgery</small></span>\n           <span class=\"arw\">→</span>\n           <span class=\"chip on\">SURGERY<small style=\"display:block;font-size:10px\">definitive</small></span>\n           <span class=\"arw\">→</span>\n           <span class=\"chip\">ADJUVANT<small style=\"display:block;font-size:10px\">after, for microMets</small></span>\n         </div>\n         <div class=\"flow\" style=\"margin-top:14px\">\n           <span class=\"chip\">CONCURRENT<small style=\"display:block;font-size:10px\">chemoradiation</small></span>\n           <span class=\"arw\">+</span>\n           <span class=\"chip\">CONSOLIDATION<small style=\"display:block;font-size:10px\">deepen response</small></span>\n           <span class=\"arw\">+</span>\n           <span class=\"chip\">MAINTENANCE<small style=\"display:block;font-size:10px\">prevent progression</small></span>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "When systemic therapy or radiation is given relative to surgery is not a scheduling detail — it changes what the treatment is trying to accomplish. Neoadjuvant therapy is given before the primary intervention: it can shrink a breast tumor to enable lumpectomy where mastectomy would have been required, and reveals whether the cancer responds to a regimen before committing to the full course. Adjuvant therapy is given after surgery to a patient with no detectable disease — the rationale is that micrometastases are statistically likely to be present, and population-level trial evidence shows adjuvant therapy reduces recurrence. You are treating disease you cannot see. Concurrent therapy means two modalities simultaneously — chemoradiation for head and neck or cervical cancer. Consolidation deepens a response; maintenance prevents progression over the long term. Each term encodes a different mechanism and a different evidentiary basis.",
+     "audio_file": "audio/S05.mp3",
+     "actual_duration_s": 55.96
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "num": 6,
+   "total": 12,
+   "section": "THE ENDPOINT HIERARCHY",
+   "label": "06 / 12 · THE ENDPOINT HIERARCHY",
+   "dark": false,
+   "title": [
+    [
+     "SURROGATES MOVE FAST. ",
+     false
+    ],
+    [
+     "HARD ENDPOINTS TELL THE TRUTH.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>OVERALL SURVIVAL · QUALITY OF LIFE</b><span>hard endpoints — what patients ultimately care about · years to mature</span></div>\n           <div class=\"wire\"><b>PROGRESSION-FREE SURVIVAL</b><span>surrogate — valid only when validated in the specific cancer type</span></div>\n           <div class=\"wire\"><b>OVERALL RESPONSE RATE · BIOMARKER</b><span>fastest proxies — a hypothesis about benefit, not benefit itself</span></div>\n         </div>\n         <p class=\"lead\">A surrogate is only trustworthy if improving it reliably improves the hard endpoint — and that validation must be demonstrated, not assumed.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "To evaluate a treatment, you measure something. The cleanest measures — hard endpoints — are the outcomes patients ultimately care about: overall survival, how long they live, and quality of life, how they experience that time. Hard endpoints take years to mature in trials. So trials use surrogate endpoints — faster proxies expected to predict the hard outcome. Overall response rate measures tumor shrinkage. Progression-free survival measures time until growth or death. Biomarker response — falling PSA, CA-125, circulating tumor DNA — is the fastest proxy of all. But a surrogate is only trustworthy if improving it reliably improves the hard endpoint. Where that validation exists, the surrogate earns the right to stand in. Where it does not, a change in surrogates is a hypothesis about benefit — not benefit. The endpoint hierarchy: overall survival and quality of life are the arbiters. PFS can stand in when its surrogate validity has been established. Response rate is a hypothesis.",
+     "audio_file": "audio/S06.mp3",
+     "actual_duration_s": 68.22
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "num": 7,
+   "total": 12,
+   "section": "THE PROXY TRAP",
+   "label": "07 / 12 · THE PROXY TRAP",
+   "dark": false,
+   "title": [
+    [
+     "THE PROXY MOVES. ",
+     false
+    ],
+    [
+     "THE PATIENT DOESN'T BENEFIT.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"balance\">\n           <div class=\"pan surv\"><b>Surrogates</b><span>ORR up · PFS up</span></div>\n           <div class=\"fulcrum\">not equal to</div>\n           <div class=\"pan die\"><b>Hard endpoints</b><span>OS: flat · Toxicity: worse</span></div>\n         </div>\n         <div class=\"callout\" style=\"margin-top:16px\">FDA accelerated approval: initial approval on surrogates — confirmatory survival benefit must follow. Many drugs have not confirmed.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The recurring failure mode in oncology evidence is treating the proxy as the thing itself. A drug that improves response rate and progression-free survival has demonstrated that it affects the tumor. It has not demonstrated that it benefits the patient until the hard endpoints move. The FDA's accelerated-approval pathway allows initial approval on surrogate endpoints, with confirmatory trials proving real benefit required afterward. Recent FDA initiatives — including Project Optimus, focusing on dose optimization for meaningful benefit — reflect awareness that approvals on surrogates have sometimes resulted in drugs that reached patients without ever demonstrating survival benefit. Some drugs have remained approved for years without completing confirmatory trials. The pattern is consistent: tumor shrinkage is what the drug does to the tumor. Overall survival and quality of life are what it does for the patient — and the two can diverge.",
+     "audio_file": "audio/S07.mp3",
+     "actual_duration_s": 59.68
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "num": 8,
+   "total": 12,
+   "section": "READING THE OPENING CASE",
+   "label": "08 / 12 · READING THE OPENING CASE",
+   "dark": false,
+   "title": [
+    [
+     "APPLY THE HIERARCHY ",
+     false
+    ],
+    [
+     "TO THE OPENING DRUG.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>ORR 60% vs 20%</b><span>surrogate — drug is biologically active. Does not confirm patient benefit.</span></div>\n           <div class=\"cell-part\"><b>PFS improved</b><span>surrogate — real, but PFS not validated as OS surrogate in this cancer. 3-month delay: meaningful?</span></div>\n           <div class=\"cell-part hot\"><b>OS: no difference</b><span>hard endpoint — patients did not live longer. The question patients ask is answered: no.</span></div>\n           <div class=\"cell-part hot\"><b>Grade 3-4 toxicity: higher</b><span>hard endpoint, wrong direction — patients on the new drug felt worse.</span></div>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Apply the endpoint hierarchy to the drug from the opening case. The overall response rate was sixty percent versus twenty — strongly favoring the new drug. This tells us the drug is biologically active. It does not tell us whether that activity benefits patients. Progression-free survival improved. A three-month gain is real. Whether it translates to survival depends on whether PFS is a validated surrogate in this particular cancer, and whether a three-month delay in progression represents meaningful clinical benefit. Neither is given. Overall survival: no significant difference. Patients did not live longer. Both arms died at the same time. The question the patient is actually asking — does this drug extend my life — is answered: it does not, in this trial. Grade three and four toxicity was higher on the new drug. Patients felt worse. Both hard endpoints failed to improve, and one moved in the wrong direction. The recommendation depends entirely on the goal.",
+     "audio_file": "audio/S08.mp3",
+     "actual_duration_s": 66.46
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "num": 9,
+   "total": 12,
+   "section": "MULTIDISCIPLINARY PLANNING",
+   "label": "09 / 12 · MULTIDISCIPLINARY PLANNING",
+   "dark": false,
+   "title": [
+    [
+     "COMBINING MODALITIES REQUIRES ",
+     false
+    ],
+    [
+     "COMBINING SPECIALISTS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\">\n           <span class=\"chip\">SURGEON</span>\n           <span class=\"arw\">+</span>\n           <span class=\"chip\">RAD ONC</span>\n           <span class=\"arw\">+</span>\n           <span class=\"chip\">MED ONC</span>\n           <span class=\"arw\">+</span>\n           <span class=\"chip on\">TUMOR BOARD</span>\n         </div>\n         <div class=\"flow\" style=\"margin-top:14px\">\n           <span class=\"chip dim\">PATHOLOGIST</span>\n           <span class=\"arw\">+</span>\n           <span class=\"chip dim\">RADIOLOGIST</span>\n           <span class=\"arw\">→</span>\n           <span class=\"chip\">integrated plan</span>\n         </div>\n         <p class=\"lead\">Surgery removes bulk. Radiation sterilizes the local bed. Systemic therapy addresses distant micrometastases. No silo can see all three.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Because the decisions about how to combine surgery, radiation, and systemic therapy involve multiple specialties, treatment is planned by multidisciplinary tumor boards — surgeon, radiation oncologist, medical oncologist, pathologist, and radiologist together — rather than sequentially or siloed. The rationale for combination is that each modality addresses what the others cannot. Surgery removes the bulk primary tumor but leaves microscopic disease. Radiation sterilizes the local bed. Systemic therapy addresses distant micrometastases that neither surgery nor radiation can reach. No single specialist has the full picture. The tumor board is the mechanism by which the modalities are integrated into a coherent plan — and by which the treatment goal, and the endpoints that will measure its success, are agreed upon before treatment begins.",
+     "audio_file": "audio/S09.mp3",
+     "actual_duration_s": 54.8
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "num": 10,
+   "total": 12,
+   "section": "PSEUDOPROGRESSION",
+   "label": "10 / 12 · PSEUDOPROGRESSION",
+   "dark": false,
+   "title": [
+    [
+     "IMMUNOTHERAPY FAKES ",
+     false
+    ],
+    [
+     "ITS OWN FAILURE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\"><span class=\"chip\">checkpoint inhibitor</span><span class=\"arw\">→</span><span class=\"chip warn\">tumor looks LARGER on scan</span><span class=\"arw\">→</span><span class=\"chip\">immune infiltration</span><span class=\"arw\">→</span><span class=\"chip on\">regression follows</span></div>\n         <div class=\"flow\" style=\"margin-top:14px\"><span class=\"chip warn\">RECIST: progressive disease</span><span class=\"arw\">→</span><span class=\"chip warn\">stop drug</span><span class=\"arw\">→</span><span class=\"chip warn\">abandon working treatment</span></div>\n         <div class=\"callout\" style=\"margin-top:16px\">iRECIST: confirm apparent progression at a second timepoint before concluding failure.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Immunotherapy introduced a specific artifact into response assessment. Immune checkpoint inhibitors can cause early apparent growth — tumor lesions look larger on the first post-treatment scan — because immune cells are infiltrating the tumor and the lesion is inflamed before regression occurs. Standard RECIST applied at that timepoint would declare the patient a non-responder and potentially discontinue a treatment that was actually working. This is pseudoprogression. Modified criteria, iRECIST, require confirming apparent progression at a later timepoint before concluding the drug failed. This is a precise instance of the chapter's central theme. Response assessment is a measurement system, and measurement systems have artifacts. An early RECIST reading in an immunotherapy patient is a proxy for the underlying biology — and that proxy can mislead at exactly the timepoint when an immune response is generating transient inflammation.",
+     "audio_file": "audio/S10.mp3",
+     "actual_duration_s": 58.93
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "num": 11,
+   "total": 12,
+   "section": "THESIS",
+   "label": "11 / 12 · THESIS",
+   "dark": false,
+   "title": [
+    [
+     "SURROGATES ARE ",
+     false
+    ],
+    [
+     "HYPOTHESES UNTIL THE HARD ENDPOINT MOVES.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"thesis\">A change in surrogates is a <b>hypothesis about benefit</b>, not benefit. Tumor shrinkage is what the drug does to the tumor. Overall survival and quality of life are what it does for the patient — and they can diverge.</div>\n         <p class=\"lead\">Still open: for which cancers is PFS a validated OS surrogate? When survival and quality of life diverge, whose judgment should prevail?</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The chapter's claim is this: surrogate endpoints can move without hard endpoints following, so treatment claims must ultimately rest on overall survival and quality of life. A drug that improves response rate and progression-free survival has demonstrated that it affects the tumor. It has not demonstrated that it benefits the patient until the hard endpoints move. The finding that would revise this: rigorous, disease-specific evidence that a particular surrogate is a validated predictor of survival — a formal meta-analysis showing that in a given cancer, improvements in progression-free survival reliably and quantitatively translate into improvements in overall survival across many trials. Where such validation exists, the surrogate earns the right to stand in, and the skepticism relaxes. But that validation must be demonstrated, not assumed. Two questions remain genuinely open: for which cancers and which surrogates is progression-free survival actually a validated stand-in for overall survival — and when survival and quality of life diverge, how should the two hard endpoints be weighed against each other.",
+     "audio_file": "audio/S11.mp3",
+     "actual_duration_s": 72.17
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "num": 12,
+   "total": 12,
+   "section": "CLOSE",
+   "label": "12 / 12 · CLOSE",
+   "dark": true,
+   "title": [
+    [
+     "NAME THE GOAL. ",
+     false
+    ],
+    [
+     "THEN CHOOSE THE ENDPOINT THAT MEASURES IT.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>TREATMENT INTENT FIRST</span><span>//</span><span>MODALITY TO MATCH</span><span>//</span><span>HARD ENDPOINTS LAST WORD</span></div>\n           <p class=\"sig\">Cancer Research · Chapter 4 · Principles of Cancer Therapy — Goals and Modalities</p>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "That is the frame for reading every oncology trial. Name the goal first — cure, control, palliation, or comfort. Choose the modality or combination whose evidence base matches that goal. Then demand that success be measured by the endpoints that patients actually care about. Overall survival and quality of life are the arbiters. Surrogates can stand in, but only where their validity has been established. A tumor that shrinks is not a patient who lives longer — not unless the data say so. The gap between what a treatment does to the tumor and what it does for the patient is real, it is measurable, and it is the most consequential distance in oncology. Learn to see it.",
+     "audio_file": "audio/S12.mp3",
+     "actual_duration_s": 44.86
+    }
+   ]
   }
+ ],
+ "metadata": {
+  "title": "Cancer Research Ch.4 — Principles of Cancer Therapy — Goals and Modalities",
+  "slug": "cancer-research-ch04-therapy-principles",
+  "playlist": "Cancer Research",
+  "hashtags": [
+   "#CancerResearch",
+   "#Oncology",
+   "#Education",
+   "#NikBearBrown",
+   "#Lecture",
+   "#OnlineLearning"
+  ],
+  "description": "Cancer Research Ch.4 — Principles of Cancer Therapy — Goals and Modalities\n\nFull voiced lecture deck — Cancer Research series.\n\nA new drug gets approved. In the trial, tumors shrank in sixty percent of patients — three times the rate of the old regimen. The press calls it a breakthrough. But the oncologist reads past the headline: the overall survival curves are nearly identical. Tumors shrank more, and shrank for longer — but patients did not live longer. Meanwhile, the new drug caused more severe side effects. Did the drug work? It depends entirely on what work means. That gap — between what a treatment does to the tumor and what it does for the patient — is the subject of this chapter.\n\nyoutube.com/@NikBearBrown",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
+ }
 }

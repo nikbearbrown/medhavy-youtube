@@ -1,236 +1,238 @@
 {
-  "slug": "cancer-biology-ch16-chapter-16-cancer-metabolism-lipids-amin",
-  "title": "Chapter 16 — Cancer Metabolism: Lipids, Amino Acids, and the Tumor Microenvironment",
-  "series": "Cancer Biology",
-  "source": "chapters/16-cancer-metabolism-lipids-amino-acids-and-the-tumor-microenvironment.md",
-  "voice_id": "",
-  "accent": "#ea580c",
-  "fps": 24,
-  "clock": "real",
-  "metadata": {
-    "chapter": 16,
-    "total_chapters": 16,
-    "playlist": "Cancer Biology",
-    "palette": "brutalist",
-    "engine": "kokoro",
-    "voice_kokoro": "am_onyx"
-  },
-  "segments": [
+ "slug": "cancer-biology-ch16-chapter-16-cancer-metabolism-lipids-amin",
+ "title": "Chapter 16 — Cancer Metabolism: Lipids, Amino Acids, and the Tumor Microenvironment",
+ "series": "Cancer Biology",
+ "source": "chapters/16-cancer-metabolism-lipids-amino-acids-and-the-tumor-microenvironment.md",
+ "voice_id": "",
+ "accent": "#ea580c",
+ "fps": 24,
+ "clock": "real",
+ "metadata": {
+  "chapter": 16,
+  "total_chapters": 16,
+  "playlist": "Cancer Biology",
+  "palette": "brutalist",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
+ },
+ "segments": [
+  {
+   "section": "HOOK",
+   "dark": false,
+   "title": [
+    [
+     "CHAPTER 16 — ",
+     false
+    ],
+    [
+     "CANCER METABOLISM: LIPIDS, AMINO ACIDS, AND THE TUMOR MICROENVIRONMENT",
+     true
+    ]
+   ],
+   "body_html": "<p class=\"lead\">The first misconception to retire is that lipid metabolism in cancer is about energy storage. In a proliferating cancer </p><div class=\"callout\"><b>Chapter 16 — Cancer Metabolism: Lipids, </b> — Most differentiated cells take up fatty acids from the circulation. Cancer cells frequently reactivate de novo fatty aci</div>",
+   "beats": [
     {
-      "section": "HOOK",
-      "dark": false,
-      "title": [
-        [
-          "CHAPTER 16 — ",
-          false
-        ],
-        [
-          "CANCER METABOLISM: LIPIDS, AMINO ACIDS, AND THE TUMOR MICROENVIRONMENT",
-          true
-        ]
-      ],
-      "body_html": "<p class=\"lead\">The first misconception to retire is that lipid metabolism in cancer is about energy storage. In a proliferating cancer </p><div class=\"callout\"><b>Chapter 16 — Cancer Metabolism: Lipids, </b> — Most differentiated cells take up fatty acids from the circulation. Cancer cells frequently reactivate de novo fatty aci</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The first misconception to retire is that lipid metabolism in cancer is about energy storage. In a proliferating cancer cell, lipids are primarily structural and signaling molecules , membrane phospholipids, cholesterol, and the lipid anchors that hold proteins like RAS at the plasma membrane. When a cell divides, it must double its membranes. That requires fat. And many cancer cells, unlike most quiescent adult tissue, build their own rather than importing what they need. Most differentiated cells take up fatty acids from the circulation.",
-          "audio_file": "audio/S01.mp3",
-          "actual_duration_s": 29.74
-        }
-      ],
-      "id": "S01",
-      "num": 1,
-      "total": 8,
-      "label": "01 / 08 · HOOK"
-    },
-    {
-      "section": "GLUTAMINE ADDICTION",
-      "dark": false,
-      "title": [
-        [
-          "GLUTAMINE ADDICTION",
-          false
-        ],
-        [
-          "",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\"><span class=\"chip\">glutaminase</span><span class=\"arw\">→</span><span class=\"chip\">α-ketoglutarate</span><span class=\"arw\">→</span><span class=\"chip\">Carbon for anaplerosis</span><span class=\"arw\">→</span><span class=\"chip\">Nitrogen for biosynthesis</span><span class=\"arw\">→</span><span class=\"chip\">Glutamate for glutathione</span></div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Many cancers cannot survive without a steady supply of glutamine , the most abundant amino acid in blood , even when glucose is plentiful. This is the second major metabolic axis, and it is worth understanding not just as \"another nutrient\" but as something that does four distinct jobs simultaneously. After import through transporters such as ASCT2 (SLC1A5), glutaminase converts glutamine to glutamate, which is then converted to alpha-ketoglutarate and fed into the citric acid cycle. From there, glutamine provides:",
-          "audio_file": "audio/S02.mp3",
-          "actual_duration_s": 29.33
-        }
-      ],
-      "id": "S02",
-      "num": 2,
-      "total": 8,
-      "label": "02 / 08 · GLUTAMINE ADDICTION"
-    },
-    {
-      "section": "THE MTAP–PRMT5 SYNTHETIC LETHA",
-      "dark": false,
-      "title": [
-        [
-          "THE MTAP–PRMT5 ",
-          false
-        ],
-        [
-          "SYNTHETIC LETHALITY.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\"><div class=\"stat\"><div class=\"big on\">30%</div><div class=\"cap\">of all human cancers — MTAP is frequently co-deleted as a by</div></div><div class=\"eq\">→</div><div class=\"stat\"><div class=\"big on\">15%</div><div class=\"cap\">of all human cancers are MTAP-deleted</div></div></div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The most elegant metabolic dependency story currently in clinical development involves not a pathway the cancer actively upregulates but a gap it cannot fill , and a second vulnerability that gap quietly creates. MTAP (methylthioadenosine phosphorylase) sits on chromosome 9p21, directly beside the tumor suppressor CDKN2A. When CDKN2A is deleted , as it is in roughly 30 percent of all human cancers , MTAP is frequently co-deleted as a bystander, with no selective pressure for or against its loss.",
-          "audio_file": "audio/S03.mp3",
-          "actual_duration_s": 30.25
-        }
-      ],
-      "id": "S03",
-      "num": 3,
-      "total": 8,
-      "label": "03 / 08 · THE MTAP–PRMT5 SYNTHETIC LETHA"
-    },
-    {
-      "section": "THE TUMOR MICROENVIRONMENT AS ",
-      "dark": false,
-      "title": [
-        [
-          "THE TUMOR MICROENVIRONMENT AS ",
-          false
-        ],
-        [
-          "A METABOLIC ECOSYSTEM.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\"><span class=\"chip\">Hypoxia.</span><span class=\"arw\">→</span><span class=\"chip\">Acidosis.</span><span class=\"arw\">→</span><span class=\"chip\">Nutrient depletion.</span><span class=\"arw\">→</span><span class=\"chip\">Lactate as an immunosuppressive signal.</span><span class=\"arw\">→</span><span class=\"chip\">Stromal metabolic exchange.</span></div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "A tumor is not a uniform mass of identical cancer cells. It is a spatially heterogeneous ecosystem , cancer cells, fibroblasts, endothelial cells, macrophages, T cells, NK cells, and extracellular matrix, all coexisting in a metabolic environment that no healthy tissue would produce. Hypoxia. Tumors outgrow their blood supply, and their interior oxygen levels are typically far below normal tissue values. Hypoxic regions are also radioresistant , radiation kills largely through reactive oxygen species, and without oxygen the chemistry is blunted.",
-          "audio_file": "audio/S04.mp3",
-          "actual_duration_s": 33.07
-        }
-      ],
-      "id": "S04",
-      "num": 4,
-      "total": 8,
-      "label": "04 / 08 · THE TUMOR MICROENVIRONMENT AS "
-    },
-    {
-      "section": "STILL OPEN",
-      "dark": false,
-      "title": [
-        [
-          "STILL OPEN",
-          false
-        ],
-        [
-          "",
-          true
-        ]
-      ],
-      "body_html": "<p class=\"lead\">How much dietary metabolic intervention actually does in patients — whether caloric restriction, ketogenic diet, or meth</p><div class=\"callout\"><b>Still open</b> — Whether metabolic and immune combination strategies can be made to work reliably is open. The rationale is mechanistical</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "How much dietary metabolic intervention actually does in patients , whether caloric restriction, ketogenic diet, or methionine restriction can meaningfully starve tumors in humans, as opposed to in mice , is unresolved. The preclinical signals are strong; the clinical evidence is weak and hard to obtain rigorously. Whether metabolic and immune combination strategies can be made to work reliably is open. The rationale is mechanistically clear: relieve the metabolic suppression of T cells, then release the checkpoint brakes.",
-          "audio_file": "audio/S05.mp3",
-          "actual_duration_s": 28.95
-        }
-      ],
-      "id": "S05",
-      "num": 5,
-      "total": 8,
-      "label": "05 / 08 · STILL OPEN"
-    },
-    {
-      "section": "PROMPTS",
-      "dark": false,
-      "title": [
-        [
-          "PROMPTS",
-          false
-        ],
-        [
-          "",
-          true
-        ]
-      ],
-      "body_html": "",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "This section covers key concepts from the chapter.",
-          "audio_file": "audio/S06.mp3",
-          "actual_duration_s": 3.39
-        }
-      ],
-      "id": "S06",
-      "num": 6,
-      "total": 8,
-      "label": "06 / 08 · PROMPTS"
-    },
-    {
-      "section": "THESIS",
-      "dark": false,
-      "title": [
-        [
-          "THE CORE ",
-          false
-        ],
-        [
-          "CLAIM.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"thesis\">Figure 16.1 — Glutamine as a four-job metabolic hub Build a hub-and-spoke (top-rooted hierarchy) diagram: one root node,</div><p class=\"lead\">Figure 16.2 — MTAP–PRMT5 synthetic lethality Build a two-panel threshold comparison, left &quot;Tumor cell (MTAP-deleted)&quot; an</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "This section covers key concepts from the chapter.",
-          "audio_file": "audio/S07.mp3",
-          "actual_duration_s": 3.39
-        }
-      ],
-      "id": "S07",
-      "num": 7,
-      "total": 8,
-      "label": "07 / 08 · THESIS"
-    },
-    {
-      "section": "CLOSE",
-      "dark": true,
-      "title": [
-        [
-          "ASK THE QUESTION. ",
-          false
-        ],
-        [
-          "APPLY THE FRAMEWORK.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>GLUTAMINE ADDICTION</span><span>//</span><span>THE MTAP–PRMT5 SYNTHETIC </span><span>//</span><span>THE TUMOR MICROENVIRONMEN</span></div><p class=\"sig\">Cancer Biology · Ch.16 · Chapter 16 — Cancer Metabolism: Lipids, Amino Acids, and the Tumor Microenvironment</p></div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "That is the framework. Cancer Biology, chapter 16: Chapter 16 , Cancer Metabolism: Lipids, Amino Acids, and the Tumor Microenvironment. The patterns are now in place. Apply them.",
-          "audio_file": "audio/S08.mp3",
-          "actual_duration_s": 11.58
-        }
-      ],
-      "id": "S08",
-      "num": 8,
-      "total": 8,
-      "label": "08 / 08 · CLOSE"
+     "type": "analytic",
+     "text": "The first misconception to retire is that lipid metabolism in cancer is about energy storage. In a proliferating cancer cell, lipids are primarily structural and signaling molecules , membrane phospholipids, cholesterol, and the lipid anchors that hold proteins like RAS at the plasma membrane. When a cell divides, it must double its membranes. That requires fat. And many cancer cells, unlike most quiescent adult tissue, build their own rather than importing what they need. Most differentiated cells take up fatty acids from the circulation.",
+     "audio_file": "audio/S01.mp3",
+     "actual_duration_s": 29.74
     }
-  ]
+   ],
+   "id": "S01",
+   "num": 1,
+   "total": 8,
+   "label": "01 / 08 · HOOK"
+  },
+  {
+   "section": "GLUTAMINE ADDICTION",
+   "dark": false,
+   "title": [
+    [
+     "GLUTAMINE ADDICTION",
+     false
+    ],
+    [
+     "",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\"><span class=\"chip\">glutaminase</span><span class=\"arw\">→</span><span class=\"chip\">α-ketoglutarate</span><span class=\"arw\">→</span><span class=\"chip\">Carbon for anaplerosis</span><span class=\"arw\">→</span><span class=\"chip\">Nitrogen for biosynthesis</span><span class=\"arw\">→</span><span class=\"chip\">Glutamate for glutathione</span></div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Many cancers cannot survive without a steady supply of glutamine , the most abundant amino acid in blood , even when glucose is plentiful. This is the second major metabolic axis, and it is worth understanding not just as \"another nutrient\" but as something that does four distinct jobs simultaneously. After import through transporters such as ASCT2 (SLC1A5), glutaminase converts glutamine to glutamate, which is then converted to alpha-ketoglutarate and fed into the citric acid cycle. From there, glutamine provides:",
+     "audio_file": "audio/S02.mp3",
+     "actual_duration_s": 29.33
+    }
+   ],
+   "id": "S02",
+   "num": 2,
+   "total": 8,
+   "label": "02 / 08 · GLUTAMINE ADDICTION"
+  },
+  {
+   "section": "THE MTAP–PRMT5 SYNTHETIC LETHA",
+   "dark": false,
+   "title": [
+    [
+     "THE MTAP–PRMT5 ",
+     false
+    ],
+    [
+     "SYNTHETIC LETHALITY.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\"><div class=\"stat\"><div class=\"big on\">30%</div><div class=\"cap\">of all human cancers — MTAP is frequently co-deleted as a by</div></div><div class=\"eq\">→</div><div class=\"stat\"><div class=\"big on\">15%</div><div class=\"cap\">of all human cancers are MTAP-deleted</div></div></div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The most elegant metabolic dependency story currently in clinical development involves not a pathway the cancer actively upregulates but a gap it cannot fill , and a second vulnerability that gap quietly creates. MTAP (methylthioadenosine phosphorylase) sits on chromosome 9p21, directly beside the tumor suppressor CDKN2A. When CDKN2A is deleted , as it is in roughly 30 percent of all human cancers , MTAP is frequently co-deleted as a bystander, with no selective pressure for or against its loss.",
+     "audio_file": "audio/S03.mp3",
+     "actual_duration_s": 30.25
+    }
+   ],
+   "id": "S03",
+   "num": 3,
+   "total": 8,
+   "label": "03 / 08 · THE MTAP–PRMT5 SYNTHETIC LETHA"
+  },
+  {
+   "section": "THE TUMOR MICROENVIRONMENT AS ",
+   "dark": false,
+   "title": [
+    [
+     "THE TUMOR MICROENVIRONMENT AS ",
+     false
+    ],
+    [
+     "A METABOLIC ECOSYSTEM.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\"><span class=\"chip\">Hypoxia.</span><span class=\"arw\">→</span><span class=\"chip\">Acidosis.</span><span class=\"arw\">→</span><span class=\"chip\">Nutrient depletion.</span><span class=\"arw\">→</span><span class=\"chip\">Lactate as an immunosuppressive signal.</span><span class=\"arw\">→</span><span class=\"chip\">Stromal metabolic exchange.</span></div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "A tumor is not a uniform mass of identical cancer cells. It is a spatially heterogeneous ecosystem , cancer cells, fibroblasts, endothelial cells, macrophages, T cells, NK cells, and extracellular matrix, all coexisting in a metabolic environment that no healthy tissue would produce. Hypoxia. Tumors outgrow their blood supply, and their interior oxygen levels are typically far below normal tissue values. Hypoxic regions are also radioresistant , radiation kills largely through reactive oxygen species, and without oxygen the chemistry is blunted.",
+     "audio_file": "audio/S04.mp3",
+     "actual_duration_s": 33.07
+    }
+   ],
+   "id": "S04",
+   "num": 4,
+   "total": 8,
+   "label": "04 / 08 · THE TUMOR MICROENVIRONMENT AS "
+  },
+  {
+   "section": "STILL OPEN",
+   "dark": false,
+   "title": [
+    [
+     "STILL OPEN",
+     false
+    ],
+    [
+     "",
+     true
+    ]
+   ],
+   "body_html": "<p class=\"lead\">How much dietary metabolic intervention actually does in patients — whether caloric restriction, ketogenic diet, or meth</p><div class=\"callout\"><b>Still open</b> — Whether metabolic and immune combination strategies can be made to work reliably is open. The rationale is mechanistical</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "How much dietary metabolic intervention actually does in patients , whether caloric restriction, ketogenic diet, or methionine restriction can meaningfully starve tumors in humans, as opposed to in mice , is unresolved. The preclinical signals are strong; the clinical evidence is weak and hard to obtain rigorously. Whether metabolic and immune combination strategies can be made to work reliably is open. The rationale is mechanistically clear: relieve the metabolic suppression of T cells, then release the checkpoint brakes.",
+     "audio_file": "audio/S05.mp3",
+     "actual_duration_s": 28.95
+    }
+   ],
+   "id": "S05",
+   "num": 5,
+   "total": 8,
+   "label": "05 / 08 · STILL OPEN"
+  },
+  {
+   "section": "PROMPTS",
+   "dark": false,
+   "title": [
+    [
+     "PROMPTS",
+     false
+    ],
+    [
+     "",
+     true
+    ]
+   ],
+   "body_html": "",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "This section covers key concepts from the chapter.",
+     "audio_file": "audio/S06.mp3",
+     "actual_duration_s": 3.39
+    }
+   ],
+   "id": "S06",
+   "num": 6,
+   "total": 8,
+   "label": "06 / 08 · PROMPTS"
+  },
+  {
+   "section": "THESIS",
+   "dark": false,
+   "title": [
+    [
+     "THE CORE ",
+     false
+    ],
+    [
+     "CLAIM.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"thesis\">Figure 16.1 — Glutamine as a four-job metabolic hub Build a hub-and-spoke (top-rooted hierarchy) diagram: one root node,</div><p class=\"lead\">Figure 16.2 — MTAP–PRMT5 synthetic lethality Build a two-panel threshold comparison, left &quot;Tumor cell (MTAP-deleted)&quot; an</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "This section covers key concepts from the chapter.",
+     "audio_file": "audio/S07.mp3",
+     "actual_duration_s": 3.39
+    }
+   ],
+   "id": "S07",
+   "num": 7,
+   "total": 8,
+   "label": "07 / 08 · THESIS"
+  },
+  {
+   "section": "CLOSE",
+   "dark": true,
+   "title": [
+    [
+     "ASK THE QUESTION. ",
+     false
+    ],
+    [
+     "APPLY THE FRAMEWORK.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>GLUTAMINE ADDICTION</span><span>//</span><span>THE MTAP–PRMT5 SYNTHETIC </span><span>//</span><span>THE TUMOR MICROENVIRONMEN</span></div><p class=\"sig\">Cancer Biology · Ch.16 · Chapter 16 — Cancer Metabolism: Lipids, Amino Acids, and the Tumor Microenvironment</p></div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "That is the framework. Cancer Biology, chapter 16: Chapter 16 , Cancer Metabolism: Lipids, Amino Acids, and the Tumor Microenvironment. The patterns are now in place. Apply them.",
+     "audio_file": "audio/S08.mp3",
+     "actual_duration_s": 11.58
+    }
+   ],
+   "id": "S08",
+   "num": 8,
+   "total": 8,
+   "label": "08 / 08 · CLOSE"
+  }
+ ]
 }

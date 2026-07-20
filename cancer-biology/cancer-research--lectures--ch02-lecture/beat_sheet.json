@@ -1,350 +1,354 @@
 {
-  "slug": "cancer-research-ch02-cancer-diagnosis",
-  "title": "Cancer Diagnosis — Imaging and the Tissue Sample",
-  "series": "Cancer Research",
-  "source": "cancer-research/chapters/02-cancer-diagnosis-imaging-and-the-tissue-sample.md",
-  "voice_id": "TyW6NH39JcFb5M3xdIIk",
-  "accent": "#ea580c",
-  "fps": 30,
-  "clock": "audio-first",
-  "segments": [
-    {
-      "id": "S01",
-      "num": 1,
-      "total": 12,
-      "section": "HOOK",
-      "label": "01 / 12 · HOOK",
-      "dark": false,
-      "title": [
-        [
-          "THE SCAN WAS NEVER ",
-          false
-        ],
-        [
-          "THE DIAGNOSIS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">MASS ON CT</span><span class=\"arw\">→</span><span class=\"chip\">SUSPICIOUS FOR ADENOCARCINOMA</span><span class=\"arw\">→</span><span class=\"chip on\">FAMILY HEARS: DIAGNOSED</span></div>\n           <p class=\"lead\">It is not. The image raised a probability. It did not settle one.</p>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "A 64-year-old woman has a 2-centimeter mass in the tail of her pancreas, found on a CT ordered for back pain. The radiologist's report reads: suspicious for adenocarcinoma. Her family hears the word and assumes the diagnosis is made. It is not. The scan was never the diagnosis. It was a probability. That distinction is what this chapter is about.",
-          "audio_file": "audio/S01.mp3",
-          "actual_duration_s": 24.66
-        }
-      ]
-    },
-    {
-      "id": "S02",
-      "num": 2,
-      "total": 12,
-      "section": "THE STAKES",
-      "label": "02 / 12 · THE STAKES",
-      "dark": false,
-      "title": [
-        [
-          "THE CHAIN HAS FIVE LINKS. ",
-          false
-        ],
-        [
-          "ANY ONE CAN BREAK.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\">\n           <span class=\"chip\">SUSPICION</span><span class=\"arw\">→</span>\n           <span class=\"chip\">IMAGING</span><span class=\"arw\">→</span>\n           <span class=\"chip\">BIOPSY</span><span class=\"arw\">→</span>\n           <span class=\"chip on\">PATHOLOGY</span><span class=\"arw\">→</span>\n           <span class=\"chip\">MOLECULAR</span>\n         </div>\n         <p class=\"lead\">Imaging raises or lowers probability. Pathology is ground truth — but only when the tissue is the right tissue.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The diagnostic chain in oncology has five links: clinical suspicion, imaging, biopsy, pathology, molecular workup. Each link can break in its own way. Imaging is probabilistic. Biopsy samples a tiny fraction of a mass. Pathology is the ground truth — but only if the sample came from the right place. Understanding where each link fails is what lets you read a report correctly.",
-          "audio_file": "audio/S02.mp3",
-          "actual_duration_s": 26.56
-        }
-      ]
-    },
-    {
-      "id": "S03",
-      "num": 3,
-      "total": 12,
-      "section": "CT AND MRI",
-      "label": "03 / 12 · CT AND MRI",
-      "dark": false,
-      "title": [
-        [
-          "EVERY MODALITY ",
-          false
-        ],
-        [
-          "HAS A FALSE-POSITIVE PROFILE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>CT</b><span>anatomy from X-rays — workhorse for masses and RECIST; limited soft-tissue contrast; ionizing radiation 8–15 mSv</span></div>\n           <div class=\"cell-part hot\"><b>MRI</b><span>magnetic fields, no radiation — superior for brain, pelvis, breast; high sensitivity, lower specificity</span></div>\n         </div>\n         <p class=\"lead\">Neither modality eliminates the false-positive rate. Neither eliminates the false-negative rate.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "CT reconstructs anatomy from rotating X-rays. It is the workhorse for detecting masses and for measuring treatment response under RECIST — the standardized rules that allow tumor size to be compared across scans. Its soft-tissue contrast is limited, and it exposes patients to roughly 8 to 15 millisieverts. MRI uses magnetic fields and has superior soft-tissue contrast for the brain, pelvis, and breast — at the cost of lower specificity and more false positives. Neither modality eliminates the false-positive or the false-negative rate.",
-          "audio_file": "audio/S03.mp3",
-          "actual_duration_s": 37.2
-        }
-      ]
-    },
-    {
-      "id": "S04",
-      "num": 4,
-      "total": 12,
-      "section": "ULTRASOUND AND PET",
-      "label": "04 / 12 · ULTRASOUND AND PET",
-      "dark": false,
-      "title": [
-        [
-          "PET LIGHTS UP ",
-          false
-        ],
-        [
-          "INFLAMMATION AS READILY AS CANCER.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>ULTRASOUND</b><span>real-time, radiation-free, needle-guiding; operator-dependent; blocked by gas and bone</span></div>\n           <div class=\"cell-part hot\"><b>PET-FDG</b><span>images metabolism, not anatomy — hot spot raises probability; cold spot lowers it; neither is a diagnosis</span></div>\n         </div>\n         <div class=\"callout\">Mucinous cancers, indolent lymphomas, some brain mets: <b>FDG-negative despite malignancy</b></div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Ultrasound uses sound waves — real-time, radiation-free, excellent for guiding needles to superficial lesions. Its weakness is operator-dependence: the same lesion looks different in different hands, and gas and bone block transmission entirely. PET-FDG images metabolic function. Cancer cells with high glucose uptake trap the tracer. But so does inflammation, healing surgical sites, and brown fat. And some tumors — mucinous cancers, some lymphomas — take up FDG poorly and appear cold. A hot spot raises probability. A cold spot lowers it. Neither is a diagnosis.",
-          "audio_file": "audio/S04.mp3",
-          "actual_duration_s": 41.89
-        }
-      ]
-    },
-    {
-      "id": "S05",
-      "num": 5,
-      "total": 12,
-      "section": "WHY TISSUE IS PRIVILEGED",
-      "label": "05 / 12 · WHY TISSUE IS PRIVILEGED",
-      "dark": false,
-      "title": [
-        [
-          "THE IMAGE SHOWS A MASS. ",
-          false
-        ],
-        [
-          "IT DOES NOT SHOW THE CELLS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>FFPE</b><span>formalin-fixed, paraffin-embedded — stops autolysis, preserves morphology, allows thin sections</span></div>\n           <div class=\"wire\"><b>H&amp;E STAIN</b><span>hematoxylin — nuclei blue; eosin — cytoplasm pink; reveals invasion, grade, architecture</span></div>\n         </div>\n         <p class=\"lead\">Malignancy is defined by what cells look like under a microscope. The pathology report — not the imaging report — is the foundation document for treatment.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "An image shows a mass. It does not show the cells inside it. Malignancy is defined by what cells look like, how they are organized, whether they have invaded through basement membranes. These features are visible only under a microscope. The standard preparation is FFPE — formalin-fixed, paraffin-embedded — tissue sectioned to a few micrometers and stained with hematoxylin and eosin. The pathology report is the foundation document for treatment. Everything else establishes what to do about it.",
-          "audio_file": "audio/S05.mp3",
-          "actual_duration_s": 33.76
-        }
-      ]
-    },
-    {
-      "id": "S06",
-      "num": 6,
-      "total": 12,
-      "section": "IMMUNOHISTOCHEMISTRY",
-      "label": "06 / 12 · IMMUNOHISTOCHEMISTRY",
-      "dark": false,
-      "title": [
-        [
-          "IHC CONVERTS ",
-          false
-        ],
-        [
-          "ADENOCARCINOMA INTO A TREATMENT PLAN.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid3\">\n           <div class=\"cell-part\"><b>TTF-1</b><span>lung / thyroid origin among adenocarcinomas</span></div>\n           <div class=\"cell-part\"><b>ER / PR / HER2</b><span>breast — determines hormonal therapy and trastuzumab eligibility</span></div>\n           <div class=\"cell-part hot\"><b>MMR / PD-L1</b><span>mismatch repair loss → pembrolizumab; PD-L1 TPS → checkpoint inhibitor selection</span></div>\n         </div>\n         <p class=\"lead\">Morphology tells you what kind of thing it is. IHC tells you which one.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Immunohistochemistry extends the morphological reading. Antibodies against specific proteins stain where the protein is present. TTF-1 identifies lung or thyroid origin among adenocarcinomas. Estrogen and progesterone receptor status determines whether hormonal therapy applies. HER2 overexpression determines trastuzumab eligibility. PD-L1 expression informs checkpoint inhibitor selection. Mismatch-repair deficiency, detectable by IHC loss of MLH1 or MSH2, identifies tumors likely to respond to pembrolizumab regardless of histological type. Morphology tells you what kind of thing it is. IHC tells you which one.",
-          "audio_file": "audio/S06.mp3",
-          "actual_duration_s": 44.35
-        }
-      ]
-    },
-    {
-      "id": "S07",
-      "num": 7,
-      "total": 12,
-      "section": "THREE BIOPSY FAILURES",
-      "label": "07 / 12 · THREE BIOPSY FAILURES",
-      "dark": false,
-      "title": [
-        [
-          "THE NEEDLE CAN FAIL ",
-          false
-        ],
-        [
-          "THREE DIFFERENT WAYS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>MISS</b><span>needle passes through the mass and samples adjacent stroma — tumor never reached</span></div>\n           <div class=\"wire\"><b>UNREPRESENTATIVE</b><span>needle hits the mass but catches necrotic core or low-grade zone — not the region that matters</span></div>\n           <div class=\"wire\"><b>INSUFFICIENT</b><span>enters the right region but retrieves too little for molecular profiling</span></div>\n         </div>\n         <div class=\"callout\">In pancreatic adenocarcinoma the tumor is often a <b>minority of the mass volume</b> — the bulk is desmoplastic stroma.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "A biopsy samples a tiny fraction of a heterogeneous mass through a needle a millimeter or two in diameter. Three distinct failures are possible. The needle misses the tumor entirely — in pancreatic adenocarcinoma, the tumor often constitutes a minority of the mass; the bulk is dense desmoplastic stroma. The needle can hit the mass but sample a necrotic core or a low-grade zone that does not carry the mutations driving lethal behavior. Or the needle enters the right region but retrieves too little tissue for the molecular profiling that modern treatment requires.",
-          "audio_file": "audio/S07.mp3",
-          "actual_duration_s": 37.48
-        }
-      ]
-    },
-    {
-      "id": "S08",
-      "num": 8,
-      "total": 12,
-      "section": "THE ASYMMETRY",
-      "label": "08 / 12 · THE ASYMMETRY",
-      "dark": false,
-      "title": [
-        [
-          "POSITIVE IS RELIABLE. ",
-          false
-        ],
-        [
-          "NEGATIVE DOES NOT EXCLUDE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"balance\">\n           <div class=\"pan surv\"><b>POSITIVE</b><span>malignant cells were present in the sample — highly reliable</span></div>\n           <div class=\"fulcrum\">⇄</div>\n           <div class=\"pan die\"><b>NEGATIVE</b><span>no malignancy in this sample — consistent with no cancer <i>or</i> a miss</span></div>\n         </div>\n         <p class=\"lead\">The reliability of a negative result is bounded by how confident you are the needle sampled the right place.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The asymmetry of biopsy results is the central idea of this chapter. A positive biopsy is highly reliable: malignant cells were identified, which means they were present in the sample. A negative biopsy means this sample showed no malignancy — which is consistent with no cancer in the lesion, or with a cancer the needle did not reach. The failure is silent. The report says what was in the sample. It does not say whether the sample was the right tissue.",
-          "audio_file": "audio/S08.mp3",
-          "actual_duration_s": 28.79
-        }
-      ]
-    },
-    {
-      "id": "S09",
-      "num": 9,
-      "total": 12,
-      "section": "FNA vs CORE",
-      "label": "09 / 12 · FNA vs CORE",
-      "dark": false,
-      "title": [
-        [
-          "FNA GIVES CELLS. ",
-          false
-        ],
-        [
-          "CORE GIVES ARCHITECTURE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>FINE-NEEDLE ASPIRATION</b><span>22–25 gauge — cytology only; fast; no architecture; rarely enough for molecular profiling; good for confirming known-primary mets</span></div>\n           <div class=\"cell-part hot\"><b>CORE NEEDLE BIOPSY</b><span>14–18 gauge, spring-loaded — preserves architecture; supports IHC and NGS; preferred when diagnosis requires invasion assessment</span></div>\n         </div>\n         <p class=\"lead\">Follicular thyroid carcinoma requires capsular invasion — it cannot be diagnosed by FNA at all; the whole nodule must be excised.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The two main needle approaches trade off invasiveness against what the sample can establish. Fine-needle aspiration uses a thin needle to aspirate loose cells read as cytology. It yields cells but not architecture — the pathologist cannot determine whether cells have invaded beyond a basement membrane, and usually cannot obtain enough material for molecular profiling. Core needle biopsy uses a larger spring-loaded needle that cuts a cylinder of tissue preserving architecture, supports immunohistochemistry, and provides material for next-generation sequencing. Follicular thyroid carcinoma is the extreme case: the diagnosis requires capsular invasion and cannot be made on FNA at all.",
-          "audio_file": "audio/S09.mp3",
-          "actual_duration_s": 45.0
-        }
-      ]
-    },
-    {
-      "id": "S10",
-      "num": 10,
-      "total": 12,
-      "section": "BAYES AT THE BEDSIDE",
-      "label": "10 / 12 · BAYES AT THE BEDSIDE",
-      "dark": false,
-      "title": [
-        [
-          "A NEGATIVE BIOPSY ",
-          false
-        ],
-        [
-          "IS NOT A BENIGN LESION.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">80%</div><div class=\"cap\">pretest probability</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big\">neg biopsy</div><div class=\"cap\">sensitivity ~85%</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big on\">39%</div><div class=\"cap\">post-biopsy malignancy</div></div>\n         </div>\n         <p class=\"lead\">Thirty-nine percent is not a benign result. It is a result that leaves more than one-in-three chance the needle missed the cancer.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Return to the woman with the pancreatic mass. The imaging features set the pretest probability of malignancy at roughly 80 percent. EUS-guided fine-needle aspiration of solid pancreatic masses has sensitivity around 80 to 90 percent, meaning 10 to 20 percent of true cancers yield a non-malignant aspirate. Apply the likelihood ratio. The posterior probability after a negative biopsy falls only to about 39 percent. Thirty-nine percent is not a benign result. It is a result that leaves more than one in three chance the needle missed the cancer. The benign tissue is consistent with two explanations: no cancer, or the cancer was present and the dense stroma filled the needle.",
-          "audio_file": "audio/S10.mp3",
-          "actual_duration_s": 46.86
-        }
-      ]
-    },
-    {
-      "id": "S11",
-      "num": 11,
-      "total": 12,
-      "section": "THESIS",
-      "label": "11 / 12 · THESIS",
-      "dark": false,
-      "title": [
-        [
-          "THE WEAKEST LINK ",
-          false
-        ],
-        [
-          "IS THE BIOPSY.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"thesis\">The image raises or lowers probability. Pathology is ground truth — <b>conditional on representative sampling</b>. The question is never just what the needle found. It is whether the needle was in the right place.</div>\n         <p class=\"lead\">Still open: how heterogeneous a tumor can be before a single core is fundamentally inadequate — and when imaging certainty alone justifies treating without tissue.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The whole diagnostic chain is only as strong as its weakest link. And the weakest link is almost always the biopsy — not the imaging, not the pathology reading, but the question of whether the needle was in the right place. Refusing to accept negative biopsies drives repeat procedures, each with its own complication risk. The skill is calibrated interpretation: how much does this specific negative result, from this specific technique, against this specific pretest probability, move the posterior? That requires knowing the test sensitivity and the pretest probability. Neither is printed on the pathology report.",
-          "audio_file": "audio/S11.mp3",
-          "actual_duration_s": 39.61
-        }
-      ]
-    },
-    {
-      "id": "S12",
-      "num": 12,
-      "total": 12,
-      "section": "CLOSE",
-      "label": "12 / 12 · CLOSE",
-      "dark": true,
-      "title": [
-        [
-          "TISSUE IS GROUND TRUTH. ",
-          false
-        ],
-        [
-          "ONLY IF IT IS THE RIGHT TISSUE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>IMAGE = PROBABILITY</span><span>//</span><span>TISSUE = GROUND TRUTH</span><span>//</span><span>BIOPSY = THE WEAK LINK</span></div>\n           <p class=\"sig\">Cancer Research · Chapter 2 · Cancer Diagnosis — Imaging and the Tissue Sample</p>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "That is the frame for everything that follows. The scan raises a probability. The tissue settles it — but only when the tissue is the right tissue. Learn to read the chain: where the imaging can mislead, why the biopsy can fail silently, and how to apply the pretest probability to interpret what the needle brought back. The chain is only as strong as its weakest link. Almost always, the weakest link is the biopsy.",
-          "audio_file": "audio/S12.mp3",
-          "actual_duration_s": 29.44
-        }
-      ]
-    }
-  ],
-  "metadata": {
-    "title": "Cancer Research Ch.2 — Cancer Diagnosis — Imaging and the Tissue Sample",
-    "slug": "cancer-research-ch02-cancer-diagnosis",
-    "playlist": "Cancer Research",
-    "hashtags": [
-      "#CancerResearch",
-      "#Oncology",
-      "#Education",
-      "#NikBearBrown",
-      "#Lecture",
-      "#OnlineLearning"
+ "slug": "cancer-research-ch02-cancer-diagnosis",
+ "title": "Cancer Diagnosis — Imaging and the Tissue Sample",
+ "series": "Cancer Research",
+ "source": "cancer-research/chapters/02-cancer-diagnosis-imaging-and-the-tissue-sample.md",
+ "voice_id": "TyW6NH39JcFb5M3xdIIk",
+ "accent": "#ea580c",
+ "fps": 30,
+ "clock": "audio-first",
+ "segments": [
+  {
+   "id": "S01",
+   "num": 1,
+   "total": 12,
+   "section": "HOOK",
+   "label": "01 / 12 · HOOK",
+   "dark": false,
+   "title": [
+    [
+     "THE SCAN WAS NEVER ",
+     false
     ],
-    "description": "Cancer Research Ch.2 — Cancer Diagnosis — Imaging and the Tissue Sample\n\nFull voiced lecture deck — Cancer Research series.\n\nA 64-year-old woman has a 2-centimeter mass in the tail of her pancreas, found on a CT ordered for back pain. The radiologist's report reads: suspicious for adenocarcinoma. Her family hears the word and assumes the diagnosis is made. It is not. The scan was never the diagnosis. It was a probability. That distinction is what this chapter is about.\n\nyoutube.com/@NikBearBrown"
+    [
+     "THE DIAGNOSIS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">MASS ON CT</span><span class=\"arw\">→</span><span class=\"chip\">SUSPICIOUS FOR ADENOCARCINOMA</span><span class=\"arw\">→</span><span class=\"chip on\">FAMILY HEARS: DIAGNOSED</span></div>\n           <p class=\"lead\">It is not. The image raised a probability. It did not settle one.</p>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "A 64-year-old woman has a 2-centimeter mass in the tail of her pancreas, found on a CT ordered for back pain. The radiologist's report reads: suspicious for adenocarcinoma. Her family hears the word and assumes the diagnosis is made. It is not. The scan was never the diagnosis. It was a probability. That distinction is what this chapter is about.",
+     "audio_file": "audio/S01.mp3",
+     "actual_duration_s": 24.66
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "num": 2,
+   "total": 12,
+   "section": "THE STAKES",
+   "label": "02 / 12 · THE STAKES",
+   "dark": false,
+   "title": [
+    [
+     "THE CHAIN HAS FIVE LINKS. ",
+     false
+    ],
+    [
+     "ANY ONE CAN BREAK.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\">\n           <span class=\"chip\">SUSPICION</span><span class=\"arw\">→</span>\n           <span class=\"chip\">IMAGING</span><span class=\"arw\">→</span>\n           <span class=\"chip\">BIOPSY</span><span class=\"arw\">→</span>\n           <span class=\"chip on\">PATHOLOGY</span><span class=\"arw\">→</span>\n           <span class=\"chip\">MOLECULAR</span>\n         </div>\n         <p class=\"lead\">Imaging raises or lowers probability. Pathology is ground truth — but only when the tissue is the right tissue.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The diagnostic chain in oncology has five links: clinical suspicion, imaging, biopsy, pathology, molecular workup. Each link can break in its own way. Imaging is probabilistic. Biopsy samples a tiny fraction of a mass. Pathology is the ground truth — but only if the sample came from the right place. Understanding where each link fails is what lets you read a report correctly.",
+     "audio_file": "audio/S02.mp3",
+     "actual_duration_s": 26.56
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "num": 3,
+   "total": 12,
+   "section": "CT AND MRI",
+   "label": "03 / 12 · CT AND MRI",
+   "dark": false,
+   "title": [
+    [
+     "EVERY MODALITY ",
+     false
+    ],
+    [
+     "HAS A FALSE-POSITIVE PROFILE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>CT</b><span>anatomy from X-rays — workhorse for masses and RECIST; limited soft-tissue contrast; ionizing radiation 8–15 mSv</span></div>\n           <div class=\"cell-part hot\"><b>MRI</b><span>magnetic fields, no radiation — superior for brain, pelvis, breast; high sensitivity, lower specificity</span></div>\n         </div>\n         <p class=\"lead\">Neither modality eliminates the false-positive rate. Neither eliminates the false-negative rate.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "CT reconstructs anatomy from rotating X-rays. It is the workhorse for detecting masses and for measuring treatment response under RECIST — the standardized rules that allow tumor size to be compared across scans. Its soft-tissue contrast is limited, and it exposes patients to roughly 8 to 15 millisieverts. MRI uses magnetic fields and has superior soft-tissue contrast for the brain, pelvis, and breast — at the cost of lower specificity and more false positives. Neither modality eliminates the false-positive or the false-negative rate.",
+     "audio_file": "audio/S03.mp3",
+     "actual_duration_s": 37.2
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "num": 4,
+   "total": 12,
+   "section": "ULTRASOUND AND PET",
+   "label": "04 / 12 · ULTRASOUND AND PET",
+   "dark": false,
+   "title": [
+    [
+     "PET LIGHTS UP ",
+     false
+    ],
+    [
+     "INFLAMMATION AS READILY AS CANCER.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>ULTRASOUND</b><span>real-time, radiation-free, needle-guiding; operator-dependent; blocked by gas and bone</span></div>\n           <div class=\"cell-part hot\"><b>PET-FDG</b><span>images metabolism, not anatomy — hot spot raises probability; cold spot lowers it; neither is a diagnosis</span></div>\n         </div>\n         <div class=\"callout\">Mucinous cancers, indolent lymphomas, some brain mets: <b>FDG-negative despite malignancy</b></div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Ultrasound uses sound waves — real-time, radiation-free, excellent for guiding needles to superficial lesions. Its weakness is operator-dependence: the same lesion looks different in different hands, and gas and bone block transmission entirely. PET-FDG images metabolic function. Cancer cells with high glucose uptake trap the tracer. But so does inflammation, healing surgical sites, and brown fat. And some tumors — mucinous cancers, some lymphomas — take up FDG poorly and appear cold. A hot spot raises probability. A cold spot lowers it. Neither is a diagnosis.",
+     "audio_file": "audio/S04.mp3",
+     "actual_duration_s": 41.89
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "num": 5,
+   "total": 12,
+   "section": "WHY TISSUE IS PRIVILEGED",
+   "label": "05 / 12 · WHY TISSUE IS PRIVILEGED",
+   "dark": false,
+   "title": [
+    [
+     "THE IMAGE SHOWS A MASS. ",
+     false
+    ],
+    [
+     "IT DOES NOT SHOW THE CELLS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>FFPE</b><span>formalin-fixed, paraffin-embedded — stops autolysis, preserves morphology, allows thin sections</span></div>\n           <div class=\"wire\"><b>H&amp;E STAIN</b><span>hematoxylin — nuclei blue; eosin — cytoplasm pink; reveals invasion, grade, architecture</span></div>\n         </div>\n         <p class=\"lead\">Malignancy is defined by what cells look like under a microscope. The pathology report — not the imaging report — is the foundation document for treatment.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "An image shows a mass. It does not show the cells inside it. Malignancy is defined by what cells look like, how they are organized, whether they have invaded through basement membranes. These features are visible only under a microscope. The standard preparation is FFPE — formalin-fixed, paraffin-embedded — tissue sectioned to a few micrometers and stained with hematoxylin and eosin. The pathology report is the foundation document for treatment. Everything else establishes what to do about it.",
+     "audio_file": "audio/S05.mp3",
+     "actual_duration_s": 33.76
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "num": 6,
+   "total": 12,
+   "section": "IMMUNOHISTOCHEMISTRY",
+   "label": "06 / 12 · IMMUNOHISTOCHEMISTRY",
+   "dark": false,
+   "title": [
+    [
+     "IHC CONVERTS ",
+     false
+    ],
+    [
+     "ADENOCARCINOMA INTO A TREATMENT PLAN.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid3\">\n           <div class=\"cell-part\"><b>TTF-1</b><span>lung / thyroid origin among adenocarcinomas</span></div>\n           <div class=\"cell-part\"><b>ER / PR / HER2</b><span>breast — determines hormonal therapy and trastuzumab eligibility</span></div>\n           <div class=\"cell-part hot\"><b>MMR / PD-L1</b><span>mismatch repair loss → pembrolizumab; PD-L1 TPS → checkpoint inhibitor selection</span></div>\n         </div>\n         <p class=\"lead\">Morphology tells you what kind of thing it is. IHC tells you which one.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Immunohistochemistry extends the morphological reading. Antibodies against specific proteins stain where the protein is present. TTF-1 identifies lung or thyroid origin among adenocarcinomas. Estrogen and progesterone receptor status determines whether hormonal therapy applies. HER2 overexpression determines trastuzumab eligibility. PD-L1 expression informs checkpoint inhibitor selection. Mismatch-repair deficiency, detectable by IHC loss of MLH1 or MSH2, identifies tumors likely to respond to pembrolizumab regardless of histological type. Morphology tells you what kind of thing it is. IHC tells you which one.",
+     "audio_file": "audio/S06.mp3",
+     "actual_duration_s": 44.35
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "num": 7,
+   "total": 12,
+   "section": "THREE BIOPSY FAILURES",
+   "label": "07 / 12 · THREE BIOPSY FAILURES",
+   "dark": false,
+   "title": [
+    [
+     "THE NEEDLE CAN FAIL ",
+     false
+    ],
+    [
+     "THREE DIFFERENT WAYS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>MISS</b><span>needle passes through the mass and samples adjacent stroma — tumor never reached</span></div>\n           <div class=\"wire\"><b>UNREPRESENTATIVE</b><span>needle hits the mass but catches necrotic core or low-grade zone — not the region that matters</span></div>\n           <div class=\"wire\"><b>INSUFFICIENT</b><span>enters the right region but retrieves too little for molecular profiling</span></div>\n         </div>\n         <div class=\"callout\">In pancreatic adenocarcinoma the tumor is often a <b>minority of the mass volume</b> — the bulk is desmoplastic stroma.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "A biopsy samples a tiny fraction of a heterogeneous mass through a needle a millimeter or two in diameter. Three distinct failures are possible. The needle misses the tumor entirely — in pancreatic adenocarcinoma, the tumor often constitutes a minority of the mass; the bulk is dense desmoplastic stroma. The needle can hit the mass but sample a necrotic core or a low-grade zone that does not carry the mutations driving lethal behavior. Or the needle enters the right region but retrieves too little tissue for the molecular profiling that modern treatment requires.",
+     "audio_file": "audio/S07.mp3",
+     "actual_duration_s": 37.48
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "num": 8,
+   "total": 12,
+   "section": "THE ASYMMETRY",
+   "label": "08 / 12 · THE ASYMMETRY",
+   "dark": false,
+   "title": [
+    [
+     "POSITIVE IS RELIABLE. ",
+     false
+    ],
+    [
+     "NEGATIVE DOES NOT EXCLUDE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"balance\">\n           <div class=\"pan surv\"><b>POSITIVE</b><span>malignant cells were present in the sample — highly reliable</span></div>\n           <div class=\"fulcrum\">⇄</div>\n           <div class=\"pan die\"><b>NEGATIVE</b><span>no malignancy in this sample — consistent with no cancer <i>or</i> a miss</span></div>\n         </div>\n         <p class=\"lead\">The reliability of a negative result is bounded by how confident you are the needle sampled the right place.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The asymmetry of biopsy results is the central idea of this chapter. A positive biopsy is highly reliable: malignant cells were identified, which means they were present in the sample. A negative biopsy means this sample showed no malignancy — which is consistent with no cancer in the lesion, or with a cancer the needle did not reach. The failure is silent. The report says what was in the sample. It does not say whether the sample was the right tissue.",
+     "audio_file": "audio/S08.mp3",
+     "actual_duration_s": 28.79
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "num": 9,
+   "total": 12,
+   "section": "FNA vs CORE",
+   "label": "09 / 12 · FNA vs CORE",
+   "dark": false,
+   "title": [
+    [
+     "FNA GIVES CELLS. ",
+     false
+    ],
+    [
+     "CORE GIVES ARCHITECTURE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>FINE-NEEDLE ASPIRATION</b><span>22–25 gauge — cytology only; fast; no architecture; rarely enough for molecular profiling; good for confirming known-primary mets</span></div>\n           <div class=\"cell-part hot\"><b>CORE NEEDLE BIOPSY</b><span>14–18 gauge, spring-loaded — preserves architecture; supports IHC and NGS; preferred when diagnosis requires invasion assessment</span></div>\n         </div>\n         <p class=\"lead\">Follicular thyroid carcinoma requires capsular invasion — it cannot be diagnosed by FNA at all; the whole nodule must be excised.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The two main needle approaches trade off invasiveness against what the sample can establish. Fine-needle aspiration uses a thin needle to aspirate loose cells read as cytology. It yields cells but not architecture — the pathologist cannot determine whether cells have invaded beyond a basement membrane, and usually cannot obtain enough material for molecular profiling. Core needle biopsy uses a larger spring-loaded needle that cuts a cylinder of tissue preserving architecture, supports immunohistochemistry, and provides material for next-generation sequencing. Follicular thyroid carcinoma is the extreme case: the diagnosis requires capsular invasion and cannot be made on FNA at all.",
+     "audio_file": "audio/S09.mp3",
+     "actual_duration_s": 45.0
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "num": 10,
+   "total": 12,
+   "section": "BAYES AT THE BEDSIDE",
+   "label": "10 / 12 · BAYES AT THE BEDSIDE",
+   "dark": false,
+   "title": [
+    [
+     "A NEGATIVE BIOPSY ",
+     false
+    ],
+    [
+     "IS NOT A BENIGN LESION.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">80%</div><div class=\"cap\">pretest probability</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big\">neg biopsy</div><div class=\"cap\">sensitivity ~85%</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big on\">39%</div><div class=\"cap\">post-biopsy malignancy</div></div>\n         </div>\n         <p class=\"lead\">Thirty-nine percent is not a benign result. It is a result that leaves more than one-in-three chance the needle missed the cancer.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Return to the woman with the pancreatic mass. The imaging features set the pretest probability of malignancy at roughly 80 percent. EUS-guided fine-needle aspiration of solid pancreatic masses has sensitivity around 80 to 90 percent, meaning 10 to 20 percent of true cancers yield a non-malignant aspirate. Apply the likelihood ratio. The posterior probability after a negative biopsy falls only to about 39 percent. Thirty-nine percent is not a benign result. It is a result that leaves more than one in three chance the needle missed the cancer. The benign tissue is consistent with two explanations: no cancer, or the cancer was present and the dense stroma filled the needle.",
+     "audio_file": "audio/S10.mp3",
+     "actual_duration_s": 46.86
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "num": 11,
+   "total": 12,
+   "section": "THESIS",
+   "label": "11 / 12 · THESIS",
+   "dark": false,
+   "title": [
+    [
+     "THE WEAKEST LINK ",
+     false
+    ],
+    [
+     "IS THE BIOPSY.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"thesis\">The image raises or lowers probability. Pathology is ground truth — <b>conditional on representative sampling</b>. The question is never just what the needle found. It is whether the needle was in the right place.</div>\n         <p class=\"lead\">Still open: how heterogeneous a tumor can be before a single core is fundamentally inadequate — and when imaging certainty alone justifies treating without tissue.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The whole diagnostic chain is only as strong as its weakest link. And the weakest link is almost always the biopsy — not the imaging, not the pathology reading, but the question of whether the needle was in the right place. Refusing to accept negative biopsies drives repeat procedures, each with its own complication risk. The skill is calibrated interpretation: how much does this specific negative result, from this specific technique, against this specific pretest probability, move the posterior? That requires knowing the test sensitivity and the pretest probability. Neither is printed on the pathology report.",
+     "audio_file": "audio/S11.mp3",
+     "actual_duration_s": 39.61
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "num": 12,
+   "total": 12,
+   "section": "CLOSE",
+   "label": "12 / 12 · CLOSE",
+   "dark": true,
+   "title": [
+    [
+     "TISSUE IS GROUND TRUTH. ",
+     false
+    ],
+    [
+     "ONLY IF IT IS THE RIGHT TISSUE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>IMAGE = PROBABILITY</span><span>//</span><span>TISSUE = GROUND TRUTH</span><span>//</span><span>BIOPSY = THE WEAK LINK</span></div>\n           <p class=\"sig\">Cancer Research · Chapter 2 · Cancer Diagnosis — Imaging and the Tissue Sample</p>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "That is the frame for everything that follows. The scan raises a probability. The tissue settles it — but only when the tissue is the right tissue. Learn to read the chain: where the imaging can mislead, why the biopsy can fail silently, and how to apply the pretest probability to interpret what the needle brought back. The chain is only as strong as its weakest link. Almost always, the weakest link is the biopsy.",
+     "audio_file": "audio/S12.mp3",
+     "actual_duration_s": 29.44
+    }
+   ]
   }
+ ],
+ "metadata": {
+  "title": "Cancer Research Ch.2 — Cancer Diagnosis — Imaging and the Tissue Sample",
+  "slug": "cancer-research-ch02-cancer-diagnosis",
+  "playlist": "Cancer Research",
+  "hashtags": [
+   "#CancerResearch",
+   "#Oncology",
+   "#Education",
+   "#NikBearBrown",
+   "#Lecture",
+   "#OnlineLearning"
+  ],
+  "description": "Cancer Research Ch.2 — Cancer Diagnosis — Imaging and the Tissue Sample\n\nFull voiced lecture deck — Cancer Research series.\n\nA 64-year-old woman has a 2-centimeter mass in the tail of her pancreas, found on a CT ordered for back pain. The radiologist's report reads: suspicious for adenocarcinoma. Her family hears the word and assumes the diagnosis is made. It is not. The scan was never the diagnosis. It was a probability. That distinction is what this chapter is about.\n\nyoutube.com/@NikBearBrown",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
+ }
 }

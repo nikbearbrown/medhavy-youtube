@@ -1,350 +1,354 @@
 {
-  "slug": "cancer-nanomedicine-ch10-photodynamic-photothermal",
-  "title": "Photodynamic and Photothermal Nanomedicine",
-  "series": "Cancer Nanomedicine",
-  "source": "cancer-nanomedicine/chapters/10-photodynamic-and-photothermal-nanomedicine.md",
-  "voice_id": "TyW6NH39JcFb5M3xdIIk",
-  "accent": "#ea580c",
-  "fps": 30,
-  "clock": "audio-first",
-  "segments": [
-    {
-      "id": "S01",
-      "num": 1,
-      "total": 12,
-      "section": "HOOK",
-      "label": "01 / 12 · HOOK",
-      "dark": false,
-      "title": [
-        [
-          "LIGHT ACTIVATES THE DRUG. ",
-          false
-        ],
-        [
-          "THE TUMOR MUST BE WITHIN REACH.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">PHOTOSENSITIZER</span><span class=\"arw\">+</span><span class=\"chip\">LIGHT</span><span class=\"arw\">+</span><span class=\"chip on\">O₂ → CELL DEATH</span></div>\n           <p class=\"lead\">A thin esophageal tumor clears. A 3-centimeter nodule survives — not because the drug failed, but because the light never arrived.</p>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "A surgeon treats an early esophageal cancer with photodynamic therapy. Two days after the patient receives the drug, a fiber-optic delivers red light through an endoscope, the illuminated tissue dies, and the lesion clears. A colleague proposes the same approach for a bulky tumor several centimeters beneath the skin. That plan fails before it begins — and not because the photosensitizer is worse or the cancer is more aggressive. The problem is light.",
-          "audio_file": "audio/S01.mp3",
-          "actual_duration_s": 30.33
-        }
-      ]
-    },
-    {
-      "id": "S02",
-      "num": 2,
-      "total": 12,
-      "section": "THE STAKES",
-      "label": "02 / 12 · THE STAKES",
-      "dark": false,
-      "title": [
-        [
-          "TWO PHYSICAL CONSTRAINTS ",
-          false
-        ],
-        [
-          "DEFINE THE ENTIRE FIELD.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">mm</div><div class=\"cap\">light penetration</div></div>\n           <div class=\"eq\">+</div>\n           <div class=\"stat\"><div class=\"big\">O₂</div><div class=\"cap\">required for kill</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big on\">BOUNDED</div><div class=\"cap\">clinical envelope</div></div>\n         </div>\n         <p class=\"lead\">Every approval, every indication, every fiber-optic engineering decision follows from these two facts.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Red light at six-thirty nanometers penetrates tissue only a few millimeters before being scattered and absorbed to uselessness. And even where light does reach, photodynamic therapy has a second hidden dependency — it needs molecular oxygen, and the hypoxic core of a bulky tumor may have too little. Two physical constraints. Every approved indication, every clinical success, every endoscopic engineering decision is an answer to the same two facts.",
-          "audio_file": "audio/S02.mp3",
-          "actual_duration_s": 31.07
-        }
-      ]
-    },
-    {
-      "id": "S03",
-      "num": 3,
-      "total": 12,
-      "section": "THE PHOTODYNAMIC TRIAD",
-      "label": "03 / 12 · THE PHOTODYNAMIC TRIAD",
-      "dark": false,
-      "title": [
-        [
-          "THREE COMPONENTS. ",
-          false
-        ],
-        [
-          "ALL THREE MUST OVERLAP.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid3\">\n           <div class=\"cell-part\"><b>PHOTOSENSITIZER</b><span>accumulates in tumor tissue</span></div>\n           <div class=\"cell-part\"><b>LIGHT</b><span>correct wavelength delivered</span></div>\n           <div class=\"cell-part hot\"><b>OXYGEN</b><span>molecular O₂ converted → singlet oxygen</span></div>\n         </div>\n         <p class=\"lead\">Remove any one of the three and nothing happens. PDT’s selectivity and its limits are the same coin.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Photodynamic therapy kills cells with a strict three-component chain. The patient receives a photosensitizer — a drug that absorbs light at a specific wavelength — which accumulates preferentially in tumor tissue. Light of the matching wavelength is applied. The excited photosensitizer transfers its energy to molecular oxygen, generating singlet oxygen and other reactive oxygen species that damage membranes, proteins, and DNA. The photosensitizer alone is inert in the dark. Light alone does nothing without the drug. Both are useless without oxygen — because singlet oxygen is made from molecular oxygen, not released by the drug and not produced by the light.",
-          "audio_file": "audio/S03.mp3",
-          "actual_duration_s": 43.05
-        }
-      ]
-    },
-    {
-      "id": "S04",
-      "num": 4,
-      "total": 12,
-      "section": "LIGHT PENETRATION",
-      "label": "04 / 12 · LIGHT PENETRATION",
-      "dark": false,
-      "title": [
-        [
-          "THE CEILING IS TISSUE OPTICS, ",
-          false
-        ],
-        [
-          "NOT FORMULATION CHEMISTRY.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\"><span class=\"chip\">optical window</span><span class=\"arw\">600–900 nm</span><span class=\"chip\">red / NIR</span><span class=\"arw\">→</span><span class=\"chip on\">mm to ~1 cm depth</span></div>\n         <div class=\"callout\">A nanoparticle that improves accumulation <b>tenfold</b> still delivers photosensitizer to a depth the light cannot reach.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Tissue strongly scatters and absorbs visible light. Blood absorbs in the blue-green; water absorbs in the far infrared. Between these lies an optical window in the red and near-infrared, roughly six hundred to nine hundred nanometers, where tissue is most transparent. That is why porfimer sodium is activated at six-thirty nanometers and temoporfin at six-fifty-two — those wavelengths were chosen to penetrate as far as the chemistry allows. Even so, penetration is measured in millimeters. The physics does not change with a better photosensitizer. A nanoparticle carrier that improves tumor accumulation tenfold still delivers the photosensitizer to a depth the light cannot reach.",
-          "audio_file": "audio/S04.mp3",
-          "actual_duration_s": 46.86
-        }
-      ]
-    },
-    {
-      "id": "S05",
-      "num": 5,
-      "total": 12,
-      "section": "OXYGEN DEPENDENCE",
-      "label": "05 / 12 · OXYGEN DEPENDENCE",
-      "dark": false,
-      "title": [
-        [
-          "PDT CONSUMES OXYGEN ",
-          false
-        ],
-        [
-          "AS IT RUNS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"balance\">\n           <div class=\"pan surv\"><b>PERFUSION</b><span>replenishes O₂</span></div>\n           <div class=\"fulcrum\">⇄</div>\n           <div class=\"pan die\"><b>ILLUMINATION</b><span>depletes O₂</span></div>\n         </div>\n         <p class=\"lead\">The mechanism throttles itself. Hypoxic cores resist PDT independently of the light penetration problem — the two constraints reinforce each other.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Because the cytotoxic agent is singlet oxygen derived from molecular oxygen, PDT efficacy depends on local oxygen concentration. Tumors are frequently hypoxic in their interiors — their vasculature is chaotic, perfusion is uneven, and rapidly proliferating cells consume oxygen faster than disorganized vessels can supply. PDT worsens this as it runs. Intense illumination consumes oxygen faster than perfusion can replenish it, and the illuminated region can become locally depleted mid-treatment. A protocol that works well at the start may become less effective as it continues, because the oxygen supply present at the beginning has been used up.",
-          "audio_file": "audio/S05.mp3",
-          "actual_duration_s": 43.28
-        }
-      ]
-    },
-    {
-      "id": "S06",
-      "num": 6,
-      "total": 12,
-      "section": "PHOTOTHERMAL THERAPY",
-      "label": "06 / 12 · PHOTOTHERMAL THERAPY",
-      "dark": false,
-      "title": [
-        [
-          "PTT DROPS ONE REQUIREMENT — ",
-          false
-        ],
-        [
-          "NOT THE PENETRATION CEILING.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>PDT</b><span>photosensitizer + light + O₂ → singlet oxygen → death</span></div>\n           <div class=\"cell-part hot\"><b>PTT</b><span>NIR-absorbing gold nanoparticle + NIR light → heat → thermal ablation</span></div>\n         </div>\n         <div class=\"callout\">Oxygen-independent. Penetration-limited — same ceiling as PDT.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Photothermal therapy uses nanoparticles that absorb light and convert the energy to heat, thermally ablating tumor cells. Gold-based nanoparticles — nanorods, nanoshells, nanocages — are the most studied because their plasmon resonance can be tuned to absorb in the near-infrared. The mechanism is simpler than PDT in one important respect: PTT does not require oxygen. Heat kills regardless of oxygen tension. This removes PDT’s hypoxia problem — a real advantage for oxygen-depleted tumor cores. But PTT does not remove the penetration problem. Near-infrared light penetrates somewhat deeper than visible red, but the difference is millimeters, not orders of magnitude.",
-          "audio_file": "audio/S06.mp3",
-          "actual_duration_s": 46.63
-        }
-      ]
-    },
-    {
-      "id": "S07",
-      "num": 7,
-      "total": 12,
-      "section": "CLINICAL RECORD OF PTT",
-      "label": "07 / 12 · CLINICAL RECORD OF PTT",
-      "dark": false,
-      "title": [
-        [
-          "AUROLAASE REACHED TRIALS. ",
-          false
-        ],
-        [
-          "BROAD APPROVAL DID NOT FOLLOW.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>PRECLINICAL</b><span>mechanism works in cell culture and animal models</span></div>\n           <div class=\"wire\"><b>CLINICAL TRIALS</b><span>AuroLase (Nanospectra) — prostate cancer</span></div>\n           <div class=\"wire\"><b>OUTCOME</b><span>no broad regulatory approval — delivery + penetration</span></div>\n         </div>\n         <p class=\"lead\">The claim that PTT solves PDT’s depth problem is not supported by the available evidence.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The clinical record of photothermal therapy is instructive. AuroLase, the gold nanoshell product from Nanospectra, reached clinical trials for prostate cancer. It did not achieve broad regulatory approval. The mechanism works in cell culture and animal models. Translation to patients has been harder, for reasons that appear to involve both delivery and light penetration — the same combination that limits most nanoparticle cancer therapies. PTT has produced real clinical results in accessible settings, but the claim that it solves the depth problem of PDT is not supported by the available evidence.",
-          "audio_file": "audio/S07.mp3",
-          "actual_duration_s": 38.03
-        }
-      ]
-    },
-    {
-      "id": "S08",
-      "num": 8,
-      "total": 12,
-      "section": "DIAGNOSING A FAILED OUTCOME",
-      "label": "08 / 12 · DIAGNOSING A FAILED OUTCOME",
-      "dark": false,
-      "title": [
-        [
-          "WALK THE TRIAD. ",
-          false
-        ],
-        [
-          "THE FAILURE NODE IS PHYSICS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\"><span class=\"chip\">photosensitizer: present</span><span class=\"arw\">✓</span><span class=\"chip warn\">light: absent at 1.5 cm</span><span class=\"arw\">✗</span><span class=\"chip warn\">O₂: likely limiting</span><span class=\"arw\">✗</span></div>\n         <p class=\"lead\">The first instinct — blame drug delivery — treats a physics problem as a chemistry problem. That is the wrong dead end.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Return to the two patients. Patient A had a thin, superficial tumor and responded completely. Patient B had a three-centimeter nodule centered about one and a half centimeters beneath the skin. After identical PDT, the surface responded but the core survived and regrew. The first instinct is to blame drug delivery — perhaps the photosensitizer did not accumulate well. That is the wrong dead end. It treats a physics problem as a chemistry problem. Walk the triad for Patient B’s surviving core. Photosensitizer: plausibly present. Light: absent — at one and a half centimeters, the red-light fluence is negligible. Oxygen: likely also limiting. The correct conclusion is that B’s tumor is outside the physical envelope of external PDT.",
-          "audio_file": "audio/S08.mp3",
-          "actual_duration_s": 50.06
-        }
-      ]
-    },
-    {
-      "id": "S09",
-      "num": 9,
-      "total": 12,
-      "section": "WHERE PDT WORKS",
-      "label": "09 / 12 · WHERE PDT WORKS",
-      "dark": false,
-      "title": [
-        [
-          "PDT IS A BOUNDED TOOL, ",
-          false
-        ],
-        [
-          "NOT A BROKEN ONE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>SKIN CANCERS</b><span>actinic keratoses, basal cell — millimeters thick, light source on surface, standard care</span></div>\n           <div class=\"wire\"><b>ESOPHAGEAL / ENDOBRONCHIAL</b><span>fiber-optic converts internal site into effective surface lesion</span></div>\n           <div class=\"wire\"><b>BLADDER</b><span>instillation + cystoscopic light — cavity access solves the penetration problem</span></div>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Photodynamic therapy is a bounded tool, not a broken one. Within its envelope it is selective, repeatable, and carries none of the cumulative marrow or organ toxicity of chemotherapy. Superficial skin cancers are ideal — the tumor is millimeters thick, the light source is placed directly on the skin, oxygen is abundant. PDT here is standard care and genuinely preferred over surgery for field-treatment of widespread lesions. Early esophageal and endobronchial cancers are ideal because the light is delivered endoscopically to the luminal surface. Bladder cancer treated by instillation, with light delivered cystoscopically, follows the same logic. The device engineering in every case is entirely about access.",
-          "audio_file": "audio/S09.mp3",
-          "actual_duration_s": 47.32
-        }
-      ]
-    },
-    {
-      "id": "S10",
-      "num": 10,
-      "total": 12,
-      "section": "EXTENSIONS",
-      "label": "10 / 12 · EXTENSIONS",
-      "dark": false,
-      "title": [
-        [
-          "PHOTOIMMUNOTHERAPY AND ",
-          false
-        ],
-        [
-          "FLUORESCENCE-GUIDED SURGERY.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part hot\"><b>PHOTOIMMUNOTHERAPY</b><span>Cetuximab-IR700: antibody targets EGFR → NIR activates → approved Japan (head &amp; neck)</span></div>\n           <div class=\"cell-part\"><b>5-ALA / FLUORESCENCE</b><span>glioblastoma surgery: tumor glows pink — imaging succeeds where curative PDT would fail</span></div>\n         </div>\n         <p class=\"lead\">Imaging requires surface fluorescence, not centimeters of penetration. The same constraint governs the transition from useful to insufficient.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Photoimmunotherapy extends selectivity further. Cetuximab — an antibody that targets EGFR on many head and neck cancers — is conjugated to the near-infrared dye IR700. The conjugate, approved in Japan, binds cancer cells through the antibody and is activated by NIR light. Even within the illuminated zone, only cells expressing EGFR carry the activated photosensitizer. Fluorescence-guided surgery uses the same principle diagnostically. Patients with glioblastoma drink five-ALA before surgery. Tumor cells convert it to fluorescent protoporphyrin IX, which makes tumor tissue glow pink under blue-violet illumination — the surgeon sees the margin in real time. The imaging use succeeds where curative PDT of glioblastoma would fail: it requires only enough fluorescence to see the surface of the resection cavity.",
-          "audio_file": "audio/S10.mp3",
-          "actual_duration_s": 57.82
-        }
-      ]
-    },
-    {
-      "id": "S11",
-      "num": 11,
-      "total": 12,
-      "section": "THESIS",
-      "label": "11 / 12 · THESIS",
-      "dark": false,
-      "title": [
-        [
-          "LIGHT-ACTIVATED THERAPY IS ",
-          false
-        ],
-        [
-          "BOUNDED BY PHYSICS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"thesis\">Light-activated therapies remain treatments for <b>accessible lesions</b> because the penetration ceiling and oxygen dependence have not been overcome for deep solid tumors — not because the chemistry has failed.</div>\n         <p class=\"lead\">Still open: patient-specific depth prediction, oxygen-independent photochemistry, and why PTT translated so poorly from preclinical success.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Here is the chapter’s central claim. Light-activated cancer therapies — both photodynamic and photothermal — are bounded by tissue optics and oxygen availability. That is why they remain treatments for accessible lesions rather than general cancer therapies. The finding that would force revision: a deliverable technology that routinely overcame the penetration ceiling for deep solid tumors without invasive light placement. An efficiently X-ray-activated photosensitizer, or an upconverting nanoparticle system producing durable responses in centimeters-deep lesions in controlled trials. Or photothermal therapy crossing from limited clinical success to multiple broad regulatory approvals with demonstrated survival benefit. Neither has happened. The physics has not changed.",
-          "audio_file": "audio/S11.mp3",
-          "actual_duration_s": 50.81
-        }
-      ]
-    },
-    {
-      "id": "S12",
-      "num": 12,
-      "total": 12,
-      "section": "CLOSE",
-      "label": "12 / 12 · CLOSE",
-      "dark": true,
-      "title": [
-        [
-          "KNOW THE ENVELOPE. ",
-          false
-        ],
-        [
-          "DEPLOY WHERE THE PHYSICS PERMITS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>LIGHT MUST REACH</span><span>//</span><span>OXYGEN MUST BE PRESENT</span><span>//</span><span>TUMOR MUST BE ACCESSIBLE</span></div>\n           <p class=\"sig\">Cancer Nanomedicine · Chapter 10 · Photodynamic and Photothermal Nanomedicine</p>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "That is the frame for light-activated therapy. Know the triad: photosensitizer, light, and oxygen — all three must overlap, or nothing happens. Know the ceiling: millimeters, not meters. Know the envelope: accessible lesions, fiber-optic delivery, cavity illumination. Deploy where the physics permits. Refuse the proposal where it does not. The mechanism gives you the answer before the trial begins.",
-          "audio_file": "audio/S12.mp3",
-          "actual_duration_s": 28.0
-        }
-      ]
-    }
-  ],
-  "metadata": {
-    "title": "Cancer Nanomedicine Ch.10 — Photodynamic and Photothermal Nanomedicine",
-    "slug": "cancer-nanomedicine-ch10-photodynamic-photothermal",
-    "playlist": "Cancer Nanomedicine",
-    "hashtags": [
-      "#CancerNanomedicine",
-      "#Nanomedicine",
-      "#Education",
-      "#NikBearBrown",
-      "#Lecture",
-      "#OnlineLearning"
+ "slug": "cancer-nanomedicine-ch10-photodynamic-photothermal",
+ "title": "Photodynamic and Photothermal Nanomedicine",
+ "series": "Cancer Nanomedicine",
+ "source": "cancer-nanomedicine/chapters/10-photodynamic-and-photothermal-nanomedicine.md",
+ "voice_id": "TyW6NH39JcFb5M3xdIIk",
+ "accent": "#ea580c",
+ "fps": 30,
+ "clock": "audio-first",
+ "segments": [
+  {
+   "id": "S01",
+   "num": 1,
+   "total": 12,
+   "section": "HOOK",
+   "label": "01 / 12 · HOOK",
+   "dark": false,
+   "title": [
+    [
+     "LIGHT ACTIVATES THE DRUG. ",
+     false
     ],
-    "description": "Cancer Nanomedicine Ch.10 — Photodynamic and Photothermal Nanomedicine\n\nFull voiced lecture deck — Cancer Nanomedicine series.\n\nyoutube.com/@NikBearBrown"
+    [
+     "THE TUMOR MUST BE WITHIN REACH.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">PHOTOSENSITIZER</span><span class=\"arw\">+</span><span class=\"chip\">LIGHT</span><span class=\"arw\">+</span><span class=\"chip on\">O₂ → CELL DEATH</span></div>\n           <p class=\"lead\">A thin esophageal tumor clears. A 3-centimeter nodule survives — not because the drug failed, but because the light never arrived.</p>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "A surgeon treats an early esophageal cancer with photodynamic therapy. Two days after the patient receives the drug, a fiber-optic delivers red light through an endoscope, the illuminated tissue dies, and the lesion clears. A colleague proposes the same approach for a bulky tumor several centimeters beneath the skin. That plan fails before it begins — and not because the photosensitizer is worse or the cancer is more aggressive. The problem is light.",
+     "audio_file": "audio/S01.mp3",
+     "actual_duration_s": 30.33
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "num": 2,
+   "total": 12,
+   "section": "THE STAKES",
+   "label": "02 / 12 · THE STAKES",
+   "dark": false,
+   "title": [
+    [
+     "TWO PHYSICAL CONSTRAINTS ",
+     false
+    ],
+    [
+     "DEFINE THE ENTIRE FIELD.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">mm</div><div class=\"cap\">light penetration</div></div>\n           <div class=\"eq\">+</div>\n           <div class=\"stat\"><div class=\"big\">O₂</div><div class=\"cap\">required for kill</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big on\">BOUNDED</div><div class=\"cap\">clinical envelope</div></div>\n         </div>\n         <p class=\"lead\">Every approval, every indication, every fiber-optic engineering decision follows from these two facts.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Red light at six-thirty nanometers penetrates tissue only a few millimeters before being scattered and absorbed to uselessness. And even where light does reach, photodynamic therapy has a second hidden dependency — it needs molecular oxygen, and the hypoxic core of a bulky tumor may have too little. Two physical constraints. Every approved indication, every clinical success, every endoscopic engineering decision is an answer to the same two facts.",
+     "audio_file": "audio/S02.mp3",
+     "actual_duration_s": 31.07
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "num": 3,
+   "total": 12,
+   "section": "THE PHOTODYNAMIC TRIAD",
+   "label": "03 / 12 · THE PHOTODYNAMIC TRIAD",
+   "dark": false,
+   "title": [
+    [
+     "THREE COMPONENTS. ",
+     false
+    ],
+    [
+     "ALL THREE MUST OVERLAP.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid3\">\n           <div class=\"cell-part\"><b>PHOTOSENSITIZER</b><span>accumulates in tumor tissue</span></div>\n           <div class=\"cell-part\"><b>LIGHT</b><span>correct wavelength delivered</span></div>\n           <div class=\"cell-part hot\"><b>OXYGEN</b><span>molecular O₂ converted → singlet oxygen</span></div>\n         </div>\n         <p class=\"lead\">Remove any one of the three and nothing happens. PDT’s selectivity and its limits are the same coin.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Photodynamic therapy kills cells with a strict three-component chain. The patient receives a photosensitizer — a drug that absorbs light at a specific wavelength — which accumulates preferentially in tumor tissue. Light of the matching wavelength is applied. The excited photosensitizer transfers its energy to molecular oxygen, generating singlet oxygen and other reactive oxygen species that damage membranes, proteins, and DNA. The photosensitizer alone is inert in the dark. Light alone does nothing without the drug. Both are useless without oxygen — because singlet oxygen is made from molecular oxygen, not released by the drug and not produced by the light.",
+     "audio_file": "audio/S03.mp3",
+     "actual_duration_s": 43.05
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "num": 4,
+   "total": 12,
+   "section": "LIGHT PENETRATION",
+   "label": "04 / 12 · LIGHT PENETRATION",
+   "dark": false,
+   "title": [
+    [
+     "THE CEILING IS TISSUE OPTICS, ",
+     false
+    ],
+    [
+     "NOT FORMULATION CHEMISTRY.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\"><span class=\"chip\">optical window</span><span class=\"arw\">600–900 nm</span><span class=\"chip\">red / NIR</span><span class=\"arw\">→</span><span class=\"chip on\">mm to ~1 cm depth</span></div>\n         <div class=\"callout\">A nanoparticle that improves accumulation <b>tenfold</b> still delivers photosensitizer to a depth the light cannot reach.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Tissue strongly scatters and absorbs visible light. Blood absorbs in the blue-green; water absorbs in the far infrared. Between these lies an optical window in the red and near-infrared, roughly six hundred to nine hundred nanometers, where tissue is most transparent. That is why porfimer sodium is activated at six-thirty nanometers and temoporfin at six-fifty-two — those wavelengths were chosen to penetrate as far as the chemistry allows. Even so, penetration is measured in millimeters. The physics does not change with a better photosensitizer. A nanoparticle carrier that improves tumor accumulation tenfold still delivers the photosensitizer to a depth the light cannot reach.",
+     "audio_file": "audio/S04.mp3",
+     "actual_duration_s": 46.86
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "num": 5,
+   "total": 12,
+   "section": "OXYGEN DEPENDENCE",
+   "label": "05 / 12 · OXYGEN DEPENDENCE",
+   "dark": false,
+   "title": [
+    [
+     "PDT CONSUMES OXYGEN ",
+     false
+    ],
+    [
+     "AS IT RUNS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"balance\">\n           <div class=\"pan surv\"><b>PERFUSION</b><span>replenishes O₂</span></div>\n           <div class=\"fulcrum\">⇄</div>\n           <div class=\"pan die\"><b>ILLUMINATION</b><span>depletes O₂</span></div>\n         </div>\n         <p class=\"lead\">The mechanism throttles itself. Hypoxic cores resist PDT independently of the light penetration problem — the two constraints reinforce each other.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Because the cytotoxic agent is singlet oxygen derived from molecular oxygen, PDT efficacy depends on local oxygen concentration. Tumors are frequently hypoxic in their interiors — their vasculature is chaotic, perfusion is uneven, and rapidly proliferating cells consume oxygen faster than disorganized vessels can supply. PDT worsens this as it runs. Intense illumination consumes oxygen faster than perfusion can replenish it, and the illuminated region can become locally depleted mid-treatment. A protocol that works well at the start may become less effective as it continues, because the oxygen supply present at the beginning has been used up.",
+     "audio_file": "audio/S05.mp3",
+     "actual_duration_s": 43.28
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "num": 6,
+   "total": 12,
+   "section": "PHOTOTHERMAL THERAPY",
+   "label": "06 / 12 · PHOTOTHERMAL THERAPY",
+   "dark": false,
+   "title": [
+    [
+     "PTT DROPS ONE REQUIREMENT — ",
+     false
+    ],
+    [
+     "NOT THE PENETRATION CEILING.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>PDT</b><span>photosensitizer + light + O₂ → singlet oxygen → death</span></div>\n           <div class=\"cell-part hot\"><b>PTT</b><span>NIR-absorbing gold nanoparticle + NIR light → heat → thermal ablation</span></div>\n         </div>\n         <div class=\"callout\">Oxygen-independent. Penetration-limited — same ceiling as PDT.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Photothermal therapy uses nanoparticles that absorb light and convert the energy to heat, thermally ablating tumor cells. Gold-based nanoparticles — nanorods, nanoshells, nanocages — are the most studied because their plasmon resonance can be tuned to absorb in the near-infrared. The mechanism is simpler than PDT in one important respect: PTT does not require oxygen. Heat kills regardless of oxygen tension. This removes PDT’s hypoxia problem — a real advantage for oxygen-depleted tumor cores. But PTT does not remove the penetration problem. Near-infrared light penetrates somewhat deeper than visible red, but the difference is millimeters, not orders of magnitude.",
+     "audio_file": "audio/S06.mp3",
+     "actual_duration_s": 46.63
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "num": 7,
+   "total": 12,
+   "section": "CLINICAL RECORD OF PTT",
+   "label": "07 / 12 · CLINICAL RECORD OF PTT",
+   "dark": false,
+   "title": [
+    [
+     "AUROLAASE REACHED TRIALS. ",
+     false
+    ],
+    [
+     "BROAD APPROVAL DID NOT FOLLOW.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>PRECLINICAL</b><span>mechanism works in cell culture and animal models</span></div>\n           <div class=\"wire\"><b>CLINICAL TRIALS</b><span>AuroLase (Nanospectra) — prostate cancer</span></div>\n           <div class=\"wire\"><b>OUTCOME</b><span>no broad regulatory approval — delivery + penetration</span></div>\n         </div>\n         <p class=\"lead\">The claim that PTT solves PDT’s depth problem is not supported by the available evidence.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The clinical record of photothermal therapy is instructive. AuroLase, the gold nanoshell product from Nanospectra, reached clinical trials for prostate cancer. It did not achieve broad regulatory approval. The mechanism works in cell culture and animal models. Translation to patients has been harder, for reasons that appear to involve both delivery and light penetration — the same combination that limits most nanoparticle cancer therapies. PTT has produced real clinical results in accessible settings, but the claim that it solves the depth problem of PDT is not supported by the available evidence.",
+     "audio_file": "audio/S07.mp3",
+     "actual_duration_s": 38.03
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "num": 8,
+   "total": 12,
+   "section": "DIAGNOSING A FAILED OUTCOME",
+   "label": "08 / 12 · DIAGNOSING A FAILED OUTCOME",
+   "dark": false,
+   "title": [
+    [
+     "WALK THE TRIAD. ",
+     false
+    ],
+    [
+     "THE FAILURE NODE IS PHYSICS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\"><span class=\"chip\">photosensitizer: present</span><span class=\"arw\">✓</span><span class=\"chip warn\">light: absent at 1.5 cm</span><span class=\"arw\">✗</span><span class=\"chip warn\">O₂: likely limiting</span><span class=\"arw\">✗</span></div>\n         <p class=\"lead\">The first instinct — blame drug delivery — treats a physics problem as a chemistry problem. That is the wrong dead end.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Return to the two patients. Patient A had a thin, superficial tumor and responded completely. Patient B had a three-centimeter nodule centered about one and a half centimeters beneath the skin. After identical PDT, the surface responded but the core survived and regrew. The first instinct is to blame drug delivery — perhaps the photosensitizer did not accumulate well. That is the wrong dead end. It treats a physics problem as a chemistry problem. Walk the triad for Patient B’s surviving core. Photosensitizer: plausibly present. Light: absent — at one and a half centimeters, the red-light fluence is negligible. Oxygen: likely also limiting. The correct conclusion is that B’s tumor is outside the physical envelope of external PDT.",
+     "audio_file": "audio/S08.mp3",
+     "actual_duration_s": 50.06
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "num": 9,
+   "total": 12,
+   "section": "WHERE PDT WORKS",
+   "label": "09 / 12 · WHERE PDT WORKS",
+   "dark": false,
+   "title": [
+    [
+     "PDT IS A BOUNDED TOOL, ",
+     false
+    ],
+    [
+     "NOT A BROKEN ONE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>SKIN CANCERS</b><span>actinic keratoses, basal cell — millimeters thick, light source on surface, standard care</span></div>\n           <div class=\"wire\"><b>ESOPHAGEAL / ENDOBRONCHIAL</b><span>fiber-optic converts internal site into effective surface lesion</span></div>\n           <div class=\"wire\"><b>BLADDER</b><span>instillation + cystoscopic light — cavity access solves the penetration problem</span></div>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Photodynamic therapy is a bounded tool, not a broken one. Within its envelope it is selective, repeatable, and carries none of the cumulative marrow or organ toxicity of chemotherapy. Superficial skin cancers are ideal — the tumor is millimeters thick, the light source is placed directly on the skin, oxygen is abundant. PDT here is standard care and genuinely preferred over surgery for field-treatment of widespread lesions. Early esophageal and endobronchial cancers are ideal because the light is delivered endoscopically to the luminal surface. Bladder cancer treated by instillation, with light delivered cystoscopically, follows the same logic. The device engineering in every case is entirely about access.",
+     "audio_file": "audio/S09.mp3",
+     "actual_duration_s": 47.32
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "num": 10,
+   "total": 12,
+   "section": "EXTENSIONS",
+   "label": "10 / 12 · EXTENSIONS",
+   "dark": false,
+   "title": [
+    [
+     "PHOTOIMMUNOTHERAPY AND ",
+     false
+    ],
+    [
+     "FLUORESCENCE-GUIDED SURGERY.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part hot\"><b>PHOTOIMMUNOTHERAPY</b><span>Cetuximab-IR700: antibody targets EGFR → NIR activates → approved Japan (head &amp; neck)</span></div>\n           <div class=\"cell-part\"><b>5-ALA / FLUORESCENCE</b><span>glioblastoma surgery: tumor glows pink — imaging succeeds where curative PDT would fail</span></div>\n         </div>\n         <p class=\"lead\">Imaging requires surface fluorescence, not centimeters of penetration. The same constraint governs the transition from useful to insufficient.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Photoimmunotherapy extends selectivity further. Cetuximab — an antibody that targets EGFR on many head and neck cancers — is conjugated to the near-infrared dye IR700. The conjugate, approved in Japan, binds cancer cells through the antibody and is activated by NIR light. Even within the illuminated zone, only cells expressing EGFR carry the activated photosensitizer. Fluorescence-guided surgery uses the same principle diagnostically. Patients with glioblastoma drink five-ALA before surgery. Tumor cells convert it to fluorescent protoporphyrin IX, which makes tumor tissue glow pink under blue-violet illumination — the surgeon sees the margin in real time. The imaging use succeeds where curative PDT of glioblastoma would fail: it requires only enough fluorescence to see the surface of the resection cavity.",
+     "audio_file": "audio/S10.mp3",
+     "actual_duration_s": 57.82
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "num": 11,
+   "total": 12,
+   "section": "THESIS",
+   "label": "11 / 12 · THESIS",
+   "dark": false,
+   "title": [
+    [
+     "LIGHT-ACTIVATED THERAPY IS ",
+     false
+    ],
+    [
+     "BOUNDED BY PHYSICS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"thesis\">Light-activated therapies remain treatments for <b>accessible lesions</b> because the penetration ceiling and oxygen dependence have not been overcome for deep solid tumors — not because the chemistry has failed.</div>\n         <p class=\"lead\">Still open: patient-specific depth prediction, oxygen-independent photochemistry, and why PTT translated so poorly from preclinical success.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Here is the chapter’s central claim. Light-activated cancer therapies — both photodynamic and photothermal — are bounded by tissue optics and oxygen availability. That is why they remain treatments for accessible lesions rather than general cancer therapies. The finding that would force revision: a deliverable technology that routinely overcame the penetration ceiling for deep solid tumors without invasive light placement. An efficiently X-ray-activated photosensitizer, or an upconverting nanoparticle system producing durable responses in centimeters-deep lesions in controlled trials. Or photothermal therapy crossing from limited clinical success to multiple broad regulatory approvals with demonstrated survival benefit. Neither has happened. The physics has not changed.",
+     "audio_file": "audio/S11.mp3",
+     "actual_duration_s": 50.81
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "num": 12,
+   "total": 12,
+   "section": "CLOSE",
+   "label": "12 / 12 · CLOSE",
+   "dark": true,
+   "title": [
+    [
+     "KNOW THE ENVELOPE. ",
+     false
+    ],
+    [
+     "DEPLOY WHERE THE PHYSICS PERMITS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>LIGHT MUST REACH</span><span>//</span><span>OXYGEN MUST BE PRESENT</span><span>//</span><span>TUMOR MUST BE ACCESSIBLE</span></div>\n           <p class=\"sig\">Cancer Nanomedicine · Chapter 10 · Photodynamic and Photothermal Nanomedicine</p>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "That is the frame for light-activated therapy. Know the triad: photosensitizer, light, and oxygen — all three must overlap, or nothing happens. Know the ceiling: millimeters, not meters. Know the envelope: accessible lesions, fiber-optic delivery, cavity illumination. Deploy where the physics permits. Refuse the proposal where it does not. The mechanism gives you the answer before the trial begins.",
+     "audio_file": "audio/S12.mp3",
+     "actual_duration_s": 28.0
+    }
+   ]
   }
+ ],
+ "metadata": {
+  "title": "Cancer Nanomedicine Ch.10 — Photodynamic and Photothermal Nanomedicine",
+  "slug": "cancer-nanomedicine-ch10-photodynamic-photothermal",
+  "playlist": "Cancer Nanomedicine",
+  "hashtags": [
+   "#CancerNanomedicine",
+   "#Nanomedicine",
+   "#Education",
+   "#NikBearBrown",
+   "#Lecture",
+   "#OnlineLearning"
+  ],
+  "description": "Cancer Nanomedicine Ch.10 — Photodynamic and Photothermal Nanomedicine\n\nFull voiced lecture deck — Cancer Nanomedicine series.\n\nyoutube.com/@NikBearBrown",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
+ }
 }

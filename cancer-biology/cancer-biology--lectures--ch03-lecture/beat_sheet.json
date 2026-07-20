@@ -1,128 +1,130 @@
 {
-  "slug": "cancer-biology-ch03-chapter-3-cancer-epidemiology-and-risk-f",
-  "title": "Chapter 3 — Cancer Epidemiology and Risk Factors",
-  "series": "Cancer Biology",
-  "source": "chapters/03-cancer-epidemiology-and-risk-factors.md",
-  "voice_id": "",
-  "accent": "#ea580c",
-  "fps": 24,
-  "clock": "real",
-  "metadata": {
-    "chapter": 3,
-    "total_chapters": 16,
-    "playlist": "Cancer Biology",
-    "palette": "brutalist",
-    "engine": "kokoro",
-    "voice_kokoro": "am_onyx"
-  },
-  "segments": [
+ "slug": "cancer-biology-ch03-chapter-3-cancer-epidemiology-and-risk-f",
+ "title": "Chapter 3 — Cancer Epidemiology and Risk Factors",
+ "series": "Cancer Biology",
+ "source": "chapters/03-cancer-epidemiology-and-risk-factors.md",
+ "voice_id": "",
+ "accent": "#ea580c",
+ "fps": 24,
+ "clock": "real",
+ "metadata": {
+  "chapter": 3,
+  "total_chapters": 16,
+  "playlist": "Cancer Biology",
+  "palette": "brutalist",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
+ },
+ "segments": [
+  {
+   "section": "HOOK",
+   "dark": false,
+   "title": [
+    [
+     "CHAPTER 3 — ",
+     false
+    ],
+    [
+     "CANCER EPIDEMIOLOGY AND RISK FACTORS",
+     true
+    ]
+   ],
+   "body_html": "<p class=\"lead\">(Recall — difficulty: low) Define incidence, mortality, prevalence, and age-standardized rate. Then explain in two sente</p><div class=\"callout\"><b>Chapter 3 — Cancer Epidemiology and Risk</b> — (Recall — difficulty: low) What percentage of cancers are driven primarily by inherited high-penetrance mutations, and w</div>",
+   "beats": [
     {
-      "section": "HOOK",
-      "dark": false,
-      "title": [
-        [
-          "CHAPTER 3 — ",
-          false
-        ],
-        [
-          "CANCER EPIDEMIOLOGY AND RISK FACTORS",
-          true
-        ]
-      ],
-      "body_html": "<p class=\"lead\">(Recall — difficulty: low) Define incidence, mortality, prevalence, and age-standardized rate. Then explain in two sente</p><div class=\"callout\"><b>Chapter 3 — Cancer Epidemiology and Risk</b> — (Recall — difficulty: low) What percentage of cancers are driven primarily by inherited high-penetrance mutations, and w</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "(Recall , difficulty: low) Define incidence, mortality, prevalence, and age-standardized rate. Then explain in two sentences why a country's cancer case counts can rise over twenty years while its age-standardized incidence rate falls. What this tests: the counts-versus-rates distinction before applying it to real statistics. (Recall , difficulty: low) What percentage of cancers are driven primarily by inherited high-penetrance mutations, and what does that imply about the fraction driven by somatic mutations from environmental exposure? Name three high-penetrance cancer predisposition genes and the cancers they predispose to.",
-          "audio_file": "audio/S01.mp3",
-          "actual_duration_s": 34.88
-        }
-      ],
-      "id": "S01",
-      "num": 1,
-      "total": 4,
-      "label": "01 / 04 · HOOK"
-    },
-    {
-      "section": "PROMPTS",
-      "dark": false,
-      "title": [
-        [
-          "PROMPTS",
-          false
-        ],
-        [
-          "",
-          true
-        ]
-      ],
-      "body_html": "",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "This section covers key concepts from the chapter.",
-          "audio_file": "audio/S02.mp3",
-          "actual_duration_s": 3.39
-        }
-      ],
-      "id": "S02",
-      "num": 2,
-      "total": 4,
-      "label": "02 / 04 · PROMPTS"
-    },
-    {
-      "section": "THESIS",
-      "dark": false,
-      "title": [
-        [
-          "THE CORE ",
-          false
-        ],
-        [
-          "CLAIM.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"thesis\">Figure 3.1 — Attributable fraction of cancer by modifiable exposure Build a ranked horizontal bar chart, bars proportion</div><p class=\"lead\">Figure 3.2 — Mutational signatures as exposure fingerprints Build a four-panel comparison grid, one row per carcinogen, </p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "This section covers key concepts from the chapter.",
-          "audio_file": "audio/S03.mp3",
-          "actual_duration_s": 3.39
-        }
-      ],
-      "id": "S03",
-      "num": 3,
-      "total": 4,
-      "label": "03 / 04 · THESIS"
-    },
-    {
-      "section": "CLOSE",
-      "dark": true,
-      "title": [
-        [
-          "ASK THE QUESTION. ",
-          false
-        ],
-        [
-          "APPLY THE FRAMEWORK.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>PROMPTS</span><span>//</span><span>CANCER BIOLOGY</span><span>//</span><span>CANCER BIOLOGY</span></div><p class=\"sig\">Cancer Biology · Ch.3 · Chapter 3 — Cancer Epidemiology and Risk Factors</p></div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "That is the framework. Cancer Biology, chapter 3: Chapter 3 , Cancer Epidemiology and Risk Factors. The patterns are now in place. Apply them.",
-          "audio_file": "audio/S04.mp3",
-          "actual_duration_s": 8.7
-        }
-      ],
-      "id": "S04",
-      "num": 4,
-      "total": 4,
-      "label": "04 / 04 · CLOSE"
+     "type": "analytic",
+     "text": "(Recall , difficulty: low) Define incidence, mortality, prevalence, and age-standardized rate. Then explain in two sentences why a country's cancer case counts can rise over twenty years while its age-standardized incidence rate falls. What this tests: the counts-versus-rates distinction before applying it to real statistics. (Recall , difficulty: low) What percentage of cancers are driven primarily by inherited high-penetrance mutations, and what does that imply about the fraction driven by somatic mutations from environmental exposure? Name three high-penetrance cancer predisposition genes and the cancers they predispose to.",
+     "audio_file": "audio/S01.mp3",
+     "actual_duration_s": 34.88
     }
-  ]
+   ],
+   "id": "S01",
+   "num": 1,
+   "total": 4,
+   "label": "01 / 04 · HOOK"
+  },
+  {
+   "section": "PROMPTS",
+   "dark": false,
+   "title": [
+    [
+     "PROMPTS",
+     false
+    ],
+    [
+     "",
+     true
+    ]
+   ],
+   "body_html": "",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "This section covers key concepts from the chapter.",
+     "audio_file": "audio/S02.mp3",
+     "actual_duration_s": 3.39
+    }
+   ],
+   "id": "S02",
+   "num": 2,
+   "total": 4,
+   "label": "02 / 04 · PROMPTS"
+  },
+  {
+   "section": "THESIS",
+   "dark": false,
+   "title": [
+    [
+     "THE CORE ",
+     false
+    ],
+    [
+     "CLAIM.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"thesis\">Figure 3.1 — Attributable fraction of cancer by modifiable exposure Build a ranked horizontal bar chart, bars proportion</div><p class=\"lead\">Figure 3.2 — Mutational signatures as exposure fingerprints Build a four-panel comparison grid, one row per carcinogen, </p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "This section covers key concepts from the chapter.",
+     "audio_file": "audio/S03.mp3",
+     "actual_duration_s": 3.39
+    }
+   ],
+   "id": "S03",
+   "num": 3,
+   "total": 4,
+   "label": "03 / 04 · THESIS"
+  },
+  {
+   "section": "CLOSE",
+   "dark": true,
+   "title": [
+    [
+     "ASK THE QUESTION. ",
+     false
+    ],
+    [
+     "APPLY THE FRAMEWORK.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>PROMPTS</span><span>//</span><span>CANCER BIOLOGY</span><span>//</span><span>CANCER BIOLOGY</span></div><p class=\"sig\">Cancer Biology · Ch.3 · Chapter 3 — Cancer Epidemiology and Risk Factors</p></div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "That is the framework. Cancer Biology, chapter 3: Chapter 3 , Cancer Epidemiology and Risk Factors. The patterns are now in place. Apply them.",
+     "audio_file": "audio/S04.mp3",
+     "actual_duration_s": 8.7
+    }
+   ],
+   "id": "S04",
+   "num": 4,
+   "total": 4,
+   "label": "04 / 04 · CLOSE"
+  }
+ ]
 }

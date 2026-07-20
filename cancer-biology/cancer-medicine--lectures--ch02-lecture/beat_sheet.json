@@ -1,341 +1,345 @@
 {
-  "slug": "cancer-medicine-ch02-anti-angiogenic-therapy",
-  "title": "Anti-Angiogenic Therapy: Promise and Reality",
-  "series": "Cancer Medicine",
-  "source": "chapters/02-anti-angiogenic-therapy-promise-and-reality.md",
-  "voice_id": "TyW6NH39JcFb5M3xdIIk",
-  "accent": "#ea580c",
-  "fps": 24,
-  "clock": "real",
-  "metadata": {
-    "chapter": 2,
-    "total_chapters": 11,
-    "playlist": "Cancer Medicine"
-  },
-  "segments": [
+ "slug": "cancer-medicine-ch02-anti-angiogenic-therapy",
+ "title": "Anti-Angiogenic Therapy: Promise and Reality",
+ "series": "Cancer Medicine",
+ "source": "chapters/02-anti-angiogenic-therapy-promise-and-reality.md",
+ "voice_id": "TyW6NH39JcFb5M3xdIIk",
+ "accent": "#ea580c",
+ "fps": 24,
+ "clock": "real",
+ "metadata": {
+  "chapter": 2,
+  "total_chapters": 11,
+  "playlist": "Cancer Medicine",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
+ },
+ "segments": [
+  {
+   "id": "S01",
+   "num": 1,
+   "total": 12,
+   "section": "HOOK",
+   "label": "01 / 12 · HOOK",
+   "dark": false,
+   "title": [
+    [
+     "THE LOGIC WAS RIGHT.",
+     false
+    ],
+    [
+     "THE CURE WAS NOT.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n  <div class=\"flow\"><span class=\"chip\">tumor needs VEGF</span><span class=\"arw\">→</span><span class=\"chip\">block VEGF</span><span class=\"arw\">→</span><span class=\"chip on\">tumor starves</span><span class=\"arw\">→</span><span class=\"chip dim\">patient lives</span></div>\n  <p class=\"lead\">Judah Folkman spent thirty years on this idea. Bevacizumab proved he was right about the biology — and showed the cure was far more complicated than the logic.</p>\n</div>",
+   "beats": [
     {
-      "id": "S01",
-      "num": 1,
-      "total": 12,
-      "section": "HOOK",
-      "label": "01 / 12 \u00b7 HOOK",
-      "dark": false,
-      "title": [
-        [
-          "THE LOGIC WAS RIGHT.",
-          false
-        ],
-        [
-          "THE CURE WAS NOT.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n  <div class=\"flow\"><span class=\"chip\">tumor needs VEGF</span><span class=\"arw\">\u2192</span><span class=\"chip\">block VEGF</span><span class=\"arw\">\u2192</span><span class=\"chip on\">tumor starves</span><span class=\"arw\">\u2192</span><span class=\"chip dim\">patient lives</span></div>\n  <p class=\"lead\">Judah Folkman spent thirty years on this idea. Bevacizumab proved he was right about the biology \u2014 and showed the cure was far more complicated than the logic.</p>\n</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The logic was as clean as logic gets in oncology. Solid tumors cannot grow beyond a few millimeters without recruiting new blood vessels. Those vessels depend on a protein called Vascular Endothelial Growth Factor \u2014 VEGF. Block VEGF, the vessels cannot form, the tumor is starved of oxygen and nutrients, and the patient lives. Judah Folkman spent thirty years defending that idea when most of the field thought it was wrong. Bevacizumab, a humanized monoclonal antibody that sequesters circulating VEGF-A, vindicated him. It was approved. It extended survival in multiple cancer types. And then the great cure that was supposed to follow never arrived. The drug worked \u2014 but not the way Folkman described. What actually happens inside a tumor when you block VEGF is stranger, more interesting, and more instructive than starvation.",
-          "audio_file": "audio/S01.mp3",
-          "actual_duration_s": 57.21
-        }
-      ]
-    },
-    {
-      "id": "S02",
-      "num": 2,
-      "total": 12,
-      "section": "THE STAKES",
-      "label": "02 / 12 \u00b7 THE STAKES",
-      "dark": false,
-      "title": [
-        [
-          "FIVE MONTHS.",
-          false
-        ],
-        [
-          "REAL. APPROVED. NOT CURATIVE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n  <div class=\"stat\"><div class=\"big\">15.6</div><div class=\"cap\">months OS \u2014 control arm</div></div>\n  <div class=\"eq\">\u2192</div>\n  <div class=\"stat\"><div class=\"big on\">20.3</div><div class=\"cap\">months OS \u2014 bevacizumab arm</div></div>\n</div>\n<p class=\"lead\">Metastatic colorectal cancer. The gain was real, reproducible, and the basis for approval across six-plus tumor types. The side-effect profile mapped directly to what VEGF does in healthy tissue.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The pivotal metastatic colorectal cancer trial told the story with numbers. Median overall survival in the control arm was fifteen point six months. In the bevacizumab arm it was twenty point three. Roughly five months. That is not nothing \u2014 in metastatic colorectal cancer, five months is a clinically meaningful difference, and the benefit was real, reproducible across trials, and the basis for regulatory approval. Approvals followed in non-small-cell lung cancer, breast cancer, renal cell carcinoma, glioblastoma, and ovarian cancer. The side effect profile made biological sense: hypertension because VEGF regulates vessel tone in normal tissue; proteinuria because VEGF maintains the glomerular filtration barrier in the kidney; impaired wound healing because VEGF drives the angiogenesis that repairs tissue. Every toxicity was a readout of VEGF's normal jobs. The drug was doing exactly what it was designed to do. And yet the five-month gain in colorectal cancer was as good as it got. No tumor type was cured.",
-          "audio_file": "audio/S02.mp3",
-          "actual_duration_s": 73.19
-        }
-      ]
-    },
-    {
-      "id": "S03",
-      "num": 3,
-      "total": 12,
-      "section": "EXTENDING THE APPROACH",
-      "label": "03 / 12 \u00b7 EXTENDING THE APPROACH",
-      "dark": false,
-      "title": [
-        [
-          "TRAP IT. BLOCK THE RECEPTOR.",
-          false
-        ],
-        [
-          "POISON THE KINASE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid3\">\n  <div class=\"cell-part\"><b>Aflibercept</b><span>VEGF trap \u2014 decoy receptor catches VEGF-A, VEGF-B, and PlGF before reaching the endothelial cell</span></div>\n  <div class=\"cell-part\"><b>Ramucirumab</b><span>anti-VEGFR-2 antibody \u2014 binds the receptor directly, blocks ligand docking from the other side</span></div>\n  <div class=\"cell-part\"><b>TKIs</b><span>small molecules cross membranes, compete with ATP at the kinase domain \u2014 sunitinib hits VEGFR-1/2/3, PDGFR, c-KIT, FLT3, RET</span></div>\n</div>\n<p class=\"lead\">Multi-kinase coverage addresses angiogenic redundancy \u2014 but also multiplies toxicity profiles.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The pharmaceutical response to bevacizumab's limitations was to build more tools attacking the same pathway from different angles. Aflibercept is a fusion protein \u2014 a decoy receptor constructed from VEGFR-1 and VEGFR-2 domains \u2014 that acts as a trap, sequestering VEGF-A, VEGF-B, and placental growth factor before they reach endothelial cells. Ramucirumab takes the opposite approach: it binds VEGFR-2 directly and blocks ligand docking from the receptor side rather than the ligand side. Then came the small molecules. Tyrosine kinase inhibitors cross cell membranes and compete with ATP at the kinase domain of VEGF receptors, blocking the signaling that follows ligand binding. Sunitinib is the archetype of the multi-kinase approach: it inhibits VEGFR-1, VEGFR-2, and VEGFR-3, plus PDGFR, c-KIT, FLT3, and RET. The breadth is a strategy \u2014 different tumors upregulate different pro-angiogenic signals, and blocking multiple kinases simultaneously limits the escape routes.",
-          "audio_file": "audio/S03.mp3",
-          "actual_duration_s": 75.74
-        }
-      ]
-    },
-    {
-      "id": "S04",
-      "num": 4,
-      "total": 12,
-      "section": "THE TKI LANDSCAPE",
-      "label": "04 / 12 \u00b7 THE TKI LANDSCAPE",
-      "dark": false,
-      "title": [
-        [
-          "THIRTY PERCENT RESPONSE.",
-          false
-        ],
-        [
-          "ELEVEN MONTHS. A NEW STANDARD.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n  <div class=\"stat\"><div class=\"big on\">~30%</div><div class=\"cap\">response rate, sunitinib in VHL-deleted RCC</div></div>\n  <div class=\"stat\"><div class=\"big\">11 mo</div><div class=\"cap\">PFS vs ~5 on interferon</div></div>\n</div>\n<div class=\"flow\">\n  <span class=\"chip\">sorafenib</span><span class=\"arw\">+</span><span class=\"chip\">RAF</span>\n  <span class=\"arw\">\u00b7</span>\n  <span class=\"chip\">pazopanib</span>\n  <span class=\"arw\">\u00b7</span>\n  <span class=\"chip\">axitinib</span>\n  <span class=\"arw\">\u00b7</span>\n  <span class=\"chip\">cabozantinib</span>\n  <span class=\"arw\">\u00b7</span>\n  <span class=\"chip dim\">hand-foot from PDGFR/c-KIT in skin</span>\n</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "VHL-deleted renal cell carcinoma became the proving ground for anti-angiogenic tyrosine kinase inhibitors. VHL loss constitutively activates HIF and drives extreme VEGF overexpression, making these tumors genuinely dependent on continuous angiogenic signaling. Sunitinib produced response rates around thirty percent in this setting, with progression-free survival around eleven months compared to roughly five months on interferon alfa, which had been the prior standard. That was a genuine advance, and sunitinib became a standard first-line therapy. The agents that followed \u2014 sorafenib, which added RAF kinase inhibition to VEGFR blockade; pazopanib; axitinib; cabozantinib, which added MET and AXL to cover additional escape routes; lenvatinib; and regorafenib \u2014 each carry different kinase profiles and different toxicity patterns. Hand-foot skin reaction, a painful palmar-plantar desquamation, is the characteristic toxicity of inhibitors that hit PDGFR and c-KIT in skin, and it distinguishes TKI-class toxicity from bevacizumab-class toxicity.",
-          "audio_file": "audio/S04.mp3",
-          "actual_duration_s": 79.51
-        }
-      ]
-    },
-    {
-      "id": "S05",
-      "num": 5,
-      "total": 12,
-      "section": "WHAT ACTUALLY HAPPENS TO VESSELS",
-      "label": "05 / 12 \u00b7 WHAT ACTUALLY HAPPENS TO VESSELS",
-      "dark": false,
-      "title": [
-        [
-          "EXPECTED DESTRUCTION.",
-          false
-        ],
-        [
-          "SAW NORMALIZATION.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\">\n  <span class=\"chip\">anti-VEGF given</span><span class=\"arw\">\u2192</span><span class=\"chip warn\">most abnormal vessels regress</span><span class=\"arw\">\u2192</span><span class=\"chip on\">survivors become less leaky</span>\n</div>\n<div class=\"stack\" style=\"margin-top:12px\">\n  <div class=\"wire\"><b>Better pericyte coverage</b><span>remaining vessels structurally improved</span></div>\n  <div class=\"wire\"><b>Lower interstitial fluid pressure</b><span>hydraulic barrier to drug delivery falls</span></div>\n  <div class=\"wire\"><b>More uniform perfusion</b><span>oxygen distribution improves transiently</span></div>\n</div>\n<p class=\"lead\">Rakesh Jain's intravital microscopy: tumor vasculature after anti-VEGF can be MORE functional than baseline.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The experiment that changed the conceptual framework for this entire field was done with intravital microscopy \u2014 imaging live tumor vasculature through a window chamber in a mouse. Rakesh Jain and his colleagues at Harvard expected to watch vessels collapse and disappear as VEGF was withdrawn. What they saw in the first days was different. Most of the most abnormal vessels \u2014 the tortuous, irregularly branching ones \u2014 did regress. But the vessels that survived the initial pruning became structurally improved. They leaked less. Pericyte coverage increased. Interstitial fluid pressure fell. Perfusion became more uniform across the tumor. The oxygen partial pressure in the tumor, instead of falling as the starvation model predicted, actually improved \u2014 transiently. The tumor's vasculature after anti-VEGF treatment was, in a measurable sense, more functional than before. That was not what the starvation hypothesis predicted. It required a new framework to explain.",
-          "audio_file": "audio/S05.mp3",
-          "actual_duration_s": 67.06
-        }
-      ]
-    },
-    {
-      "id": "S06",
-      "num": 6,
-      "total": 12,
-      "section": "VASCULAR NORMALIZATION",
-      "label": "06 / 12 \u00b7 VASCULAR NORMALIZATION",
-      "dark": false,
-      "title": [
-        [
-          "NOT STARVATION.",
-          false
-        ],
-        [
-          "PRUNING AND TRANSIENT REPAIR.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"balance\">\n  <div class=\"pan surv\"><b>Under-pruning</b><span>abnormal leaky vessels \u00b7 high IFP \u00b7 drug blocked \u00b7 chemo fails</span></div>\n  <div class=\"fulcrum\">\u21c4</div>\n  <div class=\"pan die\"><b>Over-pruning</b><span>severe hypoxia \u00b7 drug can't penetrate \u00b7 selects invasive cells \u00b7 resistance</span></div>\n</div>\n<p class=\"lead hl\">The normalization window: drug delivery improves, chemo penetrates, radiation works \u2014 hypoxia falls, radiosensitivity increases. Timing is the critical variable.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The vascular normalization hypothesis reframed what anti-VEGF drugs actually do. The mechanism is not starvation. It is pruning of the most dysfunctional vessels combined with transient structural repair of the surviving ones. During what Jain called the normalization window, drug delivery to the tumor improves \u2014 chemotherapy can penetrate farther into the tumor interior. Radiation works better because oxygenation improves, and hypoxic tumors are radioresistant while well-oxygenated ones are not. This explains why combinations of anti-angiogenic therapy with chemotherapy and radiation outperform either alone: the anti-angiogenic drug is making the tumor temporarily more accessible. But the window has a threshold. Continued or excessive VEGF blockade tips from transient normalization into over-pruning \u2014 severe hypoxia, reduced drug delivery, and, critically, selection pressure for cancer cell clones that can invade the surrounding tissue rather than wait for a blood supply. Timing is not just important. It is the entire variable.",
-          "audio_file": "audio/S06.mp3",
-          "actual_duration_s": 71.24
-        }
-      ]
-    },
-    {
-      "id": "S07",
-      "num": 7,
-      "total": 12,
-      "section": "PSEUDORESPONSE AND THE ENDPOINT HIERARCHY",
-      "label": "07 / 12 \u00b7 PSEUDORESPONSE AND THE ENDPOINT HIERARCHY",
-      "dark": false,
-      "title": [
-        [
-          "THE SCAN IMPROVED.",
-          false
-        ],
-        [
-          "THE PATIENT DID NOT LIVE LONGER.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\">\n  <span class=\"chip on\">gadolinium stops leaking</span><span class=\"arw\">\u2192</span><span class=\"chip on\">tumor shrinks on MRI</span><span class=\"arw\">\u2192</span><span class=\"chip warn\">no OS benefit</span>\n</div>\n<div class=\"stack\" style=\"margin-top:12px\">\n  <div class=\"wire\"><b class=\"warn\">Response rate</b><span>imaging signal \u2014 vascular normalization mimics tumor shrinkage</span></div>\n  <div class=\"wire\"><b>Progression-free survival</b><span>better than RR \u2014 still influenced by imaging artifact</span></div>\n  <div class=\"wire\"><b class=\"on\">Overall Survival</b><span>the only endpoint that cannot be fooled. When they disagree, OS wins.</span></div>\n</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The glioblastoma experience made the distinction between imaging response and clinical benefit unavoidable. When bevacizumab was added to glioblastoma treatment, the gadolinium-enhancing lesion on MRI shrank dramatically. Gadolinium enhancement reflects blood-brain barrier breakdown \u2014 leaky vessels accumulate the contrast agent. Tightening the vessels through VEGF blockade reduces enhancement. The tumor appeared to shrink on the scan. Response rates were impressive. Progression-free survival improved in some analyses. Overall survival did not. This is pseudoresponse: an imaging improvement driven by vascular normalization rather than actual cancer cell kill. The lesson from this is not obscure \u2014 it is fundamental to how clinical trials should be designed and interpreted. Response rate is the weakest endpoint. Progression-free survival is better. Overall survival is the endpoint that cannot be fooled by a biological effect on vessels. When response rate and overall survival point in different directions, overall survival wins. Always.",
-          "audio_file": "audio/S07.mp3",
-          "actual_duration_s": 70.5
-        }
-      ]
-    },
-    {
-      "id": "S08",
-      "num": 8,
-      "total": 12,
-      "section": "FIVE ESCAPE ROUTES",
-      "label": "08 / 12 \u00b7 FIVE ESCAPE ROUTES",
-      "dark": false,
-      "title": [
-        [
-          "VEGF BLOCKED.",
-          false
-        ],
-        [
-          "FIVE WAYS THE TUMOR RESPONDS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n  <div class=\"wire\"><b>1 \u00b7 Alternative factors</b><span>FGF, PDGF, angiopoietins upregulate when VEGF is blocked \u2014 angiogenesis continues through other signals</span></div>\n  <div class=\"wire\"><b>2 \u00b7 Vessel co-option</b><span>tumor cells migrate along existing normal vessels \u2014 no new vessel formation required</span></div>\n  <div class=\"wire\"><b>3 \u00b7 Pericyte-covered mature vessels</b><span>VEGF-independent \u2014 survive anti-VEGF therapy because they no longer need it</span></div>\n  <div class=\"wire\"><b>4 \u00b7 Myeloid recruitment</b><span>bone marrow-derived cells supply angiogenic signals locally \u2014 VEGF-independent rescue</span></div>\n  <div class=\"wire\"><b>5 \u00b7 Hypoxia-driven selection</b><span>over-pruning selects invasive, aggressive, treatment-resistant clones</span></div>\n</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Anti-VEGF resistance has been mapped to at least five distinct mechanisms, and most tumors that escape do so through more than one simultaneously. First: alternative angiogenic factors. When VEGF signaling is suppressed, tumors upregulate fibroblast growth factor, platelet-derived growth factor, and angiopoietins \u2014 the angiogenic program simply reroutes. Second: vessel co-option. Cancer cells can migrate along pre-existing normal blood vessels in the surrounding tissue without constructing new ones at all, bypassing VEGF-dependent angiogenesis entirely. Third: mature, pericyte-covered vessels. Vessels with full pericyte investment are structurally VEGF-independent. They survive anti-VEGF treatment because they no longer require VEGF to maintain their architecture. Fourth: myeloid cell recruitment. Bone marrow-derived myeloid cells recruited to the tumor supply angiogenic factors locally, reconstituting the pro-angiogenic signal through a VEGF-independent channel. Fifth: hypoxia-driven clonal selection. The most clinically dangerous escape: over-pruning selects for cancer cells adapted to invade surrounding tissue, which makes the tumor more aggressive after treatment than it was before.",
-          "audio_file": "audio/S08.mp3",
-          "actual_duration_s": 91.16
-        }
-      ]
-    },
-    {
-      "id": "S09",
-      "num": 9,
-      "total": 12,
-      "section": "THE IMMUNOTHERAPY SYNERGY",
-      "label": "09 / 12 \u00b7 THE IMMUNOTHERAPY SYNERGY",
-      "dark": false,
-      "title": [
-        [
-          "VEGF SUPPRESSES IMMUNITY.",
-          false
-        ],
-        [
-          "BLOCKING IT OPENS THE DOOR.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\">\n  <span class=\"chip warn\">VEGF \u2192 dendritic cell maturation blocked</span><span class=\"arw\">+</span><span class=\"chip warn\">Treg expansion</span><span class=\"arw\">\u2192</span><span class=\"chip dim\">immune desert</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip on\">anti-VEGF</span><span class=\"arw\">\u2192</span><span class=\"chip on\">hypoxia falls \u00b7 T cells infiltrate \u00b7 PD-L1 access improves</span>\n</div>\n<div class=\"stack\" style=\"margin-top:12px\">\n  <div class=\"wire\"><b>IMbrave150</b><span>atezolizumab + bevacizumab in hepatocellular carcinoma \u2014 improved OS. Now standard of care.</span></div>\n  <div class=\"wire\"><b>KEYNOTE-426</b><span>pembrolizumab + axitinib in renal cell carcinoma \u2014 improved OS. Now standard of care.</span></div>\n</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "VEGF is not only a vascular growth factor. It is also directly immunosuppressive. It inhibits dendritic cell maturation, reducing the cells that present tumor antigens to T cells in lymph nodes. It promotes the expansion of regulatory T cells, which suppress cytotoxic activity. High tumor VEGF creates a chemokine environment that discourages effector T-cell infiltration and encourages immunosuppressive myeloid cell entry. This means anti-VEGF therapy has immunological effects independent of its vascular effects. When you normalize the vessels and reduce hypoxia, T-cell infiltration improves. When you block VEGF's direct immunosuppressive signaling, antigen presentation recovers. And when you give a checkpoint inhibitor \u2014 which releases the PD-1 or CTLA-4 brake on T cells that are already in the tumor \u2014 the combination should be more potent than either drug alone. IMbrave150 showed that atezolizumab plus bevacizumab improved overall survival in hepatocellular carcinoma. KEYNOTE-426 showed that pembrolizumab plus axitinib improved overall survival in renal cell carcinoma. Both combinations are now standard of care. The prediction from the normalization model was correct.",
-          "audio_file": "audio/S09.mp3",
-          "actual_duration_s": 82.25
-        }
-      ]
-    },
-    {
-      "id": "S10",
-      "num": 10,
-      "total": 12,
-      "section": "THE FRAMEWORK THAT WORKED",
-      "label": "10 / 12 \u00b7 THE FRAMEWORK THAT WORKED",
-      "dark": false,
-      "title": [
-        [
-          "THE REFRAME MADE",
-          false
-        ],
-        [
-          "TESTABLE PREDICTIONS. THEY WERE RIGHT.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\">\n  <span class=\"chip on\">normalize vessels</span><span class=\"arw\">\u2192</span><span class=\"chip on\">reduce hypoxia</span><span class=\"arw\">\u2192</span><span class=\"chip on\">T-cell trafficking improves</span><span class=\"arw\">\u2192</span><span class=\"chip on\">VEGF immunosuppression lifted</span><span class=\"arw\">\u2192</span><span class=\"chip on\">checkpoint blockade works</span>\n</div>\n<div class=\"thesis\">Anti-angiogenic drugs are <b>microenvironment modifiers</b>, not starving agents. Their most important role is making other therapies work \u2014 not working alone.</div>\n<p class=\"lead\">Scientific reframings earn credibility by generating predictions that turn out to be right. This one did.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "What makes the vascular normalization model more than a redescription of the data is that it generated predictions that could be tested and that turned out to be correct. The prediction was: normalize vessels, reduce hypoxia, and immune cell trafficking into the tumor will improve. Reduce hypoxia and block VEGF's direct immunosuppressive signaling, and checkpoint inhibitors will work better inside the normalized tumor. Add a checkpoint inhibitor during the normalization window, and you will see additive or synergistic benefit on a hard endpoint \u2014 overall survival \u2014 not just on imaging. That prediction was made before the combination trials ran. The combination trials confirmed it. Scientific frameworks earn credibility by generating correct predictions. The starvation framework predicted bevacizumab would be curative in some patients. It was not. The normalization framework predicted the combination with immunotherapy would improve overall survival. It did. The reframe is not semantic. It is the difference between knowing why a drug works and knowing when and with what to combine it.",
-          "audio_file": "audio/S10.mp3",
-          "actual_duration_s": 74.26
-        }
-      ]
-    },
-    {
-      "id": "S11",
-      "num": 11,
-      "total": 12,
-      "section": "THE THESIS",
-      "label": "11 / 12 \u00b7 THE THESIS",
-      "dark": false,
-      "title": [
-        [
-          "NOT STARVATION.",
-          false
-        ],
-        [
-          "NORMALIZATION. COMBINATION. TIMING.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"thesis\">The drug that looks like a win on the scan must be weighed against the drug that keeps the patient alive. Endpoint hierarchy is not pedantic \u2014 it is how you tell a drug that works from a drug that <em>appears</em> to work.</div>\n<div class=\"callout\">Anti-angiogenic therapy is most powerful as a platform for combination: with chemotherapy during the normalization window, with radiation when oxygenation improves, with checkpoint blockade when immune trafficking is restored.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The thesis of this chapter can be stated in three lines. First: the mechanism of anti-angiogenic therapy is not starvation. It is vascular normalization \u2014 pruning of the most dysfunctional vessels and transient structural improvement of the survivors. Second: the clinical strategy that follows from normalization is combination, not monotherapy. The drug's most important job is making chemotherapy penetrate, making radiation more lethal, and making immunotherapy work by lifting VEGF's suppression of immune trafficking. Third: because vascular normalization creates a transient window that imaging can mimic without actual tumor cell kill, endpoint hierarchy matters. The drug that improves gadolinium enhancement on an MRI scan may be doing something biologically real that does not translate to the patient living longer. Knowing which endpoint to trust is not a statistical nicety. It is the difference between a drug that works and a drug that appears to work \u2014 and in oncology that difference is the patient.",
-          "audio_file": "audio/S11.mp3",
-          "actual_duration_s": 67.34
-        }
-      ]
-    },
-    {
-      "id": "S12",
-      "num": 12,
-      "total": 12,
-      "section": "CLOSE",
-      "label": "12 / 12 \u00b7 CLOSE",
-      "dark": true,
-      "title": [
-        [
-          "ASK NOT: DID THE SCAN IMPROVE?",
-          false
-        ],
-        [
-          "ASK: DID THE PATIENT LIVE LONGER?",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"close\">\n  <div class=\"close-tags\"><span>NORMALIZATION NOT STARVATION</span><span>//</span><span>COMBINATION IS THE STRATEGY</span><span>//</span><span>OS IS THE ONLY ANSWER</span></div>\n  <p class=\"sig\">Cancer Medicine \u00b7 Chapter 2 \u00b7 Anti-Angiogenic Therapy: Promise and Reality</p>\n</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "That is the framework: not starvation as a goal, normalization as the mechanism, and combination as the strategy that follows from understanding what normalization actually does. The open questions are genuinely open. How do you detect the normalization window in a living patient \u2014 not in a mouse with a dorsal window chamber, but in a person, on a clinical schedule? Which tumor types are truly VEGF-addicted enough that anti-angiogenic monotherapy produces durable benefit rather than transient response? And when you combine anti-angiogenic therapy with immunotherapy, what is the optimal sequencing and dosing to sustain the normalization window rather than collapse it into over-pruning? Folkman was right about the biology. The vessels matter. The question his successors are still answering is how to use that insight precisely enough that the right patients, in the right tumors, get the right combination at the right moment in the window.",
-          "audio_file": "audio/S12.mp3",
-          "actual_duration_s": 63.02
-        }
-      ]
+     "type": "analytic",
+     "text": "The logic was as clean as logic gets in oncology. Solid tumors cannot grow beyond a few millimeters without recruiting new blood vessels. Those vessels depend on a protein called Vascular Endothelial Growth Factor — VEGF. Block VEGF, the vessels cannot form, the tumor is starved of oxygen and nutrients, and the patient lives. Judah Folkman spent thirty years defending that idea when most of the field thought it was wrong. Bevacizumab, a humanized monoclonal antibody that sequesters circulating VEGF-A, vindicated him. It was approved. It extended survival in multiple cancer types. And then the great cure that was supposed to follow never arrived. The drug worked — but not the way Folkman described. What actually happens inside a tumor when you block VEGF is stranger, more interesting, and more instructive than starvation.",
+     "audio_file": "audio/S01.mp3",
+     "actual_duration_s": 57.21
     }
-  ]
+   ]
+  },
+  {
+   "id": "S02",
+   "num": 2,
+   "total": 12,
+   "section": "THE STAKES",
+   "label": "02 / 12 · THE STAKES",
+   "dark": false,
+   "title": [
+    [
+     "FIVE MONTHS.",
+     false
+    ],
+    [
+     "REAL. APPROVED. NOT CURATIVE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n  <div class=\"stat\"><div class=\"big\">15.6</div><div class=\"cap\">months OS — control arm</div></div>\n  <div class=\"eq\">→</div>\n  <div class=\"stat\"><div class=\"big on\">20.3</div><div class=\"cap\">months OS — bevacizumab arm</div></div>\n</div>\n<p class=\"lead\">Metastatic colorectal cancer. The gain was real, reproducible, and the basis for approval across six-plus tumor types. The side-effect profile mapped directly to what VEGF does in healthy tissue.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The pivotal metastatic colorectal cancer trial told the story with numbers. Median overall survival in the control arm was fifteen point six months. In the bevacizumab arm it was twenty point three. Roughly five months. That is not nothing — in metastatic colorectal cancer, five months is a clinically meaningful difference, and the benefit was real, reproducible across trials, and the basis for regulatory approval. Approvals followed in non-small-cell lung cancer, breast cancer, renal cell carcinoma, glioblastoma, and ovarian cancer. The side effect profile made biological sense: hypertension because VEGF regulates vessel tone in normal tissue; proteinuria because VEGF maintains the glomerular filtration barrier in the kidney; impaired wound healing because VEGF drives the angiogenesis that repairs tissue. Every toxicity was a readout of VEGF's normal jobs. The drug was doing exactly what it was designed to do. And yet the five-month gain in colorectal cancer was as good as it got. No tumor type was cured.",
+     "audio_file": "audio/S02.mp3",
+     "actual_duration_s": 73.19
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "num": 3,
+   "total": 12,
+   "section": "EXTENDING THE APPROACH",
+   "label": "03 / 12 · EXTENDING THE APPROACH",
+   "dark": false,
+   "title": [
+    [
+     "TRAP IT. BLOCK THE RECEPTOR.",
+     false
+    ],
+    [
+     "POISON THE KINASE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid3\">\n  <div class=\"cell-part\"><b>Aflibercept</b><span>VEGF trap — decoy receptor catches VEGF-A, VEGF-B, and PlGF before reaching the endothelial cell</span></div>\n  <div class=\"cell-part\"><b>Ramucirumab</b><span>anti-VEGFR-2 antibody — binds the receptor directly, blocks ligand docking from the other side</span></div>\n  <div class=\"cell-part\"><b>TKIs</b><span>small molecules cross membranes, compete with ATP at the kinase domain — sunitinib hits VEGFR-1/2/3, PDGFR, c-KIT, FLT3, RET</span></div>\n</div>\n<p class=\"lead\">Multi-kinase coverage addresses angiogenic redundancy — but also multiplies toxicity profiles.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The pharmaceutical response to bevacizumab's limitations was to build more tools attacking the same pathway from different angles. Aflibercept is a fusion protein — a decoy receptor constructed from VEGFR-1 and VEGFR-2 domains — that acts as a trap, sequestering VEGF-A, VEGF-B, and placental growth factor before they reach endothelial cells. Ramucirumab takes the opposite approach: it binds VEGFR-2 directly and blocks ligand docking from the receptor side rather than the ligand side. Then came the small molecules. Tyrosine kinase inhibitors cross cell membranes and compete with ATP at the kinase domain of VEGF receptors, blocking the signaling that follows ligand binding. Sunitinib is the archetype of the multi-kinase approach: it inhibits VEGFR-1, VEGFR-2, and VEGFR-3, plus PDGFR, c-KIT, FLT3, and RET. The breadth is a strategy — different tumors upregulate different pro-angiogenic signals, and blocking multiple kinases simultaneously limits the escape routes.",
+     "audio_file": "audio/S03.mp3",
+     "actual_duration_s": 75.74
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "num": 4,
+   "total": 12,
+   "section": "THE TKI LANDSCAPE",
+   "label": "04 / 12 · THE TKI LANDSCAPE",
+   "dark": false,
+   "title": [
+    [
+     "THIRTY PERCENT RESPONSE.",
+     false
+    ],
+    [
+     "ELEVEN MONTHS. A NEW STANDARD.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n  <div class=\"stat\"><div class=\"big on\">~30%</div><div class=\"cap\">response rate, sunitinib in VHL-deleted RCC</div></div>\n  <div class=\"stat\"><div class=\"big\">11 mo</div><div class=\"cap\">PFS vs ~5 on interferon</div></div>\n</div>\n<div class=\"flow\">\n  <span class=\"chip\">sorafenib</span><span class=\"arw\">+</span><span class=\"chip\">RAF</span>\n  <span class=\"arw\">·</span>\n  <span class=\"chip\">pazopanib</span>\n  <span class=\"arw\">·</span>\n  <span class=\"chip\">axitinib</span>\n  <span class=\"arw\">·</span>\n  <span class=\"chip\">cabozantinib</span>\n  <span class=\"arw\">·</span>\n  <span class=\"chip dim\">hand-foot from PDGFR/c-KIT in skin</span>\n</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "VHL-deleted renal cell carcinoma became the proving ground for anti-angiogenic tyrosine kinase inhibitors. VHL loss constitutively activates HIF and drives extreme VEGF overexpression, making these tumors genuinely dependent on continuous angiogenic signaling. Sunitinib produced response rates around thirty percent in this setting, with progression-free survival around eleven months compared to roughly five months on interferon alfa, which had been the prior standard. That was a genuine advance, and sunitinib became a standard first-line therapy. The agents that followed — sorafenib, which added RAF kinase inhibition to VEGFR blockade; pazopanib; axitinib; cabozantinib, which added MET and AXL to cover additional escape routes; lenvatinib; and regorafenib — each carry different kinase profiles and different toxicity patterns. Hand-foot skin reaction, a painful palmar-plantar desquamation, is the characteristic toxicity of inhibitors that hit PDGFR and c-KIT in skin, and it distinguishes TKI-class toxicity from bevacizumab-class toxicity.",
+     "audio_file": "audio/S04.mp3",
+     "actual_duration_s": 79.51
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "num": 5,
+   "total": 12,
+   "section": "WHAT ACTUALLY HAPPENS TO VESSELS",
+   "label": "05 / 12 · WHAT ACTUALLY HAPPENS TO VESSELS",
+   "dark": false,
+   "title": [
+    [
+     "EXPECTED DESTRUCTION.",
+     false
+    ],
+    [
+     "SAW NORMALIZATION.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\">\n  <span class=\"chip\">anti-VEGF given</span><span class=\"arw\">→</span><span class=\"chip warn\">most abnormal vessels regress</span><span class=\"arw\">→</span><span class=\"chip on\">survivors become less leaky</span>\n</div>\n<div class=\"stack\" style=\"margin-top:12px\">\n  <div class=\"wire\"><b>Better pericyte coverage</b><span>remaining vessels structurally improved</span></div>\n  <div class=\"wire\"><b>Lower interstitial fluid pressure</b><span>hydraulic barrier to drug delivery falls</span></div>\n  <div class=\"wire\"><b>More uniform perfusion</b><span>oxygen distribution improves transiently</span></div>\n</div>\n<p class=\"lead\">Rakesh Jain's intravital microscopy: tumor vasculature after anti-VEGF can be MORE functional than baseline.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The experiment that changed the conceptual framework for this entire field was done with intravital microscopy — imaging live tumor vasculature through a window chamber in a mouse. Rakesh Jain and his colleagues at Harvard expected to watch vessels collapse and disappear as VEGF was withdrawn. What they saw in the first days was different. Most of the most abnormal vessels — the tortuous, irregularly branching ones — did regress. But the vessels that survived the initial pruning became structurally improved. They leaked less. Pericyte coverage increased. Interstitial fluid pressure fell. Perfusion became more uniform across the tumor. The oxygen partial pressure in the tumor, instead of falling as the starvation model predicted, actually improved — transiently. The tumor's vasculature after anti-VEGF treatment was, in a measurable sense, more functional than before. That was not what the starvation hypothesis predicted. It required a new framework to explain.",
+     "audio_file": "audio/S05.mp3",
+     "actual_duration_s": 67.06
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "num": 6,
+   "total": 12,
+   "section": "VASCULAR NORMALIZATION",
+   "label": "06 / 12 · VASCULAR NORMALIZATION",
+   "dark": false,
+   "title": [
+    [
+     "NOT STARVATION.",
+     false
+    ],
+    [
+     "PRUNING AND TRANSIENT REPAIR.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"balance\">\n  <div class=\"pan surv\"><b>Under-pruning</b><span>abnormal leaky vessels · high IFP · drug blocked · chemo fails</span></div>\n  <div class=\"fulcrum\">⇄</div>\n  <div class=\"pan die\"><b>Over-pruning</b><span>severe hypoxia · drug can't penetrate · selects invasive cells · resistance</span></div>\n</div>\n<p class=\"lead hl\">The normalization window: drug delivery improves, chemo penetrates, radiation works — hypoxia falls, radiosensitivity increases. Timing is the critical variable.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The vascular normalization hypothesis reframed what anti-VEGF drugs actually do. The mechanism is not starvation. It is pruning of the most dysfunctional vessels combined with transient structural repair of the surviving ones. During what Jain called the normalization window, drug delivery to the tumor improves — chemotherapy can penetrate farther into the tumor interior. Radiation works better because oxygenation improves, and hypoxic tumors are radioresistant while well-oxygenated ones are not. This explains why combinations of anti-angiogenic therapy with chemotherapy and radiation outperform either alone: the anti-angiogenic drug is making the tumor temporarily more accessible. But the window has a threshold. Continued or excessive VEGF blockade tips from transient normalization into over-pruning — severe hypoxia, reduced drug delivery, and, critically, selection pressure for cancer cell clones that can invade the surrounding tissue rather than wait for a blood supply. Timing is not just important. It is the entire variable.",
+     "audio_file": "audio/S06.mp3",
+     "actual_duration_s": 71.24
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "num": 7,
+   "total": 12,
+   "section": "PSEUDORESPONSE AND THE ENDPOINT HIERARCHY",
+   "label": "07 / 12 · PSEUDORESPONSE AND THE ENDPOINT HIERARCHY",
+   "dark": false,
+   "title": [
+    [
+     "THE SCAN IMPROVED.",
+     false
+    ],
+    [
+     "THE PATIENT DID NOT LIVE LONGER.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\">\n  <span class=\"chip on\">gadolinium stops leaking</span><span class=\"arw\">→</span><span class=\"chip on\">tumor shrinks on MRI</span><span class=\"arw\">→</span><span class=\"chip warn\">no OS benefit</span>\n</div>\n<div class=\"stack\" style=\"margin-top:12px\">\n  <div class=\"wire\"><b class=\"warn\">Response rate</b><span>imaging signal — vascular normalization mimics tumor shrinkage</span></div>\n  <div class=\"wire\"><b>Progression-free survival</b><span>better than RR — still influenced by imaging artifact</span></div>\n  <div class=\"wire\"><b class=\"on\">Overall Survival</b><span>the only endpoint that cannot be fooled. When they disagree, OS wins.</span></div>\n</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The glioblastoma experience made the distinction between imaging response and clinical benefit unavoidable. When bevacizumab was added to glioblastoma treatment, the gadolinium-enhancing lesion on MRI shrank dramatically. Gadolinium enhancement reflects blood-brain barrier breakdown — leaky vessels accumulate the contrast agent. Tightening the vessels through VEGF blockade reduces enhancement. The tumor appeared to shrink on the scan. Response rates were impressive. Progression-free survival improved in some analyses. Overall survival did not. This is pseudoresponse: an imaging improvement driven by vascular normalization rather than actual cancer cell kill. The lesson from this is not obscure — it is fundamental to how clinical trials should be designed and interpreted. Response rate is the weakest endpoint. Progression-free survival is better. Overall survival is the endpoint that cannot be fooled by a biological effect on vessels. When response rate and overall survival point in different directions, overall survival wins. Always.",
+     "audio_file": "audio/S07.mp3",
+     "actual_duration_s": 70.5
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "num": 8,
+   "total": 12,
+   "section": "FIVE ESCAPE ROUTES",
+   "label": "08 / 12 · FIVE ESCAPE ROUTES",
+   "dark": false,
+   "title": [
+    [
+     "VEGF BLOCKED.",
+     false
+    ],
+    [
+     "FIVE WAYS THE TUMOR RESPONDS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n  <div class=\"wire\"><b>1 · Alternative factors</b><span>FGF, PDGF, angiopoietins upregulate when VEGF is blocked — angiogenesis continues through other signals</span></div>\n  <div class=\"wire\"><b>2 · Vessel co-option</b><span>tumor cells migrate along existing normal vessels — no new vessel formation required</span></div>\n  <div class=\"wire\"><b>3 · Pericyte-covered mature vessels</b><span>VEGF-independent — survive anti-VEGF therapy because they no longer need it</span></div>\n  <div class=\"wire\"><b>4 · Myeloid recruitment</b><span>bone marrow-derived cells supply angiogenic signals locally — VEGF-independent rescue</span></div>\n  <div class=\"wire\"><b>5 · Hypoxia-driven selection</b><span>over-pruning selects invasive, aggressive, treatment-resistant clones</span></div>\n</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Anti-VEGF resistance has been mapped to at least five distinct mechanisms, and most tumors that escape do so through more than one simultaneously. First: alternative angiogenic factors. When VEGF signaling is suppressed, tumors upregulate fibroblast growth factor, platelet-derived growth factor, and angiopoietins — the angiogenic program simply reroutes. Second: vessel co-option. Cancer cells can migrate along pre-existing normal blood vessels in the surrounding tissue without constructing new ones at all, bypassing VEGF-dependent angiogenesis entirely. Third: mature, pericyte-covered vessels. Vessels with full pericyte investment are structurally VEGF-independent. They survive anti-VEGF treatment because they no longer require VEGF to maintain their architecture. Fourth: myeloid cell recruitment. Bone marrow-derived myeloid cells recruited to the tumor supply angiogenic factors locally, reconstituting the pro-angiogenic signal through a VEGF-independent channel. Fifth: hypoxia-driven clonal selection. The most clinically dangerous escape: over-pruning selects for cancer cells adapted to invade surrounding tissue, which makes the tumor more aggressive after treatment than it was before.",
+     "audio_file": "audio/S08.mp3",
+     "actual_duration_s": 91.16
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "num": 9,
+   "total": 12,
+   "section": "THE IMMUNOTHERAPY SYNERGY",
+   "label": "09 / 12 · THE IMMUNOTHERAPY SYNERGY",
+   "dark": false,
+   "title": [
+    [
+     "VEGF SUPPRESSES IMMUNITY.",
+     false
+    ],
+    [
+     "BLOCKING IT OPENS THE DOOR.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\">\n  <span class=\"chip warn\">VEGF → dendritic cell maturation blocked</span><span class=\"arw\">+</span><span class=\"chip warn\">Treg expansion</span><span class=\"arw\">→</span><span class=\"chip dim\">immune desert</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip on\">anti-VEGF</span><span class=\"arw\">→</span><span class=\"chip on\">hypoxia falls · T cells infiltrate · PD-L1 access improves</span>\n</div>\n<div class=\"stack\" style=\"margin-top:12px\">\n  <div class=\"wire\"><b>IMbrave150</b><span>atezolizumab + bevacizumab in hepatocellular carcinoma — improved OS. Now standard of care.</span></div>\n  <div class=\"wire\"><b>KEYNOTE-426</b><span>pembrolizumab + axitinib in renal cell carcinoma — improved OS. Now standard of care.</span></div>\n</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "VEGF is not only a vascular growth factor. It is also directly immunosuppressive. It inhibits dendritic cell maturation, reducing the cells that present tumor antigens to T cells in lymph nodes. It promotes the expansion of regulatory T cells, which suppress cytotoxic activity. High tumor VEGF creates a chemokine environment that discourages effector T-cell infiltration and encourages immunosuppressive myeloid cell entry. This means anti-VEGF therapy has immunological effects independent of its vascular effects. When you normalize the vessels and reduce hypoxia, T-cell infiltration improves. When you block VEGF's direct immunosuppressive signaling, antigen presentation recovers. And when you give a checkpoint inhibitor — which releases the PD-1 or CTLA-4 brake on T cells that are already in the tumor — the combination should be more potent than either drug alone. IMbrave150 showed that atezolizumab plus bevacizumab improved overall survival in hepatocellular carcinoma. KEYNOTE-426 showed that pembrolizumab plus axitinib improved overall survival in renal cell carcinoma. Both combinations are now standard of care. The prediction from the normalization model was correct.",
+     "audio_file": "audio/S09.mp3",
+     "actual_duration_s": 82.25
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "num": 10,
+   "total": 12,
+   "section": "THE FRAMEWORK THAT WORKED",
+   "label": "10 / 12 · THE FRAMEWORK THAT WORKED",
+   "dark": false,
+   "title": [
+    [
+     "THE REFRAME MADE",
+     false
+    ],
+    [
+     "TESTABLE PREDICTIONS. THEY WERE RIGHT.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\">\n  <span class=\"chip on\">normalize vessels</span><span class=\"arw\">→</span><span class=\"chip on\">reduce hypoxia</span><span class=\"arw\">→</span><span class=\"chip on\">T-cell trafficking improves</span><span class=\"arw\">→</span><span class=\"chip on\">VEGF immunosuppression lifted</span><span class=\"arw\">→</span><span class=\"chip on\">checkpoint blockade works</span>\n</div>\n<div class=\"thesis\">Anti-angiogenic drugs are <b>microenvironment modifiers</b>, not starving agents. Their most important role is making other therapies work — not working alone.</div>\n<p class=\"lead\">Scientific reframings earn credibility by generating predictions that turn out to be right. This one did.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "What makes the vascular normalization model more than a redescription of the data is that it generated predictions that could be tested and that turned out to be correct. The prediction was: normalize vessels, reduce hypoxia, and immune cell trafficking into the tumor will improve. Reduce hypoxia and block VEGF's direct immunosuppressive signaling, and checkpoint inhibitors will work better inside the normalized tumor. Add a checkpoint inhibitor during the normalization window, and you will see additive or synergistic benefit on a hard endpoint — overall survival — not just on imaging. That prediction was made before the combination trials ran. The combination trials confirmed it. Scientific frameworks earn credibility by generating correct predictions. The starvation framework predicted bevacizumab would be curative in some patients. It was not. The normalization framework predicted the combination with immunotherapy would improve overall survival. It did. The reframe is not semantic. It is the difference between knowing why a drug works and knowing when and with what to combine it.",
+     "audio_file": "audio/S10.mp3",
+     "actual_duration_s": 74.26
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "num": 11,
+   "total": 12,
+   "section": "THE THESIS",
+   "label": "11 / 12 · THE THESIS",
+   "dark": false,
+   "title": [
+    [
+     "NOT STARVATION.",
+     false
+    ],
+    [
+     "NORMALIZATION. COMBINATION. TIMING.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"thesis\">The drug that looks like a win on the scan must be weighed against the drug that keeps the patient alive. Endpoint hierarchy is not pedantic — it is how you tell a drug that works from a drug that <em>appears</em> to work.</div>\n<div class=\"callout\">Anti-angiogenic therapy is most powerful as a platform for combination: with chemotherapy during the normalization window, with radiation when oxygenation improves, with checkpoint blockade when immune trafficking is restored.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The thesis of this chapter can be stated in three lines. First: the mechanism of anti-angiogenic therapy is not starvation. It is vascular normalization — pruning of the most dysfunctional vessels and transient structural improvement of the survivors. Second: the clinical strategy that follows from normalization is combination, not monotherapy. The drug's most important job is making chemotherapy penetrate, making radiation more lethal, and making immunotherapy work by lifting VEGF's suppression of immune trafficking. Third: because vascular normalization creates a transient window that imaging can mimic without actual tumor cell kill, endpoint hierarchy matters. The drug that improves gadolinium enhancement on an MRI scan may be doing something biologically real that does not translate to the patient living longer. Knowing which endpoint to trust is not a statistical nicety. It is the difference between a drug that works and a drug that appears to work — and in oncology that difference is the patient.",
+     "audio_file": "audio/S11.mp3",
+     "actual_duration_s": 67.34
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "num": 12,
+   "total": 12,
+   "section": "CLOSE",
+   "label": "12 / 12 · CLOSE",
+   "dark": true,
+   "title": [
+    [
+     "ASK NOT: DID THE SCAN IMPROVE?",
+     false
+    ],
+    [
+     "ASK: DID THE PATIENT LIVE LONGER?",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"close\">\n  <div class=\"close-tags\"><span>NORMALIZATION NOT STARVATION</span><span>//</span><span>COMBINATION IS THE STRATEGY</span><span>//</span><span>OS IS THE ONLY ANSWER</span></div>\n  <p class=\"sig\">Cancer Medicine · Chapter 2 · Anti-Angiogenic Therapy: Promise and Reality</p>\n</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "That is the framework: not starvation as a goal, normalization as the mechanism, and combination as the strategy that follows from understanding what normalization actually does. The open questions are genuinely open. How do you detect the normalization window in a living patient — not in a mouse with a dorsal window chamber, but in a person, on a clinical schedule? Which tumor types are truly VEGF-addicted enough that anti-angiogenic monotherapy produces durable benefit rather than transient response? And when you combine anti-angiogenic therapy with immunotherapy, what is the optimal sequencing and dosing to sustain the normalization window rather than collapse it into over-pruning? Folkman was right about the biology. The vessels matter. The question his successors are still answering is how to use that insight precisely enough that the right patients, in the right tumors, get the right combination at the right moment in the window.",
+     "audio_file": "audio/S12.mp3",
+     "actual_duration_s": 63.02
+    }
+   ]
+  }
+ ]
 }

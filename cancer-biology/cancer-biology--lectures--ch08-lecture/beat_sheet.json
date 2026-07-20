@@ -1,128 +1,130 @@
 {
-  "slug": "cancer-biology-ch08-chapter-8-epigenetics-in-cancer-noncodin",
-  "title": "Chapter 8 — Epigenetics in Cancer: Noncoding RNAs, Reprogramming, and Therapy",
-  "series": "Cancer Biology",
-  "source": "chapters/08-epigenetics-in-cancer-noncoding-rnas-reprogramming-and-therapy.md",
-  "voice_id": "",
-  "accent": "#ea580c",
-  "fps": 24,
-  "clock": "real",
-  "metadata": {
-    "chapter": 8,
-    "total_chapters": 16,
-    "playlist": "Cancer Biology",
-    "palette": "brutalist",
-    "engine": "kokoro",
-    "voice_kokoro": "am_onyx"
-  },
-  "segments": [
+ "slug": "cancer-biology-ch08-chapter-8-epigenetics-in-cancer-noncodin",
+ "title": "Chapter 8 — Epigenetics in Cancer: Noncoding RNAs, Reprogramming, and Therapy",
+ "series": "Cancer Biology",
+ "source": "chapters/08-epigenetics-in-cancer-noncoding-rnas-reprogramming-and-therapy.md",
+ "voice_id": "",
+ "accent": "#ea580c",
+ "fps": 24,
+ "clock": "real",
+ "metadata": {
+  "chapter": 8,
+  "total_chapters": 16,
+  "playlist": "Cancer Biology",
+  "palette": "brutalist",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
+ },
+ "segments": [
+  {
+   "section": "HOOK",
+   "dark": false,
+   "title": [
+    [
+     "CHAPTER 8 — ",
+     false
+    ],
+    [
+     "EPIGENETICS IN CANCER: NONCODING RNAS, REPROGRAMMING, AND THERAPY",
+     true
+    ]
+   ],
+   "body_html": "<p class=\"lead\">Explain how a single deleted microRNA can disable an entire network of target mRNAs, and why that regulatory reach is st</p><div class=\"callout\"><b>Chapter 8 — Epigenetics in Cancer: Nonco</b> — Describe bivalent chromatin: what two marks are present, in what cell type it is found normally, what resolves it during</div>",
+   "beats": [
     {
-      "section": "HOOK",
-      "dark": false,
-      "title": [
-        [
-          "CHAPTER 8 — ",
-          false
-        ],
-        [
-          "EPIGENETICS IN CANCER: NONCODING RNAS, REPROGRAMMING, AND THERAPY",
-          true
-        ]
-      ],
-      "body_html": "<p class=\"lead\">Explain how a single deleted microRNA can disable an entire network of target mRNAs, and why that regulatory reach is st</p><div class=\"callout\"><b>Chapter 8 — Epigenetics in Cancer: Nonco</b> — Describe bivalent chromatin: what two marks are present, in what cell type it is found normally, what resolves it during</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Explain how a single deleted microRNA can disable an entire network of target mRNAs, and why that regulatory reach is structurally different from losing one protein-coding tumor suppressor gene. Your answer should explain why the partial complementarity requirement is mechanistically important. What this tests: whether you understand the one-to-many targeting logic of microRNAs, not just the fact that they silence genes.",
-          "audio_file": "audio/S01.mp3",
-          "actual_duration_s": 22.44
-        }
-      ],
-      "id": "S01",
-      "num": 1,
-      "total": 4,
-      "label": "01 / 04 · HOOK"
-    },
-    {
-      "section": "PROMPTS",
-      "dark": false,
-      "title": [
-        [
-          "PROMPTS",
-          false
-        ],
-        [
-          "",
-          true
-        ]
-      ],
-      "body_html": "",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "This section covers key concepts from the chapter.",
-          "audio_file": "audio/S02.mp3",
-          "actual_duration_s": 3.39
-        }
-      ],
-      "id": "S02",
-      "num": 2,
-      "total": 4,
-      "label": "02 / 04 · PROMPTS"
-    },
-    {
-      "section": "THESIS",
-      "dark": false,
-      "title": [
-        [
-          "THE CORE ",
-          false
-        ],
-        [
-          "CLAIM.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"thesis\">Figure 8.1 — oncomiR vs tumor-suppressive microRNA Build a two-panel mechanism comparison of mirrored silencing chains, </div><p class=\"lead\">Figure 8.2 — Bivalent chromatin: poised, resolved, re-acquired Build a top-down hierarchy tree with one root and three b</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "This section covers key concepts from the chapter.",
-          "audio_file": "audio/S03.mp3",
-          "actual_duration_s": 3.39
-        }
-      ],
-      "id": "S03",
-      "num": 3,
-      "total": 4,
-      "label": "03 / 04 · THESIS"
-    },
-    {
-      "section": "CLOSE",
-      "dark": true,
-      "title": [
-        [
-          "ASK THE QUESTION. ",
-          false
-        ],
-        [
-          "APPLY THE FRAMEWORK.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>PROMPTS</span><span>//</span><span>CANCER BIOLOGY</span><span>//</span><span>CANCER BIOLOGY</span></div><p class=\"sig\">Cancer Biology · Ch.8 · Chapter 8 — Epigenetics in Cancer: Noncoding RNAs, Reprogramming, and Therapy</p></div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "That is the framework. Cancer Biology, chapter 8: Chapter 8 , Epigenetics in Cancer: Noncoding RNAs, Reprogramming, and Therapy. The patterns are now in place. Apply them.",
-          "audio_file": "audio/S04.mp3",
-          "actual_duration_s": 10.71
-        }
-      ],
-      "id": "S04",
-      "num": 4,
-      "total": 4,
-      "label": "04 / 04 · CLOSE"
+     "type": "analytic",
+     "text": "Explain how a single deleted microRNA can disable an entire network of target mRNAs, and why that regulatory reach is structurally different from losing one protein-coding tumor suppressor gene. Your answer should explain why the partial complementarity requirement is mechanistically important. What this tests: whether you understand the one-to-many targeting logic of microRNAs, not just the fact that they silence genes.",
+     "audio_file": "audio/S01.mp3",
+     "actual_duration_s": 22.44
     }
-  ]
+   ],
+   "id": "S01",
+   "num": 1,
+   "total": 4,
+   "label": "01 / 04 · HOOK"
+  },
+  {
+   "section": "PROMPTS",
+   "dark": false,
+   "title": [
+    [
+     "PROMPTS",
+     false
+    ],
+    [
+     "",
+     true
+    ]
+   ],
+   "body_html": "",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "This section covers key concepts from the chapter.",
+     "audio_file": "audio/S02.mp3",
+     "actual_duration_s": 3.39
+    }
+   ],
+   "id": "S02",
+   "num": 2,
+   "total": 4,
+   "label": "02 / 04 · PROMPTS"
+  },
+  {
+   "section": "THESIS",
+   "dark": false,
+   "title": [
+    [
+     "THE CORE ",
+     false
+    ],
+    [
+     "CLAIM.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"thesis\">Figure 8.1 — oncomiR vs tumor-suppressive microRNA Build a two-panel mechanism comparison of mirrored silencing chains, </div><p class=\"lead\">Figure 8.2 — Bivalent chromatin: poised, resolved, re-acquired Build a top-down hierarchy tree with one root and three b</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "This section covers key concepts from the chapter.",
+     "audio_file": "audio/S03.mp3",
+     "actual_duration_s": 3.39
+    }
+   ],
+   "id": "S03",
+   "num": 3,
+   "total": 4,
+   "label": "03 / 04 · THESIS"
+  },
+  {
+   "section": "CLOSE",
+   "dark": true,
+   "title": [
+    [
+     "ASK THE QUESTION. ",
+     false
+    ],
+    [
+     "APPLY THE FRAMEWORK.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"close\"><div class=\"close-tags\"><span>PROMPTS</span><span>//</span><span>CANCER BIOLOGY</span><span>//</span><span>CANCER BIOLOGY</span></div><p class=\"sig\">Cancer Biology · Ch.8 · Chapter 8 — Epigenetics in Cancer: Noncoding RNAs, Reprogramming, and Therapy</p></div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "That is the framework. Cancer Biology, chapter 8: Chapter 8 , Epigenetics in Cancer: Noncoding RNAs, Reprogramming, and Therapy. The patterns are now in place. Apply them.",
+     "audio_file": "audio/S04.mp3",
+     "actual_duration_s": 10.71
+    }
+   ],
+   "id": "S04",
+   "num": 4,
+   "total": 4,
+   "label": "04 / 04 · CLOSE"
+  }
+ ]
 }

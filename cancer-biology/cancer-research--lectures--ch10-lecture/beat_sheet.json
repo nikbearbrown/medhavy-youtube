@@ -1,344 +1,348 @@
 {
-  "slug": "cancer-research-ch10-chemotherapy-principles",
-  "title": "Chemotherapy — Principles and Major Drug Classes",
-  "series": "Cancer Research",
-  "source": "cancer-research/chapters/10-chemotherapy-principles-and-major-drug-classes.md",
-  "voice_id": "TyW6NH39JcFb5M3xdIIk",
-  "accent": "#ea580c",
-  "fps": 30,
-  "clock": "audio-first",
-  "segments": [
-    {
-      "id": "S01",
-      "num": 1,
-      "total": 12,
-      "section": "HOOK",
-      "label": "01 / 12 · HOOK",
-      "dark": false,
-      "title": [
-        [
-          "HAIR LOSS. MOUTH SORES. LOW COUNTS. ",
-          false
-        ],
-        [
-          "THE SLOGAN ISN'T THE MECHANISM.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">FAST DIVISION</span><span class=\"arw\">→</span><span class=\"chip\">VULNERABLE?</span><span class=\"arw\">→</span><span class=\"chip on\">PARTLY WRONG</span></div>\n           <p class=\"lead\">A trainee gives the textbook answer. Her attending asks one question that stops her cold.</p>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "A first-year oncology trainee is asked why chemotherapy causes hair loss, mouth sores, and low blood counts. She gives the textbook answer: chemotherapy kills rapidly dividing cells. Cancer cells divide fast, so they are hit hardest. Her attending nods, then asks: why does high-dose chemotherapy wipe out hematopoietic stem cells, which divide faster than many slow-growing tumor cells? If faster division were the whole story, the marrow would survive and the tumor would die. It is often the reverse.",
-          "audio_file": "audio/S01.mp3"
-        }
-      ]
-    },
-    {
-      "id": "S02",
-      "num": 2,
-      "total": 12,
-      "section": "THE STAKES",
-      "label": "02 / 12 · THE STAKES",
-      "dark": false,
-      "title": [
-        [
-          "CYTOTOXIC SINCE 1943 — ",
-          false
-        ],
-        [
-          "PRODUCTIVE AND INCOMPLETE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">1943</div><div class=\"cap\">Bari harbor — nitrogen mustard</div></div>\n           <div class=\"eq\">→</div>\n           <div class=\"stat\"><div class=\"big\">1946</div><div class=\"cap\">first lymphoma treatment</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big on\">decades</div><div class=\"cap\">of curative regimens</div></div>\n         </div>\n         <p class=\"lead\">The founding premise generated real cures. Its incompleteness still shapes every regimen built today.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Cancer chemotherapy began with a wartime accident. In 1943, an explosion in Bari harbor released nitrogen mustard into the water. Soldiers exposed developed profound suppression of bone marrow and lymphoid tissue. The inference was immediate: a chemical that depletes proliferating cells might deplete a proliferating tumor. By 1946, nitrogen mustard had been used to treat lymphoma at Yale, and cytotoxic chemotherapy was born. The premise was productive — it generated decades of drug development and genuinely curative regimens. It is also incomplete in a specific and important way.",
-          "audio_file": "audio/S02.mp3"
-        }
-      ]
-    },
-    {
-      "id": "S03",
-      "num": 3,
-      "total": 12,
-      "section": "THE REAL MECHANISM",
-      "label": "03 / 12 · THE REAL MECHANISM",
-      "dark": false,
-      "title": [
-        [
-          "NOT SPEED — ",
-          false
-        ],
-        [
-          "VULNERABILITY.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>NORMAL STEM CELL</b><span>takes a DNA hit → checkpoint → repair via homologous recombination → survives</span></div>\n           <div class=\"cell-part hot\"><b>TUMOR CELL</b><span>defective mismatch repair, mutant p53, suppressed apoptosis → same hit → dies</span></div>\n         </div>\n         <p class=\"lead\">The anti-tumor effect tracks vulnerability, not proliferation rate. Resistance means restoring a repair pathway or apoptotic competence.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Many cancer cells do not divide faster than normal cells. Hematopoietic stem cells in the marrow divide more rapidly than many tumor cells. Chemotherapy works as well as it does not merely because tumor cells divide fast, but because cancer cells carry specific defects — in DNA repair, in apoptosis regulation, in metabolic flexibility — that make them less able to survive the damage the drug inflicts. A normal stem cell takes a DNA hit, activates its checkpoint, repairs the break, and continues. A tumor cell with defective mismatch repair or mutated p53 takes the same hit and dies. The anti-tumor effect tracks vulnerability, not speed.",
-          "audio_file": "audio/S03.mp3"
-        }
-      ]
-    },
-    {
-      "id": "S04",
-      "num": 4,
-      "total": 12,
-      "section": "THERAPEUTIC WINDOW",
-      "label": "04 / 12 · THERAPEUTIC WINDOW",
-      "dark": false,
-      "title": [
-        [
-          "THE WINDOW IS NARROW. ",
-          false
-        ],
-        [
-          "EVERY DECISION LIVES INSIDE IT.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\">\n           <span class=\"chip warn\">too little → insufficient kill, resistance</span>\n           <span class=\"arw\">|</span>\n           <span class=\"chip on\">THERAPEUTIC WINDOW</span>\n           <span class=\"arw\">|</span>\n           <span class=\"chip warn\">too much → marrow, gut, organ failure</span>\n         </div>\n         <p class=\"lead\">Every dosing decision, supportive-care intervention, and combination strategy is an attempt to exploit or widen this gap.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The therapeutic window is the gap between the dose that kills enough cancer and the dose that harms the patient unacceptably. For cytotoxic chemotherapy this window is narrow, because the machinery the drug attacks in the tumor exists in normal proliferating tissue too. Dose too little and you achieve insufficient tumor kill, with resistance emerging from surviving cells. Dose too much and the toxicities become life-threatening faster than the tumor kill extends life. Every dosing decision, supportive-care intervention, and combination strategy in this chapter is an attempt to exploit or widen that window.",
-          "audio_file": "audio/S04.mp3"
-        }
-      ]
-    },
-    {
-      "id": "S05",
-      "num": 5,
-      "total": 12,
-      "section": "CELL-CYCLE SPECIFICITY",
-      "label": "05 / 12 · CELL-CYCLE SPECIFICITY",
-      "dark": false,
-      "title": [
-        [
-          "WHEN YOU HIT MATTERS AS MUCH ",
-          false
-        ],
-        [
-          "AS HOW HARD YOU HIT.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow big-flow\">\n           <span class=\"phase\">G1<small>grow</small></span><span class=\"arw\">→</span>\n           <span class=\"phase on\">S<small>antimetabolites</small></span><span class=\"arw\">→</span>\n           <span class=\"phase\">G2<small>grow</small></span><span class=\"arw\">→</span>\n           <span class=\"phase\">M<small>spindle poisons</small></span>\n         </div>\n         <div class=\"callout\">Alkylating agents act in <b>all phases including G0</b> — phase-independence makes them marrow-ablative at high dose.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The cell cycle runs G1, S, G2, and M. Cells not actively cycling sit in G0. Antimetabolites jam the DNA synthesis machinery, so they are S-phase-specific: they work only when the cell is actively copying its DNA. A cancer cell in G0 is unharmed; the same cell cycling into S phase two days later is vulnerable. S-phase-specific drugs therefore benefit from prolonged exposure to catch cells as they enter the vulnerable window. Alkylating agents, by contrast, can damage DNA in any phase, including resting cells. This phase-independence is one reason alkylating agents at high doses can ablate hematopoietic stem cells that an antimetabolite would miss.",
-          "audio_file": "audio/S05.mp3"
-        }
-      ]
-    },
-    {
-      "id": "S06",
-      "num": 6,
-      "total": 12,
-      "section": "THE FIVE DRUG CLASSES",
-      "label": "06 / 12 · THE FIVE DRUG CLASSES",
-      "dark": false,
-      "title": [
-        [
-          "FIVE MECHANISMS, ",
-          false
-        ],
-        [
-          "FIVE TOXICITY PROFILES.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>ALKYLATING AGENTS</b><span>covalent DNA crosslinks — cyclophosphamide (hemorrhagic cystitis → mesna), platinum compounds (cisplatin cures testicular cancer)</span></div>\n           <div class=\"wire\"><b>ANTIMETABOLITES</b><span>jam nucleotide biosynthesis — methotrexate (leucovorin rescue), 5-FU (colorectal backbone), gemcitabine (pancreatic)</span></div>\n           <div class=\"wire\"><b>ANTITUMOR ANTIBIOTICS</b><span>DNA intercalation + free radicals — doxorubicin (cumulative cardiomyopathy, 450–550 mg/m²), bleomycin (pulmonary fibrosis)</span></div>\n           <div class=\"wire\"><b>MICROTUBULE INHIBITORS</b><span>vinca alkaloids block polymerization; taxanes lock spindle rigid — both cause peripheral neuropathy</span></div>\n           <div class=\"wire\"><b>TOPOISOMERASE INHIBITORS</b><span>trap enzymes bound to broken DNA — etoposide (topo II) carries 1–2% secondary AML risk</span></div>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Five drug classes, five distinct mechanisms. Alkylating agents form covalent crosslinks in DNA — cyclophosphamide requires mesna to prevent hemorrhagic cystitis; cisplatin cures most metastatic testicular cancers. Antimetabolites mimic normal building blocks to jam DNA synthesis — they are S-phase specific. Doxorubicin intercalates DNA and generates free radicals but causes cumulative cardiomyopathy capped at roughly 500 milligrams per square meter; bleomycin causes pulmonary fibrosis with a similar lifetime ceiling. Microtubule inhibitors — vincas and taxanes — arrest cells in mitosis and cause peripheral neuropathy. Etoposide, a topoisomerase II inhibitor, carries a one to two percent risk of secondary leukemia from induced chromosomal translocations.",
-          "audio_file": "audio/S06.mp3"
-        }
-      ]
-    },
-    {
-      "id": "S07",
-      "num": 7,
-      "total": 12,
-      "section": "COMBINATION PRINCIPLES",
-      "label": "07 / 12 · COMBINATION PRINCIPLES",
-      "dark": false,
-      "title": [
-        [
-          "THREE RULES — ",
-          false
-        ],
-        [
-          "ONE MUTATION CAN'T BEAT ALL THREE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid3\">\n           <div class=\"cell-part hot\"><b>DIFFERENT MECHANISMS</b><span>a single resistance mutation cannot defeat all agents simultaneously</span></div>\n           <div class=\"cell-part hot\"><b>NON-OVERLAPPING TOXICITIES</b><span>each drug at near-full dose without lethal cumulative harm</span></div>\n           <div class=\"cell-part hot\"><b>SINGLE-AGENT ACTIVITY</b><span>each component must contribute to tumor kill, not just add toxicity</span></div>\n         </div>\n         <p class=\"lead\">Combination chemotherapy, developed in the 1960s, follows these three classical rules — and broke the first uniformly fatal cancers.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "No single drug cures most cancers, because a single mutation can confer resistance to that drug's mechanism, and such mutations arise readily in tumors with high proliferation rates and genomic instability. Combination chemotherapy, developed in the 1960s, follows three classical rules: combine drugs with different mechanisms, so a single resistance mutation cannot defeat all of them; with non-overlapping toxicities, so each can be given at near-full dose without lethal cumulative harm; and each with demonstrated single-agent activity, so each is contributing to tumor kill, not just adding toxicity.",
-          "audio_file": "audio/S07.mp3",
-          "actual_duration_s": 41.24
-        }
-      ]
-    },
-    {
-      "id": "S08",
-      "num": 8,
-      "total": 12,
-      "section": "CURATIVE REGIMENS",
-      "label": "08 / 12 · CURATIVE REGIMENS",
-      "dark": false,
-      "title": [
-        [
-          "MOPP. R-CHOP. BEP. ",
-          false
-        ],
-        [
-          "COMBINATION AS PROOF OF CONCEPT.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>MOPP</b><span>mechlorethamine + vincristine + procarbazine + prednisone — first regimen to cure Hodgkin lymphoma</span></div>\n           <div class=\"wire\"><b>R-CHOP</b><span>rituximab + cyclophosphamide + doxorubicin + vincristine + prednisone — standard for diffuse large B-cell lymphoma</span></div>\n           <div class=\"wire\"><b>BEP</b><span>bleomycin + etoposide + cisplatin — cures most metastatic testicular cancer; interstrand crosslinks + topo II + direct DNA breaks</span></div>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Three regimens show the principle in practice. MOPP — mechlorethamine, vincristine, procarbazine, prednisone — was the first regimen to cure what had been uniformly fatal Hodgkin lymphoma. Different mechanisms, largely non-overlapping toxicities. R-CHOP adds rituximab, a monoclonal antibody targeting CD20, to an alkylator, an anthracycline, a microtubule inhibitor, and a steroid — the standard of care for diffuse large B-cell lymphoma. BEP — bleomycin, etoposide, cisplatin — cures most metastatic testicular cancer. A disseminated solid tumor, curable. The curative potential of BEP was among the most striking demonstrations of combination chemotherapy's power.",
-          "audio_file": "audio/S08.mp3",
-          "actual_duration_s": 48.76
-        }
-      ]
-    },
-    {
-      "id": "S09",
-      "num": 9,
-      "total": 12,
-      "section": "CARBOPLATIN DOSING",
-      "label": "09 / 12 · CARBOPLATIN DOSING",
-      "dark": false,
-      "title": [
-        [
-          "THE CALVERT FORMULA — ",
-          false
-        ],
-        [
-          "THE THERAPEUTIC WINDOW MADE QUANTITATIVE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">Dose</div><div class=\"cap\">mg</div></div>\n           <div class=\"eq\">=</div>\n           <div class=\"stat\"><div class=\"big\">AUC</div><div class=\"cap\">target exposure</div></div>\n           <div class=\"arw\">×</div>\n           <div class=\"stat\"><div class=\"big\">(GFR + 25)</div><div class=\"cap\">renal + non-renal clearance</div></div>\n         </div>\n         <div class=\"callout\">GFR 90 → 575 mg · GFR 40 → 325 mg · same surface area, very different kidneys — same target AUC, very different doses.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Carboplatin is eliminated almost entirely by the kidneys. Its toxicity and its efficacy both scale with total drug exposure — the area under the concentration-time curve. Two patients of identical size can have very different kidney function, and therefore very different exposure from the same surface-area-based dose. The Calvert formula solves this: dose equals target AUC times GFR plus 25. For a target AUC of 5 in a patient with a GFR of 90, the dose is 575 milligrams. In a patient with a GFR of 40, the same target AUC gives 325 milligrams. The platelet nadir falls at days 7 to 14 after treatment — the window of highest bleeding risk. This is dosing as mechanism, not as a lookup table.",
-          "audio_file": "audio/S09.mp3",
-          "actual_duration_s": 52.8
-        }
-      ]
-    },
-    {
-      "id": "S10",
-      "num": 10,
-      "total": 12,
-      "section": "TOXICITY TRACKING",
-      "label": "10 / 12 · TOXICITY TRACKING",
-      "dark": false,
-      "title": [
-        [
-          "KNOW THE CLASS — ",
-          false
-        ],
-        [
-          "KNOW WHAT TO WATCH FOR.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>PER-CYCLE (RECOVERABLE)</b><span>myelosuppression, nausea — resets toward baseline each cycle, managed with growth factors and dose timing</span></div>\n           <div class=\"cell-part hot\"><b>CUMULATIVE (LIFETIME LIMIT)</b><span>doxorubicin cardiomyopathy, bleomycin fibrosis, etoposide secondary AML — tracked across all prior treatment; never resets</span></div>\n         </div>\n         <p class=\"lead\">Doxorubicin, bleomycin, and etoposide require lifetime tracking — not cycle-by-cycle, but a running total across all prior treatment.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Each drug's properties determine its monitoring. Some toxicities are per-cycle — myelosuppression dips after each dose and recovers toward baseline, managed with growth factors and careful timing. Others are cumulative and never reset. Doxorubicin cardiomyopathy approaches a lifetime ceiling near 500 milligrams per square meter; past that, the risk of heart failure rises sharply. Bleomycin pulmonary fibrosis carries a similar lifetime limit, tracked by pulmonary function tests. Etoposide requires long-term leukemia surveillance. Knowing the class means knowing which toxicity to track, how to track it, and what crosses the line the patient cannot uncross.",
-          "audio_file": "audio/S10.mp3",
-          "actual_duration_s": 45.88
-        }
-      ]
-    },
-    {
-      "id": "S11",
-      "num": 11,
-      "total": 12,
-      "section": "THE THESIS",
-      "label": "11 / 12 · THE THESIS",
-      "dark": false,
-      "title": [
-        [
-          "CHEMOTHERAPY WORKS ON ",
-          false
-        ],
-        [
-          "VULNERABILITY, NOT JUST SPEED.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"thesis\">The anti-tumor effect is driven primarily by <b>tumor-specific defects in DNA repair, apoptosis, and metabolic flexibility</b> — not merely by faster proliferation. Resistance arises when those defects are restored.</div>\n         <p class=\"lead\">Still open: why predictive biomarker-driven chemotherapy selection has lagged so far behind the mechanistic understanding — and whether classical combinations are near-optimal or simply underexplored.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "So here is the chapter's claim. Chemotherapy's anti-tumor effect is driven primarily by tumor-specific vulnerabilities in DNA repair, apoptosis, and metabolic flexibility — not merely by faster proliferation. The slogan tracks the toxicities well enough that it feels complete. It cannot explain why slow-growing lymphomas respond, why some fast-dividing tissues recover, or why combination regimens are built the way they are. Resistance arises when those defects are restored. What remains open: why predictive biomarker-driven selection has lagged so far behind mechanistic understanding, and whether the best cytotoxic combinations have already been found or simply displaced by attention to targeted therapy.",
-          "audio_file": "audio/S11.mp3",
-          "actual_duration_s": 48.16
-        }
-      ]
-    },
-    {
-      "id": "S12",
-      "num": 12,
-      "total": 12,
-      "section": "CLOSE",
-      "label": "12 / 12 · CLOSE",
-      "dark": true,
-      "title": [
-        [
-          "LEARN THE CLASS. ",
-          false
-        ],
-        [
-          "KNOW WHAT IT HITS AND WHAT IT COSTS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>VULNERABILITY OVER SPEED</span><span>//</span><span>WINDOW OVER DOSE</span><span>//</span><span>COMBINATION OVER SINGLE AGENT</span></div>\n           <p class=\"sig\">Cancer Research · Chapter 10 · Chemotherapy — Principles and Major Drug Classes</p>\n         </div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "That is the frame for everything that follows. Chemotherapy is not simply a war on fast dividers. It is a precise, mechanistic exploitation of specific vulnerabilities — vulnerabilities that explain why it works, why it fails, and why the combinations are built the way they are. Learn the class. Know what phase it hits and what it spares. Know whether the toxicity resets or accumulates toward a ceiling. Know the window, and know what closes it. Everything else in oncology pharmacology is built on this foundation.",
-          "audio_file": "audio/S12.mp3",
-          "actual_duration_s": 34.32
-        }
-      ]
-    }
-  ],
-  "metadata": {
-    "title": "Cancer Research Ch.10 — Chemotherapy — Principles and Major Drug Classes",
-    "slug": "cancer-research-ch10-chemotherapy-principles",
-    "playlist": "Cancer Research",
-    "hashtags": [
-      "#CancerResearch",
-      "#Oncology",
-      "#Education",
-      "#NikBearBrown",
-      "#Lecture",
-      "#OnlineLearning"
+ "slug": "cancer-research-ch10-chemotherapy-principles",
+ "title": "Chemotherapy — Principles and Major Drug Classes",
+ "series": "Cancer Research",
+ "source": "cancer-research/chapters/10-chemotherapy-principles-and-major-drug-classes.md",
+ "voice_id": "TyW6NH39JcFb5M3xdIIk",
+ "accent": "#ea580c",
+ "fps": 30,
+ "clock": "audio-first",
+ "segments": [
+  {
+   "id": "S01",
+   "num": 1,
+   "total": 12,
+   "section": "HOOK",
+   "label": "01 / 12 · HOOK",
+   "dark": false,
+   "title": [
+    [
+     "HAIR LOSS. MOUTH SORES. LOW COUNTS. ",
+     false
     ],
-    "description": "Cancer Research Ch.10 — Chemotherapy — Principles and Major Drug Classes\n\nFull voiced lecture deck — Cancer Research series.\n\nyoutube.com/@NikBearBrown"
+    [
+     "THE SLOGAN ISN'T THE MECHANISM.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"flow\"><span class=\"chip\">FAST DIVISION</span><span class=\"arw\">→</span><span class=\"chip\">VULNERABLE?</span><span class=\"arw\">→</span><span class=\"chip on\">PARTLY WRONG</span></div>\n           <p class=\"lead\">A trainee gives the textbook answer. Her attending asks one question that stops her cold.</p>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "A first-year oncology trainee is asked why chemotherapy causes hair loss, mouth sores, and low blood counts. She gives the textbook answer: chemotherapy kills rapidly dividing cells. Cancer cells divide fast, so they are hit hardest. Her attending nods, then asks: why does high-dose chemotherapy wipe out hematopoietic stem cells, which divide faster than many slow-growing tumor cells? If faster division were the whole story, the marrow would survive and the tumor would die. It is often the reverse.",
+     "audio_file": "audio/S01.mp3"
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "num": 2,
+   "total": 12,
+   "section": "THE STAKES",
+   "label": "02 / 12 · THE STAKES",
+   "dark": false,
+   "title": [
+    [
+     "CYTOTOXIC SINCE 1943 — ",
+     false
+    ],
+    [
+     "PRODUCTIVE AND INCOMPLETE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big\">1943</div><div class=\"cap\">Bari harbor — nitrogen mustard</div></div>\n           <div class=\"eq\">→</div>\n           <div class=\"stat\"><div class=\"big\">1946</div><div class=\"cap\">first lymphoma treatment</div></div>\n           <div class=\"arw\">→</div>\n           <div class=\"stat\"><div class=\"big on\">decades</div><div class=\"cap\">of curative regimens</div></div>\n         </div>\n         <p class=\"lead\">The founding premise generated real cures. Its incompleteness still shapes every regimen built today.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Cancer chemotherapy began with a wartime accident. In 1943, an explosion in Bari harbor released nitrogen mustard into the water. Soldiers exposed developed profound suppression of bone marrow and lymphoid tissue. The inference was immediate: a chemical that depletes proliferating cells might deplete a proliferating tumor. By 1946, nitrogen mustard had been used to treat lymphoma at Yale, and cytotoxic chemotherapy was born. The premise was productive — it generated decades of drug development and genuinely curative regimens. It is also incomplete in a specific and important way.",
+     "audio_file": "audio/S02.mp3"
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "num": 3,
+   "total": 12,
+   "section": "THE REAL MECHANISM",
+   "label": "03 / 12 · THE REAL MECHANISM",
+   "dark": false,
+   "title": [
+    [
+     "NOT SPEED — ",
+     false
+    ],
+    [
+     "VULNERABILITY.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>NORMAL STEM CELL</b><span>takes a DNA hit → checkpoint → repair via homologous recombination → survives</span></div>\n           <div class=\"cell-part hot\"><b>TUMOR CELL</b><span>defective mismatch repair, mutant p53, suppressed apoptosis → same hit → dies</span></div>\n         </div>\n         <p class=\"lead\">The anti-tumor effect tracks vulnerability, not proliferation rate. Resistance means restoring a repair pathway or apoptotic competence.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Many cancer cells do not divide faster than normal cells. Hematopoietic stem cells in the marrow divide more rapidly than many tumor cells. Chemotherapy works as well as it does not merely because tumor cells divide fast, but because cancer cells carry specific defects — in DNA repair, in apoptosis regulation, in metabolic flexibility — that make them less able to survive the damage the drug inflicts. A normal stem cell takes a DNA hit, activates its checkpoint, repairs the break, and continues. A tumor cell with defective mismatch repair or mutated p53 takes the same hit and dies. The anti-tumor effect tracks vulnerability, not speed.",
+     "audio_file": "audio/S03.mp3"
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "num": 4,
+   "total": 12,
+   "section": "THERAPEUTIC WINDOW",
+   "label": "04 / 12 · THERAPEUTIC WINDOW",
+   "dark": false,
+   "title": [
+    [
+     "THE WINDOW IS NARROW. ",
+     false
+    ],
+    [
+     "EVERY DECISION LIVES INSIDE IT.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\">\n           <span class=\"chip warn\">too little → insufficient kill, resistance</span>\n           <span class=\"arw\">|</span>\n           <span class=\"chip on\">THERAPEUTIC WINDOW</span>\n           <span class=\"arw\">|</span>\n           <span class=\"chip warn\">too much → marrow, gut, organ failure</span>\n         </div>\n         <p class=\"lead\">Every dosing decision, supportive-care intervention, and combination strategy is an attempt to exploit or widen this gap.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The therapeutic window is the gap between the dose that kills enough cancer and the dose that harms the patient unacceptably. For cytotoxic chemotherapy this window is narrow, because the machinery the drug attacks in the tumor exists in normal proliferating tissue too. Dose too little and you achieve insufficient tumor kill, with resistance emerging from surviving cells. Dose too much and the toxicities become life-threatening faster than the tumor kill extends life. Every dosing decision, supportive-care intervention, and combination strategy in this chapter is an attempt to exploit or widen that window.",
+     "audio_file": "audio/S04.mp3"
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "num": 5,
+   "total": 12,
+   "section": "CELL-CYCLE SPECIFICITY",
+   "label": "05 / 12 · CELL-CYCLE SPECIFICITY",
+   "dark": false,
+   "title": [
+    [
+     "WHEN YOU HIT MATTERS AS MUCH ",
+     false
+    ],
+    [
+     "AS HOW HARD YOU HIT.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow big-flow\">\n           <span class=\"phase\">G1<small>grow</small></span><span class=\"arw\">→</span>\n           <span class=\"phase on\">S<small>antimetabolites</small></span><span class=\"arw\">→</span>\n           <span class=\"phase\">G2<small>grow</small></span><span class=\"arw\">→</span>\n           <span class=\"phase\">M<small>spindle poisons</small></span>\n         </div>\n         <div class=\"callout\">Alkylating agents act in <b>all phases including G0</b> — phase-independence makes them marrow-ablative at high dose.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The cell cycle runs G1, S, G2, and M. Cells not actively cycling sit in G0. Antimetabolites jam the DNA synthesis machinery, so they are S-phase-specific: they work only when the cell is actively copying its DNA. A cancer cell in G0 is unharmed; the same cell cycling into S phase two days later is vulnerable. S-phase-specific drugs therefore benefit from prolonged exposure to catch cells as they enter the vulnerable window. Alkylating agents, by contrast, can damage DNA in any phase, including resting cells. This phase-independence is one reason alkylating agents at high doses can ablate hematopoietic stem cells that an antimetabolite would miss.",
+     "audio_file": "audio/S05.mp3"
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "num": 6,
+   "total": 12,
+   "section": "THE FIVE DRUG CLASSES",
+   "label": "06 / 12 · THE FIVE DRUG CLASSES",
+   "dark": false,
+   "title": [
+    [
+     "FIVE MECHANISMS, ",
+     false
+    ],
+    [
+     "FIVE TOXICITY PROFILES.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>ALKYLATING AGENTS</b><span>covalent DNA crosslinks — cyclophosphamide (hemorrhagic cystitis → mesna), platinum compounds (cisplatin cures testicular cancer)</span></div>\n           <div class=\"wire\"><b>ANTIMETABOLITES</b><span>jam nucleotide biosynthesis — methotrexate (leucovorin rescue), 5-FU (colorectal backbone), gemcitabine (pancreatic)</span></div>\n           <div class=\"wire\"><b>ANTITUMOR ANTIBIOTICS</b><span>DNA intercalation + free radicals — doxorubicin (cumulative cardiomyopathy, 450–550 mg/m²), bleomycin (pulmonary fibrosis)</span></div>\n           <div class=\"wire\"><b>MICROTUBULE INHIBITORS</b><span>vinca alkaloids block polymerization; taxanes lock spindle rigid — both cause peripheral neuropathy</span></div>\n           <div class=\"wire\"><b>TOPOISOMERASE INHIBITORS</b><span>trap enzymes bound to broken DNA — etoposide (topo II) carries 1–2% secondary AML risk</span></div>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Five drug classes, five distinct mechanisms. Alkylating agents form covalent crosslinks in DNA — cyclophosphamide requires mesna to prevent hemorrhagic cystitis; cisplatin cures most metastatic testicular cancers. Antimetabolites mimic normal building blocks to jam DNA synthesis — they are S-phase specific. Doxorubicin intercalates DNA and generates free radicals but causes cumulative cardiomyopathy capped at roughly 500 milligrams per square meter; bleomycin causes pulmonary fibrosis with a similar lifetime ceiling. Microtubule inhibitors — vincas and taxanes — arrest cells in mitosis and cause peripheral neuropathy. Etoposide, a topoisomerase II inhibitor, carries a one to two percent risk of secondary leukemia from induced chromosomal translocations.",
+     "audio_file": "audio/S06.mp3"
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "num": 7,
+   "total": 12,
+   "section": "COMBINATION PRINCIPLES",
+   "label": "07 / 12 · COMBINATION PRINCIPLES",
+   "dark": false,
+   "title": [
+    [
+     "THREE RULES — ",
+     false
+    ],
+    [
+     "ONE MUTATION CAN'T BEAT ALL THREE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid3\">\n           <div class=\"cell-part hot\"><b>DIFFERENT MECHANISMS</b><span>a single resistance mutation cannot defeat all agents simultaneously</span></div>\n           <div class=\"cell-part hot\"><b>NON-OVERLAPPING TOXICITIES</b><span>each drug at near-full dose without lethal cumulative harm</span></div>\n           <div class=\"cell-part hot\"><b>SINGLE-AGENT ACTIVITY</b><span>each component must contribute to tumor kill, not just add toxicity</span></div>\n         </div>\n         <p class=\"lead\">Combination chemotherapy, developed in the 1960s, follows these three classical rules — and broke the first uniformly fatal cancers.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "No single drug cures most cancers, because a single mutation can confer resistance to that drug's mechanism, and such mutations arise readily in tumors with high proliferation rates and genomic instability. Combination chemotherapy, developed in the 1960s, follows three classical rules: combine drugs with different mechanisms, so a single resistance mutation cannot defeat all of them; with non-overlapping toxicities, so each can be given at near-full dose without lethal cumulative harm; and each with demonstrated single-agent activity, so each is contributing to tumor kill, not just adding toxicity.",
+     "audio_file": "audio/S07.mp3",
+     "actual_duration_s": 41.24
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "num": 8,
+   "total": 12,
+   "section": "CURATIVE REGIMENS",
+   "label": "08 / 12 · CURATIVE REGIMENS",
+   "dark": false,
+   "title": [
+    [
+     "MOPP. R-CHOP. BEP. ",
+     false
+    ],
+    [
+     "COMBINATION AS PROOF OF CONCEPT.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n           <div class=\"wire\"><b>MOPP</b><span>mechlorethamine + vincristine + procarbazine + prednisone — first regimen to cure Hodgkin lymphoma</span></div>\n           <div class=\"wire\"><b>R-CHOP</b><span>rituximab + cyclophosphamide + doxorubicin + vincristine + prednisone — standard for diffuse large B-cell lymphoma</span></div>\n           <div class=\"wire\"><b>BEP</b><span>bleomycin + etoposide + cisplatin — cures most metastatic testicular cancer; interstrand crosslinks + topo II + direct DNA breaks</span></div>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Three regimens show the principle in practice. MOPP — mechlorethamine, vincristine, procarbazine, prednisone — was the first regimen to cure what had been uniformly fatal Hodgkin lymphoma. Different mechanisms, largely non-overlapping toxicities. R-CHOP adds rituximab, a monoclonal antibody targeting CD20, to an alkylator, an anthracycline, a microtubule inhibitor, and a steroid — the standard of care for diffuse large B-cell lymphoma. BEP — bleomycin, etoposide, cisplatin — cures most metastatic testicular cancer. A disseminated solid tumor, curable. The curative potential of BEP was among the most striking demonstrations of combination chemotherapy's power.",
+     "audio_file": "audio/S08.mp3",
+     "actual_duration_s": 48.76
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "num": 9,
+   "total": 12,
+   "section": "CARBOPLATIN DOSING",
+   "label": "09 / 12 · CARBOPLATIN DOSING",
+   "dark": false,
+   "title": [
+    [
+     "THE CALVERT FORMULA — ",
+     false
+    ],
+    [
+     "THE THERAPEUTIC WINDOW MADE QUANTITATIVE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n           <div class=\"stat\"><div class=\"big on\">Dose</div><div class=\"cap\">mg</div></div>\n           <div class=\"eq\">=</div>\n           <div class=\"stat\"><div class=\"big\">AUC</div><div class=\"cap\">target exposure</div></div>\n           <div class=\"arw\">×</div>\n           <div class=\"stat\"><div class=\"big\">(GFR + 25)</div><div class=\"cap\">renal + non-renal clearance</div></div>\n         </div>\n         <div class=\"callout\">GFR 90 → 575 mg · GFR 40 → 325 mg · same surface area, very different kidneys — same target AUC, very different doses.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Carboplatin is eliminated almost entirely by the kidneys. Its toxicity and its efficacy both scale with total drug exposure — the area under the concentration-time curve. Two patients of identical size can have very different kidney function, and therefore very different exposure from the same surface-area-based dose. The Calvert formula solves this: dose equals target AUC times GFR plus 25. For a target AUC of 5 in a patient with a GFR of 90, the dose is 575 milligrams. In a patient with a GFR of 40, the same target AUC gives 325 milligrams. The platelet nadir falls at days 7 to 14 after treatment — the window of highest bleeding risk. This is dosing as mechanism, not as a lookup table.",
+     "audio_file": "audio/S09.mp3",
+     "actual_duration_s": 52.8
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "num": 10,
+   "total": 12,
+   "section": "TOXICITY TRACKING",
+   "label": "10 / 12 · TOXICITY TRACKING",
+   "dark": false,
+   "title": [
+    [
+     "KNOW THE CLASS — ",
+     false
+    ],
+    [
+     "KNOW WHAT TO WATCH FOR.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid2\">\n           <div class=\"cell-part\"><b>PER-CYCLE (RECOVERABLE)</b><span>myelosuppression, nausea — resets toward baseline each cycle, managed with growth factors and dose timing</span></div>\n           <div class=\"cell-part hot\"><b>CUMULATIVE (LIFETIME LIMIT)</b><span>doxorubicin cardiomyopathy, bleomycin fibrosis, etoposide secondary AML — tracked across all prior treatment; never resets</span></div>\n         </div>\n         <p class=\"lead\">Doxorubicin, bleomycin, and etoposide require lifetime tracking — not cycle-by-cycle, but a running total across all prior treatment.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Each drug's properties determine its monitoring. Some toxicities are per-cycle — myelosuppression dips after each dose and recovers toward baseline, managed with growth factors and careful timing. Others are cumulative and never reset. Doxorubicin cardiomyopathy approaches a lifetime ceiling near 500 milligrams per square meter; past that, the risk of heart failure rises sharply. Bleomycin pulmonary fibrosis carries a similar lifetime limit, tracked by pulmonary function tests. Etoposide requires long-term leukemia surveillance. Knowing the class means knowing which toxicity to track, how to track it, and what crosses the line the patient cannot uncross.",
+     "audio_file": "audio/S10.mp3",
+     "actual_duration_s": 45.88
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "num": 11,
+   "total": 12,
+   "section": "THE THESIS",
+   "label": "11 / 12 · THE THESIS",
+   "dark": false,
+   "title": [
+    [
+     "CHEMOTHERAPY WORKS ON ",
+     false
+    ],
+    [
+     "VULNERABILITY, NOT JUST SPEED.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"thesis\">The anti-tumor effect is driven primarily by <b>tumor-specific defects in DNA repair, apoptosis, and metabolic flexibility</b> — not merely by faster proliferation. Resistance arises when those defects are restored.</div>\n         <p class=\"lead\">Still open: why predictive biomarker-driven chemotherapy selection has lagged so far behind the mechanistic understanding — and whether classical combinations are near-optimal or simply underexplored.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "So here is the chapter's claim. Chemotherapy's anti-tumor effect is driven primarily by tumor-specific vulnerabilities in DNA repair, apoptosis, and metabolic flexibility — not merely by faster proliferation. The slogan tracks the toxicities well enough that it feels complete. It cannot explain why slow-growing lymphomas respond, why some fast-dividing tissues recover, or why combination regimens are built the way they are. Resistance arises when those defects are restored. What remains open: why predictive biomarker-driven selection has lagged so far behind mechanistic understanding, and whether the best cytotoxic combinations have already been found or simply displaced by attention to targeted therapy.",
+     "audio_file": "audio/S11.mp3",
+     "actual_duration_s": 48.16
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "num": 12,
+   "total": 12,
+   "section": "CLOSE",
+   "label": "12 / 12 · CLOSE",
+   "dark": true,
+   "title": [
+    [
+     "LEARN THE CLASS. ",
+     false
+    ],
+    [
+     "KNOW WHAT IT HITS AND WHAT IT COSTS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"close\">\n           <div class=\"close-tags\"><span>VULNERABILITY OVER SPEED</span><span>//</span><span>WINDOW OVER DOSE</span><span>//</span><span>COMBINATION OVER SINGLE AGENT</span></div>\n           <p class=\"sig\">Cancer Research · Chapter 10 · Chemotherapy — Principles and Major Drug Classes</p>\n         </div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "That is the frame for everything that follows. Chemotherapy is not simply a war on fast dividers. It is a precise, mechanistic exploitation of specific vulnerabilities — vulnerabilities that explain why it works, why it fails, and why the combinations are built the way they are. Learn the class. Know what phase it hits and what it spares. Know whether the toxicity resets or accumulates toward a ceiling. Know the window, and know what closes it. Everything else in oncology pharmacology is built on this foundation.",
+     "audio_file": "audio/S12.mp3",
+     "actual_duration_s": 34.32
+    }
+   ]
   }
+ ],
+ "metadata": {
+  "title": "Cancer Research Ch.10 — Chemotherapy — Principles and Major Drug Classes",
+  "slug": "cancer-research-ch10-chemotherapy-principles",
+  "playlist": "Cancer Research",
+  "hashtags": [
+   "#CancerResearch",
+   "#Oncology",
+   "#Education",
+   "#NikBearBrown",
+   "#Lecture",
+   "#OnlineLearning"
+  ],
+  "description": "Cancer Research Ch.10 — Chemotherapy — Principles and Major Drug Classes\n\nFull voiced lecture deck — Cancer Research series.\n\nyoutube.com/@NikBearBrown",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
+ }
 }

@@ -17,7 +17,7 @@
   "palette": "humanitarians",
   "outro_source": "AUTHOR.MD :: Humanitarians AI",
   "engine": "kokoro",
-  "voice_kokoro": "af_heart",
+  "voice_kokoro": "af_kore",
   "typography": {
    "serif": "EB Garamond",
    "sans": "Montserrat"
@@ -30,7 +30,9 @@
    "verify ending order: body → [tangent] → [CLI exercise] → [outro]",
    "then build: generate_audio_kokoro.py → palette=humanitarians → compile"
   ],
-  "slug": "ch01-lecture"
+  "slug": "ch01-lecture",
+  "voice": "af_kore",
+  "channel": "medhavy"
  },
  "segments": [
   {

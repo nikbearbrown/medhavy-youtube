@@ -1,350 +1,354 @@
 {
-  "slug": "cancer-medicine-ch05-tumor-microenvironment",
-  "title": "The Tumor Microenvironment — Components",
-  "series": "Cancer Medicine",
-  "source": "cancer-medicine/chapters/05-the-tumor-microenvironment-components.md",
-  "voice_id": "TyW6NH39JcFb5M3xdIIk",
-  "accent": "#ea580c",
-  "fps": 30,
-  "clock": "audio-first",
-  "segments": [
-    {
-      "id": "S01",
-      "num": 1,
-      "total": 12,
-      "section": "HOOK",
-      "label": "01 / 12 · HOOK",
-      "dark": false,
-      "title": [
-        [
-          "THE CANCER CELL ",
-          false
-        ],
-        [
-          "WAS NEVER ALONE.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n  <div class=\"flow\"><span class=\"chip\">pancreatic tumor</span><span class=\"arw\">→</span><span class=\"chip on\">&lt;15% cancer cells</span><span class=\"arw\">→</span><span class=\"chip dim\">drug can’t get through</span></div>\n  <p class=\"lead\">The drug kills cancer cells efficiently in a dish. In the patient, it barely touches them — because the tumor built a wall before the drug arrived.</p>\n</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Here is a number that should stop you. In some pancreatic tumors, cancer cells make up less than fifteen percent of the tissue. Cut out the tumor, section it, stain it — and the malignant cells are a small minority in their own house. The drug the oncologist prescribed kills pancreatic cancer cells efficiently in a dish. In the patient, it barely touches them — because it cannot get through the wall the tumor built around itself before the drug arrived. That is the opening puzzle of the tumor microenvironment.",
-          "audio_file": "audio/S01.mp3",
-          "actual_duration_s": 31.58
-        }
-      ]
-    },
-    {
-      "id": "S02",
-      "num": 2,
-      "total": 12,
-      "section": "THE STAKES",
-      "label": "02 / 12 · THE STAKES",
-      "dark": false,
-      "title": [
-        [
-          "A COMMUNITY THAT ",
-          false
-        ],
-        [
-          "ACTIVELY DEFENDS THE TUMOR.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stat-row\">\n  <div class=\"stat\"><div class=\"big\">TME</div><div class=\"cap\">the ecosystem</div></div>\n  <div class=\"eq\">⇄</div>\n  <div class=\"stat\"><div class=\"big on\">bidirectional</div><div class=\"cap\">cancer reshapes habitat; habitat reshapes cancer</div></div>\n</div>\n<p class=\"lead\">Mina Bissell showed it: malignant cells returned to near-normal behavior when placed in the right matrix context. The habitat shapes the cancer.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The field spent decades treating cancer as a problem of cancer cells. That framework is not wrong, but it is incomplete in a way that kills people. The cancer cells live in a community they help construct — and that community actively defends them. The tumor microenvironment names this complete local ecosystem: non-malignant cells, extracellular matrix, soluble signals, and in many tumors, resident microorganisms. The relationship is bidirectional. Cancer cells reshape the habitat; the habitat reshapes the cancer cells. Mina Bissell demonstrated this: malignant cells returned to near-normal behavior in the right matrix context. The habitat shapes the cancer. That principle runs through everything that follows.",
-          "audio_file": "audio/S02.mp3",
-          "actual_duration_s": 48.53
-        }
-      ]
-    },
-    {
-      "id": "S03",
-      "num": 3,
-      "total": 12,
-      "section": "CANCER-ASSOCIATED FIBROBLASTS",
-      "label": "03 / 12 · CANCER-ASSOCIATED FIBROBLASTS",
-      "dark": false,
-      "title": [
-        [
-          "THE MOST ABUNDANT NON-MALIGNANT CELL — ",
-          false
-        ],
-        [
-          "BUILDS THE WALL.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid3\">\n  <div class=\"cell-part hot\"><b>myCAFs</b><span>α-SMA+ · close to tumor · dense collagen — the wall-builders</span></div>\n  <div class=\"cell-part\"><b>iCAFs</b><span>farther out · IL-6, CXCL12, LIF — chemical defense</span></div>\n  <div class=\"cell-part\"><b>apCAFs</b><span>MHC II+ · direct T-cell contact — context-dependent</span></div>\n</div>\n<p class=\"lead\">Three subtypes. Three jobs. All feeding the same activated pool that never returns to quiescence.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The most abundant non-malignant cell type in many solid tumors is the cancer-associated fibroblast — the CAF. In healthy tissue fibroblasts are quiet maintenance workers, synthesizing matrix and activating briefly during wound repair before returning to quiescence. CAFs are the permanently altered version. They do not return to quiescence. Single-cell sequencing has resolved at least three functionally distinct subtypes. Myofibroblastic CAFs — myCAFs — sit close to tumor cell borders and are the primary manufacturers of dense collagen. They build the wall. Inflammatory CAFs — iCAFs — sit farther out and secrete pro-inflammatory, immunosuppressive cytokines: IL-6, CXCL12, and LIF. They run the chemical defense. Antigen-presenting CAFs — apCAFs — express MHC class II and interact directly with T cells, though whether they activate or suppress depends on context.",
-          "audio_file": "audio/S03.mp3",
-          "actual_duration_s": 60.79
-        }
-      ]
-    },
-    {
-      "id": "S04",
-      "num": 4,
-      "total": 12,
-      "section": "WHAT CAFs DO",
-      "label": "04 / 12 · WHAT CAFs DO",
-      "dark": false,
-      "title": [
-        [
-          "PHYSICAL BARRIER. IMMUNE SHIELD. ",
-          false
-        ],
-        [
-          "METABOLIC SUPPLIER.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\">\n  <span class=\"chip\">myCAF collagen</span><span class=\"arw\">→</span><span class=\"chip warn\">drug stopped</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip\">iCAF TGF-β / CXCL12</span><span class=\"arw\">→</span><span class=\"chip warn\">T cells repelled</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip\">CAF HGF / IGF</span><span class=\"arw\">→</span><span class=\"chip warn\">pro-survival signals fed to cancer cells</span>\n</div>\n<p class=\"lead\">High CAF density correlates with worse prognosis and reduced therapy response across multiple cancer types.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "What CAFs do in combination explains why the pancreatic cancer patient’s gemcitabine failed at multiple levels simultaneously. The myCAFs laid down the collagen that physically stopped the drug from diffusing into the tumor interior. The iCAFs secreted TGF-beta and CXCL12, which repelled cytotoxic T cells from the tumor core and recruited immunosuppressive myeloid cells instead. Other CAF-derived signals — HGF, IGF — fed pro-survival pathways directly into the cancer cells. And some CAF populations appear able to supply metabolites directly to cancer cells when nutrients are scarce. High CAF density correlates with worse prognosis and reduced therapy response across multiple cancer types. Targeting them has proven difficult — partly because the subtypes have different and sometimes opposing functions, and partly because some CAF activity appears genuinely tumor-restraining.",
-          "audio_file": "audio/S04.mp3",
-          "actual_duration_s": 59.07
-        }
-      ]
-    },
-    {
-      "id": "S05",
-      "num": 5,
-      "total": 12,
-      "section": "THE IMMUNE COMPARTMENT",
-      "label": "05 / 12 · THE IMMUNE COMPARTMENT",
-      "dark": false,
-      "title": [
-        [
-          "IDENTITY IS NOT ",
-          false
-        ],
-        [
-          "FUNCTION.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n  <div class=\"wire\"><b>CD8+ T cells</b><span>recognize tumor antigens, form synapses, kill — best predictor of immunotherapy response</span></div>\n  <div class=\"wire\"><b>Regulatory T cells (Tregs)</b><span>suppress CD8+ activity via IL-10, TGF-β, CTLA-4 — tumors actively recruit them</span></div>\n  <div class=\"wire\"><b>NK cells</b><span>kill without antigen recognition — patrol for MHC I loss</span></div>\n</div>\n<div class=\"callout\">The same cell type, in a different activation state, can either kill cancer cells — or protect them.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The immune compartment of a tumor is the section most likely to mislead you if you treat cell identity as equivalent to cell function. The same cell type, in different activation states, can either kill cancer cells or protect them. Cytotoxic CD8-plus T cells are what you want: they recognize tumor-specific antigens, form immunological synapses with cancer cells, and kill them. High CD8-plus infiltration throughout the tumor is the single best cellular predictor of response to checkpoint immunotherapy. Regulatory T cells are the direct antagonists: they suppress cytotoxic T-cell activity through IL-10, TGF-beta, and CTLA-4-mediated mechanisms, and tumors actively recruit them. Natural killer cells patrol for MHC class I loss — the trick many tumors use to hide from CD8-plus T cells — and kill without requiring antigen recognition.",
-          "audio_file": "audio/S05.mp3",
-          "actual_duration_s": 59.72
-        }
-      ]
-    },
-    {
-      "id": "S06",
-      "num": 6,
-      "total": 12,
-      "section": "MACROPHAGES AND MYELOID CELLS",
-      "label": "06 / 12 · MACROPHAGES AND MYELOID CELLS",
-      "dark": false,
-      "title": [
-        [
-          "THE TUMOR CONVERTS ITS ",
-          false
-        ],
-        [
-          "GUARDS INTO CONSTRUCTION WORKERS.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"balance\">\n  <div class=\"pan surv\"><b>M1 TAMs</b><span>pro-inflammatory, tumoricidal</span></div>\n  <div class=\"fulcrum\">⇄</div>\n  <div class=\"pan die\"><b>M2 TAMs</b><span>pro-tumor: VEGF, MMP, immune suppression</span></div>\n</div>\n<div class=\"callout\">MDSCs: immature myeloid cells arrested by the tumor — deplete arginine, produce ROS, express PD-L1. One reason checkpoint inhibitors sometimes fail even when T cells are present.</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Tumor-associated macrophages are the clearest illustration of the identity-versus-function problem. They exist on a spectrum — M1 at one end, pro-inflammatory and tumoricidal; M2 at the other, tissue-remodeling and pro-tumor. In most established tumors, macrophages shaped by tumor-secreted signals are skewed toward the M2-like end: they promote angiogenesis through VEGF secretion, suppress T-cell function, and remodel matrix. They have been converted into construction workers and guards for the tumor. Myeloid-derived suppressor cells compound this: they are immature myeloid cells whose development the tumor arrested. Their primary function is immune suppression — depleting arginine required for T-cell proliferation, producing reactive oxygen species that damage T cells, and expressing PD-L1. They are one of the main reasons checkpoint inhibitors sometimes fail even when T cells are present — the T cells are being suppressed through other channels.",
-          "audio_file": "audio/S06.mp3",
-          "actual_duration_s": 68.36
-        }
-      ]
-    },
-    {
-      "id": "S07",
-      "num": 7,
-      "total": 12,
-      "section": "IMMUNE PHENOTYPES",
-      "label": "07 / 12 · IMMUNE PHENOTYPES",
-      "dark": false,
-      "title": [
-        [
-          "HOT. EXCLUDED. COLD. ",
-          false
-        ],
-        [
-          "THE LOCATION MATTERS AS MUCH AS THE CELL.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"grid3\">\n  <div class=\"cell-part hot\"><b>HOT (inflamed)</b><span>CD8+ T cells throughout tumor nests — contacting cancer cells → Responds to checkpoint blockade</span></div>\n  <div class=\"cell-part\"><b>EXCLUDED</b><span>CD8+ arrested at collagen margin, absent from core → Does NOT respond</span></div>\n  <div class=\"cell-part\"><b>COLD (desert)</b><span>sparse lymphocytes throughout → Does NOT respond</span></div>\n</div>\n<p class=\"lead\">Releasing the PD-1 brake on T cells that are not engaging their target changes nothing.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The spatial distribution of immune populations defines what is now called the tumor’s immune phenotype. An inflamed — hot — tumor has CD8-plus T cells distributed throughout, in direct contact with cancer cells. A cold, or desert, tumor has almost no lymphocytes. The excluded tumor is the clinically crucial middle category: it has abundant CD8-plus T cells, but they are arrested at the tumor margin, unable to penetrate the interior. The difference between hot and excluded matters enormously for checkpoint inhibitors. In a hot tumor, releasing the PD-1 brake lets T cells that are already touching cancer cells kill them. In an excluded tumor, the T cells are not touching anything. Releasing the brake disinhibits a stalled army and accomplishes nothing. Not because the immune cells are absent — but because the structural tumor microenvironment has made them irrelevant.",
-          "audio_file": "audio/S07.mp3",
-          "actual_duration_s": 60.42
-        }
-      ]
-    },
-    {
-      "id": "S08",
-      "num": 8,
-      "total": 12,
-      "section": "VASCULATURE AND PERICYTES",
-      "label": "08 / 12 · VASCULATURE AND PERICYTES",
-      "dark": false,
-      "title": [
-        [
-          "TUMOR VESSELS ARE ENGINEERED ",
-          false
-        ],
-        [
-          "TO BLOCK THERAPY.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\">\n  <span class=\"chip\">leaky vessels</span><span class=\"arw\">→</span><span class=\"chip warn\">↑ interstitial pressure</span><span class=\"arw\">→</span><span class=\"chip warn\">drug delivery opposed</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip\">abnormal adhesion molecules</span><span class=\"arw\">→</span><span class=\"chip warn\">cytotoxic cells blocked; myeloid cells pass</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip\">sparse pericytes</span><span class=\"arw\">→</span><span class=\"chip on\">VEGF-dependent — anti-angiogenic drug-responsive</span>\n</div>\n<p class=\"lead\">The tumor engineered lymphedema-like conditions to protect itself from chemotherapy.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The blood supply of a tumor is not normal vasculature. Tumor endothelial cells grow rapidly under VEGF pressure, and the vessels they form are structurally abnormal: tortuous, irregularly branching, with poor pericyte coverage and walls that leak macromolecules and cells. Leaky vessels elevate interstitial fluid pressure — fluid pushed out of the vasculature raises hydraulic pressure in the tumor stroma, which then opposes the pressure gradient that drives drug delivery. Chemotherapy arrives at the tumor periphery and cannot penetrate. Tumor endothelial cells also regulate immune trafficking: abnormal adhesion molecule expression discourages cytotoxic immune cell entry while permitting passage of immunosuppressive myeloid populations. Pericytes, the contractile cells that wrap capillaries, are sparse in tumor vessels — keeping them VEGF-dependent and drug-responsive. Vessels with heavy pericyte investment are mature and VEGF-independent, surviving anti-VEGF therapy because they no longer require it.",
-          "audio_file": "audio/S08.mp3",
-          "actual_duration_s": 67.99
-        }
-      ]
-    },
-    {
-      "id": "S09",
-      "num": 9,
-      "total": 12,
-      "section": "THE EXTRACELLULAR MATRIX",
-      "label": "09 / 12 · THE EXTRACELLULAR MATRIX",
-      "dark": false,
-      "title": [
-        [
-          "THE MATRIX IS NOT SCAFFOLDING. ",
-          false
-        ],
-        [
-          "IT IS AN ACTIVE SIGNALING RESERVOIR.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"flow\">\n  <span class=\"chip\">CAFs deposit collagen I</span><span class=\"arw\">→</span><span class=\"chip on\">stiffer matrix</span><span class=\"arw\">→</span><span class=\"chip\">integrins sense rigidity</span><span class=\"arw\">→</span><span class=\"chip warn\">YAP/TAZ → proliferation</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip\">proteases cleave ECM</span><span class=\"arw\">→</span><span class=\"chip\">TGF-β, VEGF released</span><span class=\"arw\">→</span><span class=\"chip warn\">matrikines: endostatin, tumstatin, arresten</span>\n</div>\n<p class=\"lead\">The tumor built a scaffold that tells cancer cells to keep growing. The same scaffold physically blocks drug and immune-cell entry.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Between all of these cells sits the extracellular matrix — and it is not passive scaffolding. In tumors, particularly pancreatic and breast tumors, the matrix is heavily remodeled toward elevated collagen I, fibronectin, tenascin-C, and hyaluronic acid. The overall structure is stiffer than normal tissue — measurably so. Cancer cells sense matrix rigidity through integrins and transduce it into intracellular signals through the YAP-TAZ transcription factor pathway. A stiffer matrix drives proliferation and survival signaling. The tumor has built a scaffold that tells cancer cells to keep growing. The matrix is also a reservoir: growth factors including TGF-beta and VEGF are bound to matrix components and released when proteases cleave them. The cleavage products themselves — matrikines like endostatin, tumstatin, and arresten — have their own bioactivities. For therapy, the dense ECM is a double barrier: it physically impedes drug diffusion and blocks immune-cell migration.",
-          "audio_file": "audio/S09.mp3",
-          "actual_duration_s": 70.5
-        }
-      ]
-    },
-    {
-      "id": "S10",
-      "num": 10,
-      "total": 12,
-      "section": "ADIPOCYTES, NERVES, AND MICROBIOME",
-      "label": "10 / 12 · ADIPOCYTES, NERVES, AND MICROBIOME",
-      "dark": false,
-      "title": [
-        [
-          "THREE MORE INHABITANTS ",
-          false
-        ],
-        [
-          "THAT COMPLICATE TREATMENT.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"stack\">\n  <div class=\"wire\"><b>Cancer-associated adipocytes</b><span>transfer fatty acids and adipokines — why obesity worsens prognosis in several cancers</span></div>\n  <div class=\"wire\"><b>Neoneurogenesis</b><span>β-adrenergic signaling promotes progression and immune suppression — β-blocker association with outcomes remains contested</span></div>\n  <div class=\"wire\"><b>Tumor microbiome</b><span><i>Fusobacterium</i> activates Wnt in colorectal cancer; Gammaproteobacteria in pancreatic tumors degrade gemcitabine via cytidine deaminase before it reaches cancer cells</span></div>\n</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "Three more tumor microenvironment inhabitants deserve mention because they complicate treatment in ways that are not widely appreciated. Adjacent adipocytes are recruited to become cancer-associated adipocytes, transferring fatty acids and adipokines to cancer cells — supplying energy substrate and mitogenic signals. This is part of why obesity elevates risk and worsens prognosis in several cancers. Nerve fibers grow into many tumors — a process called cancer neoneurogenesis — and neural signaling, particularly through sympathetic beta-adrenergic pathways, can promote tumor progression and suppress anti-tumor immunity. And microorganisms inhabit many tumors. In pancreatic tumors, bacterial communities including Gammaproteobacteria express long-form isoforms of the enzyme cytidine deaminase, which metabolizes gemcitabine into an inactive form before the drug reaches tumor cells. The opening patient’s chemotherapy may have been degraded by bacteria before it reached the cells it was designed to kill. Not a resistance mutation. A bacterial enzyme doing the cancer’s work.",
-          "audio_file": "audio/S10.mp3",
-          "actual_duration_s": 75.6
-        }
-      ]
-    },
-    {
-      "id": "S11",
-      "num": 11,
-      "total": 12,
-      "section": "THE THESIS",
-      "label": "11 / 12 · THE THESIS",
-      "dark": false,
-      "title": [
-        [
-          "CANCER IS AN ECOSYSTEM. ",
-          false
-        ],
-        [
-          "TREAT THE WHOLE COMMUNITY.",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"thesis\">The cancer cell is the protagonist of most oncology narratives. In many solid tumors it is a <b>minority resident</b> in a community it co-opted — living behind walls it hired others to build, supplied by vessels it corrupted, defended by immune cells it converted.</div>\n<p class=\"lead\">Still open: we cannot reliably convert a cold tumor to a hot one. Some hot tumors full of CD8+ T cells still resist checkpoint blockade — and we do not fully understand why.</p>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "The cancer cell is the protagonist of most oncology narratives. It is the cell that mutated, proliferated, metastasized. It gets the gene sequencing and the targeted therapy. But in many solid tumors, the cancer cell is a minority resident in a community it has co-opted, living behind walls it hired others to build, supplied by vessels it corrupted, and defended by immune cells it converted. Treating only the cancer cell — designing drugs in monolayer culture, testing them in xenografts without stroma — is treating a fraction of the problem. The still-open questions are genuinely hard: we cannot yet distinguish tumor-promoting from tumor-restraining CAF subtypes in a living patient. We do not know whether the tumor microbiome is a driver or a passenger in most cancers. We cannot reliably convert a cold tumor to a hot one. Some hot tumors, full of CD8-plus T cells in apparent contact with cancer cells, still resist checkpoint blockade — and we do not fully understand why.",
-          "audio_file": "audio/S11.mp3",
-          "actual_duration_s": 65.71
-        }
-      ]
-    },
-    {
-      "id": "S12",
-      "num": 12,
-      "total": 12,
-      "section": "CLOSE",
-      "label": "12 / 12 · CLOSE",
-      "dark": true,
-      "title": [
-        [
-          "ASK NOT: IS THE IMMUNE SYSTEM PRESENT? ",
-          false
-        ],
-        [
-          "ASK: WHICH CELLS, WHAT STATE, WHAT BARRIERS?",
-          true
-        ]
-      ],
-      "body_html": "<div class=\"close\">\n  <div class=\"close-tags\"><span>HABITAT SHAPES THE CANCER</span><span>//</span><span>STRUCTURE SHAPES THE THERAPY</span><span>//</span><span>THE COMMUNITY IS THE TARGET</span></div>\n  <p class=\"sig\">Cancer Medicine · Chapter 5 · The Tumor Microenvironment — Components</p>\n</div>",
-      "beats": [
-        {
-          "type": "analytic",
-          "text": "That is the framework the field is working inside: cancer as an ecosystem, where the habitat shapes the malignancy, where therapy must reach through structural and cellular barriers to get to its target, and where the question will this treatment work requires an answer about the whole community — not just the cancer cell. The therapeutic implication is not to ask whether the immune system is present, but to ask which immune cells, in what state, in what location, with what structural barriers between them and the cancer cells. Habitat shapes the cancer. Structure shapes the therapy. The community is the target.",
-          "audio_file": "audio/S12.mp3",
-          "actual_duration_s": 37.76
-        }
-      ]
-    }
-  ],
-  "metadata": {
-    "title": "Cancer Medicine Ch.5 — The Tumor Microenvironment — Components",
-    "slug": "cancer-medicine-ch05-tumor-microenvironment",
-    "playlist": "Cancer Medicine",
-    "hashtags": [
-      "#CancerMedicine",
-      "#Oncology",
-      "#Education",
-      "#NikBearBrown",
-      "#Lecture",
-      "#OnlineLearning"
+ "slug": "cancer-medicine-ch05-tumor-microenvironment",
+ "title": "The Tumor Microenvironment — Components",
+ "series": "Cancer Medicine",
+ "source": "cancer-medicine/chapters/05-the-tumor-microenvironment-components.md",
+ "voice_id": "TyW6NH39JcFb5M3xdIIk",
+ "accent": "#ea580c",
+ "fps": 30,
+ "clock": "audio-first",
+ "segments": [
+  {
+   "id": "S01",
+   "num": 1,
+   "total": 12,
+   "section": "HOOK",
+   "label": "01 / 12 · HOOK",
+   "dark": false,
+   "title": [
+    [
+     "THE CANCER CELL ",
+     false
     ],
-    "description": "Cancer Medicine Ch.5 — The Tumor Microenvironment — Components\n\nFull voiced lecture deck — Cancer Medicine series.\n\nIn some pancreatic tumors, cancer cells make up less than fifteen percent of the tissue. The drug the oncologist prescribed kills pancreatic cancer cells efficiently in a dish. In the patient, it barely touches them — because it cannot get through the wall the tumor built around itself before the drug arrived. The tumor microenvironment — the TME — names the complete local ecosystem: fibroblasts, immune cells of many types, endothelial cells, pericytes, adipocytes, nerve fibers, extracellular matrix, soluble signals, and in many tumors resident microorganisms. The relationship is bidirectional: cancer cells reshape the habitat; the habitat reshapes the cancer. Cancer-associated fibroblasts are the most abundant non-malignant cell type in many solid tumors. Three functionally distinct subtypes: myCAFs build the dense collagen wall; iCAFs secrete immunosuppressive cytokines; apCAFs interact directly with T cells. The immune compartment will mislead you if you treat cell identity as equivalent to function. Tumor-associated macrophages skewed toward M2 promote angiogenesis, suppress T cells, and provide metabolic support. MDSCs deplete arginine, produce reactive oxygen species, and express PD-L1. The immune phenotype — hot, excluded, or cold — determines whether checkpoint blockade can work. Tumor vessels are tortuous, leaky, and pericyte-sparse. The extracellular matrix is an active signaling reservoir. Cancer-associated adipocytes supply fatty acids. Nerve fibers drive beta-adrenergic tumor promotion. Bacteria in pancreatic tumors degrade gemcitabine. Cancer is an ecosystem.\n\nyoutube.com/@NikBearBrown"
+    [
+     "WAS NEVER ALONE.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n  <div class=\"flow\"><span class=\"chip\">pancreatic tumor</span><span class=\"arw\">→</span><span class=\"chip on\">&lt;15% cancer cells</span><span class=\"arw\">→</span><span class=\"chip dim\">drug can’t get through</span></div>\n  <p class=\"lead\">The drug kills cancer cells efficiently in a dish. In the patient, it barely touches them — because the tumor built a wall before the drug arrived.</p>\n</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Here is a number that should stop you. In some pancreatic tumors, cancer cells make up less than fifteen percent of the tissue. Cut out the tumor, section it, stain it — and the malignant cells are a small minority in their own house. The drug the oncologist prescribed kills pancreatic cancer cells efficiently in a dish. In the patient, it barely touches them — because it cannot get through the wall the tumor built around itself before the drug arrived. That is the opening puzzle of the tumor microenvironment.",
+     "audio_file": "audio/S01.mp3",
+     "actual_duration_s": 31.58
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "num": 2,
+   "total": 12,
+   "section": "THE STAKES",
+   "label": "02 / 12 · THE STAKES",
+   "dark": false,
+   "title": [
+    [
+     "A COMMUNITY THAT ",
+     false
+    ],
+    [
+     "ACTIVELY DEFENDS THE TUMOR.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stat-row\">\n  <div class=\"stat\"><div class=\"big\">TME</div><div class=\"cap\">the ecosystem</div></div>\n  <div class=\"eq\">⇄</div>\n  <div class=\"stat\"><div class=\"big on\">bidirectional</div><div class=\"cap\">cancer reshapes habitat; habitat reshapes cancer</div></div>\n</div>\n<p class=\"lead\">Mina Bissell showed it: malignant cells returned to near-normal behavior when placed in the right matrix context. The habitat shapes the cancer.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The field spent decades treating cancer as a problem of cancer cells. That framework is not wrong, but it is incomplete in a way that kills people. The cancer cells live in a community they help construct — and that community actively defends them. The tumor microenvironment names this complete local ecosystem: non-malignant cells, extracellular matrix, soluble signals, and in many tumors, resident microorganisms. The relationship is bidirectional. Cancer cells reshape the habitat; the habitat reshapes the cancer cells. Mina Bissell demonstrated this: malignant cells returned to near-normal behavior in the right matrix context. The habitat shapes the cancer. That principle runs through everything that follows.",
+     "audio_file": "audio/S02.mp3",
+     "actual_duration_s": 48.53
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "num": 3,
+   "total": 12,
+   "section": "CANCER-ASSOCIATED FIBROBLASTS",
+   "label": "03 / 12 · CANCER-ASSOCIATED FIBROBLASTS",
+   "dark": false,
+   "title": [
+    [
+     "THE MOST ABUNDANT NON-MALIGNANT CELL — ",
+     false
+    ],
+    [
+     "BUILDS THE WALL.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid3\">\n  <div class=\"cell-part hot\"><b>myCAFs</b><span>α-SMA+ · close to tumor · dense collagen — the wall-builders</span></div>\n  <div class=\"cell-part\"><b>iCAFs</b><span>farther out · IL-6, CXCL12, LIF — chemical defense</span></div>\n  <div class=\"cell-part\"><b>apCAFs</b><span>MHC II+ · direct T-cell contact — context-dependent</span></div>\n</div>\n<p class=\"lead\">Three subtypes. Three jobs. All feeding the same activated pool that never returns to quiescence.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The most abundant non-malignant cell type in many solid tumors is the cancer-associated fibroblast — the CAF. In healthy tissue fibroblasts are quiet maintenance workers, synthesizing matrix and activating briefly during wound repair before returning to quiescence. CAFs are the permanently altered version. They do not return to quiescence. Single-cell sequencing has resolved at least three functionally distinct subtypes. Myofibroblastic CAFs — myCAFs — sit close to tumor cell borders and are the primary manufacturers of dense collagen. They build the wall. Inflammatory CAFs — iCAFs — sit farther out and secrete pro-inflammatory, immunosuppressive cytokines: IL-6, CXCL12, and LIF. They run the chemical defense. Antigen-presenting CAFs — apCAFs — express MHC class II and interact directly with T cells, though whether they activate or suppress depends on context.",
+     "audio_file": "audio/S03.mp3",
+     "actual_duration_s": 60.79
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "num": 4,
+   "total": 12,
+   "section": "WHAT CAFs DO",
+   "label": "04 / 12 · WHAT CAFs DO",
+   "dark": false,
+   "title": [
+    [
+     "PHYSICAL BARRIER. IMMUNE SHIELD. ",
+     false
+    ],
+    [
+     "METABOLIC SUPPLIER.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\">\n  <span class=\"chip\">myCAF collagen</span><span class=\"arw\">→</span><span class=\"chip warn\">drug stopped</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip\">iCAF TGF-β / CXCL12</span><span class=\"arw\">→</span><span class=\"chip warn\">T cells repelled</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip\">CAF HGF / IGF</span><span class=\"arw\">→</span><span class=\"chip warn\">pro-survival signals fed to cancer cells</span>\n</div>\n<p class=\"lead\">High CAF density correlates with worse prognosis and reduced therapy response across multiple cancer types.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "What CAFs do in combination explains why the pancreatic cancer patient’s gemcitabine failed at multiple levels simultaneously. The myCAFs laid down the collagen that physically stopped the drug from diffusing into the tumor interior. The iCAFs secreted TGF-beta and CXCL12, which repelled cytotoxic T cells from the tumor core and recruited immunosuppressive myeloid cells instead. Other CAF-derived signals — HGF, IGF — fed pro-survival pathways directly into the cancer cells. And some CAF populations appear able to supply metabolites directly to cancer cells when nutrients are scarce. High CAF density correlates with worse prognosis and reduced therapy response across multiple cancer types. Targeting them has proven difficult — partly because the subtypes have different and sometimes opposing functions, and partly because some CAF activity appears genuinely tumor-restraining.",
+     "audio_file": "audio/S04.mp3",
+     "actual_duration_s": 59.07
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "num": 5,
+   "total": 12,
+   "section": "THE IMMUNE COMPARTMENT",
+   "label": "05 / 12 · THE IMMUNE COMPARTMENT",
+   "dark": false,
+   "title": [
+    [
+     "IDENTITY IS NOT ",
+     false
+    ],
+    [
+     "FUNCTION.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n  <div class=\"wire\"><b>CD8+ T cells</b><span>recognize tumor antigens, form synapses, kill — best predictor of immunotherapy response</span></div>\n  <div class=\"wire\"><b>Regulatory T cells (Tregs)</b><span>suppress CD8+ activity via IL-10, TGF-β, CTLA-4 — tumors actively recruit them</span></div>\n  <div class=\"wire\"><b>NK cells</b><span>kill without antigen recognition — patrol for MHC I loss</span></div>\n</div>\n<div class=\"callout\">The same cell type, in a different activation state, can either kill cancer cells — or protect them.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The immune compartment of a tumor is the section most likely to mislead you if you treat cell identity as equivalent to cell function. The same cell type, in different activation states, can either kill cancer cells or protect them. Cytotoxic CD8-plus T cells are what you want: they recognize tumor-specific antigens, form immunological synapses with cancer cells, and kill them. High CD8-plus infiltration throughout the tumor is the single best cellular predictor of response to checkpoint immunotherapy. Regulatory T cells are the direct antagonists: they suppress cytotoxic T-cell activity through IL-10, TGF-beta, and CTLA-4-mediated mechanisms, and tumors actively recruit them. Natural killer cells patrol for MHC class I loss — the trick many tumors use to hide from CD8-plus T cells — and kill without requiring antigen recognition.",
+     "audio_file": "audio/S05.mp3",
+     "actual_duration_s": 59.72
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "num": 6,
+   "total": 12,
+   "section": "MACROPHAGES AND MYELOID CELLS",
+   "label": "06 / 12 · MACROPHAGES AND MYELOID CELLS",
+   "dark": false,
+   "title": [
+    [
+     "THE TUMOR CONVERTS ITS ",
+     false
+    ],
+    [
+     "GUARDS INTO CONSTRUCTION WORKERS.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"balance\">\n  <div class=\"pan surv\"><b>M1 TAMs</b><span>pro-inflammatory, tumoricidal</span></div>\n  <div class=\"fulcrum\">⇄</div>\n  <div class=\"pan die\"><b>M2 TAMs</b><span>pro-tumor: VEGF, MMP, immune suppression</span></div>\n</div>\n<div class=\"callout\">MDSCs: immature myeloid cells arrested by the tumor — deplete arginine, produce ROS, express PD-L1. One reason checkpoint inhibitors sometimes fail even when T cells are present.</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Tumor-associated macrophages are the clearest illustration of the identity-versus-function problem. They exist on a spectrum — M1 at one end, pro-inflammatory and tumoricidal; M2 at the other, tissue-remodeling and pro-tumor. In most established tumors, macrophages shaped by tumor-secreted signals are skewed toward the M2-like end: they promote angiogenesis through VEGF secretion, suppress T-cell function, and remodel matrix. They have been converted into construction workers and guards for the tumor. Myeloid-derived suppressor cells compound this: they are immature myeloid cells whose development the tumor arrested. Their primary function is immune suppression — depleting arginine required for T-cell proliferation, producing reactive oxygen species that damage T cells, and expressing PD-L1. They are one of the main reasons checkpoint inhibitors sometimes fail even when T cells are present — the T cells are being suppressed through other channels.",
+     "audio_file": "audio/S06.mp3",
+     "actual_duration_s": 68.36
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "num": 7,
+   "total": 12,
+   "section": "IMMUNE PHENOTYPES",
+   "label": "07 / 12 · IMMUNE PHENOTYPES",
+   "dark": false,
+   "title": [
+    [
+     "HOT. EXCLUDED. COLD. ",
+     false
+    ],
+    [
+     "THE LOCATION MATTERS AS MUCH AS THE CELL.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"grid3\">\n  <div class=\"cell-part hot\"><b>HOT (inflamed)</b><span>CD8+ T cells throughout tumor nests — contacting cancer cells → Responds to checkpoint blockade</span></div>\n  <div class=\"cell-part\"><b>EXCLUDED</b><span>CD8+ arrested at collagen margin, absent from core → Does NOT respond</span></div>\n  <div class=\"cell-part\"><b>COLD (desert)</b><span>sparse lymphocytes throughout → Does NOT respond</span></div>\n</div>\n<p class=\"lead\">Releasing the PD-1 brake on T cells that are not engaging their target changes nothing.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The spatial distribution of immune populations defines what is now called the tumor’s immune phenotype. An inflamed — hot — tumor has CD8-plus T cells distributed throughout, in direct contact with cancer cells. A cold, or desert, tumor has almost no lymphocytes. The excluded tumor is the clinically crucial middle category: it has abundant CD8-plus T cells, but they are arrested at the tumor margin, unable to penetrate the interior. The difference between hot and excluded matters enormously for checkpoint inhibitors. In a hot tumor, releasing the PD-1 brake lets T cells that are already touching cancer cells kill them. In an excluded tumor, the T cells are not touching anything. Releasing the brake disinhibits a stalled army and accomplishes nothing. Not because the immune cells are absent — but because the structural tumor microenvironment has made them irrelevant.",
+     "audio_file": "audio/S07.mp3",
+     "actual_duration_s": 60.42
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "num": 8,
+   "total": 12,
+   "section": "VASCULATURE AND PERICYTES",
+   "label": "08 / 12 · VASCULATURE AND PERICYTES",
+   "dark": false,
+   "title": [
+    [
+     "TUMOR VESSELS ARE ENGINEERED ",
+     false
+    ],
+    [
+     "TO BLOCK THERAPY.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\">\n  <span class=\"chip\">leaky vessels</span><span class=\"arw\">→</span><span class=\"chip warn\">↑ interstitial pressure</span><span class=\"arw\">→</span><span class=\"chip warn\">drug delivery opposed</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip\">abnormal adhesion molecules</span><span class=\"arw\">→</span><span class=\"chip warn\">cytotoxic cells blocked; myeloid cells pass</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip\">sparse pericytes</span><span class=\"arw\">→</span><span class=\"chip on\">VEGF-dependent — anti-angiogenic drug-responsive</span>\n</div>\n<p class=\"lead\">The tumor engineered lymphedema-like conditions to protect itself from chemotherapy.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The blood supply of a tumor is not normal vasculature. Tumor endothelial cells grow rapidly under VEGF pressure, and the vessels they form are structurally abnormal: tortuous, irregularly branching, with poor pericyte coverage and walls that leak macromolecules and cells. Leaky vessels elevate interstitial fluid pressure — fluid pushed out of the vasculature raises hydraulic pressure in the tumor stroma, which then opposes the pressure gradient that drives drug delivery. Chemotherapy arrives at the tumor periphery and cannot penetrate. Tumor endothelial cells also regulate immune trafficking: abnormal adhesion molecule expression discourages cytotoxic immune cell entry while permitting passage of immunosuppressive myeloid populations. Pericytes, the contractile cells that wrap capillaries, are sparse in tumor vessels — keeping them VEGF-dependent and drug-responsive. Vessels with heavy pericyte investment are mature and VEGF-independent, surviving anti-VEGF therapy because they no longer require it.",
+     "audio_file": "audio/S08.mp3",
+     "actual_duration_s": 67.99
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "num": 9,
+   "total": 12,
+   "section": "THE EXTRACELLULAR MATRIX",
+   "label": "09 / 12 · THE EXTRACELLULAR MATRIX",
+   "dark": false,
+   "title": [
+    [
+     "THE MATRIX IS NOT SCAFFOLDING. ",
+     false
+    ],
+    [
+     "IT IS AN ACTIVE SIGNALING RESERVOIR.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"flow\">\n  <span class=\"chip\">CAFs deposit collagen I</span><span class=\"arw\">→</span><span class=\"chip on\">stiffer matrix</span><span class=\"arw\">→</span><span class=\"chip\">integrins sense rigidity</span><span class=\"arw\">→</span><span class=\"chip warn\">YAP/TAZ → proliferation</span>\n</div>\n<div class=\"flow\" style=\"margin-top:10px\">\n  <span class=\"chip\">proteases cleave ECM</span><span class=\"arw\">→</span><span class=\"chip\">TGF-β, VEGF released</span><span class=\"arw\">→</span><span class=\"chip warn\">matrikines: endostatin, tumstatin, arresten</span>\n</div>\n<p class=\"lead\">The tumor built a scaffold that tells cancer cells to keep growing. The same scaffold physically blocks drug and immune-cell entry.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Between all of these cells sits the extracellular matrix — and it is not passive scaffolding. In tumors, particularly pancreatic and breast tumors, the matrix is heavily remodeled toward elevated collagen I, fibronectin, tenascin-C, and hyaluronic acid. The overall structure is stiffer than normal tissue — measurably so. Cancer cells sense matrix rigidity through integrins and transduce it into intracellular signals through the YAP-TAZ transcription factor pathway. A stiffer matrix drives proliferation and survival signaling. The tumor has built a scaffold that tells cancer cells to keep growing. The matrix is also a reservoir: growth factors including TGF-beta and VEGF are bound to matrix components and released when proteases cleave them. The cleavage products themselves — matrikines like endostatin, tumstatin, and arresten — have their own bioactivities. For therapy, the dense ECM is a double barrier: it physically impedes drug diffusion and blocks immune-cell migration.",
+     "audio_file": "audio/S09.mp3",
+     "actual_duration_s": 70.5
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "num": 10,
+   "total": 12,
+   "section": "ADIPOCYTES, NERVES, AND MICROBIOME",
+   "label": "10 / 12 · ADIPOCYTES, NERVES, AND MICROBIOME",
+   "dark": false,
+   "title": [
+    [
+     "THREE MORE INHABITANTS ",
+     false
+    ],
+    [
+     "THAT COMPLICATE TREATMENT.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"stack\">\n  <div class=\"wire\"><b>Cancer-associated adipocytes</b><span>transfer fatty acids and adipokines — why obesity worsens prognosis in several cancers</span></div>\n  <div class=\"wire\"><b>Neoneurogenesis</b><span>β-adrenergic signaling promotes progression and immune suppression — β-blocker association with outcomes remains contested</span></div>\n  <div class=\"wire\"><b>Tumor microbiome</b><span><i>Fusobacterium</i> activates Wnt in colorectal cancer; Gammaproteobacteria in pancreatic tumors degrade gemcitabine via cytidine deaminase before it reaches cancer cells</span></div>\n</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "Three more tumor microenvironment inhabitants deserve mention because they complicate treatment in ways that are not widely appreciated. Adjacent adipocytes are recruited to become cancer-associated adipocytes, transferring fatty acids and adipokines to cancer cells — supplying energy substrate and mitogenic signals. This is part of why obesity elevates risk and worsens prognosis in several cancers. Nerve fibers grow into many tumors — a process called cancer neoneurogenesis — and neural signaling, particularly through sympathetic beta-adrenergic pathways, can promote tumor progression and suppress anti-tumor immunity. And microorganisms inhabit many tumors. In pancreatic tumors, bacterial communities including Gammaproteobacteria express long-form isoforms of the enzyme cytidine deaminase, which metabolizes gemcitabine into an inactive form before the drug reaches tumor cells. The opening patient’s chemotherapy may have been degraded by bacteria before it reached the cells it was designed to kill. Not a resistance mutation. A bacterial enzyme doing the cancer’s work.",
+     "audio_file": "audio/S10.mp3",
+     "actual_duration_s": 75.6
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "num": 11,
+   "total": 12,
+   "section": "THE THESIS",
+   "label": "11 / 12 · THE THESIS",
+   "dark": false,
+   "title": [
+    [
+     "CANCER IS AN ECOSYSTEM. ",
+     false
+    ],
+    [
+     "TREAT THE WHOLE COMMUNITY.",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"thesis\">The cancer cell is the protagonist of most oncology narratives. In many solid tumors it is a <b>minority resident</b> in a community it co-opted — living behind walls it hired others to build, supplied by vessels it corrupted, defended by immune cells it converted.</div>\n<p class=\"lead\">Still open: we cannot reliably convert a cold tumor to a hot one. Some hot tumors full of CD8+ T cells still resist checkpoint blockade — and we do not fully understand why.</p>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "The cancer cell is the protagonist of most oncology narratives. It is the cell that mutated, proliferated, metastasized. It gets the gene sequencing and the targeted therapy. But in many solid tumors, the cancer cell is a minority resident in a community it has co-opted, living behind walls it hired others to build, supplied by vessels it corrupted, and defended by immune cells it converted. Treating only the cancer cell — designing drugs in monolayer culture, testing them in xenografts without stroma — is treating a fraction of the problem. The still-open questions are genuinely hard: we cannot yet distinguish tumor-promoting from tumor-restraining CAF subtypes in a living patient. We do not know whether the tumor microbiome is a driver or a passenger in most cancers. We cannot reliably convert a cold tumor to a hot one. Some hot tumors, full of CD8-plus T cells in apparent contact with cancer cells, still resist checkpoint blockade — and we do not fully understand why.",
+     "audio_file": "audio/S11.mp3",
+     "actual_duration_s": 65.71
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "num": 12,
+   "total": 12,
+   "section": "CLOSE",
+   "label": "12 / 12 · CLOSE",
+   "dark": true,
+   "title": [
+    [
+     "ASK NOT: IS THE IMMUNE SYSTEM PRESENT? ",
+     false
+    ],
+    [
+     "ASK: WHICH CELLS, WHAT STATE, WHAT BARRIERS?",
+     true
+    ]
+   ],
+   "body_html": "<div class=\"close\">\n  <div class=\"close-tags\"><span>HABITAT SHAPES THE CANCER</span><span>//</span><span>STRUCTURE SHAPES THE THERAPY</span><span>//</span><span>THE COMMUNITY IS THE TARGET</span></div>\n  <p class=\"sig\">Cancer Medicine · Chapter 5 · The Tumor Microenvironment — Components</p>\n</div>",
+   "beats": [
+    {
+     "type": "analytic",
+     "text": "That is the framework the field is working inside: cancer as an ecosystem, where the habitat shapes the malignancy, where therapy must reach through structural and cellular barriers to get to its target, and where the question will this treatment work requires an answer about the whole community — not just the cancer cell. The therapeutic implication is not to ask whether the immune system is present, but to ask which immune cells, in what state, in what location, with what structural barriers between them and the cancer cells. Habitat shapes the cancer. Structure shapes the therapy. The community is the target.",
+     "audio_file": "audio/S12.mp3",
+     "actual_duration_s": 37.76
+    }
+   ]
   }
+ ],
+ "metadata": {
+  "title": "Cancer Medicine Ch.5 — The Tumor Microenvironment — Components",
+  "slug": "cancer-medicine-ch05-tumor-microenvironment",
+  "playlist": "Cancer Medicine",
+  "hashtags": [
+   "#CancerMedicine",
+   "#Oncology",
+   "#Education",
+   "#NikBearBrown",
+   "#Lecture",
+   "#OnlineLearning"
+  ],
+  "description": "Cancer Medicine Ch.5 — The Tumor Microenvironment — Components\n\nFull voiced lecture deck — Cancer Medicine series.\n\nIn some pancreatic tumors, cancer cells make up less than fifteen percent of the tissue. The drug the oncologist prescribed kills pancreatic cancer cells efficiently in a dish. In the patient, it barely touches them — because it cannot get through the wall the tumor built around itself before the drug arrived. The tumor microenvironment — the TME — names the complete local ecosystem: fibroblasts, immune cells of many types, endothelial cells, pericytes, adipocytes, nerve fibers, extracellular matrix, soluble signals, and in many tumors resident microorganisms. The relationship is bidirectional: cancer cells reshape the habitat; the habitat reshapes the cancer. Cancer-associated fibroblasts are the most abundant non-malignant cell type in many solid tumors. Three functionally distinct subtypes: myCAFs build the dense collagen wall; iCAFs secrete immunosuppressive cytokines; apCAFs interact directly with T cells. The immune compartment will mislead you if you treat cell identity as equivalent to function. Tumor-associated macrophages skewed toward M2 promote angiogenesis, suppress T cells, and provide metabolic support. MDSCs deplete arginine, produce reactive oxygen species, and express PD-L1. The immune phenotype — hot, excluded, or cold — determines whether checkpoint blockade can work. Tumor vessels are tortuous, leaky, and pericyte-sparse. The extracellular matrix is an active signaling reservoir. Cancer-associated adipocytes supply fatty acids. Nerve fibers drive beta-adrenergic tumor promotion. Bacteria in pancreatic tumors degrade gemcitabine. Cancer is an ecosystem.\n\nyoutube.com/@NikBearBrown",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "voice": "af_kore",
+  "channel": "medhavy"
+ }
 }
